@@ -6,5 +6,5 @@
   (fp_text value HOLE (at 0.3 3.9) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 4.91 4.91) (drill 4.91) (layers *.Cu))
+  (pad "" np_thru_hole circle (at 0 0) (size 4.98 4.91) (drill 4.91) (layers *.Cu))
 )
