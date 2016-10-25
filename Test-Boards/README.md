@@ -9,4 +9,4 @@
 
 <a href="#">Footprint and Gerber Tests</a>
 
-<a href="#">Via Size Test</a>
+<a href="#">Initial Lego Hole Sizing Test</a> is included for historical reasons only. 
