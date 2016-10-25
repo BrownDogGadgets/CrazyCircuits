@@ -1,0 +1,5 @@
+Yes, I was assembling an RGB LED circuit today with legos to try out several different copper tapes.  I found it was difficult to put legos next to the PCBs because they were a hair too big.  Shrinking them according to the attached drawing will help.  I'm not sure what the tolerance is on the PCB routing, so take the number labeled max and subtract from that.  
+
+I also found the best way to connect the PCBs to legos and other components was to run tape up and over the lego pegs.  The 194 hole sample you provided was just a hair too small for this, 196 should fit well given tolerances.  Pics attached of this too.  
+
+Let me know if you have any questions.
