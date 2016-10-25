@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Lego_Circuits)(type KiCad)(uri "$(KIPRJMOD)/Lego_Circuits.pretty")(options "")(descr ""))
+)
