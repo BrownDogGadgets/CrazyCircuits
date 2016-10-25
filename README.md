@@ -27,7 +27,7 @@ The Rewire Circuit library contains Rewire Modules. The Rewire Modules contain a
 
 The template makes it easy to create a new Rewire Circuit kit in KiCad. Just add symbols, connect the symbols with wires, arrange the footprints on the printed circuit board, and add an outline showing the edge of the board or boards. 
 
-<img src="battery-module.png" style="width:100%;">
+<img src="Images/battery-module.png" style="width:100%;">
 
 ### Existing Kits
 
