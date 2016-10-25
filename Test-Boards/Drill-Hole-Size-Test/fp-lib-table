@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Rewire_Circuits)(type KiCad)(uri /home/wicker/proj/Rewire-Circuits/Library/Rewire_Circuits.pretty)(options "")(descr ""))
+)
