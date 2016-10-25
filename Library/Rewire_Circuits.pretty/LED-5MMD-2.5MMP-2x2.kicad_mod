@@ -1,10 +1,10 @@
-(module LED-5MMD-2.5MMP-2x2 (layer F.Cu) (tedit 56D89CFC)
+(module LED-5MMD-2.5MMP-2x2 (layer F.Cu) (tedit 580F11A9)
   (descr "LED 5mm round vertical")
   (tags "LED 5mm round vertical")
-  (fp_text reference LED (at 0 4.6 90) (layer B.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  (fp_text reference LED (at 0 6.5 180) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value LED-5MMD-2.5MMP (at 0 -2) (layer F.Fab) hide
+  (fp_text value LED-5MMD-2.5MMP (at 1 0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 -1.2) (end 0 -2.3) (layer B.Cu) (width 2))
