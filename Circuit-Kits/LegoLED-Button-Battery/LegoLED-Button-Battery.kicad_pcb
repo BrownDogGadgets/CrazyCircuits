@@ -5,10 +5,10 @@
     (no_connects 9)
     (area 104.572999 63.134905 187.431286 123.265001)
     (thickness 1.6)
-    (drawings 43)
+    (drawings 54)
     (tracks 45)
     (zones 0)
-    (modules 34)
+    (modules 30)
     (nets 4)
   )
 
@@ -119,114 +119,70 @@
     (add_net "Net-(LED1-Pad+)")
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 581252F7)
-    (at 160 78 90)
-    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126B41)
+    (at 167.98 85.5 270)
+    (fp_text reference REF** (at 0 0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 90) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0 270) (size 1 1) (drill 1) (layers *.Cu))
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 581252F3)
-    (at 160 79 90)
-    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126B3D)
+    (at 166.18 87.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 90) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu))
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 581252EF)
-    (at 160 80 90)
-    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126B39)
+    (at 169.98 87.7)
+    (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 90) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers *.Cu))
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 581252EB)
-    (at 160 81 90)
-    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
-  )
-
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 581252E7)
-    (at 160 82 90)
-    (fp_text reference REF** (at 0 0.5 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
-  )
-
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 58125355)
-    (at 167 88 180)
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126AEC)
+    (at 162.49 79.97 180)
     (fp_text reference REF** (at 0 0.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 180) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0 180) (size 1 1) (drill 1) (layers *.Cu))
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 58125361)
-    (at 168 88 180)
-    (fp_text reference REF** (at 0 0.5 180) (layer F.Fab) hide
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126AE8)
+    (at 160.29 78.17 270)
+    (fp_text reference REF** (at 0 0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 180) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0 270) (size 1 1) (drill 1) (layers *.Cu))
   )
 
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 58125369)
-    (at 169 88 180)
-    (fp_text reference REF** (at 0 0.5 180) (layer F.Fab) hide
+  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-1MM (layer F.Cu) (tedit 581246B7) (tstamp 58126AE4)
+    (at 160.29 81.97 270)
+    (fp_text reference REF** (at 0 0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 180) (layer F.Fab) hide
+    (fp_text value HOLE-UNPLATED-SNAP-1MM (at 0 -0.5 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
-  )
-
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 58125359)
-    (at 166 88 180)
-    (fp_text reference REF** (at 0 0.5 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
-  )
-
-  (module Rewire_Circuits:HOLE-UNPLATED-SNAP-0.5MM (layer F.Cu) (tedit 581246A3) (tstamp 58125365)
-    (at 170 88 180)
-    (fp_text reference REF** (at 0 0.5 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE-UNPLATED-SNAP-0.5MM (at 0 -0.5 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+    (pad "" np_thru_hole circle (at 0 0 270) (size 1 1) (drill 1) (layers *.Cu))
   )
 
   (module Rewire_Circuits:LED-5MMD-2.5MMP-2x2 (layer F.Cu) (tedit 58124F82) (tstamp 581238FB)
@@ -611,6 +567,17 @@
       (net 2 "Net-(BT1-Pad+)"))
   )
 
+  (gr_arc (start 172.348347 83.643186) (end 170.18 87.3) (angle 36.15760514) (layer Edge.Cuts) (width 0.1524) (tstamp 58126B38))
+  (gr_arc (start 165.046085 84.984364) (end 167.471799 85.4) (angle 57.42107103) (layer Edge.Cuts) (width 0.1524) (tstamp 58126B37))
+  (gr_arc (start 166.225607 87.699411) (end 166.225607 88.199411) (angle 153.4350001) (layer Edge.Cuts) (width 0.1524) (tstamp 58126B35))
+  (gr_arc (start 167.98 85.5) (end 167.48 85.4) (angle 146.8886998) (layer Edge.Cuts) (width 0.1524) (tstamp 58126B34))
+  (gr_arc (start 169.994305 87.735762) (end 170.18 87.3) (angle 159.1681201) (layer Edge.Cuts) (width 0.1524) (tstamp 58126B33))
+  (gr_arc (start 160.254238 81.984305) (end 160.69 82.17) (angle 159.1681201) (layer Edge.Cuts) (width 0.1524) (tstamp 58126AE3))
+  (gr_arc (start 160.290589 78.215607) (end 159.790589 78.215607) (angle 153.4350001) (layer Edge.Cuts) (width 0.1524) (tstamp 58126AE2))
+  (gr_line (start 159.79 78.27) (end 159.79 81.97) (layer Edge.Cuts) (width 0.1524) (tstamp 58126AE1))
+  (gr_arc (start 162.49 79.97) (end 162.59 79.47) (angle 146.8886998) (layer Edge.Cuts) (width 0.1524) (tstamp 58126AE0))
+  (gr_arc (start 164.346814 84.338347) (end 160.69 82.17) (angle 36.15760514) (layer Edge.Cuts) (width 0.1524) (tstamp 58126ADF))
+  (gr_arc (start 163.005636 77.036085) (end 162.59 79.461799) (angle 57.42107103) (layer Edge.Cuts) (width 0.1524) (tstamp 58126ADE))
   (gr_line (start 158.3 88.2) (end 162 88.2) (layer Edge.Cuts) (width 0.1524))
   (gr_arc (start 164.368347 83.643186) (end 162.2 87.3) (angle 36.15760514) (layer Edge.Cuts) (width 0.1524) (tstamp 581259D1))
   (gr_arc (start 157.066085 84.984364) (end 159.491799 85.4) (angle 57.42107103) (layer Edge.Cuts) (width 0.1524))
