@@ -26,6 +26,11 @@ $CMP GND
 K POWER, PWR
 $ENDCMP
 #
+$CMP LED
+D LED GRN DIFF 5MM ROUND T/H
+F http://www.marktechopto.com/products/datasheet/MT2118-G-A
+$ENDCMP
+#
 $CMP R_Small
 D Resistor
 $ENDCMP
