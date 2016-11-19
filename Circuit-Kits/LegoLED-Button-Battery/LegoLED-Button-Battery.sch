@@ -75,4 +75,18 @@ F 3 "http://www.marktechopto.com/products/datasheet/MT2118-G-A" V 6725 3300 5   
 	1    6725 3300
 	1    0    0    -1  
 $EndComp
+$Comp
+L +3V #PWR?
+U 1 1 582F3615
+P 5600 3000
+F 0 "#PWR?" H 5600 2850 50  0001 C CNN
+F 1 "+3V" H 5600 3140 50  0000 C CNN
+F 2 "" H 5600 3000 50  0000 C CNN
+F 3 "" H 5600 3000 50  0000 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3075 5600 3000
+Connection ~ 5600 3075
 $EndSCHEMATC

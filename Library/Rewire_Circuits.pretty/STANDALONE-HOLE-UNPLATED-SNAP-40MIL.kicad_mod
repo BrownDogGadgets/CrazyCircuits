@@ -1,4 +1,4 @@
-(module HOLE-UNPLATED-SNAP-40MIL (layer F.Cu) (tedit 58124491)
+(module STANDALONE-HOLE-UNPLATED-SNAP-40MIL (layer F.Cu) (tedit 58124491)
   (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

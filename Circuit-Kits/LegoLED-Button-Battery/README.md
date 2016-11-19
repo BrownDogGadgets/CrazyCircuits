@@ -4,9 +4,9 @@ Lego brick LEDs from Lunchbox Electronics are in-place compatible with other 2.5
 
 This board can be snapped apart into the three different parts:
 
-1. 3x3 CR2032 Battery
-1. 2x2 LED
-1. 1x2 Pushbutton
+1. 3x3 CR2032 Battery (952-1735-1-ND)
+1. 2x2 LED (LegoLED from Lunchbox)
+1. 1x2 Pushbutton (SW400-ND)
 
 Sent some questions.
 

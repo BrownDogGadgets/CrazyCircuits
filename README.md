@@ -19,6 +19,46 @@ This repository is currently private and may not be publicly shared without expr
 - Josh Zimmerman, joshua@browndoggadgets.com
 - Jenner Hanni, jenner@wickerbox.net
 
+### Notes
+
+- Shrink overall size dimensions of boards to fit better on Legos (see dimension diagram)
+- 196 mils hole size is good
+- White silk for ground/- polarity markings where needed
+- Circuit kits are initially connected and usable without being unsnapped. Complete circuit. 
+- Use 2x2 snappable support tabs with 20mil drills and 6 mil traces. Make traces go at right angle on the board to help with clean snap of the trace.
+- Beveled edge, no need to make it a clover.
+
+Goals: 
+
+1. Work out of the box as a circuit.  (Customer confidence, quantity control, cool factor.)
+1. Break apart easily.  (Thats what we expect the majority of people to do with it.)
+
+- Try the single giant trace with giant snap. 
+- Specify the part numbers for nice bill of materials
+- Standalone set:
+  - Two hole LED, 5mm
+  - Two hole LED, 10mm
+  - Three position switch
+  - Two hole generic, 0.1" pitch
+  - Two hole generic, 0.2" pitch
+  - Three hole generic, 0.1"
+  - Momentary pushbutton switch
+  - CR2032 battery holder
+  - Vibrating motor
+  - Touch board
+  - DIP8 breakout board
+
+  - Teensy 3.2 with line of six pins
+  - RGB LED
+  - USB breakout board- either with a microUSB connector on it or tab for normal USB.  Could be used for power or programming.  
+  - ATtiny85
+
+### Hours
+10/25 - 1 hour, changed outline, drill hole size, F.fab layer outlines
+10/27 - 2 hours, created LegoLED-Button-Battery v1.0 and v1.1, most of the time on the outline possibilities
+11/8 - 1 hour, v1.2 with changed snaps and beveled outline
+11/18 - 4 hours - created Teensy, updated v1.3, standardized the entire library footprints and created instructions
+
 ### Background
 
 KiCad is a free, open source schematic capture and board layout tool that can be downloaded for Linux, Mac, and Windows. <a href="#">Get KiCad here</a>.

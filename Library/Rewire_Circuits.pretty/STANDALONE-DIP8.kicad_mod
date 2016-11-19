@@ -1,4 +1,4 @@
-(module DIP8-PLATFORM-TEST-NARROW (layer F.Cu) (tedit 56DA68AE)
+(module STANDALONE-DIP8 (layer F.Cu) (tedit 56DA68AE)
   (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "dil dip 2.54 300")
   (fp_text reference IC1 (at 8 -8 90) (layer F.SilkS) hide
