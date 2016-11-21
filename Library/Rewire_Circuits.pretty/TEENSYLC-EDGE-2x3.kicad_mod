@@ -1,4 +1,4 @@
-(module TEENSYLC-EDGE-4x4 (layer F.Cu) (tedit 582F7EC2)
+(module TEENSYLC-EDGE-2x3 (layer F.Cu) (tedit 582F7EC2)
   (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "dil dip 2.54 300")
   (fp_text reference REF** (at 9.9 -31.72) (layer F.SilkS) hide
