@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# CAP-CER-1UF-16V-X7R-RADIAL
+#
+DEF CAP-CER-1UF-16V-X7R-RADIAL C 0 40 N N 1 F N
+F0 "C" 100 50 50 H V L CNN
+F1 "CAP-CER-1UF-16V-X7R-RADIAL" 100 -50 50 H V L CNN
+F2 "CAP-5MM-RAD" 0 -350 50 H I C CIN
+F3 "https://product.tdk.com/info/en/documents/catalog/leadmlcc_conventional_fk_en.pdf" 0 0 5 H I C CNN
+F4 "C_Disc_D7.5_P5" 0 -350 50 H I C CIN "Package"
+F5 "TDK" 0 -350 50 H I C CIN "MF_Name"
+F6 "FK28X7R1C105K" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "445-8614-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "CAP CER 1UF 16V X7R RADIAL" 0 -350 50 H I C CIN "Description"
+F10 "Not Verified" 0 -350 50 H I C CIN "Verified"
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN-USB-MICRO-B-10118193
 #
 DEF CONN-USB-MICRO-B-10118193 J 0 40 Y Y 1 F N

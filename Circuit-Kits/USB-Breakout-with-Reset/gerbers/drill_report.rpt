@@ -1,5 +1,5 @@
 Drill report for USB-Breakout-with-Reset.kicad_pcb
-Created on Mon Nov 21 12:06:34 2016
+Created on Mon Nov 21 14:54:25 2016
 
 Copper Layer Stackup:
     =============================================================
@@ -11,13 +11,14 @@ Drill file 'USB-Breakout-with-Reset.drl' contains
     plated through holes:
     =============================================================
     T1  0.33mm  0.013"  (2 holes)
-    T2  1.00mm  0.039"  (4 holes)
-    T3  1.00mm  0.039"  (8 holes)
-    T4  1.20mm  0.047"  (2 holes)
-    T5  1.27mm  0.050"  (2 holes)
-    T6  4.98mm  0.196"  (5 holes)
+    T2  0.90mm  0.035"  (2 holes)
+    T3  1.00mm  0.039"  (4 holes)
+    T4  1.00mm  0.039"  (8 holes)
+    T5  1.20mm  0.047"  (2 holes)
+    T6  1.27mm  0.050"  (2 holes)
+    T7  4.98mm  0.196"  (5 holes)
 
-    Total plated holes count 23
+    Total plated holes count 25
 
 
 Not plated through holes are merged with plated holes
