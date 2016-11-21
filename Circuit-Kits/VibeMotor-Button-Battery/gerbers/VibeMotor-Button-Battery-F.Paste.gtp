@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.4+e1-6308~48~ubuntu14.04.1-stable*%
+%TF.CreationDate,2016-11-21T10:30:33-08:00*%
+%TF.ProjectId,VibeMotor-Button-Battery,566962654D6F746F722D427574746F6E,rev?*%
+%TF.FileFunction,Paste,Top*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.4+e1-6308~48~ubuntu14.04.1-stable) date Mon Nov 21 10:30:33 2016*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+%ADD11R,2.447600X5.407600*%
+%ADD12R,8.847600X13.647600*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X159180900Y-92163900D03*
+D12*
+X169384900Y-91909900D03*
+D11*
+X179580900Y-92163900D03*
+M02*
