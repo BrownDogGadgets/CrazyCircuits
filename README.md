@@ -14,47 +14,7 @@ This repository is currently private and may not be publicly shared without expr
   2. How to create circuits
   3. How to create modules
 
-### Contributors
-
-- Josh Zimmerman, joshua@browndoggadgets.com
-- Jenner Hanni, jenner@wickerbox.net
-
-### REcent
-
-Things:
-
-I'm relatively confident this is a hardware problem with my particular computer, which is Microsoft hardware running Linux with only USB 3 ports. I think you'll have no trouble putting the digispark bootloader (micronucleus) on the board on your end.
-
-I have SMT 2x2 and 1x2 parts already made up from a few months ago, so just let me know when you want them. They're ready to be ordered.
-
-Today, I've ordered the following with new hole and board edge sizing:
-
--- Sample Set
-  - DIP8 breakout
-  - Teensy 3.2/LC Breakout
-  - CR2032 battery 3x3
-  - Generic 2.54mm pitch 2x2
-  - Generic 5mm pitch 2x2
-  - LED 2.54mm pitch 2x2 (for 5mm LEDs)
-  - LED 5mm pitch 2x2 (for 10mm LEDs)
-  - 4-pin RGB LED 2x2
-  - 3-position Switch 2x2
-  - Touch 2x2
-  - Pushbutton 1x3
--- VibeMotor-Button-Battery Circuit Kit v1.0
--- LegoLED-Button-Battery Circuit Kit v1.3
--- USB Breakout with Reset Board v1.0
-  (uses Digispark schematic)
-
-I've attached the zip files that have bills of material and assembly diagrams. This is also all written up in the Github READMEs with pictures: https://github.com/wickerbox/Rewire-Circuits
-
-https://www.precisionmicrodrives.com/product/306-114-6mm-vibration-motor-10mm-type
-
-Here's the payment link for all of it, and I've attached an invoice.
-
-
-
-### Notes
+### Most Recent Notes
 
 - Shrink overall size dimensions of boards to fit better on Legos (see dimension diagram)
 - 196 mils hole size is good
@@ -68,29 +28,8 @@ Goals:
 1. Work out of the box as a circuit.  (Customer confidence, quantity control, cool factor.)
 1. Break apart easily.  (Thats what we expect the majority of people to do with it.)
 
-- Try the single giant trace with giant snap. 
-- Specify the part numbers for nice bill of materials
-- Standalone set:
-  - Two hole LED, 5mm
-  - Two hole LED, 10mm
-  - Two hole generic, 0.1" pitch
-  - Two hole generic, 0.2" pitch
-  - Three position switch
-  - Three hole generic, 0.1"
-  - Momentary pushbutton switch
-  - CR2032 battery holder
-  - Vibrating motor
-  - Touch board
-  - DIP8 breakout board
-  - Teensy 3.2 with line of six pins
-  - RGB LED
-  - USB breakout board- either with a microUSB connector on it or tab for normal USB.  Could be used for power or programming.  
-
-### Hours
-10/25 - 1 hour, changed outline, drill hole size, F.fab layer outlines
-10/27 - 2 hours, created LegoLED-Button-Battery v1.0 and v1.1, most of the time on the outline possibilities
-11/8 - 1 hour, v1.2 with changed snaps and beveled outline
-11/18 - 4 hours - created Teensy, updated v1.3, standardized the entire library footprints and created instructions
+---
+# Ignore all stuff below this line
 
 ### Background
 
