@@ -1,17 +1,16 @@
-# LegoLED-Button-Battery Board
+# LegoLED-Button-Battery v1.3
 
-<img src="oshpreview.png">
+Rewire Circuit Kit, Brown Dog Gadgets  
+Release: 11/18/16
 
-<img src="assembly.png">
+Circuit kit that can be snapped apart into three Lego-compatible modules. Just add a coin cell battery and light the LED by pressing the pushbutton. 
 
-Lego brick LEDs from Lunchbox Electronics are in-place compatible with other 2.54mm-pitch, 5mm-diameter LEDs. 
+![](assembly.png)
 
-This board can be snapped apart into the three different parts:
-
-|Size|Description|Vendor|Part Number|
-|----|-----------|------|-----------|
-|3x3|CR2032 Battery|Digikey|952-1735-1-ND|
-|2x2|LED|Lunchbox Electronics|<a href="http://lunchboxelectronics.com/product/build-upons-pth-edition">LegoLED</a>|
-|1x2|Pushbutton|Digikey|SW400-ND|
+|Module|Size|Description|Vendor|Part Number|
+|------|----|-----------|------|-----------|
+|BT1|3x3|CR2032 Battery|Digikey|952-1735-1-ND|
+|LED1|2x2|LED|Lunchbox Electronics|<a href="http://lunchboxelectronics.com/product/build-upons-pth-edition">LegoLED</a>|
+|SW1|1x2|Pushbutton|Digikey|SW400-ND|
 
 
