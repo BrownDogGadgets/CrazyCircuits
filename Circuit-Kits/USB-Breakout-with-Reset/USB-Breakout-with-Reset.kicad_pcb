@@ -467,10 +467,10 @@
       (net 3 "Net-(D2-Pad1)"))
   )
 
-  (gr_text "Brown Dog Gadgets\n11/20/16" (at 165.8 116.2) (layer F.Fab) (tstamp 5833372E)
+  (gr_text "Rewire Circuit Kit\n11/20/16" (at 165.8 116.2) (layer F.Fab) (tstamp 5833372E)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
-  (gr_text "Rewire Circuits\nUSB Breakout v1.0\n" (at 165.8 90.4) (layer F.Fab)
+  (gr_text "Assembly Information\nUSB Breakout v1.0\n" (at 165.8 90.4) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
   (gr_text "Brown Dog Gadgets\nUSB Breakout v1.0" (at 157.6 106.8) (layer B.SilkS)
