@@ -1,15 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,4.0.4+e1-6308~48~ubuntu14.04.1-stable*%
-%TF.CreationDate,2016-11-18T09:45:06-08:00*%
-%TF.ProjectId,LegoLED-Button-Battery,4C65676F4C45442D427574746F6E2D42,rev?*%
-%TF.FileFunction,Paste,Top*%
+G04 #@! TF.FileFunction,Paste,Top*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.4+e1-6308~48~ubuntu14.04.1-stable) date Fri Nov 18 09:45:06 2016*
+G04 Created by KiCad (PCBNEW 4.0.4+e1-6308~48~ubuntu16.04.1-stable) date Tue Dec  6 20:41:16 2016*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10C,0.350000*%
+%ADD10C,0.100000*%
 %ADD11R,2.447600X5.407600*%
 %ADD12R,8.847600X13.647600*%
 G04 APERTURE END LIST*
