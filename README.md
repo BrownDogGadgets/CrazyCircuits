@@ -1,18 +1,22 @@
 # Rewire Circuits 
-#### A KiCad Library and Template by Brown Dog Gadgets
+#### Lego-compatible circuit kits and modules by Brown Dog Gadgets
 
 Brown Dog Gadgets created the Rewire project to produce open source, Lego-compatible educational circuit kits. 
-
+  
 This repository is currently private and may not be publicly shared without express written permission.
 
 ### Contents
 
-- Rewire Circuit library
-- Brown Dog Circuit Kit Template
+- Circuit Kits and Modules
+- KiCad Library
+- KiCad Template
+
 - Instructions
   1. How to open the project template
   2. How to create circuits
   3. How to create modules
+
+### Development
 
 ### Most Recent Notes
 
@@ -39,7 +43,7 @@ The Rewire Circuit library contains Rewire Modules. The Rewire Modules contain a
 
 The template makes it easy to create a new Rewire Circuit kit in KiCad. Just add symbols, connect the symbols with wires, arrange the footprints on the printed circuit board, and add an outline showing the edge of the board or boards. 
 
-<img src="Images/battery-module.png" style="width:100%;">
+<img src="battery-module.png" style="width:100%;">
 
 ### Existing Kits
 
