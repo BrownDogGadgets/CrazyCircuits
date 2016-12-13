@@ -1,8 +1,6 @@
 # Rewire Circuits 
 #### Lego-compatible circuit kits and modules by Brown Dog Gadgets
 
-Brown Dog Gadgets created the Rewire project to produce open source, Lego-compatible educational circuit kits. 
-  
 This repository is currently private and may not be publicly shared without express written permission.
 
 ### Contents
