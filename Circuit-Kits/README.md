@@ -1,3 +1,11 @@
-# Rewire Circuit Kits
-### Circuit projects with schematics and board layouts.
+# Rewire Circuit Kits and Modules
 
+These projects are all finished and ready to be downloaded. Each folder contains a single board (a module) or a kit that can be snapped apart. 
+
+### Circuit Kits
+
+|Project Name|Version|Documentation|Manufacturing Files|
+|============|=======|=============|===================|
+|LegoLED-Button-Battery|v1.3|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-v1.3.pdf">PDF</a>|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-v1.3.zip">Zip</a>|
+|<a href="https://github.com/wickerbox/Rewire-Circuits/tree/master/Circuit-Kits/USB-Breakout-with-Reset">USB-Breakout-with-Reset</a>|v1.0|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/USB-Breakout-with-Reset/USB-Breakout-with-Reset-v1.0.pdf">PDF</a>|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/USB-Breakout-with-Reset/USB-Breakout-with-Reset-v1.0.zip">Zip</a>|
+|<a href="https://github.com/wickerbox/Rewire-Circuits/tree/master/Circuit-Kits/VibeMotor-Button-Battery">VibeMotor-Button-Battery</a>|v1.0|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/VibeMotor-Button-Battery/VibeMotor-Button-Battery-v1.0.pdf">PDF</a>|<a href="https://github.com/wickerbox/Rewire-Circuits/raw/master/Circuit-Kits/VibeMotor-Button-Battery/VibeMotor-Button-Battery-v1.0.zip">Zip</a>|
