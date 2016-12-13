@@ -5,7 +5,7 @@ This repository is currently private and may not be publicly shared without expr
 
 ### Circuit Kits and Modules
 
-You can find finished zip files with manufacturing files and documentation <a href="https://github.com/wickerbox/Rewire-Circuits/tree/master/Circuit-Kits">here</a>.
+The <a href="https://github.com/wickerbox/Rewire-Circuits/tree/master/Circuit-Kits">Circuit Kits</a> section has finished zip files with manufacturing files and documentation.
 
 ### Development
 
