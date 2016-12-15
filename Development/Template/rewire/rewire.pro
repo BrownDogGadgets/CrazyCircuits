@@ -1,4 +1,4 @@
-update=Tue 11 Oct 2016 05:25:07 PM PDT
+update=Thu 15 Dec 2016 11:23:06 AM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,11 +23,6 @@ SolderMaskMinWidth=0.004000000000
 DrawSegmentWidth=0.152400000000
 BoardOutlineThickness=0.152400000000
 ModuleOutlineThickness=0.152400000000
-[eeschema]
-version=1
-LibDir=/home/wicker/wickerlib/libraries/
-[eeschema/libraries]
-LibName1=/home/wicker/wickerlib/libraries/wickerlib
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,4 +35,9 @@ SpiceUseNetNumbers=0
 LabSize=50
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=/home/wicker/proj/Rewire-Circuits/Development/Library/
+[eeschema/libraries]
+LibName1=rewire_circuits
 
