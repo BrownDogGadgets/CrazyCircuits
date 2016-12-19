@@ -18,7 +18,7 @@ d = raw_input("ck or mod: ")
 
 if 'ck' in d:
   description = 'A Lego-compatible Rewire Circuit Kit'
-elif 'mod' in d:
+elif 'mod' in d:	
   description = 'A standalone Lego-compatible Rewire module'
 else:
   description = 'A Rewire Circuit'
@@ -117,7 +117,7 @@ def create_KiCad_project():
           f_temp.append('  (title_block\n')
           f_temp.append('    (title "'+title+'")\n')
           f_temp.append('    (date "'+date_create+'")\n')
-          f_temp.append('    (rev "'+version+'")\n')
+          f_temp.append(	'    (rev "'+version+'")\n')
           f_temp.append('    (company "'+license+'")\n')
           f_temp.append('    (comment 1 "'+email+'")\n')
           f_temp.append('    (comment 2 "'+website+'")\n')
