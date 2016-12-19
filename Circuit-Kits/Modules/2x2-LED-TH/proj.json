@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"19 Dec 2016",
+    "date_update":"19 Dec 2016",
+    "description":"A Lego-compatible Rewire Circuits module.",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Rewire-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"2x2-LED-TH",
+    "template_dir":"/home/wicker/proj/Rewire-Circuits/Development/templates",
+    "template_kicad":"rewire",
+    "template_latex":"rewire.tex",
+    "title":"2x2 Through-hole LED Module",
+    "version":"1.0",
+    "website":"http://browndoggadgets.com/"
+}
