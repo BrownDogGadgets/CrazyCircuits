@@ -1,0 +1,22 @@
+Drill report for 2x2-Cap-Touch.kicad_pcb
+Created on Mon Dec 19 12:40:13 2016
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '2x2-Cap-Touch.drl' contains
+    plated through holes:
+    =============================================================
+    T1  4.98mm  0.196"  (4 holes)
+
+    Total plated holes count 4
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
