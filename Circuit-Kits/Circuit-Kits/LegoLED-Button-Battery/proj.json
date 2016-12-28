@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"27 Dec 2016",
+    "date_update":"27 Dec 2016",
+    "description":"Circuit kit that can be snapped apart into three Lego-compatible modules. Just",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"LegoLED-Button-Battery",
+    "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"LegoLED-Button-Battery Circuit Kit",
+    "version":"1.3",
+    "website":"http://browndoggadgets.com/"
+}
