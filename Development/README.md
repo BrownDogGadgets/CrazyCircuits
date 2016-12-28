@@ -36,9 +36,9 @@ Goals:
 
 KiCad is a free, open source schematic capture and board layout tool that can be downloaded for Linux, Mac, and Windows. <a href="#">Get KiCad here</a>.
 
-The Rewire Circuit library contains Rewire Modules. The Rewire Modules contain a schematic symbol in the rewire.lib and rewire.dcm component library, and board layout symbol in the Rewire_Circuits.pretty folder.  
+The Crazy Circuit library contains Crazy Modules. The Crazy Modules contain a schematic symbol in the crazy.lib and crazy.dcm component library, and board layout symbol in the Crazy_Circuits.pretty folder.  
 
-The template makes it easy to create a new Rewire Circuit kit in KiCad. Just add symbols, connect the symbols with wires, arrange the footprints on the printed circuit board, and add an outline showing the edge of the board or boards. 
+The template makes it easy to create a new Crazy Circuit kit in KiCad. Just add symbols, connect the symbols with wires, arrange the footprints on the printed circuit board, and add an outline showing the edge of the board or boards. 
 
 <img src="battery-module.png" style="width:100%;">
 
@@ -56,7 +56,7 @@ The template makes it easy to create a new Rewire Circuit kit in KiCad. Just add
 - Minimum total via pad size is 208 mil (5.28mm) 
 - Grid size should be 8mm. Holes should be centered on grid lines.
 
-![](https://github.com/wicker/bdg-rewire/blob/master/references/lego-spacing-medium.jpg)
+![](https://github.com/wicker/bdg-crazy/blob/master/references/lego-spacing-medium.jpg)
 
 ### Older (Rewrite and incorporate above!)
 
@@ -65,10 +65,10 @@ The template makes it easy to create a new Rewire Circuit kit in KiCad. Just add
 1. Rename the three internal files to match the `projectname.pro`, `projectname.sch`, and `projectname.kicad_pcb`.
 1. Open `projectname.pro` in KiCad.
 
-To just select and order existing standalone Rewire circuit boards, 
+To just select and order existing standalone Crazy circuit boards, 
  
 1. Open `projectname.kicad_pcb` from the left-hand menu.
-1. Change the path to point to the `Rewire_Circuits.pretty` library.
+1. Change the path to point to the `Crazy_Circuits.pretty` library.
 1. Verify the User Grid is 4mm. Lego-compatible drill spacing will be 8mm.
 1. Place footprints on the grid. 
 1. Use the wire tool to draw edges on the Edge Cuts layer. Round the corners; sides should be flat. 
@@ -79,9 +79,9 @@ To just select and order existing standalone Rewire circuit boards,
 To create a connected circuit, such as the `tests/attiny85-v1/` example, 
 
 1. Open `projectname.sch` from the left-hand menu.
-1. Change the library path to point to the `rewire_circuits.lib` library.
+1. Change the library path to point to the `crazy_circuits.lib` library.
 1. Place components and connect them as you would any other schematic.
-1. If components don't exist, create new rewire symbols from existing KiCad repositories.
+1. If components don't exist, create new crazy symbols from existing KiCad repositories.
 1. Iterate between schematic and layout until atch the pad and pin numbers of symbols with the unorthodox pad numbers.
 1. Add standalone holes on the 8mm grid in the layout to fill out the holes.
 1. Add copper traces and additional silk where desired.
@@ -99,7 +99,7 @@ If using the 2-layer OSH Park prototyping service to design panels,
 
 ### Contribute
 
-The Rewire_Circuits.pretty library contains .kicad_mod footprint modules that work automatically with the 8mm grid. To create new library modules, you'll want to open the library in the Footprint Editor and use these rules of thumb: 
+The Crazy_Circuits.pretty library contains .kicad_mod footprint modules that work automatically with the 8mm grid. To create new library modules, you'll want to open the library in the Footprint Editor and use these rules of thumb: 
 
 - Lego plugs have a diameter of 189 mils. Drill holes of at least 193 mils will account for the OSH Park tolerance +/- 2.5 mils, and result in a snug fit. 
 - Minimum annular ring of 7mils means a minimum total via diameter of 7 + 193 + 7 = 207 mils. When possible, a 6mm annular ring is preferred.
@@ -142,7 +142,7 @@ The first panel didn't have rounded corners, and included three types of modules
 
 ## Demo Panel v2
 
-The second panel had rounded corners, entirely Platform style, and was effectively the final set of prototypes to take to NSTA. The Rewire_Circuits.pretty library included lots of small fixes as per feedback from Demo Panel v1.
+The second panel had rounded corners, entirely Platform style, and was effectively the final set of prototypes to take to NSTA. The Crazy_Circuits.pretty library included lots of small fixes as per feedback from Demo Panel v1.
 
 Opposite from the first demo panel, the positive areas are indicated by board mask color and the negative areas by white silk. Markings should be placed on the top of the board, since the bottom of the board will have as much exposed copper as possible.
 
