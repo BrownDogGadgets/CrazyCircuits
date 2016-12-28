@@ -1,7 +1,5 @@
 <!--- start title --->
 # LegoLED-Button-Battery Circuit Kit v1.3
-Circuit kit that can be snapped apart into three Lego-compatible modules. Just
-add a coin cell battery and light the LED by pressing the pushbutton.
 
 Updated: 27 Dec 2016
 
@@ -10,17 +8,15 @@ Company: Brown Dog Gadgets
 License: All rights reserved.
 
 <!--- end title --->
-Intro text.
 
-### Bill of Materials
+Circuit kit that can be snapped apart into three Lego-compatible modules. Just add a coin cell battery and light the LED by pressing the pushbutton.
 
-|Module|Size|Description|Vendor|Part Number|
-|------|----|-----------|------|-----------|
-|BT1|3x3|CR2032 Battery|Digikey|952-1735-1-ND|
-|LED1|2x2|LED|Lunchbox Electronics|<a href="http://lunchboxelectronics.com/product/build-upons-pth-edition">LegoLED</a>|
-|SW1|1x2|Pushbutton|Digikey|SW400-ND|
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|BT1|1|HOLDER BATT COIN CR2032/20MM|952-1735-1-ND|
+|LED1|1|LED GREEN 10MM DIA 5MM PITCH TH|754-1898-ND|
+|SW1|1|SWITCH TACTILE SPST-NO 0.05A 24V|SW400-ND|
 
 ![Assembly Diagram](assembly.png)
-
 ![Gerber Preview](preview.png)
 

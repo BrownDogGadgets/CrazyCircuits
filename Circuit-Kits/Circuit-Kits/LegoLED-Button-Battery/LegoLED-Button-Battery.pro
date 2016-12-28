@@ -1,4 +1,4 @@
-update=Thu 27 Oct 2016 10:23:43 AM PDT
+update=Tue 27 Dec 2016 07:03:32 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,6 +39,6 @@ version=1
 version=1
 LibDir=/home/wicker/wickerlib/libraries/
 [eeschema/libraries]
-LibName1=/home/wicker/proj/Rewire-Circuits/Library/rewire_circuits
-LibName2=wickerlib
+LibName1=wickerlib
+LibName2=/home/wicker/proj/Crazy-Circuits/Development/library/crazy_circuits
 
