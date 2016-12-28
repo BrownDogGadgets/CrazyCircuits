@@ -17,23 +17,23 @@ version = raw_input("version: ")
 d = raw_input("ck or mod: ")
 
 if 'ck' in d:
-  description = 'A Lego-compatible Rewire Circuit Kit'
+  description = 'A Lego-compatible Crazy Circuit Kit'
 elif 'mod' in d:	
   description = 'A standalone Lego-compatible Rewire module'
 else:
-  description = 'A Rewire Circuit'
+  description = 'A Crazy Circuit'
 
 email = 'help@browndoggadgets.com'
 company = 'Brown Dog Gadgets'
 website = 'http://browndoggadgets.com/'
 license = 'All rights reserved.'
-template = 'rewire'
+template = 'crazy'
 now = datetime.datetime.now()
 date_create = now.strftime('%B %d, %Y')
 date_update = ''
 
-dirLib = '/home/wicker/proj/Rewire-Circuits/Development/Library/'
-dirTemplates = '/home/wicker/proj/Rewire-Circuits/Development/Template/'
+dirLib = '/home/wicker/proj/Crazy-Circuits/Development/Library/'
+dirTemplates = '/home/wicker/proj/Crazy-Circuits/Development/Template/'
 
 data = {'projname':projname,
         'title':title,

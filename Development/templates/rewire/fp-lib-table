@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Rewire_Circuits)(type KiCad)(uri /home/wicker/proj/Rewire-Circuits/Development/library/Rewire_Circuits.pretty)(options "")(descr ""))
-  (lib (name Rewire_NonLego)(type KiCad)(uri /home/wicker/proj/Rewire-Circuits/Development/library/Rewire_NonLego.pretty)(options "")(descr ""))
-)

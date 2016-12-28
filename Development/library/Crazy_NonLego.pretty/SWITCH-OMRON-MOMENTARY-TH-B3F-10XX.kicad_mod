@@ -1,0 +1,52 @@
+# KiCad Footprint
+# Created by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: Yes
+# Finished: Yes
+
+(module SWITCH-OMRON-MOMENTARY-TH-B3F-10XX (layer F.Cu) (tedit 57C4CEE6)
+  (descr SWITCH-OMRON-MOMENTARY-TH-B3F-10XX)
+  (tags "Omron B3F-10xx")
+  (fp_text reference SW2 (at 3 2) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CLOCK (at 3.25 2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user %R (at 3.25 6.25) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 7 5) (end 7 -1) (layer F.Fab) (width 0.05))
+  (fp_line (start -1 5) (end 7 5) (layer F.Fab) (width 0.05))
+  (fp_line (start -1 -1) (end -1 5) (layer F.Fab) (width 0.05))
+  (fp_line (start 7 -1) (end -1 -1) (layer F.Fab) (width 0.05))
+  (fp_line (start -0.95 -1) (end -0.95 -0.9) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.05 -1.05) (end -0.7 -1.05) (layer F.SilkS) (width 0.15))
+  (fp_arc (start 0 0) (end -1.05 -0.7) (angle 22.61986495) (layer F.SilkS) (width 0.15))
+  (fp_line (start -1.05 -1.05) (end -1.05 -0.7) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.15 -1.15) (end 0.45 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 7.15 5.15) (end 7.15 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.15 5.15) (end 7.15 5.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.15 0) (end -1.15 5.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.15 -1.15) (end 0.45 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.15 0) (end -1.15 -1.15) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center 3 2) (end 4 3) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1 5) (end 5 5) (layer F.SilkS) (width 0.15))
+  (fp_line (start 1 -1) (end 5 -1) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 2.75) (end 0 1.25) (layer F.SilkS) (width 0.15))
+  (fp_line (start 6 1.25) (end 6 2.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 2) (end 0 2) (layer F.SilkS) (width 0))
+  (fp_line (start 5 5) (end 1 5) (layer F.SilkS) (width 0))
+  (fp_line (start 5 -1) (end 1 -1) (layer F.SilkS) (width 0))
+  (fp_line (start 6 2) (end 6 2) (layer F.SilkS) (width 0))
+  (fp_circle (center 3 2) (end 4 3) (layer F.SilkS) (width 0))
+  (pad 4 thru_hole circle (at 6 4) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 4) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 6 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+)

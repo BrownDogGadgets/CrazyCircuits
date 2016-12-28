@@ -1,0 +1,14 @@
+(module TAB-20MIL-2x2-SNAP (layer F.Cu) (tedit 582F3AD7)
+  (fp_text reference REF** (at 1.778 -4.318) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TAB-20MIL-2x4-SNAP (at 0 -4.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.762 1.27) (end -0.762 -1.27) (layer F.Fab) (width 0.04064))
+  (fp_line (start 0.762 1.27) (end 0.762 -1.27) (layer F.Fab) (width 0.04064))
+  (pad 1 thru_hole circle (at -0.508 -1.016) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at 0.508 -1.016) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at 0.508 1.016) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+  (pad 1 thru_hole circle (at -0.508 1.016) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
+)
