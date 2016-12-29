@@ -432,7 +432,7 @@
   (gr_text "Rewire Circuit Kit\n12/27/16" (at 185.6232 122.428) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
-  (gr_text "Assembly Information\nLegoLED-Button-Battery v1.3" (at 185.6232 81.6864) (layer F.Fab)
+  (gr_text "Assembly Information\n10mmLED-Button-Battery v1.3" (at 185.6232 81.6864) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
   (gr_line (start 179.832 100.838) (end 180.848 100.838) (layer Edge.Cuts) (width 0.1524))

@@ -1,5 +1,5 @@
-Drill report for LegoLED-Button-Battery.kicad_pcb
-Created on Tue Dec 27 19:51:10 2016
+Drill report for 10mmLED-Button-Battery.kicad_pcb
+Created on Thu Dec 29 12:32:38 2016
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'LegoLED-Button-Battery.drl' contains
+Drill file '10mmLED-Button-Battery.drl' contains
     plated through holes:
     =============================================================
     T1  0.50mm  0.020"  (20 holes)
