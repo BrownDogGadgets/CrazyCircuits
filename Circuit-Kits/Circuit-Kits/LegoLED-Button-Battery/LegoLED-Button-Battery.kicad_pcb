@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
 
   (general
-    (links 0)
+    (links 15)
     (no_connects 11)
     (area 104.572999 74.854999 187.816048 124.1552)
     (thickness 1.6)
@@ -423,7 +423,7 @@
   )
   (gr_line (start 171.6024 114.554) (end 171.6024 115.3668) (layer Edge.Cuts) (width 0.1524))
   (gr_arc (start 175.26 115.316) (end 175.26 118.999) (angle 89.2151803) (layer Edge.Cuts) (width 0.1524))
-  (gr_text "Rewire Circuit Kit\n12/27/16" (at 185.6232 122.428) (layer F.Fab)
+  (gr_text "Crazy Circuit Kit\n12/27/16" (at 185.6232 122.428) (layer F.Fab)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
   (gr_text "Assembly Information\nLegoLED-Button-Battery v1.3" (at 185.6232 81.6864) (layer F.Fab)
