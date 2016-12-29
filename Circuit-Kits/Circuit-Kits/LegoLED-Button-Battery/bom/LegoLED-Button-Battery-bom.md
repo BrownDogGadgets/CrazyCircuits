@@ -1,7 +1,10 @@
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |BT1|1|HOLDER BATT COIN CR2032/20MM|952-1735-1-ND|
-|LED1|1|LED GREEN 10MM DIA 5MM PITCH TH|754-1898-ND|
 |SW1|1|SWITCH TACTILE SPST-NO 0.05A 24V|SW400-ND|
+
+|Ref|Qty|Description|Lunchbox Electronics PN|
+|---|---|-----------|------|
+|LED1|1|LED LEGO NOVELTY COLOR 5MM PITCH|COM-005|
 
 
