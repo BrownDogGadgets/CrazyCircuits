@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:rewire_circuits
+LIBS:crazy_circuits
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -20,7 +20,7 @@ U 1 1 58584474
 P 4675 3325
 F 0 "PAD1" H 4685 3395 50  0000 L CNN
 F 1 "CapTouch_Pad" H 4685 3245 50  0000 L CNN
-F 2 "Rewire_Circuits:TOUCH-SMT-2x2" H 4675 3325 50  0001 C CNN
+F 2 "Crazy_Circuits:TOUCH-SMT-2x2" H 4675 3325 50  0001 C CNN
 F 3 "" H 4675 3325 50  0000 C CNN
 	1    4675 3325
 	1    0    0    -1  

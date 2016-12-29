@@ -1,6 +1,6 @@
 <!--- start title --->
 # 1x3 Momentary Pushbutton Module v1.0
-A Lego-compatible Rewire Circuits module.
+A Lego-compatible Crazy Circuits module.
 
 
 Updated: 18 Dec 2016

@@ -119,7 +119,7 @@
     (add_net VCC)
   )
 
-  (module Rewire_Circuits:CR2032-4x3-NO-ROTATE (layer F.Cu) (tedit 585035B2) (tstamp 5858710A)
+  (module Crazy_Circuits:CR2032-4x3-NO-ROTATE (layer F.Cu) (tedit 585035B2) (tstamp 5858710A)
     (at 131.32 101.22)
     (path /58585341)
     (fp_text reference BT1 (at 4 -8 90) (layer F.Fab) hide

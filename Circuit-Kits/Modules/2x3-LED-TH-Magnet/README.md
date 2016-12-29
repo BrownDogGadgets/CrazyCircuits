@@ -1,6 +1,6 @@
 <!--- start title --->
 # 2x3 Magnet-compatible LED Module v1.0
-A Lego-compatible Rewire Circuits module.
+A Lego-compatible Crazy Circuits module.
 
 
 Updated: 19 Dec 2016
@@ -10,7 +10,7 @@ Company: Brown Dog Gadgets
 License: All rights reserved.
 
 <!--- end title --->
-This is a green LED that can be wired in series with a coin cell battery. The extra two pads on the left make it usable with Rewire-compatible magnets.
+This is a green LED that can be wired in series with a coin cell battery. The extra two pads on the left make it usable with Crazy-compatible magnets.
 
 ### Bill of Materials
 

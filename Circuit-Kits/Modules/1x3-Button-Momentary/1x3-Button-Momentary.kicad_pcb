@@ -119,7 +119,7 @@
     (add_net /2)
   )
 
-  (module Rewire_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX (layer F.Cu) (tedit 58124F3B) (tstamp 585739CA)
+  (module Crazy_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX (layer F.Cu) (tedit 58124F3B) (tstamp 585739CA)
     (at 133.86 97.79)
     (descr "BUTTON 1x3 TH OMRON B3F-1XXX")
     (tags "Omron B3F-10xx")

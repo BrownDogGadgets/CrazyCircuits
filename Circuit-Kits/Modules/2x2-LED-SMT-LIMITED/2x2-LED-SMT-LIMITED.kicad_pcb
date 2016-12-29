@@ -115,7 +115,7 @@
     (uvia_drill 0.3302)
   )
 
-  (module Rewire_Circuits:LED-LIMITED-SMT-1206-2x2 (layer F.Cu) (tedit 58531B95) (tstamp 585856B8)
+  (module Crazy_Circuits:LED-LIMITED-SMT-1206-2x2 (layer F.Cu) (tedit 58531B95) (tstamp 585856B8)
     (at 127.89 85.09)
     (descr "1206 surface mount centered 2x2")
     (path /58584667)

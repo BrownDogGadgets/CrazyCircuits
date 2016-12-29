@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:rewire_circuits
+LIBS:crazy_circuits
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -20,7 +20,7 @@ U 1 1 58585341
 P 4850 3450
 F 0 "BT1" H 4950 3500 50  0000 L CNN
 F 1 "Battery" H 4950 3400 50  0000 L CNN
-F 2 "Rewire_Circuits:CR2032-4x3-NO-ROTATE" V 4850 3490 50  0001 C CNN
+F 2 "Crazy_Circuits:CR2032-4x3-NO-ROTATE" V 4850 3490 50  0001 C CNN
 F 3 "" V 4850 3490 50  0000 C CNN
 	1    4850 3450
 	1    0    0    -1  

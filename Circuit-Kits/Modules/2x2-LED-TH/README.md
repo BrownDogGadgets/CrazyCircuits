@@ -1,6 +1,6 @@
 <!--- start title --->
 # 2x2 Through-hole LED Module v1.0
-A Lego-compatible Rewire Circuits module.
+A Lego-compatible Crazy Circuits module.
 
 
 Updated: 19 Dec 2016
