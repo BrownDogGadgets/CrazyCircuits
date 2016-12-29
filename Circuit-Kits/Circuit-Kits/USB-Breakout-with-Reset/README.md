@@ -1,16 +1,19 @@
+<!--- start title --->
 # USB-Breakout-with-Reset v1.0
 
-Rewire Circuit Kit, Brown Dog Gadgets, 11/19/16
+Updated: 20 Nov 2016
+
+Website: http://browndoggadgets.com/
+Company: Brown Dog Gadgets
+License: All rights reserved.
+
+<!--- end title --->
 
 Circuit kit module to break out USB + and - signals, along with a RESET pushbutton, to program Rewire Circuit microcontrollers in place. 
 
 ![Schematic](schematic.png)
 
-![OSH Park Preview (Top Side)](oshpreview.png)
-
-\newpage
-
-![](assembly.png)
+<!--- start bom --->
 
 |Refdes|Qty|Description|Digikey Number|
 |------|---|-----------|--------------|
@@ -20,5 +23,11 @@ Circuit kit module to break out USB + and - signals, along with a RESET pushbutt
 |R1|1|RES 1.5K OHM 1/2W 5% CF MINI|S1.5KHCT-ND|
 |R2,R3|2|RES 66.5 OHM 1/4W 1% AXIAL|66.5XBK-ND|
 |SW1|1|SWITCH TACTILE SPST-NO 0.05A 24V|SW400-ND|
+
+<!--- end bom --->
+
+![Gerber Preview](preview.png)
+![Assembly Diagram](assembly.png)
+
 
 

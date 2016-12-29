@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
 
   (general
     (links 18)
     (no_connects 2)
-    (area 126.123799 93.123799 166.076201 113.876201)
+    (area 104.572999 74.854999 178.510001 123.265001)
     (thickness 1.6)
     (drawings 47)
     (tracks 49)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.3302)
+    (last_trace_width 0.254)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.3302)
@@ -499,7 +499,7 @@
       (net 1 GND))
   )
 
-  (gr_text "Rewire Circuit Kit\n11/20/16" (at 165.8 116.2) (layer F.Fab) (tstamp 5833372E)
+  (gr_text "Crazy Circuit Kit\n11/20/16" (at 165.8 116.2) (layer F.Fab) (tstamp 5833372E)
     (effects (font (size 1.016 1.016) (thickness 0.1524)) (justify right))
   )
   (gr_text "Assembly Information\nUSB Breakout v1.0\n" (at 165.8 90.4) (layer F.Fab)
