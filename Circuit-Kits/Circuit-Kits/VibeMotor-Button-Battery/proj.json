@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"27 Dec 2016",
+    "date_update":"29 Dec 2016",
+    "description":"Lego-compatible circuits by Brown Dog Gadgets",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"VibeMotor-Button-Battery",
+    "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"VibeMotor-Button-Battery Circuit Kit",
+    "version":"1.1",
+    "website":"http://browndoggadgets.com/"
+}
