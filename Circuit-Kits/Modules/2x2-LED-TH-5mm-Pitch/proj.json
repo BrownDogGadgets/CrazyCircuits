@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"19 Dec 2016",
+    "date_update":"19 Dec 2016",
+    "description":"A Lego-compatible Crazy Circuits module.",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"2x2-LED-TH-5mm-Pitch",
+    "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"2x2 Through-hole LED (5mm Pitch) Module",
+    "version":"v1.1",
+    "website":"http://browndoggadgets.com/"
+}
