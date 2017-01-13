@@ -20,8 +20,8 @@ These projects are all finished and ready to be downloaded. Each folder contains
 |RGB LED SMT version from earlier this year||||
 |2x3 Servo Breakout||||
 |2x2 Servo Breakout||||
-|2x2 2.54mm-pitch Screw Terminal||||
-|2x2 5mm-pitch Screw Terminal||||
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-Generic-2.54mm-Pitch">2x2 Generic 2.54mm Pitch</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Generic-2.54mm-Pitch/2x2-Generic-2.54mm-Pitch-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Generic-2.54mm-Pitch/2x2-Generic-2.54mm-Pitch-1.0.zip?raw=true">Zip</a>|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-Generic-5mm-Pitch">2x2 Generic 5mm Pitch</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Generic-5mm-Pitch/2x2-Generic-5mm-Pitch-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Generic-5mm-Pitch/2x2-Generic-5mm-Pitch-1.0.zip?raw=true">Zip</a>|
 |Teensy Controller Breakout||||
 |Arduino Nano Breakout Board|||||
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/1x3-Button-Momentary">1x3 Momentary Pushbutton</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.zip?raw=true">Zip</a>|

@@ -1,0 +1,23 @@
+Drill report for 2x2-Generic-5mm-Pitch.kicad_pcb
+Created on Fri Jan 13 08:22:12 2017
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '2x2-Generic-5mm-Pitch.drl' contains
+    plated through holes:
+    =============================================================
+    T1  1.00mm  0.039"  (2 holes)
+    T2  4.98mm  0.196"  (4 holes)
+
+    Total plated holes count 6
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
