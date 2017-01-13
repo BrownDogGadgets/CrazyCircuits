@@ -6,7 +6,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Version|Documentation|Manufacturing Files|
 |------------|-------|-------------|-------------------|
-|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery">10mmLED-Button-Battery</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-1.0.zip">Zip</a>|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery">10mmLED-Button-Battery</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-1.1.zip">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery">LegoLED-Button-Battery</a>|v1.3|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-1.3.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-1.3.zip">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Circuit-Kits/USB-Breakout-with-Reset">USB-Breakout-with-Reset</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Circuit-Kits/USB-Breakout-with-Reset/USB-Breakout-with-Reset-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Circuit-Kits/USB-Breakout-with-Reset/USB-Breakout-with-Reset-1.0.zip">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Circuit-Kits/VibeMotor-Button-Battery">VibeMotor-Button-Battery</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Circuit-Kits/VibeMotor-Button-Battery/VibeMotor-Button-Battery-1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Circuit-Kits/VibeMotor-Button-Battery/VibeMotor-Button-Battery-1.1.zip">Zip</a>|
@@ -15,6 +15,16 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Version|Documentation|Manufacturing Files|
 |------------|-------|-------------|-------------------|
+|12mm Square SMT Pushbutton||||
+|12mm Square TH Pushbutton||||
+|RGB LED SMT version from earlier this year||||
+|2x3 Servo Breakout||||
+|2x2 Servo Breakout||||
+|2x2 5mm LED TH||||
+|2x2 2.54mm-pitch Screw Terminal||||
+|2x2 5mm-pitch Screw Terminal||||
+|Teensy Controller Breakout||||
+|Arduino Nano Breakout Board|||||
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/1x3-Button-Momentary">1x3 Momentary Pushbutton</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.zip?raw=true">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-Cap-Touch">2x2 Capacitive Touch</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-1.0.zip?raw=true">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED">2x2 LED SMT Limited</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED/2x2-LED-SMT-LIMITED-1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED/2x2-LED-SMT-LIMITED-1.0.zip?raw=true">Zip</a>|

@@ -1,5 +1,5 @@
 Drill report for 10mmLED-Button-Battery.kicad_pcb
-Created on Thu Dec 29 12:32:38 2016
+Created on Thu Jan 12 22:38:57 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,17 +10,16 @@ Copper Layer Stackup:
 Drill file '10mmLED-Button-Battery.drl' contains
     plated through holes:
     =============================================================
-    T1  0.50mm  0.020"  (20 holes)
-    T2  1.00mm  0.039"  (4 holes)
-    T3  1.00mm  0.039"  (2 holes)
-    T4  4.98mm  0.196"  (15 holes)
+    T1  1.00mm  0.039"  (4 holes)
+    T2  1.00mm  0.039"  (2 holes)
+    T3  4.98mm  0.196"  (15 holes)
 
-    Total plated holes count 41
+    Total plated holes count 21
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T5  4.98mm  0.196"  (1 hole)
+    T4  4.98mm  0.196"  (1 hole)
 
     Total unplated holes count 1
