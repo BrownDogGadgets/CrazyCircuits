@@ -1,5 +1,5 @@
-Drill report for 2x2-LED-TH-5mm-Pitch.kicad_pcb
-Created on Fri Jan 13 07:40:42 2017
+Drill report for 2x3-LED-TH-5mm-Pitch-Magnet.kicad_pcb
+Created on Fri Jan 13 07:36:20 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -7,13 +7,13 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file '2x2-LED-TH-5mm-Pitch.drl' contains
+Drill file '2x3-LED-TH-5mm-Pitch-Magnet.drl' contains
     plated through holes:
     =============================================================
     T1  1.00mm  0.039"  (2 holes)
-    T2  4.98mm  0.196"  (4 holes)
+    T2  4.98mm  0.196"  (6 holes)
 
-    Total plated holes count 6
+    Total plated holes count 8
 
 
 Not plated through holes are merged with plated holes
