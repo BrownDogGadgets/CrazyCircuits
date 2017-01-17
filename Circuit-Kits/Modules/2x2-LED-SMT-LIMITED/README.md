@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 Current-Limited Surface Mount LED Module v1.0
+# 2x2 Current-Limited Surface Mount LED Module v1.1
 A Lego-compatible Crazy Circuits module.
 
 
