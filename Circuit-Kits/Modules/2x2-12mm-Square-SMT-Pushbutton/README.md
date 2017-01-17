@@ -15,6 +15,11 @@ Intro text.
 ### Bill of Materials
 
 <!--- bom start --->
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|SW1|1|SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P|SW1278CT-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 

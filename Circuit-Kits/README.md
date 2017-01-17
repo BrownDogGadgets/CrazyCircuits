@@ -15,8 +15,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Version|Documentation|Manufacturing Files|
 |------------|-------|-------------|-------------------|
-|12mm Square SMT Pushbutton||||
-|12mm Square TH Pushbutton||||
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-2x2-12mm-Square-SMT-Pushbutton">2x2 12mm Square SMT Pushbutton</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-2x2-12mm-Square-SMT-Pushbutton/2x2-2x2-12mm-Square-SMT-Pushbutton-v1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-2x2-12mm-Square-SMT-Pushbutton/2x2-2x2-12mm-Square-SMT-Pushbutton-v1.0.zip?raw=true">Zip</a>|
 |RGB LED SMT version from earlier this year||||
 |2x3 Servo Breakout||||
 |2x2 Servo Breakout||||
