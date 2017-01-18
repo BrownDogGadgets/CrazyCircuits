@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
 
   (general
     (links 6)
@@ -119,8 +119,8 @@
     (add_net VCC)
   )
 
-  (module Crazy_Circuits:LED-10MMD-5MMP-TH-2x3 (layer F.Cu) (tedit 58531CB3) (tstamp 58585658)
-    (at 149.48 101.6)
+  (module Crazy_Circuits:LED-5MM-TH-2x3 (layer F.Cu) (tedit 58531CB3) (tstamp 5880564F)
+    (at 137.796 100.838)
     (descr "10mm LED 5mm pitch through hole center polarized")
     (path /58584EA3)
     (fp_text reference LED1 (at -4 -5 180) (layer B.SilkS)
@@ -133,7 +133,7 @@
     (fp_text user %R (at 0 -3.99) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 8 -8) (end -8 -8) (layer B.Mask) (width 5))
+    (fp_line (start 8 -8) (end -8 -8) (layer B.Mask) (width 7.2))
     (fp_line (start -8 0) (end 8 0) (layer F.SilkS) (width 7.8))
     (fp_text user + (at 4 -10) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -144,9 +144,9 @@
     (fp_text user - (at 4 3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 8 -8) (end -8 -8) (layer B.Cu) (width 5))
-    (fp_line (start 8 0) (end -8 0) (layer B.Mask) (width 5))
-    (fp_line (start 8 0) (end -8 0) (layer B.Cu) (width 5))
+    (fp_line (start 8 -8) (end -8 -8) (layer B.Cu) (width 7.2))
+    (fp_line (start 8 0) (end -8 0) (layer B.Mask) (width 7.2))
+    (fp_line (start 8 0) (end -8 0) (layer B.Cu) (width 7.2))
     (fp_line (start 7.9 -11.8) (end -7.9 -11.8) (layer Edge.Cuts) (width 0.04064))
     (fp_line (start 7.9 3.8) (end -7.9 3.8) (layer Edge.Cuts) (width 0.04064))
     (fp_line (start 11.8 -0.1) (end 11.8 -7.9) (layer Edge.Cuts) (width 0.04064))

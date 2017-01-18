@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:crazy_circuits
+LIBS:2x2-LED-TH-2.54mm-Pitch-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -20,7 +21,7 @@ U 1 1 5878F5DA
 P 4925 3750
 F 0 "LED1" H 5000 3800 50  0000 L CNN
 F 1 "LED" H 5000 3700 50  0000 L CNN
-F 2 "Crazy_Circuits:LED-5MMD-2.5MMP-2x2" H 4925 3550 50  0001 C CIN
+F 2 "Crazy_Circuits:LED-2.54MM-TH-2x2" H 4925 3550 50  0001 C CIN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP813GD.pdf" V 4925 3750 10  0001 C CNN
 F 4 "LED GREEN 10MM DIA 2.54MM PITCH" H 4925 3750 60  0001 C CNN "Description"
 F 5 "Kingbright" H 4925 3750 60  0001 C CNN "MF_Name"
