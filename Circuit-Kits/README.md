@@ -43,7 +43,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Ver|Doc|Gerber|Complete|Top Preview|
 |------------|---|---|------|--------|-----------|
-|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-Cap-Touch">2x2 Capacitive Touch</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-v1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Modules/2x2-Cap-Touch/gerbers/2x2-Cap-Touch-v1.1-gerbers.zip">Zip</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-1.1.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/thumb.png">|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-Cap-Touch">2x2 Capacitive Touch</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-v1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/raw/master/Circuit-Kits/Modules/2x2-Cap-Touch/gerbers/2x2-Cap-Touch-v1.1-gerbers.zip">Zip</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/2x2-Cap-Touch-v1.1.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-Cap-Touch/thumb.png">|
 |2x4 Capsense Slider|||||<img src=".png">|
 
 ### Battery and Power 
