@@ -1,9 +1,0 @@
-(module STANDALONE-HOLE-UNPLATED-SNAP-2.54MM (layer F.Cu) (tedit 58125304)
-  (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value HOLE-UNPLATED-SNAP-2.54MM (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 2.54 2.54) (drill 2.54) (layers *.Cu))
-)
