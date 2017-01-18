@@ -36,7 +36,9 @@ These projects are all finished and ready to be downloaded. Each folder contains
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x3-LED-TH-5mm-Pitch-Magnet">2x3 LED TH (5mm Pitch) (Magnet-friendly)</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x3-LED-TH-5mm-Pitch-Magnet/2x3-LED-TH-5mm-Pitch-Magnet-v1.1.pdf">View</a>||<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x3-LED-TH-5mm-Pitch-Magnet/2x3-LED-TH-5mm-Pitch-Magnet-v1.1.zip?raw=true">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-LED-SMT">2x2 LED SMT</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT/2x2-LED-SMT-1.0.pdf">View</a>||<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT/2x2-LED-SMT-1.0.zip?raw=true">Zip</a>|
 |<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED">2x2 LED SMT Limited</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED/2x2-LED-SMT-LIMITED-v1.1.pdf">View</a>||<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-LED-SMT-LIMITED/2x2-LED-SMT-LIMITED-v1.1.zip?raw=true">Zip</a>|
-|1x2 LED SMT|v1.0||||||
+|Potentiometer|||||||
+|Simple USB Power|||||||
+|1x2 LED SMT|v1.0|||||
 |2x2 LED RGB SMT||||||
 |2x2 LED RGB TH||||||
 |1x2 Standalone Crazy Logo||||||
