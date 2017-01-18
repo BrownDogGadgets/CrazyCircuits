@@ -13,6 +13,15 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 ## Modules
 
+- Buttons/Switches
+- Logos
+- Capsense
+- Battery/Power
+- Microcontrollers
+- Generic Modules
+- LEDs
+- Speakers, Potentiometers, Motors, Servos
+
 ### Buttons/Switches 
 
 |Project Name|Ver|Doc|Gerber|Complete|Top Preview|
