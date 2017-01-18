@@ -12,7 +12,7 @@
     "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
     "template_kicad":"crazy",
     "template_latex":"crazy.tex",
-    "title":"2x3 Magnet-compatibel 2.54mm-pitch Module",
-    "version":"1.0",
+    "title":"2x3 Magnet-compatible 2.54mm-pitch Module",
+    "version":"1.1",
     "website":"http://browndoggadgets.com/"
 }

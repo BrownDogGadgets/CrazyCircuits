@@ -1,0 +1,19 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
+%TF.CreationDate,2017-01-18T01:13:19-08:00*%
+%TF.ProjectId,2x3-Generic-3.5mm-Pitch-Magnet,3278332D47656E657269632D332E356D,1.0*%
+%TF.FileFunction,Legend,Top*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Wed Jan 18 01:13:19 2017*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+%ADD11C,7.200000*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X152653000Y-98425000D02*
+X136653000Y-98425000D01*
+M02*
