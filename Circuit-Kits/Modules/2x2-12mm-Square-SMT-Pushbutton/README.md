@@ -1,16 +1,15 @@
 <!--- start title --->
-# 2x2 12mm Square SMT Pushbutton Module vv1.0
+# 2x2 12mm Square SMT Pushbutton Module v1.1
 A Lego-compatible Crazy Circuits module
 
-
-Updated: 12 Jan 2017
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 17 Jan 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
-Intro text.
+
+This is a large surface mount pushbutton that makes a very satisfying click.
 
 ### Bill of Materials
 

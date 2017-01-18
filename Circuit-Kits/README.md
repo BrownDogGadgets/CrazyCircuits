@@ -30,7 +30,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 |2x2 Three-pin Slide Switch|v1.0||||<img src="test.png">|
 |2x3 Three-pin Slide Switch (Right-angle)|v1.0||||<img src="test.png">|
 |2x3 Three-pin Toggle Switch|v1.0||||<img src="test.png">|
-|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton">2x2 12mm Square SMT Pushbutton</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/2x2-12mm-Square-SMT-Pushbutton-v1.0.pdf">View</a>||<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/2x2-12mm-Square-SMT-Pushbutton-v1.0.zip?raw=true">Zip</a>|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton">2x2 12mm Square SMT Pushbutton</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/2x2-12mm-Square-SMT-Pushbutton-v1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/2x2-12mm-Square-SMT-Pushbutton-v1.1-gerbers.zip?raw=true">Zip</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/2x2-12mm-Square-SMT-Pushbutton-v1.1.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/2x2-12mm-Square-SMT-Pushbutton/thumb.png"> 
 
 ### Logos
 
