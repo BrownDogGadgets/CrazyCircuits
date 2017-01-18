@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"17 Jan 2017",
+    "date_update":"17 Jan 2017",
+    "description":"A Crazy Circuits logo",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"2x2-Logo-Crazy-Circuits",
+    "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"Crazy Circuits Logo Blank",
+    "version":"1.0",
+    "website":"http://browndoggadgets.com/"
+}
