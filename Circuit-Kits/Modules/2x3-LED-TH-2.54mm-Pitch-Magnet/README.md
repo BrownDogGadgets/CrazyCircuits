@@ -1,13 +1,11 @@
 <!--- start title --->
-# 2x3 Magnet-compatible LED (2.54mm Pitch) v1.0
+# 2x3 Magnet-compatible LED (2.54mm Pitch) v1.1
 A Lego-compatible Crazy Circuits module
 
-
-Updated: 13 Jan 2017
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 13 Jan 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 
