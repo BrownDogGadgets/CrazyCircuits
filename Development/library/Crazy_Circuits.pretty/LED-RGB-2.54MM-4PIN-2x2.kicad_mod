@@ -1,4 +1,4 @@
-(module LED-RGB-5MMD-2.5MMP-2x2 (layer F.Cu) (tedit 583342B5)
+(module LED-RGB-2.54MM-4PIN-2x2 (layer F.Cu) (tedit 583342B5)
   (descr "LED 5mm round vertical")
   (tags "LED 5mm round vertical")
   (fp_text reference LED1 (at 4 -4) (layer F.Fab)
