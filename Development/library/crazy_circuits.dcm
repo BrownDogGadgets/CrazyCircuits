@@ -26,6 +26,10 @@ $CMP CapTouch_Pad
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP Conn_2
+D Resistor
+$ENDCMP
+#
 $CMP GND
 K POWER, PWR
 $ENDCMP

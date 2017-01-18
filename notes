@@ -1,0 +1,6 @@
+put in the generic symbol
+add the p/n etc fields in schematic
+assign module footprint which will have edge cuts included
+generate netlist
+open pbnew, import netlist, adjust silk or whatever if needed
+save, exit, run kingfisher to generate files
