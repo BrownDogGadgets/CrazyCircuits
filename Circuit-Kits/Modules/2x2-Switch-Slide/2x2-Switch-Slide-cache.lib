@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SPDT_Small
+#
+DEF SPDT_Small SW 0 0 N Y 1 F N
+F0 "SW" 90 -36 50 H V C CNN
+F1 "SPDT_Small" 232 42 50 H V C CNN
+F2 "" -100 0 50 H V C CNN
+F3 "" -100 0 50 H V C CNN
+DRAW
+C -150 2 21 0 1 0 F
+C -100 124 25 0 1 0 N
+C -52 2 20 0 1 0 F
+P 3 0 1 0 -98 92 -132 -24 -134 -28 N
+X 1 1 -150 -100 104 U 50 50 1 1 I
+X 2 2 -100 250 100 D 50 50 1 1 I
+X 3 3 -50 -100 102 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
