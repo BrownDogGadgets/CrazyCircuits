@@ -3,7 +3,7 @@
   (general
     (links 4)
     (no_connects 4)
-    (area 0 0 0 0)
+    (area 104.572999 74.854999 178.510001 123.265001)
     (thickness 1.6)
     (drawings 17)
     (tracks 0)
@@ -119,11 +119,11 @@
     (add_net VCC)
   )
 
-  (module Crazy_Circuits:LED-5MM-TH-2x2 (layer F.Cu) (tedit 582F5774) (tstamp 58804F71)
+  (module Crazy_Circuits:LED-5MM-TH-2x2 (layer F.Cu) (tedit 587FCF38) (tstamp 58804F71)
     (at 130.176 108.839)
     (descr "10mm LED 5mm pitch through hole center polarized")
     (path /58584A3B)
-    (fp_text reference LED1 (at 3.9 -4.6) (layer B.SilkS)
+    (fp_text reference LED1 (at 3.9 -4.6) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value GREEN (at 4 -4) (layer F.Fab) hide
