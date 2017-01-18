@@ -5,6 +5,8 @@
   (fp_text value TAB-20MIL-2x4-SNAP (at 0 -4.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -1.778 1.27) (end -1.778 -1.27) (layer Edge.Cuts) (width 0.04064))
+  (fp_line (start 1.778 1.27) (end 1.778 -1.27) (layer Edge.Cuts) (width 0.04064))
   (fp_line (start -1.778 1.27) (end -1.778 -1.27) (layer F.Fab) (width 0.04064))
   (fp_line (start 1.778 1.27) (end 1.778 -1.27) (layer F.Fab) (width 0.04064))
   (pad 1 thru_hole circle (at -1.524 -1.016) (size 0.5 0.5) (drill 0.5) (layers *.Cu))
