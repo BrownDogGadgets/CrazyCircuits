@@ -3,9 +3,9 @@
   (general
     (links 6)
     (no_connects 6)
-    (area 0 0 0 0)
+    (area 104.572999 74.854999 178.510001 123.265001)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 1)
@@ -194,6 +194,9 @@
       (net 2 GND))
   )
 
+  (gr_text LED (at 133.858 95.377) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
   (gr_circle (center 117.348 76.962) (end 118.618 76.962) (layer Dwgs.User) (width 0.15))
   (gr_line (start 114.427 78.994) (end 114.427 74.93) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 120.269 78.994) (end 114.427 78.994) (angle 90) (layer Dwgs.User) (width 0.15))
