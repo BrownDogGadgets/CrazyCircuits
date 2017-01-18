@@ -3,11 +3,10 @@
 A Lego-compatible Crazy Circuits module.
 
 
-Updated: 18 Dec 2016
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 17 Jan 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 This is a single momentary pushbutton module. It is normally open, so it only conducts between the two end pads when the button is pressed. 

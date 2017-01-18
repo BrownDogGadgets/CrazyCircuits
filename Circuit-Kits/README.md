@@ -26,7 +26,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Ver|Doc|Gerber|Complete|Top Preview|
 |------------|---|---|------|--------|-----------|
-|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/1x3-Button-Momentary">1x3 Momentary Pushbutton</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.pdf">View</a>||<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-1.0.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/thumb.png">|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/1x3-Button-Momentary">1x3 Momentary Pushbutton</a>|v1.1|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-v1.1.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/gerbers/1x3-Button-Momentary-v1.1-gerbers.zip?raw=true">Zip</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary-v1.1.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/1x3-Button-Momentary/thumb.png">|
 |2x2 Three-pin Slide Switch|v1.0||||<img src="test.png">|
 |2x3 Three-pin Slide Switch (Right-angle)|v1.0||||<img src="test.png">|
 |2x3 Three-pin Toggle Switch|v1.0||||<img src="test.png">|
