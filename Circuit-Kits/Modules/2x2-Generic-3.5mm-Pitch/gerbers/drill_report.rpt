@@ -1,5 +1,5 @@
-Drill report for 2x2-Generic-5mm-Pitch.kicad_pcb
-Created on Wed Jan 18 00:48:15 2017
+Drill report for 2x2-Generic-3.5mm-Pitch.kicad_pcb
+Created on Wed Jan 18 00:44:48 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file '2x2-Generic-5mm-Pitch.drl' contains
+Drill file '2x2-Generic-3.5mm-Pitch.drl' contains
     plated through holes:
     =============================================================
     T1  1.00mm  0.039"  (2 holes)
