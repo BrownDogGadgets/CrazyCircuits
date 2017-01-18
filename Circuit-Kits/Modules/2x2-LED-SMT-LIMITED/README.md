@@ -2,12 +2,10 @@
 # 2x2 Current-Limited Surface Mount LED Module v1.1
 A Lego-compatible Crazy Circuits module.
 
-
-Updated: 19 Dec 2016
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 17 Jan 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 Attaching an LED directly to a microcontroller's output pins can damage the pins, so this module has the LED in series with a current-limiting resistor. At 100 ohms, it can be used with both 3V and 5V power sources and still emit a red light.

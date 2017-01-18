@@ -5,7 +5,7 @@
     (no_connects 2)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 1)
@@ -119,8 +119,8 @@
     (add_net VCC)
   )
 
-  (module Crazy_Circuits:LED-SMT-1206-2x2-UNLIMIT (layer F.Cu) (tedit 587FC9EA) (tstamp 5880A5B2)
-    (at 67.311 106.425)
+  (module Crazy_Circuits:LED-SMT-1206-2x2-UNLIMIT (layer F.Cu) (tedit 587FC9EA) (tstamp 587FD549)
+    (at 112.396 104.267)
     (descr "1206 surface mount centered 2x2")
     (path /58584C75)
     (fp_text reference LED1 (at 4 -4.7) (layer B.SilkS) hide
@@ -175,6 +175,9 @@
     (pad 2 smd rect (at 4 -2.29) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_text LED (at 116.332 93.98) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
   (gr_circle (center 117.348 76.962) (end 118.618 76.962) (layer Dwgs.User) (width 0.15))
   (gr_line (start 114.427 78.994) (end 114.427 74.93) (angle 90) (layer Dwgs.User) (width 0.15))
   (gr_line (start 120.269 78.994) (end 114.427 78.994) (angle 90) (layer Dwgs.User) (width 0.15))

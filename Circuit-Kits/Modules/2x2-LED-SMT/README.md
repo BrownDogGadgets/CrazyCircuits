@@ -1,13 +1,11 @@
 <!--- start title --->
-# 2x2 SMT LED v1.0
+# 2x2 SMT LED v1.1
 A Lego-compatible Crazy Circuits module.
 
-
-Updated: 19 Dec 2016
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 17 Jan 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 This is a red LED that can be wired in series with a coin cell battery.
