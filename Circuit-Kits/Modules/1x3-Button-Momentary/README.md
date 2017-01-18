@@ -1,5 +1,5 @@
 <!--- start title --->
-# 1x3 Momentary Pushbutton Module v1.0
+# 1x3 Momentary Pushbutton Module v1.1
 A Lego-compatible Crazy Circuits module.
 
 
