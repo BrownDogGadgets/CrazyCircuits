@@ -1,5 +1,6 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 
+.*swp
 # Temporary files
 *.000
 *.bak

@@ -57,10 +57,10 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Ver|Doc|Gerber|Complete|Top Preview|
 |------------|---|---|------|--------|-----------|
-|3x4 8DIP ATtiny85|||||<img src="test.png">|
-|Teensy Controller Breakout|v1.0|||||
-|Arduino Nano Breakout Board|v1.0||||||
-|4x7 Teensy LC Breakout||||||
+|Arduino Nano Breakout|v1.0|<a href="">View</a>|<a href="">Zip</a>|<a href="">Zip</a>|<img src="thumb.png">|
+|<a href="https://github.com/wickerbox/Crazy-Circuits/tree/master/Circuit-Kits/Modules/3x4-ATtiny85-8DIP-Breakout">3x4 ATtiny85 8DIP Breakout</a>|v1.0|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/3x4-ATtiny85-8DIP-Breakout/3x4-ATtiny85-8DIP-Breakout-v1.0.pdf">View</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/3x4-ATtiny85-8DIP-Breakout/3x4-ATtiny85-8DIP-Breakout-v1.0-gerbers.zip?raw=true">Zip</a>|<a href="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/3x4-ATtiny85-8DIP-Breakout/3x4-ATtiny85-8DIP-Breakout-v1.0.zip?raw=true">Zip</a>|<img src="https://github.com/wickerbox/Crazy-Circuits/blob/master/Circuit-Kits/Modules/3x4-ATtiny85-8DIP-Breakout/thumb.png?raw=true">|
+|4x7 Teensy LC Breakout|v1.0|<a href="">View</a>|<a href="">Zip</a>|<a href="">Zip</a>|<img src="thumb.png">|
+|4x10 Teensy LC Breakout|v1.0|<a href="">View</a>|<a href="">Zip</a>|<a href="">Zip</a>|<img src="thumb.png">|
 
 ### Generic Modules 
 
