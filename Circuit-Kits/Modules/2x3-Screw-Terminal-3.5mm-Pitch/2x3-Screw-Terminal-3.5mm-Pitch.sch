@@ -1,12 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:crazy_circuits
+LIBS:2x3-Screw-Terminal-3.5mm-Pitch-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "2x3 Screw Terminal, 3.5mm Pitch (Magnet-compatible)"
-Date "17 Jan 2017"
+Title "2x3 Screw Terminal, 3.5mm Pitch"
+Date "18 Jan 2017"
 Rev "1.0"
 Comp "All rights reserved."
 Comment1 "help@browndoggadgets.com"
@@ -15,18 +16,19 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_2 J?
-U 1 1 587FD9D0
-P 4900 3700
-F 0 "J?" H 4850 3825 50  0000 L CNN
-F 1 "Conn_2" H 4850 3575 50  0001 L CNN
-F 2 "" H 4900 3700 50  0000 C CNN
-F 3 "" H 4900 3700 50  0000 C CNN
-	1    4900 3700
+L Conn_2 J1
+U 1 1 587EB9D9
+P 4950 3575
+F 0 "J1" H 4900 3700 50  0000 L CNN
+F 1 "Conn_2" H 4900 3450 50  0001 L CNN
+F 2 "Crazy_Circuits:SCREW-TERMINAL-3.5MM-TH-2x3" H 4950 3575 50  0000 C CNN
+F 3 "" H 4950 3575 50  0000 C CNN
+F 4 "OnShore" H 4950 3575 60  0001 C CNN "MF_Name"
+F 5 "OSTTE020104" H 4950 3575 60  0001 C CNN "MF_PN"
+F 6 "Digikey" H 4950 3575 60  0001 C CNN "S1_Name"
+F 7 "ED2740-ND" H 4950 3575 60  0001 C CNN "S1_PN"
+F 8 "SCREW TERMINAL 3.5MM PITCH 1x2" H 4950 3575 60  0001 C CNN "Description"
+	1    4950 3575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 3650 5150 3650
-Wire Wire Line
-	5050 3725 5150 3725
 $EndSCHEMATC
