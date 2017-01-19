@@ -1,5 +1,5 @@
 Drill report for 2x3-Generic-3.5mm-Pitch-Magnet.kicad_pcb
-Created on Wed Jan 18 01:13:19 2017
+Created on Wed Jan 18 22:34:43 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,7 +10,7 @@ Copper Layer Stackup:
 Drill file '2x3-Generic-3.5mm-Pitch-Magnet.drl' contains
     plated through holes:
     =============================================================
-    T1  1.00mm  0.039"  (2 holes)
+    T1  1.40mm  0.055"  (2 holes)
     T2  4.98mm  0.196"  (6 holes)
 
     Total plated holes count 8

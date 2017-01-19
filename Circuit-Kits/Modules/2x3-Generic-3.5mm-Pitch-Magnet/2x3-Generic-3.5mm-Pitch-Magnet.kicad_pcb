@@ -115,7 +115,7 @@
     (uvia_drill 0.3302)
   )
 
-  (module Crazy_Circuits:GENERIC-3.5MM-TH-2x3 (layer F.Cu) (tedit 587F2F8E) (tstamp 587F4FD4)
+  (module Crazy_Circuits:GENERIC-3.5MM-TH-2x3 (layer F.Cu) (tedit 588059A7) (tstamp 587F4FD4)
     (at 144.653 98.425)
     (descr "10mm LED 5mm pitch through hole center polarized")
     (fp_text reference LED (at -4 -5) (layer B.SilkS) hide
@@ -148,8 +148,8 @@
     (fp_arc (start -7.9 -0.1) (end -7.9 3.8) (angle 90) (layer F.Fab) (width 0.04064))
     (fp_arc (start -7.9 -7.9) (end -11.8 -7.9) (angle 90) (layer F.Fab) (width 0.04064))
     (fp_line (start 8 0) (end -8 0) (layer F.SilkS) (width 7.2))
-    (pad + thru_hole circle (at 4 -5.7352) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-    (pad - thru_hole circle (at 4 -2.2352 270) (size 1.9 1.9) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+    (pad + thru_hole circle (at 4 -5.7352) (size 2 2) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
+    (pad - thru_hole circle (at 4 -2.2352 270) (size 1.9 1.9) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
     (pad - thru_hole circle (at -8 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
     (pad + thru_hole circle (at -8 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
     (pad + thru_hole circle (at 8 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
