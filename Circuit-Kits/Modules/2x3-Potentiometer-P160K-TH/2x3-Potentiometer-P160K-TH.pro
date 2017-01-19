@@ -1,4 +1,4 @@
-update=Thu 15 Dec 2016 11:23:06 AM PST
+update=Thu 19 Jan 2017 12:20:08 AM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,4 +40,5 @@ version=1
 LibDir=/home/wicker/proj/Crazy-Circuits/Development/library/
 [eeschema/libraries]
 LibName1=crazy_circuits
+LibName2=/home/wicker/wickerlib/libraries/wickerlib
 
