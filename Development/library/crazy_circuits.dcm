@@ -43,6 +43,10 @@ D LED GRN DIFF 5MM ROUND T/H
 F http://www.marktechopto.com/products/datasheet/MT2118-G-A
 $ENDCMP
 #
+$CMP LED-RGB-TH-COM-11120
+D LED RGB 0606 SMD
+$ENDCMP
+#
 $CMP MOTOR
 D Button
 K Switch
