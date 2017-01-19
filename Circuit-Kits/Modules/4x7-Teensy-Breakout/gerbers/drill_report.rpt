@@ -1,0 +1,23 @@
+Drill report for 4x7-Teensy-Breakout.kicad_pcb
+Created on Wed Jan 18 20:50:04 2017
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '4x7-Teensy-Breakout.drl' contains
+    plated through holes:
+    =============================================================
+    T1  1.02mm  0.040"  (28 holes)
+    T2  4.98mm  0.196"  (13 holes)
+
+    Total plated holes count 41
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
