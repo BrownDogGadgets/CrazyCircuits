@@ -32,9 +32,4 @@
   (pad - thru_hole circle (at 16 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask F.SilkS))
   (pad + thru_hole circle (at 0 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask F.SilkS))
   (pad + thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask F.SilkS))
-  (model Housings_DIP.3dshapes/DIP-8_W7.62mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
