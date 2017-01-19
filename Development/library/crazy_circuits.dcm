@@ -30,6 +30,10 @@ $CMP Conn_2
 D Resistor
 $ENDCMP
 #
+$CMP Conn_3
+D Resistor
+$ENDCMP
+#
 $CMP GND
 K POWER, PWR
 $ENDCMP
@@ -64,6 +68,10 @@ $ENDCMP
 $CMP SW_PUSH
 D Button
 K Switch
+$ENDCMP
+#
+$CMP Servo_Breakout
+D Resistor
 $ENDCMP
 #
 $CMP TEST_1P
