@@ -1,0 +1,23 @@
+Drill report for 2x3-Mini-Potentiometer-3386P-TH.kicad_pcb
+Created on Fri Jan 20 19:30:51 2017
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '2x3-Mini-Potentiometer-3386P-TH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  1.02mm  0.040"  (3 holes)
+    T2  4.98mm  0.196"  (6 holes)
+
+    Total plated holes count 9
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
