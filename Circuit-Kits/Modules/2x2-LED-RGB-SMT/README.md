@@ -21,7 +21,5 @@ Surface mount RGB LED with a common anode. Connect the Common (C) to 3.3V.
 
 ![Schematic](schematic.png)
 
-![Assembly Diagram](assembly.png)
-
 ![Gerber Preview](preview.png)
 
