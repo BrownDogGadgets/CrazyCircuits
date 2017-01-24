@@ -1,5 +1,5 @@
 <!--- start title --->
-# 4x10 Teensy LC Breakout Module v1.1
+# 5x10 Teensy LC Breakout Module v1.1
 A Lego-compatible Crazy Circuits module
 
 - Updated: 24 Jan 2017
