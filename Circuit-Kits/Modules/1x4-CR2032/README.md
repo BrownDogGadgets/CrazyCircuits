@@ -15,7 +15,7 @@ This is an extremely narrow-profile module to hold a 3V coin cell battery.
 <!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
-|BT1|1|HOLDER BATT COIN CR2032/20MM|952-1735-1-ND|
+|BT1|1|HOLDER BATT COIN CR2032/20MM|BK-912-ND|
 
 
 <!--- bom end --->
