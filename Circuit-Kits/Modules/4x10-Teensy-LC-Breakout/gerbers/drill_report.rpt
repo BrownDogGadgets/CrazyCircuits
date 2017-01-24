@@ -1,5 +1,5 @@
 Drill report for 4x10-Teensy-LC-Breakout.kicad_pcb
-Created on Fri Jan 20 22:37:02 2017
+Created on Tue Jan 24 12:31:17 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file '4x10-Teensy-LC-Breakout.drl' contains
     plated through holes:
     =============================================================
-    T1  0.33mm  0.013"  (3 holes)
+    T1  0.33mm  0.013"  (1 hole)
     T2  1.02mm  0.040"  (28 holes)
     T3  4.98mm  0.196"  (16 holes)
 
-    Total plated holes count 47
+    Total plated holes count 45
 
 
 Not plated through holes are merged with plated holes

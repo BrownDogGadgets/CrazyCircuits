@@ -1,5 +1,5 @@
 <!--- start title --->
-# 4x10 Teensy LC Breakout Module v1.0
+# 4x10 Teensy LC Breakout Module v1.1
 A Lego-compatible Crazy Circuits module
 
 - Updated: 20 Jan 2017
@@ -13,7 +13,7 @@ Breakout board for the Teensy LC.
 ### Bill of Materials
 
 <!--- bom start --->
-|Ref|Qty|Description|Pjrc PN|
+|Ref|Qty|Description|PJRC PN|
 |---|---|-----------|------|
 |U1|1|TEENSY LC DEVELOPMENT BOARD|TEENSY LC|
 
