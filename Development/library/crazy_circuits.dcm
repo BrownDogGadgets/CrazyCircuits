@@ -38,6 +38,11 @@ $CMP GND
 K POWER, PWR
 $ENDCMP
 #
+$CMP IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353
+D IC REG LDO 3.3V 0.5A BU33SD5WG 5SSOP
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxsd5wg-e.pdf
+$ENDCMP
+#
 $CMP LED
 D LED GRN DIFF 5MM ROUND T/H
 F http://www.marktechopto.com/products/datasheet/MT2118-G-A

@@ -1,5 +1,7 @@
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
+|C1 C2|2|CAP CER 1UF 25V X7R 0603|587-2984-1-ND|
 |J1|1|USB MICRO-B RECEPTACLE 5PIN SMT R/A STUDS|609-4616-1-ND|
+|U1|1|IC REG LDO 3.3V 0.15A SOT353|576-3193-1-ND|
 
 
