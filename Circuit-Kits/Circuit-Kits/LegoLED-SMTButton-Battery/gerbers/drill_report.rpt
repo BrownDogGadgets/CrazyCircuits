@@ -1,0 +1,24 @@
+Drill report for LegoLED-SMTButton-Battery.kicad_pcb
+Created on Sun Jan 29 14:30:55 2017
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'LegoLED-SMTButton-Battery.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (20 holes)
+    T2  1.00mm  0.039"  (2 holes)
+    T3  4.98mm  0.196"  (17 holes)
+
+    Total plated holes count 39
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
