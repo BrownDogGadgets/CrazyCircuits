@@ -8,7 +8,7 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Micro-USB connector edge piece that breaks out 3.3V from the USB 5V along with the GND. This could be used insetad of a coin cell battery. 
+Micro-USB connector edge piece that breaks out 3.3V from the USB 5V along with the GND. This could be used instead of a coin cell battery. 
 
 ### Bill of Materials
 
