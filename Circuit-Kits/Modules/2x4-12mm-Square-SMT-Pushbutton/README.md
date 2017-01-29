@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 12mm Square SMT Pushbutton Module v1.1
+# 2x4 12mm Square SMT Pushbutton Module v1.1
 A Lego-compatible Crazy Circuits module
 
 - Updated: 17 Jan 2017

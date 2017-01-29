@@ -5,7 +5,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "2x2 12mm Square SMT Pushbutton Module"
+Title "2x4 12mm Square SMT Pushbutton Module"
 Date "12 Jan 2017"
 Rev "v1.0"
 Comp "All rights reserved."

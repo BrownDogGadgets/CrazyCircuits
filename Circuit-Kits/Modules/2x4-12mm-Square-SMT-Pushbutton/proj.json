@@ -8,11 +8,11 @@
     "gerbers_dir":"gerbers",
     "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
     "license":"All rights reserved.",
-    "projname":"2x2-12mm-Square-SMT-Pushbutton",
+    "projname":"2x4-12mm-Square-SMT-Pushbutton",
     "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
     "template_kicad":"crazy",
     "template_latex":"crazy.tex",
-    "title":"2x2 12mm Square SMT Pushbutton Module",
+    "title":"2x4 12mm Square SMT Pushbutton Module",
     "version":"1.1",
     "website":"http://browndoggadgets.com/"
 }

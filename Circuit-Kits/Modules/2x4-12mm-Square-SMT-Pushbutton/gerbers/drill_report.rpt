@@ -1,5 +1,5 @@
-Drill report for 2x2-12mm-Square-SMT-Pushbutton.kicad_pcb
-Created on Tue Jan 17 22:50:50 2017
+Drill report for 2x4-12mm-Square-SMT-Pushbutton.kicad_pcb
+Created on Sun Jan 29 13:14:06 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file '2x2-12mm-Square-SMT-Pushbutton.drl' contains
+Drill file '2x4-12mm-Square-SMT-Pushbutton.drl' contains
     plated through holes:
     =============================================================
     T1  4.98mm  0.196"  (8 holes)

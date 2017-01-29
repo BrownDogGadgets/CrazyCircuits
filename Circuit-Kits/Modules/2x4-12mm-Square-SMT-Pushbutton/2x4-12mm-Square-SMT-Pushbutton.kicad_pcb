@@ -14,7 +14,7 @@
 
   (page USLetter)
   (title_block
-    (title "2x2 12mm Square SMT Pushbutton Module")
+    (title "2x4 12mm Square SMT Pushbutton Module")
     (date "12 Jan 2017")
     (rev v1.0)
     (company "All rights reserved.")
