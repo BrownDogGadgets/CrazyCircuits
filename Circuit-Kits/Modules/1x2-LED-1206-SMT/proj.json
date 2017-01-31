@@ -1,0 +1,18 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"31 Jan 2017",
+    "date_update":"31 Jan 2017",
+    "description":"A Lego-compatible Crazy Circuits module",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/Crazy-Circuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"1x2-LED-1206-SMT",
+    "template_dir":"/home/wicker/proj/Crazy-Circuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"1x2 LED 1206 SMT Module",
+    "version":"1.0",
+    "website":"http://browndoggadgets.com/"
+}
