@@ -1,5 +1,5 @@
-Drill report for LegoLED-SMTButton-Battery.kicad_pcb
-Created on Fri Feb  3 09:39:49 2017
+Drill report for 5x10-Arduino-Nano-Breakout.kicad_pcb
+Created on Fri Feb  3 12:40:07 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -7,19 +7,18 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'LegoLED-SMTButton-Battery.drl' contains
+Drill file '5x10-Arduino-Nano-Breakout.drl' contains
     plated through holes:
     =============================================================
-    T1  0.50mm  0.020"  (20 holes)
-    T2  1.00mm  0.039"  (2 holes)
-    T3  4.98mm  0.196"  (17 holes)
+    T1  0.33mm  0.013"  (5 holes)
+    T2  1.02mm  0.040"  (30 holes)
+    T3  4.98mm  0.196"  (26 holes)
 
-    Total plated holes count 39
+    Total plated holes count 61
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T4  4.98mm  0.196"  (2 holes)
 
-    Total unplated holes count 2
+    Total unplated holes count 0
