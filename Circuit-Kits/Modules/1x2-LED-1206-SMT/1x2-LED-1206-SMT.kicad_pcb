@@ -3,7 +3,7 @@
   (general
     (links 2)
     (no_connects 2)
-    (area 0 0 0 0)
+    (area 104.572999 74.854999 178.510001 123.265001)
     (thickness 1.6)
     (drawings 17)
     (tracks 0)
@@ -16,10 +16,10 @@
   (title_block
     (title "1x2 LED 1206 SMT Module")
     (date "31 Jan 2017")
-    (rev 1.0)
+    (rev "v1.1")
     (company "All rights reserved.")
-    (comment 1 help@browndoggadgets.com)
-    (comment 2 http://browndoggadgets.com/)
+    (comment 1 "help@browndoggadgets.com")
+    (comment 2 "http://browndoggadgets.com/")
     (comment 3 "Brown Dog Gadgets")
   )
 
@@ -119,7 +119,7 @@
     (add_net VCC)
   )
 
-  (module Crazy_Circuits:LED-SMT-1206-1x2-UNLIMITED (layer F.Cu) (tedit 5890DE56) (tstamp 5890EAE1)
+  (module Crazy_Circuits:LED-SMT-1206-1x2-UNLIMITED (layer F.Cu) (tedit 58A1F773) (tstamp 5890EAE1)
     (at 137.04 98.03)
     (descr "1206 surface mount centered 1x2")
     (path /5890E035)
@@ -168,9 +168,9 @@
     (fp_line (start 0 0) (end 0.0508 0) (layer B.Cu) (width 7.6))
     (pad - smd rect (at 4 -1.71) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask)
+    (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask)
       (net 1 GND))
-    (pad + thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask)
+    (pad + thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask)
       (net 2 VCC))
     (pad + smd rect (at 4 1.71) (size 1.4 1.4) (layers F.Cu F.Paste F.Mask)
       (net 2 VCC))

@@ -1,9 +1,9 @@
-(module LED-SMT-1206-1x2-UNLIMITED (layer F.Cu) (tedit 5890DE56)
+(module LED-SMT-1206-1x2-UNLIMITED (layer F.Cu) (tedit 58A1F773)
   (descr "1206 surface mount centered 1x2")
-  (fp_text reference LED (at 4.6 -3) (layer B.SilkS) hide
+  (fp_text reference LED1 (at 4.6 -3) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value LED-SMT-1206-1x2-UNLIMITED (at 4 5) (layer F.Fab) hide
+  (fp_text value GREEN (at 4 5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user - (at 4 -2.4) (layer F.Fab)
@@ -44,7 +44,7 @@
   (fp_line (start 7.874 0) (end 7.9248 0) (layer B.Cu) (width 7.6))
   (fp_line (start 0 0) (end 0.0508 0) (layer B.Cu) (width 7.6))
   (pad - smd rect (at 4 -1.71) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
-  (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
-  (pad + thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
+  (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
+  (pad + thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
   (pad + smd rect (at 4 1.71) (size 1.4 1.4) (layers F.Cu F.Paste F.Mask))
 )
