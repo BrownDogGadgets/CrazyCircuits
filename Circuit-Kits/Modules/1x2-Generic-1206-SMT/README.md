@@ -1,8 +1,8 @@
 <!--- start title --->
-# 1x2 Generic 1206 SMT Module v1.0
+# 1x2 Generic 1206 SMT Module v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 18 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -11,4 +11,6 @@ A Lego-compatible Crazy Circuits module
 This module is for any surface mount component in the 1206 package. 
 
 ![Gerber Preview](preview.png)
+
+![Assembly](assembly.png)
 
