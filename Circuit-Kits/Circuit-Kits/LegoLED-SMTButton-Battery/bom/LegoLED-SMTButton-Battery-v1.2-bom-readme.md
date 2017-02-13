@@ -5,5 +5,6 @@
 
 |Ref|Qty|Description|Lunchbox electronics PN|
 |---|---|-----------|------|
+|LED1|1|LED LEGO NOVELTY COLOR 5MM PITCH|COM-005|
 
 
