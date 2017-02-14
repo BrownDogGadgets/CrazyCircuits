@@ -1,4 +1,5 @@
-|Ref|Qty|Description|PJRC PN|
+|Ref|Qty|Description|Pjrc PN|
 |---|---|-----------|------|
-|U1|1|TEENSY LC DEVELOPMENT BOARD|TEENSY LC|
+|U11|1|TEENSY LC DEVELOPMENT BOARD|TEENSY LC|
+
 

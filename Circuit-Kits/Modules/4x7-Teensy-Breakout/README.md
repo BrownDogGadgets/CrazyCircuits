@@ -2,7 +2,7 @@
 # 4x7 Teensy LC Breakout v1.1
 A Lego-compatible Crazy Cicuits module
 
-- Updated: 31 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -11,12 +11,13 @@ A Lego-compatible Crazy Cicuits module
 
 This is a breakout board for the Teensy LC development board. 
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
-|Ref|Qty|Description|PJRC PN|
+|Ref|Qty|Description|Pjrc PN|
 |---|---|-----------|------|
-|U1|1|TEENSY LC DEVELOPMENT BOARD|TEENSY LC|
+|U11|1|TEENSY LC DEVELOPMENT BOARD|TEENSY LC|
+
 
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
