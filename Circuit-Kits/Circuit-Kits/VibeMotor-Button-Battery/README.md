@@ -24,8 +24,8 @@ Circuit kit that can be snapped apart into three Lego-compatible modules. Just a
 
 <!--- end bom --->
 
-![Gerber Preview](preview.png)
 ![Assembly Diagram](assembly.png)
+![Gerber Preview](preview.png)
 
 
 

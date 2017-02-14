@@ -21,11 +21,9 @@ Circuit kit that can be snapped apart into three Lego-compatible modules. Just a
 |Ref|Qty|Description|Lunchbox electronics PN|
 |---|---|-----------|------|
 |LED1|1|LED LEGO NOVELTY COLOR 5MM PITCH|COM-005|
-
-
 <!--- bom end --->
-![Gerber Preview](preview.png)
-
 ![Assembly Diagram](assembly.png)
+
+![Gerber Preview](preview.png)
 
 

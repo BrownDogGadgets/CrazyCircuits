@@ -1,5 +1,5 @@
 Drill report for VibeMotor-Button-Battery.kicad_pcb
-Created on Thu Dec 29 13:19:20 2016
+Created on Tue Feb 14 03:50:38 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -12,15 +12,16 @@ Drill file 'VibeMotor-Button-Battery.drl' contains
     =============================================================
     T1  0.50mm  0.020"  (16 holes)
     T2  0.80mm  0.031"  (2 holes)
-    T3  1.00mm  0.039"  (6 holes)
-    T4  4.98mm  0.196"  (17 holes)
+    T3  1.00mm  0.039"  (5 holes)
+    T4  1.20mm  0.047"  (1 hole)
+    T5  4.98mm  0.196"  (12 holes)
 
-    Total plated holes count 41
+    Total plated holes count 36
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T5  4.98mm  0.196"  (1 hole)
+    T6  4.98mm  0.196"  (6 holes)
 
-    Total unplated holes count 1
+    Total unplated holes count 6

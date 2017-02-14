@@ -1,11 +1,10 @@
 <!--- start title --->
 # USB-Breakout-with-Reset v1.0
 
-Updated: 20 Nov 2016
-
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Updated: 14 Feb 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 

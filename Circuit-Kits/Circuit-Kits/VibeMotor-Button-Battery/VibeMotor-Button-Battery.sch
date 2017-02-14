@@ -7,13 +7,13 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp "All Rights Reserved"
-Comment1 "help@browndoggadgets.com"
-Comment2 "http://www.browndoggadgets.com/"
-Comment3 "Company: Brown Dog Gadgets"
+Title "VibeMotor-Button-Battery Circuit Kit"
+Date "27 Dec 2016"
+Rev"v1.2"
+Comp "All rights reserved.")
+Comment1 "help@browndoggadgets.com")
+Comment2 "http://browndoggadgets.com/")
+Comment3 "Brown Dog Gadgets")
 Comment4 ""
 $EndDescr
 $Comp

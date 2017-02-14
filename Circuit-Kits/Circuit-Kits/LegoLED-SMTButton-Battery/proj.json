@@ -2,7 +2,7 @@
     "bom_dir":"bom",
     "company":"Brown Dog Gadgets",
     "date_create":"29 Jan 2017",
-    "date_update":"13 Feb 2017",
+    "date_update":"14 Feb 2017",
     "description":"Lego-compatible circuits by Brown Dog Gadgets",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
@@ -15,8 +15,8 @@
     "title":"LegoLED-SMTButton-Battery Circuit Kit",
     "version":"1.2",
     "website":"http://browndoggadgets.com/",
-    "width_assembly_png":"80",
+    "width_assembly_png":"70",
     "width_other_png":"50",
-    "width_preview_png":"80",
+    "width_preview_png":"70",
     "width_schematic_png":"90"
 }
