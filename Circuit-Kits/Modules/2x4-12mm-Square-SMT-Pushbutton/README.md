@@ -11,9 +11,9 @@ A Lego-compatible Crazy Circuits module
 
 This is a large surface mount pushbutton that makes a very satisfying click.
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |SW1|1|SWITCH MOMENT SPST-NO 0.05A 24V SMT B3FS-4002P|SW1278CT-ND|
