@@ -2,7 +2,7 @@
 # 3x4 555 Timer 8DIP Breakout Module v1.0
 A Lego-compatible Crazy Circuits module
 
-- Updated: 20 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -10,9 +10,9 @@ A Lego-compatible Crazy Circuits module
 <!--- end title --->
 The 555 Timer is an oscillator that's good for all kinds of timer circuits.
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |U1|1|IC OSC 555 TIMER 8-DIP|LM555CNFS-ND|
