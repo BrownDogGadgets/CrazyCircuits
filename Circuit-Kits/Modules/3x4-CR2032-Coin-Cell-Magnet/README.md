@@ -10,9 +10,9 @@ A Lego-compatible Crazy Circuits module.
 <!--- end title --->
 This is a holder for a 3V CR2032 coin cell battery. The extra three pads on the bottom make it usable with Crazy-compatible magnets.
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |BT1|1|HOLDER BATT COIN CR2032/20MM|BK-912-ND|

@@ -1,5 +1,5 @@
 Drill report for 3x4-CR2032-Coin-Cell-Magnet.kicad_pcb
-Created on Tue Jan 24 12:56:49 2017
+Created on Tue Feb 14 00:04:09 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,14 @@ Copper Layer Stackup:
 Drill file '3x4-CR2032-Coin-Cell-Magnet.drl' contains
     plated through holes:
     =============================================================
-    T1  4.98mm  0.196"  (12 holes)
+    T1  4.98mm  0.196"  (7 holes)
 
-    Total plated holes count 12
+    Total plated holes count 7
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
+    T2  4.98mm  0.196"  (5 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 5
