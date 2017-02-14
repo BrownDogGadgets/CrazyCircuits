@@ -2,7 +2,7 @@
 # Crazy Circuits Logo Blank v1.0
 Crazy Circuits logo
 
-- Updated: 17 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
