@@ -2,7 +2,7 @@
     "bom_dir":"bom",
     "company":"Brown Dog Gadgets",
     "date_create":"18 Jan 2017",
-    "date_update":"18 Jan 2017",
+    "date_update":"13 Feb 2017",
     "description":"A Lego-compatible Crazy Circuits module",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
@@ -15,9 +15,8 @@
     "title":"2x2 Slide Switch (EG1218)",
     "version":"1.0",
     "website":"http://browndoggadgets.com/",
-    "width_assembly_png":"40",
+    "width_assembly_png":"30",
     "width_other_png":"50",
-    "width_preview_png":"80",
-    "width_schematic_png":"90"
-
+    "width_preview_png":"50",
+    "width_schematic_png":"40"
 }
