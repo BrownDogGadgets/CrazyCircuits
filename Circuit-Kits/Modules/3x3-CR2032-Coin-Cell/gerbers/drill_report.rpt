@@ -1,5 +1,5 @@
 Drill report for 3x3-CR2032-Coin-Cell.kicad_pcb
-Created on Tue Jan 24 12:55:36 2017
+Created on Mon Feb 13 23:52:32 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,14 @@ Copper Layer Stackup:
 Drill file '3x3-CR2032-Coin-Cell.drl' contains
     plated through holes:
     =============================================================
-    T1  4.98mm  0.196"  (9 holes)
+    T1  4.98mm  0.196"  (4 holes)
 
-    Total plated holes count 9
+    Total plated holes count 4
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
+    T2  4.98mm  0.196"  (5 holes)
 
-    Total unplated holes count 0
+    Total unplated holes count 5
