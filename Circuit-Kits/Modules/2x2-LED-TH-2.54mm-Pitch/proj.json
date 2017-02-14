@@ -2,7 +2,7 @@
     "bom_dir":"bom",
     "company":"Brown Dog Gadgets",
     "date_create":"13 Jan 2017",
-    "date_update":"13 Jan 2017",
+    "date_update":"14 Feb 2017",
     "description":"A Lego-compatible Crazy Circuits module",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
@@ -15,9 +15,8 @@
     "title":"2x2 Through-hole LED (2.54mm Pitch) Module",
     "version":"1.1",
     "website":"http://browndoggadgets.com/",
-    "width_assembly_png":"40",
+    "width_assembly_png":"30",
     "width_other_png":"50",
-    "width_preview_png":"80",
+    "width_preview_png":"60",
     "width_schematic_png":"90"
-
 }
