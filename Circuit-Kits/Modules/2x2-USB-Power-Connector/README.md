@@ -2,7 +2,7 @@
 # 2x2 USB Power Connector Module v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 18 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -10,9 +10,9 @@ A Lego-compatible Crazy Circuits module
 
 Micro-USB connector edge piece that breaks out 3.3V from the USB 5V along with the GND. This could be used instead of a coin cell battery. 
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |C1 C2|2|CAP CER 1UF 25V X7R 0603|587-2984-1-ND|
