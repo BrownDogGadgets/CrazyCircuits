@@ -2,7 +2,7 @@
     "bom_dir":"bom",
     "company":"Brown Dog Gadgets",
     "date_create":"20 Jan 2017",
-    "date_update":"20 Jan 2017",
+    "date_update":"14 Feb 2017",
     "description":"A Lego-compatible Crazy Circuits module",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
@@ -19,5 +19,4 @@
     "width_other_png":"50",
     "width_preview_png":"80",
     "width_schematic_png":"90"
-
 }

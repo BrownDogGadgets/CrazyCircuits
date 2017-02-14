@@ -2,7 +2,7 @@
 # 2x3 Potentiometer (P160K) Module v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 20 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -10,9 +10,9 @@ A Lego-compatible Crazy Circuits module
 <!--- end title --->
 This is a 10K potentiometer. 
 
+<!--- bom start --->
 ### Bill of Materials
 
-<!--- bom start --->
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |R1|1|POT 10K OHM 1/5W PLASTIC LINEAR|987-1301-ND|
