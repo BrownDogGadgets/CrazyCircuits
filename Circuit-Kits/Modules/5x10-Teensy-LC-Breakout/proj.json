@@ -14,5 +14,10 @@
     "template_latex":"crazy.tex",
     "title":"5x10 Teensy LC Breakout Module",
     "version":"1.1",
-    "website":"http://browndoggadgets.com/"
+    "website":"http://browndoggadgets.com/",
+    "width_assembly_png":"40",
+    "width_other_png":"50",
+    "width_preview_png":"80",
+    "width_schematic_png":"90"
+
 }
