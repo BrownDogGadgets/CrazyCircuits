@@ -2,7 +2,7 @@
 # 2x4 Cap Sense Slider Module v1.0
 A Lego-compatible Crazy Circuits module
 
-- Updated: 18 Jan 2017
+- Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
