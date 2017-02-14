@@ -1,4 +1,4 @@
-Crazy Circuit Kits and Modules
+# Crazy Circuit Kits and Modules
 
 These projects are all finished and ready to be downloaded. Each folder contains a single board (a module) or a kit that can be snapped apart. 
 
