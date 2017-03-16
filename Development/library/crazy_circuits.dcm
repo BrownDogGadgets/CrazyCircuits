@@ -83,6 +83,11 @@ D Button
 K Switch
 $ENDCMP
 #
+$CMP SW_TOGGLE
+D Button
+K Switch
+$ENDCMP
+#
 $CMP Servo_Breakout
 D Resistor
 $ENDCMP
