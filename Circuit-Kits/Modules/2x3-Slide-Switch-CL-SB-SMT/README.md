@@ -9,11 +9,18 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
+This is a slide switch module with three positions. 
 
-### Bill of Materials
+![Schematic](schematic.png)
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|SW1|1|SWITCH SLIDE SPDT 200MA 12V CL-SB|563-1314-1-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 
