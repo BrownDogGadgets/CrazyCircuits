@@ -1,0 +1,46 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-CdS-Photocell-TH/2x2-CdS-Photocell-TH.sch)
+    (date "Fri 17 Mar 2017 11:52:05 AM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x2 CdS Photocell TH Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "17 Mar 2017")
+        (source 2x2-CdS-Photocell-TH.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref LDR1)
+      (value Photocell)
+      (fields
+        (field (name Description) "PHOTOCELL 16-33KOHM")
+        (field (name MF_Name) Luna)
+        (field (name MF_PN) PDV-P8103)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) PDV-P8103-ND))
+      (libsource (lib crazy_circuits) (part Photocell))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58CC3684)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Photocell)
+      (description "LED GRN DIFF 5MM ROUND T/H")
+      (docs http://www.marktechopto.com/products/datasheet/MT2118-G-A)
+      (fields
+        (field (name Reference) LDR)
+        (field (name Value) Photocell))
+      (pins
+        (pin (num +) (name ~) (type passive))
+        (pin (num -) (name ~) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /+)
+      (node (ref LDR1) (pin +)))
+    (net (code 2) (name /-)
+      (node (ref LDR1) (pin -)))))
