@@ -9,11 +9,16 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
-
-### Bill of Materials
+The 555 Timer is an oscillator that's good for all kinds of timer circuits.
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|U1|1|IC OSC 555 TIMER 8-SOIC|LM555CMFS-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 

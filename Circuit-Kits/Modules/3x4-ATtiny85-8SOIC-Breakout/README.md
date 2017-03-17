@@ -3,17 +3,21 @@
 A Lego-compatible Crazy Circuits module
 
 - Updated: 17 Mar 2017
-
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
-
-### Bill of Materials
+This is a breakout board for an ATiny85, a tiny microcontroller. 
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|U1|1|IC MCU 8BIT ATTINY85 8SOIC|ATTINY85-20SU-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 
