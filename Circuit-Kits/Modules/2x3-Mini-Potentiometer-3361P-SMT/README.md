@@ -9,11 +9,16 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
-
-### Bill of Materials
+This is a small 10K trim potentiometer that requires a little screwdriver to increase or decrease the resistance. 
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|R1|1|TRIMMER 10K OHM 0.5W SMD|3361P-103GLFCT-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 
