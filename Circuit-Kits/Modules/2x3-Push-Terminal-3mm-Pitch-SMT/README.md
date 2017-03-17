@@ -9,11 +9,16 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
-
-### Bill of Materials
+A two-pin terminal block that lets you push the wire in instead of requiring a screwdriver.
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|J1|1|CONN MINI LITE-TRAP RCPT 2POS|WM11924CT-ND|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 
