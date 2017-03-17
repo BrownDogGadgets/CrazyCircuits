@@ -37,7 +37,7 @@ LabSize=50
 version=1
 [eeschema]
 version=1
-LibDir=/home/wicker/proj/Crazy-Circuits/Development/library/
+LibDir=/home/wicker/proj/CrazyCircuits/Development/library/
 [eeschema/libraries]
 LibName1=crazy_circuits
 

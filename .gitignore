@@ -10,9 +10,6 @@
 _autosave-*
 *.tmp
 
-# Netlist files (exported from Eeschema)
-*.net
-
 # Autorouter files (exported from Pcbnew)
 .dsn
 

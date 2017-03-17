@@ -3,7 +3,7 @@
     "company":"Brown Dog Gadgets",
     "date_create":"",
     "date_update":"",
-    "description":"",
+    "description":"A Lego-compatible Crazy Circuits module",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
     "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",

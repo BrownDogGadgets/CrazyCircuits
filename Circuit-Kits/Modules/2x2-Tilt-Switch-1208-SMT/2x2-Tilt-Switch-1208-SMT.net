@@ -1,0 +1,46 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-Tilt-Switch-1208-SMT/2x2-Tilt-Switch-1208-SMT.sch)
+    (date "Fri 17 Mar 2017 11:05:39 AM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x2 Tilt Switch 1208 SMT Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "16 Mar 2017")
+        (source 2x2-Tilt-Switch-1208-SMT.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SW1)
+      (value SW_TILT)
+      (footprint Crazy_Circuits:SWITCH-TILT-SMT-1208-2x2-CENTER)
+      (fields
+        (field (name Description) "TILT SENSOR 2 PIN PKGS-25SXAP1-R")
+        (field (name MF_Name) Murata)
+        (field (name MF_PN) PKGS-25SXAP1-R)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) 490-12110-1-ND))
+      (libsource (lib crazy_circuits) (part SW_TOGGLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58CABBD1)))
+  (libparts
+    (libpart (lib crazy_circuits) (part SW_TOGGLE)
+      (description Button)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_TOGGLE))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /1)
+      (node (ref SW1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref SW1) (pin 2)))))

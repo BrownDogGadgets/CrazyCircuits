@@ -1,0 +1,49 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-Slide-Switch-EG1218-TH/2x2-Slide-Switch-EG1218-TH.sch)
+    (date "Fri 17 Mar 2017 11:10:00 AM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x2 Slide Switch (EG1218)")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "18 Jan 2017")
+        (source 2x2-Slide-Switch-EG1218-TH.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SW1)
+      (value "P/N EG1218")
+      (footprint Crazy_Circuits:SWITCH-SPDT-3PIN-2.5mmPITCH-TH-2x2)
+      (fields
+        (field (name Description) "SWITCH SLIDE SPDT 200MA 30V EG1218")
+        (field (name MF_Name) E-Switch)
+        (field (name MF_PN) EG1218)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) EG1903-ND))
+      (libsource (lib crazy_circuits) (part SPDT_Small))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 587FDCA1)))
+  (libparts
+    (libpart (lib crazy_circuits) (part SPDT_Small)
+      (description "Interrupteur simple")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SPDT_Small))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name 3) (type input)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /1)
+      (node (ref SW1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref SW1) (pin 2)))
+    (net (code 3) (name /3)
+      (node (ref SW1) (pin 3)))))
