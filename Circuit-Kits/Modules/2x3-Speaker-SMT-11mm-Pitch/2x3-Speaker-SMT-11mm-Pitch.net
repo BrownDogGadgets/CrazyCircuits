@@ -1,0 +1,44 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Speaker-SMT-11mm-Pitch/2x3-Speaker-SMT-11mm-Pitch.sch)
+    (date "Fri 17 Mar 2017 11:55:42 AM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x3 Speaker 11mm Pitch Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "17 Mar 2017")
+        (source 2x3-Speaker-SMT-11mm-Pitch.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SPK1)
+      (value Speaker)
+      (fields
+        (field (name Description) "SPEAKER PIEZO 25V SMD PKLCS1212E4001-R1")
+        (field (name MF_Name) Murata)
+        (field (name MF_PN) PKLCS1212E4001-R1)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) 490-4683-1-ND))
+      (libsource (lib crazy_circuits) (part Speaker))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58CC30BB)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Speaker)
+      (fields
+        (field (name Reference) SPK)
+        (field (name Value) Speaker))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name VCC)
+      (node (ref SPK1) (pin 1)))
+    (net (code 2) (name GND)
+      (node (ref SPK1) (pin 2)))))
