@@ -9,11 +9,16 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Description.
-
-### Bill of Materials
+This simple tilt switch is either closed or open, depending on which end of the tube the ball has rolled down.
 
 <!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Mouser PN|
+|---|---|-----------|------|
+|SW1|1|TILT SENSOR ROLLING BALL 107-2006-EV|107-2006-EV|
+
+
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)
 
