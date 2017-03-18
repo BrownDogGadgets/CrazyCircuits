@@ -3,7 +3,6 @@
 A Lego-compatible Crazy Circuits module
 
 - Updated: 17 Mar 2017
-
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -19,7 +18,6 @@ This is a slide switch module with three positions.
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |SW1|1|SWITCH SLIDE SPDT 200MA 30V EG1218|EG1903-ND|
-
 
 <!--- bom end --->
 ![Assembly Diagram](assembly.png)

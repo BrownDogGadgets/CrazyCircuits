@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Slide-Switch-EG1218-TH/2x3-Slide-Switch-EG1218-TH.sch)
-    (date "Fri 17 Mar 2017 12:35:09 PM PDT")
+    (date "Sat 18 Mar 2017 10:15:19 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref SW1)
       (value "P/N EG1218")
+      (footprint Crazy_Circuits:SWITCH-SPDT-3PIN-2.5mmPITCH-TH-2x3)
       (fields
         (field (name Description) "SWITCH SLIDE SPDT 200MA 30V EG1218")
         (field (name MF_Name) E-Switch)
