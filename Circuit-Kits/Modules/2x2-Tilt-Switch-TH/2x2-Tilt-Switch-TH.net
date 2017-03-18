@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-Tilt-Switch-TH/2x2-Tilt-Switch-TH.sch)
-    (date "Fri 17 Mar 2017 12:30:59 PM PDT")
+    (date "Sat 18 Mar 2017 10:43:49 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref SW1)
       (value SW_TILT)
+      (footprint Crazy_Circuits:TILT-SENSOR-TH-2x2)
       (fields
         (field (name Description) "TILT SENSOR ROLLING BALL 107-2006-EV")
         (field (name MF_Name) "Mountain Switch")

@@ -7,11 +7,11 @@ encoding utf-8
 Sheet 1 1
 Title "2x2 Tilt Switch TH"
 Date "17 Mar 2017"
-Rev"1.0"
-Comp "All rights reserved.")
-Comment1 "help@browndoggadgets.com")
-Comment2 "http://browndoggadgets.com/")
-Comment3 "Brown Dog Gadgets")
+Rev "1.0"
+Comp "All rights reserved."
+Comment1 "help@browndoggadgets.com"
+Comment2 "http://browndoggadgets.com/"
+Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 Wire Wire Line
@@ -28,7 +28,7 @@ U 1 1 58CABBD1
 P 4875 3950
 F 0 "SW1" H 5025 4060 50  0000 C CNN
 F 1 "SW_TILT" H 4875 3870 50  0000 C CNN
-F 2 "" H 4875 3950 50  0000 C CNN
+F 2 "Crazy_Circuits:TILT-SENSOR-TH-2x2" H 4875 3950 50  0001 C CNN
 F 3 "" H 4875 3950 50  0000 C CNN
 F 4 "TILT SENSOR ROLLING BALL 107-2006-EV" H 4875 3950 60  0001 C CNN "Description"
 F 5 "Mountain Switch" H 4875 3950 60  0001 C CNN "MF_Name"
