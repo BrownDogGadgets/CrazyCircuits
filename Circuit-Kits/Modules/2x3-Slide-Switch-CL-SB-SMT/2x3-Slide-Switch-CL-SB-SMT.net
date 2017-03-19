@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Slide-Switch-CL-SB-SMT/2x3-Slide-Switch-CL-SB-SMT.sch)
-    (date "Fri 17 Mar 2017 12:39:35 PM PDT")
+    (date "Sun 19 Mar 2017 10:51:42 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref SW1)
       (value "P/N CL-SB-12A-01T")
+      (footprint Crazy_Circuits:SWITCH-SPDT-3PIN-CL-SB-SMT-2x3)
       (fields
         (field (name Description) "SWITCH SLIDE SPDT 200MA 12V CL-SB")
         (field (name MF_Name) Copal)

@@ -1,0 +1,20 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
+%TF.CreationDate,2017-03-19T10:55:10-07:00*%
+%TF.ProjectId,2x3-Slide-Switch-CL-SB-SMT,3278332D536C6964652D537769746368,1.0*%
+%TF.FileFunction,Paste,Top*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Sun Mar 19 10:55:10 2017*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+%ADD11R,1.447800X1.046480*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X5979160Y-45394880D03*
+X8778240Y-47894240D03*
+X5979160Y-50393600D03*
+M02*
