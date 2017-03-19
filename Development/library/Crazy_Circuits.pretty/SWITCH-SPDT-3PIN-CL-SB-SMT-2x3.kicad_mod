@@ -1,4 +1,4 @@
-(module SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 58CEC5A3)
+(module SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 58CEC928)
   (descr "SWITCH SPDT 0S102011MA1QN1 2x3")
   (tags "SWITCH SPDT 0S102011MA1QN1 2x3")
   (fp_text reference SW1 (at 8 -3.8735) (layer F.SilkS) hide
@@ -72,7 +72,7 @@
   (pad "" np_thru_hole circle (at 0 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
   (pad "" np_thru_hole circle (at 8 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
   (pad "" np_thru_hole circle (at 8 0) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-  (pad "" np_thru_hole circle (at 3.1115 -8.255) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 14.986 -4.0005 270) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 3.2385 0.635 180) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 3.1115 -8.255) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu B.Mask))
+  (pad "" thru_hole circle (at 14.986 -4.0005 270) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu B.Mask))
+  (pad "" thru_hole circle (at 3.2385 0.635 180) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu B.Mask))
 )
