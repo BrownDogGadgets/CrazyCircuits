@@ -1,10 +1,16 @@
-(module SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 58CEC928)
+(module SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 58CECCAF)
   (descr "SWITCH SPDT 0S102011MA1QN1 2x3")
   (tags "SWITCH SPDT 0S102011MA1QN1 2x3")
   (fp_text reference SW1 (at 8 -3.8735) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value "P/N CL-SB-12A-01T" (at 8.2 4.8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user OUT (at -0.127 -3.8735) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user IN (at 18.034 -3.937) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.032 0) (end 6.858 0) (layer F.Fab) (width 0.04064))
