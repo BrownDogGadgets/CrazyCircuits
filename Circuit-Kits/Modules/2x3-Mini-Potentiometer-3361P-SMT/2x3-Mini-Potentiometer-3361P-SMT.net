@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Mini-Potentiometer-3361P-SMT/2x3-Mini-Potentiometer-3361P-SMT.sch)
-    (date "Fri 17 Mar 2017 11:59:38 AM PDT")
+    (date "Tue 21 Mar 2017 11:15:26 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref R1)
       (value "10K TRIMPOT")
+      (footprint Crazy_Circuits:POTENTIOMETER-3361P-SMT-2x3)
       (fields
         (field (name Description) "TRIMMER 10K OHM 0.5W SMD")
         (field (name MF_Name) Bourns)
