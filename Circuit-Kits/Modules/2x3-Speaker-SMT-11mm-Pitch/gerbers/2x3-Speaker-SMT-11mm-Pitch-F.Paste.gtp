@@ -1,0 +1,19 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
+%TF.CreationDate,2017-03-21T11:44:34-07:00*%
+%TF.ProjectId,2x3-Speaker-SMT-11mm-Pitch,3278332D537065616B65722D534D542D,1.0*%
+%TF.FileFunction,Paste,Top*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Tue Mar 21 11:44:34 2017*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+%ADD11R,1.047600X3.147600*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X7920760Y-38529760D03*
+X18720760Y-38529760D03*
+M02*

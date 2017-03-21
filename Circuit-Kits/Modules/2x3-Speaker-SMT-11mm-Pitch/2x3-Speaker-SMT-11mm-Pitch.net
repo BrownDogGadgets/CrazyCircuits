@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Speaker-SMT-11mm-Pitch/2x3-Speaker-SMT-11mm-Pitch.sch)
-    (date "Fri 17 Mar 2017 11:55:42 AM PDT")
+    (date "Tue 21 Mar 2017 11:42:38 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref SPK1)
       (value Speaker)
+      (footprint Crazy_Circuits:SPEAKER-PIEZO-11MMPitch-PKLCS1212E4001-2x3)
       (fields
         (field (name Description) "SPEAKER PIEZO 25V SMD PKLCS1212E4001-R1")
         (field (name MF_Name) Murata)
