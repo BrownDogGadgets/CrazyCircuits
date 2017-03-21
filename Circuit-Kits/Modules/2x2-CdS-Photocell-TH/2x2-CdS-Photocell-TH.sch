@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:crazy_circuits
 LIBS:wickerlib
+LIBS:2x2-CdS-Photocell-TH-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -21,7 +22,7 @@ U 1 1 58CC3684
 P 4825 3275
 F 0 "LDR1" H 4900 3325 50  0000 L CNN
 F 1 "Photocell" H 4900 3225 50  0000 L CNN
-F 2 "" H 4825 3075 50  0001 C CIN
+F 2 "Crazy_Circuits:PHOTOCELL-3.4MM-TH-2x2" H 4825 3075 50  0001 C CIN
 F 3 "" V 4825 3275 5   0001 C CNN
 F 4 "PHOTOCELL 16-33KOHM" H 4825 3275 60  0001 C CNN "Description"
 F 5 "Luna" H 4825 3275 60  0001 C CNN "MF_Name"
@@ -40,7 +41,7 @@ Wire Wire Line
 Wire Wire Line
 	4825 3500 4750 3500
 Text Label 4750 3100 0    50   ~ 0
-+
+1
 Text Label 4750 3500 0    50   ~ 0
--
+2
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-CdS-Photocell-TH/2x2-CdS-Photocell-TH.sch)
-    (date "Fri 17 Mar 2017 11:52:05 AM PDT")
+    (date "Tue 21 Mar 2017 10:27:24 AM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,6 +17,7 @@
   (components
     (comp (ref LDR1)
       (value Photocell)
+      (footprint Crazy_Circuits:PHOTOCELL-3.4MM-TH-2x2)
       (fields
         (field (name Description) "PHOTOCELL 16-33KOHM")
         (field (name MF_Name) Luna)
@@ -34,13 +35,13 @@
         (field (name Reference) LDR)
         (field (name Value) Photocell))
       (pins
-        (pin (num +) (name ~) (type passive))
-        (pin (num -) (name ~) (type passive)))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical crazy_circuits)
       (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
   (nets
-    (net (code 1) (name /+)
-      (node (ref LDR1) (pin +)))
-    (net (code 2) (name /-)
-      (node (ref LDR1) (pin -)))))
+    (net (code 1) (name /1)
+      (node (ref LDR1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref LDR1) (pin 2)))))
