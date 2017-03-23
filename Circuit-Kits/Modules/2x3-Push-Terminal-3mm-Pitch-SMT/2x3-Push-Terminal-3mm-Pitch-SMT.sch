@@ -7,11 +7,11 @@ encoding utf-8
 Sheet 1 1
 Title "2x3 Push Terminal 3mm Pitch SMT"
 Date "17 Mar 2017"
-Rev"1.0"
-Comp "All rights reserved.")
-Comment1 "help@browndoggadgets.com")
-Comment2 "http://browndoggadgets.com/")
-Comment3 "Brown Dog Gadgets")
+Rev "1.0"
+Comp "All rights reserved."
+Comment1 "help@browndoggadgets.com"
+Comment2 "http://browndoggadgets.com/"
+Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
@@ -20,7 +20,7 @@ U 1 1 587EB9D9
 P 4950 3575
 F 0 "J1" H 4900 3700 50  0000 L CNN
 F 1 "Push Terminal Block" H 4900 3450 50  0000 L CNN
-F 2 "" H 4950 3575 50  0000 C CNN
+F 2 "Crazy_Circuits:PUSH-TERMINAL-3MM-SMT-2x3" H 4950 3575 50  0000 C CNN
 F 3 "" H 4950 3575 50  0000 C CNN
 F 4 "Molex" H 4950 3575 60  0001 C CNN "MF_Name"
 F 5 "1042380210" H 4950 3575 60  0001 C CNN "MF_PN"
