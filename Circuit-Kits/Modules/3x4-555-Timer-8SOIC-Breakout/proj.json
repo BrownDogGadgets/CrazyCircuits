@@ -2,7 +2,7 @@
     "bom_dir":"bom",
     "company":"Brown Dog Gadgets",
     "date_create":"17 Mar 2017",
-    "date_update":"17 Mar 2017",
+    "date_update":"19 Apr 2017",
     "description":"A Lego-compatible Crazy Circuits module",
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
@@ -15,8 +15,8 @@
     "title":"3x4 555 Timer 8SOIC Breakout Module",
     "version":"1.0",
     "website":"http://browndoggadgets.com/",
-    "width_assembly_png":"40",
+    "width_assembly_png":"20",
     "width_other_png":"50",
-    "width_preview_png":"80",
+    "width_preview_png":"70",
     "width_schematic_png":"90"
 }
