@@ -132,7 +132,7 @@
     (add_net "Net-(U1-Pad8)")
   )
 
-  (module Crazy_Circuits:SOIC8-555Timer-3x4 (layer F.Cu) (tedit 58F82C4D) (tstamp 58D435B1)
+  (module Crazy_Circuits:SOIC8-555Timer-3x4 (layer F.Cu) (tedit 58FAAE86) (tstamp 58D435B1)
     (at 18.5313 88.7095)
     (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
     (tags "dil dip 2.54 300")
@@ -214,6 +214,7 @@
     (fp_line (start 8.0772 -24.0792) (end 16.0772 -24.0792) (layer B.Mask) (width 7))
     (fp_line (start 11.744 -14.688) (end 11.744 -9.188) (layer F.CrtYd) (width 0.05))
     (fp_line (start 11.744 -14.688) (end 11.744 -9.188) (layer F.Fab) (width 0.05))
+    (fp_line (start 0 0) (end 8 0) (layer F.SilkS) (width 7.4))
     (pad 1 thru_hole circle (at 0 0 270) (size 7 7) (drill 4.98) (layers *.Cu B.Mask)
       (net 4 "Net-(U1-Pad1)"))
     (pad "" np_thru_hole circle (at 8 -16 270) (size 4.98 4.98) (drill 4.98) (layers *.Cu))
@@ -254,7 +255,7 @@
       (net 8 "Net-(U1-Pad8)"))
   )
 
-  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ANY COLOR) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE \n   WHITE SILKSCREEN. DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 1.0795 136.0805) (layer Dwgs.User)
+  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (GREEN) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE \n   WHITE SILKSCREEN. DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 1.0795 136.0805) (layer Dwgs.User)
     (effects (font (size 2.54 2.54) (thickness 0.254)) (justify left))
   )
 

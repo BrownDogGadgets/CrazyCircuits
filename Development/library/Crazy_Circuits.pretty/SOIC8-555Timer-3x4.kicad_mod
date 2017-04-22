@@ -1,4 +1,4 @@
-(module SOIC8-555Timer-3x4 (layer F.Cu) (tedit 58F82C4D)
+(module SOIC8-555Timer-3x4 (layer F.Cu) (tedit 58FAAEF6)
   (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "dil dip 2.54 300")
   (fp_text reference U1 (at 8.0976 -12) (layer F.Fab)
@@ -78,6 +78,7 @@
   (fp_line (start 8.0772 -24.0792) (end 16.0772 -24.0792) (layer B.Mask) (width 7))
   (fp_line (start 11.744 -14.688) (end 11.744 -9.188) (layer F.CrtYd) (width 0.05))
   (fp_line (start 11.744 -14.688) (end 11.744 -9.188) (layer F.Fab) (width 0.05))
+  (fp_line (start 0 0) (end 8 0) (layer F.SilkS) (width 7.4))
   (pad 1 thru_hole circle (at 0 0 270) (size 7 7) (drill 4.98) (layers *.Cu B.Mask))
   (pad "" np_thru_hole circle (at 8 -16 270) (size 4.98 4.98) (drill 4.98) (layers *.Cu))
   (pad 6 thru_hole circle (at 0 -16 270) (size 7 7) (drill 4.98) (layers *.Cu B.Mask))
