@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
-%TF.CreationDate,2017-04-21T13:15:15-07:00*%
+%TF.CreationDate,2017-04-22T09:19:11-07:00*%
 %TF.ProjectId,3x4-ATtiny85-8SOIC-Breakout,3378342D415474696E7938352D38534F,1.0*%
 %TF.FileFunction,Copper,L1,Top,Signal*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Fri Apr 21 13:15:15 2017*
+G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Sat Apr 22 09:19:11 2017*
 %MOMM*%
 %LPD*%
 G01*
