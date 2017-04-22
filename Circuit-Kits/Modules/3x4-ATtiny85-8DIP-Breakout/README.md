@@ -2,7 +2,7 @@
 # 3x4 ATtiny85 8DIP Breakout Module v1.0
 A Lego-compatible Crazy Circuits module
 
-- Updated: 13 Feb 2017
+Updated: 22 Apr 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
