@@ -1,7 +1,7 @@
-(module DIP8-3x4 (layer F.Cu) (tedit 5880411E)
+(module DIP8-3x4-ATtiny85 (layer F.Cu) (tedit 58804131)
   (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "dil dip 2.54 300")
-  (fp_text reference REF** (at 8.25 -12) (layer F.Fab)
+  (fp_text reference U1 (at 8.25 -12) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value "8DIP IC" (at 0 -4) (layer B.SilkS) hide
