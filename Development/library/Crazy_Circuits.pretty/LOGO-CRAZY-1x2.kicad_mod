@@ -1,10 +1,10 @@
-(module LOGO-CRAZY-1x2 (layer F.Cu) (tedit 58657A78)
+(module LOGO-CRAZY-1x2 (layer F.Cu) (tedit 58FE5DC6)
   (descr LOGO)
   (tags LOGO)
   (fp_text reference LOGO (at 0 -3.52806) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "BROWN DOG" (at -0.381 -8.89) (layer B.SilkS) hide
+  (fp_text value "BROWN DOG" (at -0.381 -10.414) (layer B.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
   )
   (fp_text user crazycircuits.com (at 0 -4.064) (layer B.SilkS)
@@ -47,12 +47,6 @@
   (fp_arc (start 3.9 -3.9) (end 7.8 -3.9) (angle 90) (layer F.Fab) (width 0.04064))
   (fp_arc (start -3.9 -3.9) (end -3.9 0) (angle 90) (layer F.Fab) (width 0.04064))
   (fp_arc (start -3.9 -3.9) (end -7.8 -3.9) (angle 90) (layer F.Fab) (width 0.04064))
-  (fp_line (start 3.9 -7.8) (end -3.9 -7.8) (layer Edge.Cuts) (width 0.04064))
-  (fp_line (start 3.9 0) (end -3.9 0) (layer Edge.Cuts) (width 0.04064))
-  (fp_arc (start 3.9 -3.9) (end 3.9 -7.8) (angle 90) (layer Edge.Cuts) (width 0.04064))
-  (fp_arc (start 3.9 -3.9) (end 7.8 -3.9) (angle 90) (layer Edge.Cuts) (width 0.04064))
-  (fp_arc (start -3.9 -3.9) (end -3.9 0) (angle 90) (layer Edge.Cuts) (width 0.04064))
-  (fp_arc (start -3.9 -3.9) (end -7.8 -3.9) (angle 90) (layer Edge.Cuts) (width 0.04064))
   (fp_text user CIRCUITS (at 0.254 -2.286) (layer F.SilkS) hide
     (effects (font (thickness 0.381)))
   )
