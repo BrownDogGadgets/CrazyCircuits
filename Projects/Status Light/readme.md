@@ -10,3 +10,4 @@ Touch the "Off" Touch Point to make the second set of LEDs turn On.  This set do
 
 This was you can have a "Room In Use" set of LEDs that Fade to let people know they shouldn't enter.  
 
+We're using Bare Conductive Paint for our two wall Touch Points, and using Conductive Tape to connect everything.
