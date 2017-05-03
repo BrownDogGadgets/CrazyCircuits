@@ -1,4 +1,6 @@
-Crazy Touch LED
+![img}(https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Touch%20LED/squishy.gif)
+
+# Crazy Touch LED
 
 This is a simple sketch that uses four Touch Points and 4 LED outputs.
 
