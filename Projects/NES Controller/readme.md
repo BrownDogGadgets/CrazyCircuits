@@ -1,6 +1,6 @@
 ![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/NES%20Controller/NES%20Controller.JPG)
 
-<p>NES Controller</p>
+# NES Controller
 
 In this project we're using a Crazy Touch board as a keyboard emulator in order to make a classic NES controller.  Here you'll find the Code, LEGO Digital Designer files, laser cut files, and general information.  We also have a handy youtube video of how to build this project.
 
