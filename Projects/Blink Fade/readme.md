@@ -1,3 +1,4 @@
+# Blink/ Fade
 This is the code that runs on our Blink/ Fade Board.
 
 The code runs on the Attiny85 built into the board.
