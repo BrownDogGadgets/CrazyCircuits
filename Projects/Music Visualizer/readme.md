@@ -1,6 +1,6 @@
 ![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Music%20Visualizer/visualizer.JPG)
 
-<p>One Channel Music Visualizer</p>
+# One Channel Music Visualizer
 
 This project is a simple music visualizer for Arduino.  We're using Crazy Circuits parts since they're LEGO compatible.
 
