@@ -1,5 +1,6 @@
 ![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Touch%20Piano/piano.jpg)
-<p>Crazy Circuits Touch Piano/ Synth</p>
+
+# Crazy Circuits Touch Piano/ Synth
 
 Simple synth using the Capacitive Touch feature of the Crazy Circuits Touch Board.
 
