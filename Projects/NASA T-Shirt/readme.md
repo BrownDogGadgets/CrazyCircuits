@@ -4,7 +4,7 @@
 
 Make several LEDs twinkle when a touch point is activited.
 
-Overview
+## Overview
 
 We wanted to make a NASA t-shrt more interesting, so we added LEDs that are controlled by a touch point.
 
