@@ -1,4 +1,4 @@
-Scorekeeper
+# Scorekeeper
 
 This is a simple program that tracks two sets of scores. The project uses a Crazy Circuits Touch Board, LEDs, a Piezo Speaker, and Conductive Tape.
 
