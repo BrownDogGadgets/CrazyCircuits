@@ -1,4 +1,4 @@
-![img}(https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Touch%20LED/squishy.gif)
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Touch%20LED/squishy.gif)
 
 # Crazy Touch LED
 
