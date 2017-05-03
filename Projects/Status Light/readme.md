@@ -1,4 +1,4 @@
-Status Light
+# Status Light
 
 This is a simple two Touch Point sketch that activates two LEDs.  We're using this as a "Status Light" for our Photography Room.
 
