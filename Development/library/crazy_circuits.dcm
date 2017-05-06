@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5V
+K POWER, PWR
+$ENDCMP
+#
 $CMP ATTINY25-P
 D PDIP8, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire
 K AVR 8bit Microcontroller tinyAVR

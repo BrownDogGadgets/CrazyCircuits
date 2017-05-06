@@ -1,5 +1,5 @@
 Drill report for 5x11-Arduino-Nano-Robot-Version.kicad_pcb
-Created on Mon Apr 24 13:19:38 2017
+Created on Sat May  6 04:50:43 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file '5x11-Arduino-Nano-Robot-Version.drl' contains
     plated through holes:
     =============================================================
-    T1  0.33mm  0.013"  (13 holes)
-    T2  1.02mm  0.040"  (45 holes)
+    T1  0.33mm  0.013"  (19 holes)
+    T2  1.02mm  0.040"  (47 holes)
     T3  4.98mm  0.196"  (28 holes)
 
-    Total plated holes count 86
+    Total plated holes count 94
 
 
 Not plated through holes are merged with plated holes

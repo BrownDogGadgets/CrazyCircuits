@@ -33,27 +33,12 @@ F 8 "CP1-3523N-ND" H 4875 3000 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4875 3200 4700 3200
-Wire Wire Line
-	4700 3100 4700 3300
-$Comp
-L VCC #PWR01
-U 1 1 5900E8EC
-P 4700 3100
-F 0 "#PWR01" H 4700 2950 50  0001 C CNN
-F 1 "VCC" H 4700 3250 50  0000 C CNN
-F 2 "" H 4700 3100 50  0000 C CNN
-F 3 "" H 4700 3100 50  0000 C CNN
-	1    4700 3100
-	1    0    0    -1  
-$EndComp
+	4200 3200 4875 3200
 Wire Wire Line
 	4700 3300 4875 3300
 Connection ~ 4700 3200
 Wire Wire Line
-	4875 3400 4700 3400
-Wire Wire Line
-	4700 3400 4700 3700
+	4200 3400 4875 3400
 $Comp
 L GND #PWR02
 U 1 1 5900E910
@@ -70,5 +55,12 @@ Wire Wire Line
 Connection ~ 4700 3600
 Wire Wire Line
 	4875 3500 4700 3500
-Connection ~ 4700 3500
+Text Label 4200 3400 0    50   ~ 0
+2
+Text Label 4200 3200 0    50   ~ 0
+1
+Wire Wire Line
+	4700 3500 4700 3700
+Wire Wire Line
+	4700 3300 4700 3200
 $EndSCHEMATC
