@@ -5,7 +5,7 @@
  *
  * Pete Prodoehl <pete@2xlnetworks.com>
  *
- * 2017-03-12
+ * 2017-04-24
  *
  */
 
@@ -14,10 +14,10 @@
 int buttonDownPin  = 15;
 int buttonLeftPin  = 16;
 int buttonUpPin    = 17;
-int buttonRightPin = 21;
-int buttonBPin     = 20;
-int buttonAPin     = 19;
-int buttonCPin     = 18;
+int buttonRightPin = 18;
+int buttonBPin     = 19;
+int buttonAPin     = 20;
+int buttonCPin     = 14;
 int buttonDPin     = 23;
 
 // set LED pin
@@ -27,7 +27,7 @@ int LEDPin = 13;
 int keyDelay = 3;
 
 void setup() {
-  // set all out our pins for input
+  // set all of our pins for input
   pinMode(buttonDownPin,  INPUT_PULLUP);
   pinMode(buttonUpPin,    INPUT_PULLUP);
   pinMode(buttonLeftPin,  INPUT_PULLUP);
@@ -50,7 +50,7 @@ void loop() {
   // check for each of the buttons to be pressed
   // if pressed type the appropriate key, and if
   // not pressed, clear the key sending buffer
-/*
+
   if (digitalRead(buttonDownPin) == LOW) {
     Keyboard.set_modifier(0);
     Keyboard.set_key1(KEY_DOWN);
@@ -116,32 +116,6 @@ void loop() {
     Keyboard.set_key6(0);
     Keyboard.send_now();
   }
-
-*/
-  // check for C button
-  if (digitalRead(buttonCPin) == LOW) {
-    Keyboard.set_key5(KEY_C);
-    Keyboard.send_now();
-  }
-  else {
-    Keyboard.set_modifier(0);
-    Keyboard.set_key5(0);
-    Keyboard.send_now();
-  }
-
-/*
-  // check for D button
-  if (digitalRead(buttonDPin) == LOW) {
-    Keyboard.set_key6(KEY_D);
-    Keyboard.send_now();
-  }
-  else {
-    Keyboard.set_modifier(0);
-    Keyboard.set_key6(0);
-    Keyboard.send_now();
-  }
-
-*/
 
   delay(keyDelay);
 

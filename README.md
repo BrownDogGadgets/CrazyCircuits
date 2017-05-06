@@ -1,3 +1,5 @@
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Crazy%20Circuits%20Arduino.JPG)
+
 # Crazy Circuits 
 
 Crazy Circuits is a project to create Lego-compatible circuit kits and modules by Brown Dog Gadgets. 
