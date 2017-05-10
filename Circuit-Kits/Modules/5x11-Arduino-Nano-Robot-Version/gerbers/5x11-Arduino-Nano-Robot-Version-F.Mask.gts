@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
-%TF.CreationDate,2017-05-06T04:50:43-07:00*%
-%TF.ProjectId,5x11-Arduino-Nano-Robot-Version,357831312D41726475696E6F2D4E616E,1.0*%
+%TF.CreationDate,2017-05-09T22:33:45-07:00*%
+%TF.ProjectId,5x11-Arduino-Nano-Robot-Version,357831312D41726475696E6F2D4E616E,v1.1*%
 %TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Sat May  6 04:50:43 2017*
+G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Tue May  9 22:33:45 2017*
 %MOMM*%
 %LPD*%
 G01*

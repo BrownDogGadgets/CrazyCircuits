@@ -2,7 +2,7 @@
 # 5x11 Arduino Nano Robot Breakout v1.0
 A Lego-compatible Crazy Circuits module
 
-Updated: 6 May 2017
+Updated: 9 May 2017
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
