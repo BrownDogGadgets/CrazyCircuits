@@ -1,0 +1,46 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary.sch)
+    (date "Tue 23 May 2017 04:34:41 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "1x3 Momentary Pushbutton Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "18 Dec 2016")
+        (source 1x3-Button-Momentary.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SW1)
+      (value SW_PUSH)
+      (footprint Crazy_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX)
+      (fields
+        (field (name Description) "SWITCH TACTILE SPST-NO 0.05A 24V")
+        (field (name MF_Name) Omron)
+        (field (name MF_PN) B3F-1000)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) SW400-ND))
+      (libsource (lib crazy_circuits) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 585732B9)))
+  (libparts
+    (libpart (lib crazy_circuits) (part SW_PUSH)
+      (description Button)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /1)
+      (node (ref SW1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref SW1) (pin 2)))))
