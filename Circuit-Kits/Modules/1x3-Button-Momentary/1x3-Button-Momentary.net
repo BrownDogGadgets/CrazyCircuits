@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/1x3-Button-Momentary/1x3-Button-Momentary.sch)
-    (date "Tue 23 May 2017 04:34:41 PM PDT")
+    (date "Tue 23 May 2017 08:10:31 PM PDT")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
