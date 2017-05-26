@@ -1,8 +1,8 @@
 <!--- start title --->
-# 1x3 Momentary Pushbutton SMT Module v1.0
+# 1x3 Momentary Pushbutton SMT Module v1.1
 A Lego-compatible Crazy Circuits module
 
-Updated: 23 May 2017
+Updated: 26 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
