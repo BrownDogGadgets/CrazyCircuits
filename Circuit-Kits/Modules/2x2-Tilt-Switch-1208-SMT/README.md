@@ -2,7 +2,7 @@
 # 2x2 Tilt Switch 1208 SMT Module v1.1
 A Lego-compatible Crazy Circuits module
 
-Updated: 26 May 2017
+- Updated: 26 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
