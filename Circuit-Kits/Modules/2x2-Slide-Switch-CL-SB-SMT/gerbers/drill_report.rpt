@@ -1,5 +1,5 @@
 Drill report for 2x2-Slide-Switch-CL-SB-SMT.kicad_pcb
-Created on Sun Mar 19 11:20:50 2017
+Created on Fri May 26 06:28:51 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -11,14 +11,15 @@ Drill file '2x2-Slide-Switch-CL-SB-SMT.drl' contains
     plated through holes:
     =============================================================
     T1  0.33mm  0.013"  (3 holes)
+    T2  4.98mm  0.196"  (2 holes)
 
-    Total plated holes count 3
+    Total plated holes count 5
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T2  0.90mm  0.035"  (2 holes)
-    T3  4.98mm  0.196"  (4 holes)
+    T3  0.90mm  0.035"  (2 holes)
+    T4  4.98mm  0.196"  (2 holes)
 
-    Total unplated holes count 6
+    Total unplated holes count 4

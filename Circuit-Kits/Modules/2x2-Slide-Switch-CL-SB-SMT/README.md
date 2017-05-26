@@ -1,9 +1,8 @@
 <!--- start title --->
-# 2x2 Slide Switch (CL-SB) SMT v1.0
+# 2x2 Slide Switch (CL-SB) SMT v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 17 Mar 2017
-
+Updated: 26 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
