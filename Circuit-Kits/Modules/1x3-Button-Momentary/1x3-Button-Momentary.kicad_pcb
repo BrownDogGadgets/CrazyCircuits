@@ -16,10 +16,10 @@
   (title_block
     (title "1x3 Momentary Pushbutton Module")
     (date "18 Dec 2016")
-    (rev "v1.2")
+    (rev v1.2)
     (company "All rights reserved.")
-    (comment 1 "help@browndoggadgets.com")
-    (comment 2 "http://browndoggadgets.com/")
+    (comment 1 help@browndoggadgets.com)
+    (comment 2 http://browndoggadgets.com/)
     (comment 3 "Brown Dog Gadgets")
   )
 
@@ -120,7 +120,7 @@
     (add_net /2)
   )
 
-  (module Crazy_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX (layer F.Cu) (tedit 5924C1A3) (tstamp 585739CA)
+  (module Crazy_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX (layer F.Cu) (tedit 592831D6) (tstamp 585739CA)
     (at 24.6146 43.8912)
     (descr "BUTTON 1x3 TH OMRON B3F-1XXX")
     (tags "Omron B3F-10xx")
@@ -131,6 +131,7 @@
     (fp_text value SW_PUSH (at 7.55 -4.6 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_line (start 15.9385 0) (end 16.0655 0) (layer F.SilkS) (width 7.5))
     (fp_line (start 16 3.8) (end 0 3.8) (layer F.Fab) (width 0.05))
     (fp_line (start 0 -3.8) (end 16 -3.8) (layer F.Fab) (width 0.05))
     (fp_arc (start 0 0) (end 0 3.8) (angle 180) (layer F.Fab) (width 0.05))
@@ -157,9 +158,9 @@
     (pad 1 thru_hole circle (at 4.9934 -1.9858) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 /1))
     (pad "" np_thru_hole circle (at 8 0) (size 4.98 4.98) (drill 4.98) (layers *.Cu F.SilkS))
-    (pad 1 thru_hole circle (at 0 0) (size 7.2 7.2) (drill 4.98) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.98) (layers *.Cu *.Mask F.SilkS)
       (net 2 /1))
-    (pad 2 thru_hole circle (at 16 0) (size 7.2 7.2) (drill 4.98) (layers *.Cu *.Mask F.SilkS)
+    (pad 2 thru_hole circle (at 16 0) (size 6.2 6.2) (drill 4.98) (layers *.Cu *.Mask F.SilkS)
       (net 1 /2))
   )
 
