@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 130.811143 91.490944 157.604857 102.014)
+    (area -0.127 26.670144 142.717759 130.3782)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -16,7 +16,7 @@
   (title_block
     (title "1x2 Generic 1206 SMT Module")
     (date "18 Jan 2017")
-    (rev 1.0)
+    (rev v1.2)
     (company "All rights reserved.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -117,7 +117,7 @@
   )
 
   (module Crazy_Circuits:LED-SMT-1206-1x2-CENTER (layer F.Cu) (tedit 58A1F52F) (tstamp 587F7D62)
-    (at 30.4048 31.0642)
+    (at 7.684 42.359)
     (descr "1206 surface mount centered 1x2")
     (fp_text reference LED (at 4.6 -3) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -125,6 +125,7 @@
     (fp_text value GENERIC-SMT-1206-1x2-CENTER (at 4 5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_arc (start 0 0) (end 0 2.7178) (angle 180) (layer F.Mask) (width 0.6))
     (fp_line (start 3.683 -2.159) (end 4.445 -2.159) (layer F.Fab) (width 0.127))
     (fp_line (start 2.921 2.794) (end 2.921 -2.921) (layer F.Fab) (width 0.0464))
     (fp_line (start 5.08 2.794) (end 2.921 2.794) (layer F.Fab) (width 0.0464))
@@ -153,6 +154,7 @@
     (fp_line (start 7.7724 -0.0254) (end 7.874 -0.0254) (layer B.Mask) (width 7))
     (fp_line (start 3.683 2.032) (end 4.445 2.032) (layer F.Fab) (width 0.127))
     (fp_line (start 4.064 2.413) (end 4.064 1.651) (layer F.Fab) (width 0.127))
+    (fp_arc (start 8.001 0) (end 8.001 -2.7178) (angle 180) (layer F.Mask) (width 0.6))
     (pad - smd rect (at 4 -1.71) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
     (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
     (pad + thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
