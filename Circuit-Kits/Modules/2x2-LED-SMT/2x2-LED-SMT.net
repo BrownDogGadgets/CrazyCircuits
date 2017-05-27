@@ -1,0 +1,49 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-LED-SMT/2x2-LED-SMT.sch)
+    (date "Sat 27 May 2017 11:09:14 AM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x2 SMT LED")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "19 Dec 2016")
+        (source 2x2-LED-SMT.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref LED1)
+      (value "RED 2V")
+      (footprint Crazy_Circuits:LED-SMT-1206-2x2-UNLIMIT)
+      (fields
+        (field (name Description) "LED RED 2V 625NM 1206 SMT")
+        (field (name MF_Name) Kingbright)
+        (field (name MF_PN) 150120RS75000)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) 732-4991-1-ND))
+      (libsource (lib crazy_circuits) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58584C75)))
+  (libparts
+    (libpart (lib crazy_circuits) (part LED)
+      (description "LED GRN DIFF 5MM ROUND T/H")
+      (docs http://www.marktechopto.com/products/datasheet/MT2118-G-A)
+      (fields
+        (field (name Reference) LED)
+        (field (name Value) LED)
+        (field (name Footprint) LED)
+        (field (name Datasheet) http://www.marktechopto.com/products/datasheet/MT2118-G-A))
+      (pins
+        (pin (num +) (name ~) (type passive))
+        (pin (num -) (name ~) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name VCC)
+      (node (ref LED1) (pin +)))
+    (net (code 2) (name GND)
+      (node (ref LED1) (pin -)))))
