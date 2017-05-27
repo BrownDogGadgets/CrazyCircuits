@@ -1,0 +1,45 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Speaker-TH-5mm-Pitch/2x3-Speaker-TH-5mm-Pitch.sch)
+    (date "Sat 27 May 2017 04:44:18 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x3 Piezo Speaker (5mm Pitch) Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "18 Jan 2017")
+        (source 2x3-Speaker-TH-5mm-Pitch.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SPK1)
+      (value Speaker)
+      (footprint Crazy_Circuits:SPEAKER-PIEZO-5MMPitch-PS12-PS14-2x3)
+      (fields
+        (field (name Description) "AUDIO SPEAKER PIEZO TH PS1240")
+        (field (name MF_Name) TDK)
+        (field (name MF_PN) PS1240P02BT)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) 445-2525-1-ND))
+      (libsource (lib crazy_circuits) (part Speaker))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58806521)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Speaker)
+      (fields
+        (field (name Reference) SPK)
+        (field (name Value) Speaker))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /1)
+      (node (ref SPK1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref SPK1) (pin 2)))))
