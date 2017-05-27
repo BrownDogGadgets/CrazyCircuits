@@ -3,7 +3,7 @@
   (general
     (links 8)
     (no_connects 8)
-    (area 104.572999 74.854999 178.510001 123.265001)
+    (area 3.175 44.591763 146.019759 152.9588)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -16,7 +16,7 @@
   (title_block
     (title "2x3 6mm Square SMT Pushbutton Module")
     (date "31 Jan 2017")
-    (rev 1.0)
+    (rev v1.1)
     (company "All rights reserved.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -131,6 +131,7 @@
     (fp_text value PTS645 (at 3.6 5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_arc (start -0.0254 0) (end 2.7432 0.0254) (angle 270.4454995) (layer F.Mask) (width 0.6))
     (fp_line (start 12 -0.5) (end 4 -0.5) (layer F.SilkS) (width 0.1))
     (fp_line (start 12 -8.5) (end 12 -0.5) (layer F.SilkS) (width 0.1))
     (fp_line (start 4 -8.5) (end 12 -8.5) (layer F.SilkS) (width 0.1))
@@ -168,6 +169,11 @@
     (fp_line (start 16 -8.1) (end -0.3 -8.1) (layer F.Cu) (width 5))
     (fp_line (start 16 -8.1) (end -0.1 -8.1) (layer B.Cu) (width 7.2))
     (fp_line (start 16 -8.1) (end -0.1 -8.1) (layer B.Mask) (width 7.2))
+    (fp_arc (start -0.046488 -8.001394) (end -0.046488 -5.258194) (angle 268.9302575) (layer F.Mask) (width 0.6))
+    (fp_arc (start 8.001 -8.001394) (end 5.2578 -8.001394) (angle 180.9710219) (layer F.Mask) (width 0.6))
+    (fp_arc (start 16.002 -8.001394) (end 13.2588 -8.001394) (angle 269.0761928) (layer F.Mask) (width 0.6))
+    (fp_arc (start 16.002 0) (end 16.002 -2.7432) (angle 268.9302575) (layer F.Mask) (width 0.6))
+    (fp_arc (start 8.000606 0.046488) (end 10.743806 0.046488) (angle 180.9710219) (layer F.Mask) (width 0.6))
     (pad 1 thru_hole circle (at 0 -8 270) (size 6 6) (drill 4.98) (layers *.Cu B.Mask)
       (net 2 /1))
     (pad 2 thru_hole circle (at 8 -8 270) (size 6 6) (drill 4.98) (layers *.Cu B.Mask)
