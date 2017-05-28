@@ -3,7 +3,7 @@
   (general
     (links 4)
     (no_connects 4)
-    (area -1.81356 17.769679 141.031199 115.19408)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -16,7 +16,7 @@
   (title_block
     (title "2x3 Push Terminal 3mm Pitch SMT")
     (date "17 Mar 2017")
-    (rev 1.0)
+    (rev v1.1)
     (company "All rights reserved.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -120,12 +120,8 @@
     (add_net /2)
   )
 
-<<<<<<< HEAD
-  (module Crazy_Circuits:PUSH-TERMINAL-3MM-SMT-2x3 (layer F.Cu) (tedit 58D424E3) (tstamp 58D42FFA)
-=======
-  (module Crazy_Circuits:PUSH-TERMINAL-3MM-SMT-2x3 (layer F.Cu) (tedit 58D4229C) (tstamp 58D42FFA)
->>>>>>> 307a4a7abf24d16e29d12429c3583f194be59639
-    (at 3.95732 29.844)
+  (module Crazy_Circuits:PUSH-TERMINAL-3MM-SMT-2x3 (layer F.Cu) (tedit 592AE058) (tstamp 592B168F)
+    (at 3.6055 33.9115)
     (descr "10mm LED 5mm pitch through hole center polarized")
     (path /587EB9D9)
     (fp_text reference J1 (at 4 -5) (layer B.SilkS) hide
@@ -134,6 +130,7 @@
     (fp_text value "Push Terminal Block" (at 12 -4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_arc (start 16.002 -8.001) (end 13.2715 -7.8105) (angle 233.6768376) (layer F.Mask) (width 0.6))
     (fp_line (start 0 -7.8) (end 16.2 -7.8) (layer F.SilkS) (width 0.5))
     (fp_text user HOLES (at 17.4 -4 90) (layer F.Fab)
       (effects (font (size 0.762 0.762) (thickness 0.15)))
@@ -180,6 +177,9 @@
     (fp_text user "THIS END" (at 18.6 -4 90) (layer F.Fab)
       (effects (font (size 0.762 0.762) (thickness 0.15)))
     )
+    (fp_arc (start 16.002 0) (end 17.7165 -2.159) (angle 231.5462908) (layer F.Mask) (width 0.6))
+    (fp_arc (start 8.001 -8.001) (end 5.2705 -7.8105) (angle 188.5048928) (layer F.Mask) (width 0.6))
+    (fp_arc (start 8.001 0) (end 10.7315 0) (angle 181.2730132) (layer F.Mask) (width 0.6))
     (pad 1 smd rect (at 9 -5.4 90) (size 1.4 2.5) (layers F.Cu F.Paste F.Mask)
       (net 1 /1))
     (pad 2 smd rect (at 9 -2.4 90) (size 1.4 2.5) (layers F.Cu F.Paste F.Mask)
@@ -188,21 +188,12 @@
       (net 1 /1))
     (pad 2 smd rect (at 15 -2.4 90) (size 1.4 2.5) (layers F.Cu F.Paste F.Mask)
       (net 2 /2))
-<<<<<<< HEAD
-    (pad "" np_thru_hole circle (at 0 0) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-    (pad "" np_thru_hole circle (at 0 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-    (pad "" np_thru_hole circle (at 16 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-    (pad "" np_thru_hole circle (at 16 0) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-    (pad "" np_thru_hole circle (at 8 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-    (pad "" np_thru_hole circle (at 8 0) (size 4.98 4.98) (drill 4.98) (layers *.Cu B.Mask))
-=======
-    (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
-    (pad + thru_hole circle (at 0 -8) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
+    (pad - thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
+    (pad + thru_hole circle (at 0 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
     (pad + thru_hole circle (at 16 -8) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
     (pad - thru_hole circle (at 16 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
     (pad + thru_hole circle (at 8 -8) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
     (pad - thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
->>>>>>> 307a4a7abf24d16e29d12429c3583f194be59639
     (pad 1 thru_hole circle (at 12 -5.2) (size 0.762 0.762) (drill 0.3302) (layers *.Cu B.Mask)
       (net 1 /1))
     (pad 2 thru_hole circle (at 12 -2.6) (size 0.762 0.762) (drill 0.3302) (layers *.Cu B.Mask)

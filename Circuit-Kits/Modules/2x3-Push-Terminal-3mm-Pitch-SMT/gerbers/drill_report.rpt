@@ -1,9 +1,5 @@
 Drill report for 2x3-Push-Terminal-3mm-Pitch-SMT.kicad_pcb
-<<<<<<< HEAD
-Created on Thu Mar 23 12:42:27 2017
-=======
-Created on Thu Mar 23 12:35:53 2017
->>>>>>> 307a4a7abf24d16e29d12429c3583f194be59639
+Created on Sun May 28 07:38:04 2017
 
 Copper Layer Stackup:
     =============================================================
@@ -15,24 +11,13 @@ Drill file '2x3-Push-Terminal-3mm-Pitch-SMT.drl' contains
     plated through holes:
     =============================================================
     T1  0.33mm  0.013"  (2 holes)
-<<<<<<< HEAD
-
-    Total plated holes count 2
-=======
     T2  4.98mm  0.196"  (6 holes)
 
     Total plated holes count 8
->>>>>>> 307a4a7abf24d16e29d12429c3583f194be59639
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-<<<<<<< HEAD
-    T2  4.98mm  0.196"  (6 holes)
-
-    Total unplated holes count 6
-=======
 
     Total unplated holes count 0
->>>>>>> 307a4a7abf24d16e29d12429c3583f194be59639
