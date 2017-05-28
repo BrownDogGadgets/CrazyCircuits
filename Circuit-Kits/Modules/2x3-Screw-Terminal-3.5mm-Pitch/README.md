@@ -1,8 +1,8 @@
 <!--- start title --->
-# 2x3 Screw Terminal Magnet-friendly (3.5mm Pitch) v1.0
+# 2x3 Screw Terminal Magnet-friendly (3.5mm Pitch) v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 13 Feb 2017
+Updated: 27 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.

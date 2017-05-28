@@ -1,0 +1,49 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x3-Screw-Terminal-3.5mm-Pitch/2x3-Screw-Terminal-3.5mm-Pitch.sch)
+    (date "Sat 27 May 2017 05:19:22 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x3 Screw Terminal, 3.5mm Pitch")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "18 Jan 2017")
+        (source 2x3-Screw-Terminal-3.5mm-Pitch.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref J1)
+      (value Conn_2)
+      (footprint Crazy_Circuits:SCREW-TERMINAL-3.5MM-TH-2x2)
+      (fields
+        (field (name MF_Name) OnShore)
+        (field (name MF_PN) OSTTE020104)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) ED2740-ND)
+        (field (name Description) "SCREW TERMINAL 3.5MM PITCH 1x2"))
+      (libsource (lib crazy_circuits) (part Conn_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 587EB9D9)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Conn_2)
+      (description Resistor)
+      (footprints
+        (fp Resistor_*)
+        (fp R_*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_2))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name "Net-(J1-Pad1)")
+      (node (ref J1) (pin 1)))
+    (net (code 2) (name "Net-(J1-Pad2)")
+      (node (ref J1) (pin 2)))))
