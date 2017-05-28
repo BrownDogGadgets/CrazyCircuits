@@ -1,4 +1,4 @@
-(module ARDUINO-NANO-5x11-SERVO-ANALOG (layer F.Cu) (tedit 590DB7FE)
+(module ARDUINO-NANO-5x11-SERVO-ANALOG (layer F.Cu) (tedit 592AD262)
   (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "dil dip 2.54 300")
   (fp_text reference U1 (at 12 52) (layer F.SilkS) hide
@@ -7,7 +7,7 @@
   (fp_text value ARDUINO-NANO (at 12 52) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 32.004 -32.131) (end 32.004 -31.75) (layer F.SilkS) (width 7.4))
+  (fp_line (start 32.004 -32.131) (end 32.004 -31.75) (layer F.SilkS) (width 9))
   (fp_line (start 12.9 31.266) (end 14.17 31.266) (layer F.Fab) (width 0.1524))
   (fp_line (start 6.55 31.266) (end 6.55 28.726) (layer F.Fab) (width 0.1524))
   (fp_line (start 12.9 31.266) (end 6.55 31.266) (layer F.Fab) (width 0.1524))
@@ -136,7 +136,7 @@
   (fp_text user D1 (at 4.286 -23.749 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 0 47.6885) (end 0 48.0695) (layer F.SilkS) (width 7.4))
+  (fp_line (start 0 47.9425) (end 0 48.3235) (layer F.SilkS) (width 9))
   (pad D13 thru_hole circle (at 23.647 25.3385 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 3V thru_hole circle (at 23.647 22.7985 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad REF thru_hole circle (at 23.647 20.2585 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
