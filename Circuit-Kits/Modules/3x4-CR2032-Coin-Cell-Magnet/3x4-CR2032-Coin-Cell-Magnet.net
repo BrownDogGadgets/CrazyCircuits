@@ -1,0 +1,45 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/3x4-CR2032-Coin-Cell-Magnet/3x4-CR2032-Coin-Cell-Magnet.sch)
+    (date "Sat 27 May 2017 05:31:23 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "4x3 CR2032 Coin Cell Battery Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "19 Dec 2016")
+        (source 3x4-CR2032-Coin-Cell-Magnet.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref BT1)
+      (value Battery)
+      (footprint Crazy_Circuits:CR2032-3x4)
+      (fields
+        (field (name Description) "HOLDER BATT COIN CR2032/20MM")
+        (field (name MF_Name) MPD)
+        (field (name MF_PN) BK-912)
+        (field (name S1_Name) Digikey)
+        (field (name S1_PN) BK-912-ND))
+      (libsource (lib crazy_circuits) (part Battery))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5858515E)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Battery)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Battery))
+      (pins
+        (pin (num +) (name ~) (type passive))
+        (pin (num GND) (name ~) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref BT1) (pin GND)))
+    (net (code 2) (name VCC)
+      (node (ref BT1) (pin +)))))
