@@ -1,0 +1,32 @@
+<!--- start title --->
+# LimitedSMTLED-SMTButton-Battery Circuit Kit v1.0
+A Lego-compatible Crazy Circuits module
+
+- Updated: 6 Jul 2017
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
+<!--- end title --->
+
+Circuit kit that can be snapped apart into three Lego-compatible modules. Just add a coin cell battery and press the button to light up the LED.
+
+<!--- bom start --->
+### Bill of Materials
+
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|BT1|1|HOLDER BATT COIN CR2032/20MM|BK-912-ND|
+|LED1|1|LED RED 2V 625NM 1206 SMT|732-4991-1-ND|
+|R1|1|RES 100 OHM 5% 1/4W 1206|311-100ERCT-ND|
+|SW1|1|SWITCH MOMENT SPST-NO 0.05A 14V SMT PTS645|CKN9112TR-ND|
+
+
+<!--- bom end --->
+<!--- assy start --->
+### Assembly Info for Quoting
+
+<!--- assy end --->
+![Assembly Diagram](assembly.png)
+
+![Gerber Preview](preview.png)
+

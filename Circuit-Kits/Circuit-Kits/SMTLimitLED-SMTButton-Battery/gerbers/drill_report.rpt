@@ -1,0 +1,24 @@
+Drill report for SMTLimitLED-SMTButton-Battery.kicad_pcb
+Created on Thu Jul  6 19:13:04 2017
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'SMTLimitLED-SMTButton-Battery.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.50mm  0.020"  (20 holes)
+    T2  4.98mm  0.196"  (14 holes)
+
+    Total plated holes count 34
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T3  4.98mm  0.196"  (5 holes)
+
+    Total unplated holes count 5
