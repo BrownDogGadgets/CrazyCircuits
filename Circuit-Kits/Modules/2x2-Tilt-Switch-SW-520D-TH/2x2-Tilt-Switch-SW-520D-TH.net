@@ -1,0 +1,47 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/2x2-Tilt-Switch-SW-520D-TH/2x2-Tilt-Switch-SW-520D-TH.sch)
+    (date "Thu 06 Jul 2017 07:42:22 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "2x2 Tilt Switch (SW-520D) TH Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "06 Jul 2017")
+        (source 2x2-Tilt-Switch-SW-520D-TH.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref SW1)
+      (value SW_TILT)
+      (footprint Crazy_Circuits:TILT-SENSOR-SW-520D-TH-2x2)
+      (datasheet http://funduino.de/DL/SW-520D.pdf)
+      (fields
+        (field (name Description) "TILT SENSOR ROLLING BALL SW-520D")
+        (field (name MF_Name) "Bailin Electronics")
+        (field (name MF_PN) SW-520D)
+        (field (name S1_Name) Alibaba)
+        (field (name S1_PN) SW-520D))
+      (libsource (lib crazy_circuits) (part SW_TOGGLE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 58CABBD1)))
+  (libparts
+    (libpart (lib crazy_circuits) (part SW_TOGGLE)
+      (description Button)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_TOGGLE))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive)))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets
+    (net (code 1) (name /1)
+      (node (ref SW1) (pin 1)))
+    (net (code 2) (name /2)
+      (node (ref SW1) (pin 2)))))
