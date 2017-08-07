@@ -1,0 +1,38 @@
+(export (version D)
+  (design
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/5x10-Teensy-LC-Breakout/5x10-Teensy-LC-Breakout.sch)
+    (date "Mon 07 Aug 2017 03:34:47 PM PDT")
+    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "4x10 Teensy LC Breakout Module")
+        (company "All rights reserved.")
+        (rev 1.0)
+        (date "20 Jan 2017")
+        (source 5x10-Teensy-LC-Breakout.sch)
+        (comment (number 1) (value help@browndoggadgets.com))
+        (comment (number 2) (value http://browndoggadgets.com/))
+        (comment (number 3) (value "Brown Dog Gadgets"))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref U1)
+      (value Teensy)
+      (footprint Crazy_Circuits:TEENSYLC-5x10-RING)
+      (fields
+        (field (name Description) "TEENSY LC DEVELOPMENT BOARD")
+        (field (name MF_Name) PJRC)
+        (field (name MF_PN) "TEENSY LC")
+        (field (name S1_Name) PJRC)
+        (field (name S1_PN) "TEENSY LC"))
+      (libsource (lib crazy_circuits) (part Teensy))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5882FEC7)))
+  (libparts
+    (libpart (lib crazy_circuits) (part Teensy)
+      (fields
+        (field (name Reference) U1)
+        (field (name Value) Teensy))))
+  (libraries
+    (library (logical crazy_circuits)
+      (uri /home/wicker/proj/CrazyCircuits/Development/library/crazy_circuits.lib)))
+  (nets))
