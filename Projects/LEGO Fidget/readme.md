@@ -1,3 +1,5 @@
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/spinners.jpg)
+
 # 3D Printed LEGO Fidget Spinner
 
 In this project we're going to use a 3D Printer to create our own custom fidget spinner, then attach Crazy Circuits parts to make it light up. We've provided several different variations to print with, changing the number of arms and the number of LEGO studs on them. There are also some additional files for adding in M8 sized Nuts as weights.
@@ -10,4 +12,6 @@ It IS possible to use a Blink/ Fade board with some of the larger 3D files, but 
 
 You will need to "patch" some of the tape lines in order to connect them.  This means folding over the end of a piece of tape to electricly connect everything, and then putting another piece of tape on top to hold it down.
 
-Like all good fidget spinners ours requires a 608 bearing, also known as a Skate Bearing. There are many varieties available on Amazon. For a bearing cover you can choose from a wide variety of available 3D models on Thingiverse. We used files from this spinner, but had to reduce the size a couple percentage points.
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/FIDGET%20GRAPHIC.pdf)
+
+Like all good fidget spinners ours requires a 608 bearing, also known as a Skate Bearing. There are many varieties available on Amazon. For a bearing cover you can choose from a wide variety of available 3D models on Thingiverse. We used files from [this spinner](https://www.thingiverse.com/thing:1802260), but had to reduce the size a couple percentage points.
