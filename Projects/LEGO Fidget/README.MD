@@ -1,4 +1,4 @@
-![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/NES%20Controller/NES%20Controller.JPG)
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/spinners.jpg)
 
 # 3D Printed LEGO Fidget Spinner
 
