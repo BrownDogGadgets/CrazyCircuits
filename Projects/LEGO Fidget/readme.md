@@ -12,6 +12,6 @@ It IS possible to use a Blink/ Fade board with some of the larger 3D files, but 
 
 You will need to "patch" some of the tape lines in order to connect them.  This means folding over the end of a piece of tape to electricly connect everything, and then putting another piece of tape on top to hold it down.
 
-![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/FIDGET%20GRAPHIC.pdf)
+![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/WiringDiagram.jpg)
 
 Like all good fidget spinners ours requires a 608 bearing, also known as a Skate Bearing. There are many varieties available on Amazon. For a bearing cover you can choose from a wide variety of available 3D models on Thingiverse. We used files from [this spinner](https://www.thingiverse.com/thing:1802260), but had to reduce the size a couple percentage points.
