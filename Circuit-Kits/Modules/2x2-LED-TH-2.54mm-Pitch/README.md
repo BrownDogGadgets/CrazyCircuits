@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 Through-hole LED (2.54mm Pitch) Module v1.2
+# 2x2 Through-hole LED (2.54mm Pitch) Module v1.3
 A Lego-compatible Crazy Circuits module
 
 Updated: 27 May 2017
