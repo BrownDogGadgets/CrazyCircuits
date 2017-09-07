@@ -1,10 +1,10 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
-%TF.CreationDate,2017-05-27T17:15:55-07:00*%
-%TF.ProjectId,2x2-Screw-Terminal-3.5mm-Pitch,3278322D53637265772D5465726D696E,v1.1*%
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
+%TF.CreationDate,2017-09-07T09:18:01-07:00*%
+%TF.ProjectId,2x2-Screw-Terminal-3.5mm-Pitch,3278322D53637265772D5465726D696E,v1.2*%
 %TF.FileFunction,Legend,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Sat May 27 17:15:55 2017*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Thu Sep  7 09:18:01 2017*
 %MOMM*%
 %LPD*%
 G01*

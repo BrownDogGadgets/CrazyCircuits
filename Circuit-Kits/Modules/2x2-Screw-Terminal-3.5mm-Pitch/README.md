@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 Screw Terminal, 3.5mm Pitch v1.1
+# 2x2 Screw Terminal, 3.5mm Pitch v1.2
 A Lego-compatible Crazy Circuits module
 
 Updated: 27 May 2017
