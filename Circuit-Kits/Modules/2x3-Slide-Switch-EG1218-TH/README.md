@@ -1,8 +1,8 @@
 <!--- start title --->
-# 2x3 Slide Switch TH (EG1218) v1.1
+# 2x3 Slide Switch TH (EG1218) v1.2
 A Lego-compatible Crazy Circuits module
 
-Updated: 26 May 2017
+- Updated: 26 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
