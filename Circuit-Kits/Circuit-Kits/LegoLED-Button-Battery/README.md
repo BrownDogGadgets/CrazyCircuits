@@ -1,7 +1,7 @@
 <!--- start title --->
-# LegoLED-Button-Battery Circuit Kit v1.3
+# LegoLED-Button-Battery Circuit Kit v1.5
 
-Updated: 27 Dec 2016
+- Updated: 7 Oct 2017
 
 Website: http://browndoggadgets.com/
 Company: Brown Dog Gadgets
