@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x3 Magnet-compatible LED (2.54mm Pitch) v1.2
+# 2x3 Magnet-compatible LED (2.54mm Pitch) v1.3
 A Lego-compatible Crazy Circuits module
 
 - Updated: 7 Oct 2017

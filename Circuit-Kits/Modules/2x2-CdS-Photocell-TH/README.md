@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 CdS Photocell TH Module v1.1
+# 2x2 CdS Photocell TH Module v1.2
 A Lego-compatible Crazy Circuits module
 
 - Updated: 7 Oct 2017

@@ -1,5 +1,5 @@
 <!--- start title --->
-# 3x4 ATtiny85 8DIP Breakout Module v1.0
+# 3x4 ATtiny85 8DIP Breakout Module v1.3
 A Lego-compatible Crazy Circuits module
 
 - Updated: 7 Oct 2017

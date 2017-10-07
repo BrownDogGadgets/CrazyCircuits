@@ -1,5 +1,5 @@
 <!--- start title --->
-# 3x4 555 Timer 8DIP Breakout Module v1.0
+# 3x4 555 Timer 8DIP Breakout Module v1.1
 A Lego-compatible Crazy Circuits module
 
 - Updated: 7 Oct 2017
