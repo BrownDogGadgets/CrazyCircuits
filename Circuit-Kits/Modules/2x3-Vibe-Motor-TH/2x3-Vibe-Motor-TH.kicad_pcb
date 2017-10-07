@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 6)
     (no_connects 6)
-    (area 2.5654 25.160763 145.410159 134.1882)
+    (area 2.5654 33.771363 145.410159 134.1882)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -16,7 +16,7 @@
   (title_block
     (title "2x3 Vibe Motor Module")
     (date "18 Jan 2017")
-    (rev v1.1)
+    (rev v1.2)
     (company "All rights reserved.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -120,7 +120,7 @@
     (add_net "Net-(M1-Pad2)")
   )
 
-  (module Crazy_Circuits:VIBE-MOTOR-2x3 (layer F.Cu) (tedit 5929EEC9) (tstamp 588070D7)
+  (module Crazy_Circuits:VIBE-MOTOR-2x3 (layer F.Cu) (tedit 59D954F4) (tstamp 588070D7)
     (at 9.908 45.847)
     (path /58657A10)
     (fp_text reference M1 (at 8.575 -4.575 180) (layer F.SilkS) hide
@@ -137,9 +137,7 @@
     (fp_line (start 2.5 0) (end 15 0) (layer F.Fab) (width 0.1))
     (fp_line (start 2.5 -7.5) (end 2.5 0) (layer F.Fab) (width 0.1))
     (fp_line (start 15 -7.5) (end 2.5 -7.5) (layer F.Fab) (width 0.1))
-    (fp_line (start 16.0508 -8.508) (end 0.0508 -8.508) (layer B.Mask) (width 6))
     (fp_line (start 0 0.3556) (end 16 0.3556) (layer B.Cu) (width 6))
-    (fp_line (start 0 0.3556) (end 16 0.3556) (layer B.Mask) (width 6))
     (fp_line (start 0.0508 -8.508) (end 16.0508 -8.508) (layer B.Cu) (width 6))
     (fp_line (start 0 -8) (end 16 -8) (layer F.SilkS) (width 7.6))
     (fp_text user + (at 4 0 90) (layer B.SilkS)
