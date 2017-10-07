@@ -3,9 +3,9 @@
 
 - Updated: 7 Oct 2017
 
-Website: http://browndoggadgets.com/
-Company: Brown Dog Gadgets
-License: All rights reserved.
+- Website: http://browndoggadgets.com/
+- Company: Brown Dog Gadgets
+- License: All rights reserved.
 
 <!--- end title --->
 
