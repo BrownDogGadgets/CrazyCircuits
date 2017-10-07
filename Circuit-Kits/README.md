@@ -6,7 +6,7 @@ These projects are all finished and ready to be downloaded. Each folder contains
 
 |Project Name|Version|Documentation|Manufacturing Files|
 |------------|-------|-------------|-------------------|
-|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery">10mmLED-Button-Battery</a>|v1.2|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-v1.2.pdf">View</a>|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/raw/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-v1.2.zip">Zip</a>|
+|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery">10mmLED-Button-Battery</a>|v1.3|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-v1.3.pdf">View</a>|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/raw/master/Circuit-Kits/Circuit-Kits/10mmLED-Button-Battery/10mmLED-Button-Battery-v1.3.zip">Zip</a>|
 |<a href="https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery">LegoLED-Button-Battery</a>|v1.4|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-v1.4.pdf">View</a>|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/raw/master/Circuit-Kits/Circuit-Kits/LegoLED-Button-Battery/LegoLED-Button-Battery-v1.4.zip">Zip</a>|
 |<a href="https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Circuit-Kits/Circuit-Kits/LegoLED-SMTButton-Battery">LegoLED-SMTButton-Battery</a>|v1.0|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Circuit-Kits/Circuit-Kits/LegoLED-SMTButton-Battery/LegoLED-SMTButton-Battery-v1.2.pdf">View</a>|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/raw/master/Circuit-Kits/Circuit-Kits/LegoLED-SMTButton-Battery/LegoLED-SMTButton-Battery-v1.2.zip">Zip</a>|
 |<a href="https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Circuit-Kits/Circuit-Kits/SMTLimitLED-SMTButton-Battery">SMTLimitedLED-SMTButton-Battery</a>|v1.0|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Circuit-Kits/Circuit-Kits/SMTLimitLED-SMTButton-Battery/SMTLimitLED-SMTButton-Battery-v1.0.pdf">View</a>|<a href="https://github.com/BrownDogGadgets/CrazyCircuits/raw/master/Circuit-Kits/Circuit-Kits/SMTLimitLED-SMTButton-Battery/SMTLimitLED-SMTButton-Battery-v1.0.zip">Zip</a>|
@@ -114,6 +114,8 @@ These projects are all finished and ready to be downloaded. Each folder contains
 ### Generic and Prototypable Modules 
 
 These are for prototyping and reference only. 
+
+**These are not suitable for wave solder manufacturing.**
 
 |Project Name|Ver|Doc|Gerber|Complete|Top Preview|
 |------------|---|---|------|--------|-----------|

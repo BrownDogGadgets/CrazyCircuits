@@ -1,7 +1,7 @@
 <!--- start title --->
 # 10mmLED-Button-Battery Circuit Kit v1.1
 
-Updated: 13 Feb 2017
+- Updated: 7 Oct 2017
 
 Website: http://browndoggadgets.com/
 Company: Brown Dog Gadgets
