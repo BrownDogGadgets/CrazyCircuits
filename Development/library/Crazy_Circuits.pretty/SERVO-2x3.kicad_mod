@@ -1,4 +1,4 @@
-(module SERVO-2x3 (layer F.Cu) (tedit 59D95263)
+(module SERVO-2x3 (layer F.Cu) (tedit 59D953A5)
   (descr "LED combined 2.5mm/5mm pitch round vertical")
   (tags "LED combined round vertical")
   (fp_text reference J1 (at 4 3) (layer F.SilkS) hide
@@ -65,8 +65,8 @@
   (pad GND thru_hole circle (at 0 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
   (pad VCC thru_hole circle (at 8 -8) (size 6 6) (drill 4.98) (layers *.Cu))
   (pad VCC thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu))
-  (pad GND thru_hole circle (at 5.4 -4.1) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
-  (pad SIG thru_hole circle (at 10.48 -4.1) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad GND thru_hole circle (at 5.4 -4.1) (size 1.6 1.6) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
+  (pad SIG thru_hole circle (at 10.48 -4.1) (size 1.6 1.6) (drill 1.00076) (layers *.Cu *.Mask F.SilkS))
   (pad SIG thru_hole circle (at 16 -8) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
   (pad SIG thru_hole circle (at 16 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
 )
