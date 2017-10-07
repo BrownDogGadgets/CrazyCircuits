@@ -2,7 +2,7 @@
 # 2x3 Servo Header v1.2
 A Lego-compatible Crazy Circuits
 
-Updated: 21 Jun 2017
+- Updated: 7 Oct 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
