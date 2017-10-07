@@ -1,5 +1,5 @@
 <!--- start title --->
-# 10mmLED-Button-Battery Circuit Kit v1.1
+# 10mmLED-Button-Battery Circuit Kit v1.3
 
 - Updated: 7 Oct 2017
 
