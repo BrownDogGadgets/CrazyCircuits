@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
-%TF.CreationDate,2017-09-07T12:22:13-07:00*%
-%TF.ProjectId,2x3-Slide-Switch-EG1218-TH,3278332D536C6964652D537769746368,v1.2*%
+%TF.CreationDate,2017-10-07T12:25:07-07:00*%
+%TF.ProjectId,2x3-Slide-Switch-EG1218-TH,3278332D536C6964652D537769746368,v1.3*%
 %TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Thu Sep  7 12:22:13 2017*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Sat Oct  7 12:25:07 2017*
 %MOMM*%
 %LPD*%
 G01*
