@@ -1,10 +1,10 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,4.0.5-e0-6337~49~ubuntu16.04.1*%
-%TF.CreationDate,2017-07-06T19:38:19-07:00*%
-%TF.ProjectId,2x2-Tilt-Switch-SW-520D-TH,3278322D54696C742D5377697463682D,1.0*%
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-07T15:56:48-07:00*%
+%TF.ProjectId,2x2-Tilt-Switch-SW-520D-TH,3278322D54696C742D5377697463682D,v1.1*%
 %TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.5-e0-6337~49~ubuntu16.04.1) date Thu Jul  6 19:38:19 2017*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Sat Oct  7 15:56:48 2017*
 %MOMM*%
 %LPD*%
 G01*
