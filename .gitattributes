@@ -1,3 +1,1 @@
-*.pro linguist-language=KiCad
-*.kicad_pcb linguist-language=KiCad
-*.sch linguist-language=KiCad
+Circuit-Kits/* linguist-language=KiCad
