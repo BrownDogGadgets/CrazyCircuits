@@ -2,7 +2,7 @@
 # 2x2 RGB LED SMT v1.1
 A Lego-compatible Crazy Circuits module
 
-Updated: 29 May 2017
+- Updated: 29 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.

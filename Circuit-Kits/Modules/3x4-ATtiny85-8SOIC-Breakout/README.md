@@ -2,7 +2,7 @@
 # 3x4 ATtiny85 8SOIC Breakout Module v1.2
 A Lego-compatible Crazy Circuits module
 
-Updated: 6 Aug 2017
+- Updated: 6 Aug 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.

@@ -2,7 +2,7 @@
 # 2x2 Through-hole LED (2.54mm Pitch) Module v1.3
 A Lego-compatible Crazy Circuits module
 
-Updated: 27 May 2017
+- Updated: 27 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.

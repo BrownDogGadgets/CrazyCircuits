@@ -1,5 +1,5 @@
 <!--- start title --->
-# 2x2 Tilt Switch (SW-520D) TH Module v1.0
+# 2x2 Tilt Switch (SW-520D) TH Module v1.1
 A Lego-compatible Crazy Circuits module
 
 - Updated: 7 Oct 2017

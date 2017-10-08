@@ -2,7 +2,7 @@
 # 2x2 Current-Limited Surface Mount LED Module v1.3
 A Lego-compatible Crazy Circuits module.
 
-Updated: 6 Jul 2017
+- Updated: 6 Jul 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.

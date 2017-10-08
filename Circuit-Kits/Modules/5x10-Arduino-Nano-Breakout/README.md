@@ -11,8 +11,6 @@ A Lego-compatible Crazy Circuits module
 
 Breakout board for the Arduino Nano.
 
-### Bill of Materials
-
 <!--- bom start --->
 ### Bill of Materials
 

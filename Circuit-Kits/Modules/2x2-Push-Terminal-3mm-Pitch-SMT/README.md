@@ -2,8 +2,7 @@
 # 2x2 Push Terminal 3mm Pitch SMT Module v1.1
 A Lego-compatible Crazy Circuits module
 
-Updated: 28 May 2017
-
+- Updated: 28 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
