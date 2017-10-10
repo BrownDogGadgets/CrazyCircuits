@@ -1,10 +1,9 @@
 # Adjustable Lamp
 
-Use Conctive Paint to create an brightness adjusting lamp.  One button turns on the "lights", touch points turn on more lights.
+This project uses the Touch Board to turn on, and keep on, up to six LEDs using six seven touch points.  The idea was to create an adjustable lighting system to emulate a dimmer or fader switch.  Each touch point activates all the lights below it, meaning the third touch point turns on the first three LEDs in the row.  Pin 23 Turns Off all the LEDs, acting as a Master OFF.
 
-Touch Board
+To make things even more fun we've designed some simple templates to use for making switches.  Use conductive tape to go from the Touch Board pins to the stencil spots and use a conductive material (such as Bare Conductive Paint) to fill in the touch point.
 
-Lamp On/off - Pin 15
-Adjustable Brightness Points - Pins 16 - 23
+If you want to make a much more simple On/Off lighting system just use two of the touch point.  The Master "Off" and then any of the other touch points.  Connect one or more LEDs in parallel with the appropriate output pin.
 
-LEDs - 2,3,4,5,8,9
+You'll also find a simple test diagram that uses a single 8x16 Brick platform and six LEDs.  One suggestion is to use the test design with alligator clips and conductive dough (or balls of foils).  This makes for a fun and interactive demo.
