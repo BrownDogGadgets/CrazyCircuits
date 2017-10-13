@@ -17,7 +17,7 @@ int ledD = 9; // 4;
 
 int ledArray[4] = {18, 19, 22, 23};
 
-int ButtonPin = 3; // 0;
+int ButtonPin = 1; // 0;
 
 int ButtonPushCounter = 0;   // counter for the number of button presses
 int ButtonState = 0;         // current state of the button
