@@ -1,13 +1,7 @@
-# Larson Scanner Code - Attiny85
+# Larson Scanner Code - Touch Board, Robotics Board, and Blink/Fade Board (Tiny85)
 
-This code runs a simple Larson Scanner sketch for 4 LEDs.
+This code runs a simple Larson Scanner sketch for 4 LEDs. The code has several modes that can be cycled through by wiring in a momentary push button.  We used this code to make a Cylon Pumpkin for Halloween.  It's also suitable for making your car look like Kit from Knight Rider.
 
-The code has several modes that can be cycled through by wiring in a momentary push button.
+We have three different versions of the code.  Use the version that goes with your board.  If you're using a standard off the shelf Arduino you should use the Robotics Board code.
 
-We put this project together for use as a demo using Circuit Scribe conductive ink and some custom rare Earth magnets.
-
-This project would work just fine using conductive ink, thread, or tape.  
-
-Use a 3V power supply, such as 2 AA or 2 AAA battery holders. You can use a CR2032 battery, but the amperage output might not be enough.
-
-Use a regular Arduino to program an 85.  
+If you're trying to reporgram the Blink/Fade board you'll need to follow our Reprograming the Blink/ Fade Board guide.  It's not tough to do, but it requires a bit of reading and work. 
