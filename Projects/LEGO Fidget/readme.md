@@ -6,11 +6,11 @@ In this project we're going to use a 3D Printer to create our own custom fidget 
 
 Obviously you're going to need access to a 3D printer, but if you don't one readily available you can always use online services such as Shapeways to make one for you. We used our office Makerbot Replicator 2 for printing, with a print time of around 45 minutes for a three armed spinner. If the studs are too big or too small you'll have to change the size and try again, same goes for the bearing.
 
-We used two Cazy Circuits LEDs, a CR2032 Battery Holder, and some tape. Be sure to use two of the same color LED otherwise power will only flow through one color. (Voltage differences can cause issues with CR2032 batteries.
+We used two Cazy Circuits LEDs, a CR2032 Battery Holder, and some tape. Be sure to use two of the same color LED otherwise power will only flow through one color. (Voltage differences in different colors of LEDs can cause issues with CR2032 batteries.)
 
 It IS possible to use a Blink/ Fade board with some of the larger 3D files, but would require some tricky tape work.
 
-You will need to "patch" some of the tape lines in order to connect them.  This means folding over the end of a piece of tape to electricly connect everything, and then putting another piece of tape on top to hold it down.
+You will need to "patch" some of the tape lines in order to connect them.  This means folding over the end of a piece of tape to electricly connect everything, and then putting another piece of tape on top to hold it down. For more information on the basic of Crazy Circuits please visit
 
 ![img](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/LEGO%20Fidget/WiringDiagram.jpg)
 
