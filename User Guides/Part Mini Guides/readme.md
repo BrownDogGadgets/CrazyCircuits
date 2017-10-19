@@ -1,4 +1,4 @@
-! [Preview](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/User%20Guides/Part%20Mini%20Guides/previewpicture.png)
+![Preview](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/User%20Guides/Part%20Mini%20Guides/previewpicture.png)
 
 # Part Mini Guides
 
