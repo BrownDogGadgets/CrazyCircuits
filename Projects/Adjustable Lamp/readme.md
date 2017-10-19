@@ -2,6 +2,8 @@
 
 This project uses the Touch Board to turn on, and keep on, up to six LEDs using seven touch points.  The idea was to create an adjustable lighting system to emulate a dimmer or fader switch.  Each touch point activates all the lights below it, meaning the third touch point turns on the first three LEDs in the row.  Pin 23 Turns Off all the LEDs, acting as a Master OFF.
 
+![lamp diagram](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/Projects/Adjustable%20Lamp/lamppreviewdiagram.png)
+
 To make things even more fun we've designed some simple templates to use for making switches.  Use conductive tape to go from the Touch Board pins to the stencil spots and use a conductive material (such as Bare Conductive Paint) to fill in the touch point.
 
 Note: When using the "Dial" you'll need to use the "Dial Template" version of the code. All this does is change the order of the pins being used, which was done to make the tape "wiring" easier.  
