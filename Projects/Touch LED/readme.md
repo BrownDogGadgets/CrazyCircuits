@@ -9,3 +9,5 @@ Touch a Touch Point and one of the LEDs turns on.
 We designed this to be used with conductive dough as a demo project, though any conductive material would work.  You could easily modify this code to do various effects.
 
 The code run an auto calibration sequence when turned on.  This means you should wait three seconds after powering up before touching any of the touch points.
+
+![diagram preview](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/Projects/Touch%20LED/diagrampreview.png)
