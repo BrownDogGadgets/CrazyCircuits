@@ -3,6 +3,8 @@
 
 Download these various user guides to help with your next Crazy Circuits creation.
 
+You can also view a basic overview [Guide](https://www.youtube.com/watch?v=8BR6lTN7iAI) Video on our youtube channel.
+
 What you'll find here are:
 
 * Basic User Guide
