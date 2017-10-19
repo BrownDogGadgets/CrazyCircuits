@@ -1,5 +1,7 @@
 # How to Reprogram a Bink/Fade Board (ATTiny85)
 
+*** Work in Progress, not complete guide ***
+
 The Crazy Circuits Blink/Fade Board is a preprogramed board, however it uses an ATTiny85 which in fact can be reprogramed with a bit of work.
 
 Warning: This isn't a super easy activity to do, but it isn't difficult either. This is not for beginners.
