@@ -9,5 +9,7 @@ What you'll find here are:
 * Touch Board Guide
 * Robotics Board Guide
 * Individual Part "Mini" Guides (Same as found in kits)
+* Individual Part Graphics for Digital Circuit Creation
+* Practice "Paper" For Printing and Drawing Circuits
 
 For larger step by step project guides and resources, please view our [Projects](https://github.com/BrownDogGadgets/CrazyCircuits/tree/master/Projects) area.
