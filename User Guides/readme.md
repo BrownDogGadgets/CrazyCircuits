@@ -1,3 +1,4 @@
+![cc logo](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/User%20Guides/CClogo.jpg)
 # Crazy Circuits User Guides
 
 Download these various user guides to help with your next Crazy Circuits creation.
