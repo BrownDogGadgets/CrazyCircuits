@@ -29,4 +29,3 @@ void loop() {
     delay(MAPvalue);
 
   }  
-}
