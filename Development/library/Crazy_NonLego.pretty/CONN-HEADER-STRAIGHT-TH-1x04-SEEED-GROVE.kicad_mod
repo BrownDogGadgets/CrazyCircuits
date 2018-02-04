@@ -1,0 +1,50 @@
+# KiCad Footprint 
+# Originally from the KiCad Official Libraries
+#   http://github.com/kicad/
+# Edited by Jenner for Wickerlib
+#   http://github.com/wickerbox/wickerlib
+# This library file is provided under the GPLv3
+#   https://www.gnu.org/licenses/gpl-3.0.html
+# The footprint may not be correct! It is the end
+# user's responsibility to verify the package.
+#
+# Verified: No
+# Finished: Yes
+
+(module CONN-HEADER-STRAIGHT-TH-1x04-SEEED-GROVE (layer F.Cu) (tedit 5A774CB9)
+  (descr https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf)
+  (tags Grove-1x04)
+  (fp_text reference J1 (at 0 2.54) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "SEEED GROVE SENSOR" (at 0 2.83 90) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 -0.0254) (end 0.127 0.1016) (layer F.Fab) (width 0.15))
+  (fp_line (start -3.4544 -2.667) (end -3.4544 0.2286) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.45 8.7) (end 2.7 8.7) (layer F.Fab) (width 0.05))
+  (fp_line (start 2.7 8.7) (end 2.7 -2.65) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.45 -2.667) (end 2.7 -2.667) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.3 5) (end -3.3 5.6) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 0.4) (end -3.3 1) (layer F.SilkS) (width 0.12))
+  (fp_line (start 2.55 -2.5) (end 2.55 8.55) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 -2.5) (end 2.55 -2.5) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 1.25) (end -3.3 4.75) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 8.55) (end 2.55 8.55) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 -2.5) (end -3.3 0.15) (layer F.SilkS) (width 0.12))
+  (fp_line (start -3.3 5.9) (end -3.3 8.55) (layer F.SilkS) (width 0.12))
+  (fp_text user 1 (at -1.775 0.075) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+  (fp_line (start -3.45 5.8082) (end -3.4544 8.6868) (layer F.Fab) (width 0.05))
+  (fp_line (start -3.4544 1.2446) (end -3.4544 4.7752) (layer F.Fab) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 0 2) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (pad 3 thru_hole circle (at 0 4) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (pad 4 thru_hole circle (at 0 6) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (model ${KISYS3DMOD}/Connectors.3dshapes/Grove_1x04.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 -90))
+  )
+)
