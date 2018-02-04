@@ -18,12 +18,10 @@ Use this board to connect a Seeed Grove sensor that uses the 4-pin cable.
 |---|---|-----------|------|
 |J1|1|HEADER MALE 4POS TH 1x04 SEEED GROVE|1597-1082-ND|
 
-
 <!--- bom end --->
-<!--- assy start --->
-### Assembly Info for Quoting
 
-<!--- assy end --->
+![Grove Connectors](cable.png)
+
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)
