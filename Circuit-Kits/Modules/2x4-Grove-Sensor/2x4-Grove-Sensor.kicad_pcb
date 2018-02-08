@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 63.4768 33.909 263.164559 102.997)
     (thickness 1.6)
     (drawings 12)
     (tracks 22)
@@ -205,7 +205,7 @@
   (gr_arc (start 84.480399 53.314602) (end 82.346799 55.067202) (angle 258.8012761) (layer F.Mask) (width 0.6) (tstamp 5A77640A))
   (gr_line (start 84.4804 53.2892) (end 93.472 53.2892) (layer F.SilkS) (width 1))
   (gr_line (start 84.2518 61.3664) (end 92.5322 61.3664) (layer F.SilkS) (width 7.2))
-  (gr_text VCC (at 88.3412 51.0794 360) (layer F.SilkS) (tstamp 5A7762CF)
+  (gr_text VCC (at 88.3412 51.0794) (layer F.SilkS) (tstamp 5A7762CF)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
   (gr_text D1 (at 72.5678 63.8048) (layer F.SilkS) (tstamp 5A77609D)
