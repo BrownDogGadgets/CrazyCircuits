@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:crazy_circuits
+LIBS:6x10-Feather-Bluefruit-LE-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -73,69 +74,58 @@ Text Label 4475 3625 0    50   ~ 0
 D7
 Text Label 4475 3725 0    50   ~ 0
 D11
-Text Label 4475 3825 0    50   ~ 0
-D30
-Text Label 4475 3925 0    50   ~ 0
+Text Label 4475 4075 0    50   ~ 0
 D27
-Text Label 4475 4025 0    50   ~ 0
+Text Label 4475 4175 0    50   ~ 0
 D26
-Text Label 4475 4125 0    50   ~ 0
-D25
 Text Label 4475 4275 0    50   ~ 0
+D25
+Text Label 4475 4425 0    50   ~ 0
 A0
-Text Label 4475 4375 0    50   ~ 0
+Text Label 4475 4525 0    50   ~ 0
 A1
-Text Label 4475 4475 0    50   ~ 0
+Text Label 4475 4625 0    50   ~ 0
 A2
-Text Label 4475 4575 0    50   ~ 0
+Text Label 4475 4725 0    50   ~ 0
 A3
-Text Label 4475 4675 0    50   ~ 0
+Text Label 4475 4825 0    50   ~ 0
 A4
-Text Label 4475 4775 0    50   ~ 0
+Text Label 4475 4925 0    50   ~ 0
 A5
-Text Label 4475 4875 0    50   ~ 0
+Text Label 4475 5025 0    50   ~ 0
 D26_SCL
-Text Label 4475 4975 0    50   ~ 0
+Text Label 4475 5125 0    50   ~ 0
 D25_SDA
 Wire Wire Line
 	4375 2525 4875 2525
 Wire Wire Line
 	4375 2725 4875 2725
 Wire Wire Line
-	4375 5175 4600 5175
-Wire Wire Line
-	4600 5275 4375 5275
-Wire Wire Line
 	4625 2325 4375 2325
 Wire Wire Line
 	4375 2225 4625 2225
-Connection ~ 4600 5275
 Wire Wire Line
-	4600 5175 4600 5350
+	4375 5125 4875 5125
 Wire Wire Line
-	4375 4975 4875 4975
-Wire Wire Line
-	4375 4875 4875 4875
-Wire Wire Line
-	4375 4125 4875 4125
-Wire Wire Line
-	4375 4025 4875 4025
-Wire Wire Line
-	4375 4775 4875 4775
-Wire Wire Line
-	4375 4675 4875 4675
-Wire Wire Line
-	4375 4575 4875 4575
-Wire Wire Line
-	4375 4475 4875 4475
-Wire Wire Line
-	4375 4375 4875 4375
+	4375 5025 4875 5025
 Wire Wire Line
 	4375 4275 4875 4275
 Wire Wire Line
-	4375 3925 4875 3925
+	4375 4175 4875 4175
 Wire Wire Line
-	4375 3825 4875 3825
+	4375 4925 4875 4925
+Wire Wire Line
+	4375 4825 4875 4825
+Wire Wire Line
+	4375 4725 4875 4725
+Wire Wire Line
+	4375 4625 4875 4625
+Wire Wire Line
+	4375 4525 4875 4525
+Wire Wire Line
+	4375 4425 4875 4425
+Wire Wire Line
+	4375 4075 4875 4075
 Wire Wire Line
 	4375 3725 4875 3725
 Wire Wire Line
@@ -159,4 +149,12 @@ Wire Wire Line
 	4625 1975 4625 2325
 Text Label 4475 2525 0    50   ~ 0
 ~RST
+Text Label 4475 2725 0    50   ~ 0
+D20_DFU
+Wire Wire Line
+	4600 5275 4600 5350
+Wire Wire Line
+	4600 5275 4375 5275
+NoConn ~ 4375 3825
+NoConn ~ 4375 3925
 $EndSCHEMATC
