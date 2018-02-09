@@ -6,10 +6,10 @@
 # The footprint may not be correct! It is the end
 # user's responsibility to verify the package.
 #
-# Verified: No
+# Verified: Yes
 # Finished: Yes
 
-(module RES-CARBONFILM-7MM (layer F.Cu) (tedit 58157667)
+(module RES-CARBONFILM-7MM (layer F.Cu) (tedit 5860127D)
   (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
   (tags "Resistor Axial RM 7.62mm 1/3W R3")
   (fp_text reference REF** (at 3.8 0) (layer F.Fab)
@@ -21,19 +21,14 @@
   (fp_text user %R (at 3.9 -2.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_line (start 8.9 -1.5) (end -1.3 -1.5) (layer F.Fab) (width 0.0508))
-  (fp_line (start 8.9 1.5) (end 8.9 -1.5) (layer F.Fab) (width 0.0508))
-  (fp_line (start 8.8 1.5) (end 8.9 1.5) (layer F.Fab) (width 0.0508))
-  (fp_line (start -1.3 1.5) (end 8.8 1.5) (layer F.Fab) (width 0.0508))
-  (fp_line (start -1.3 -1.5) (end -1.3 1.5) (layer F.Fab) (width 0.0508))
-  (fp_line (start -1.25 -1.5) (end 8.85 -1.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.25 1.5) (end -1.25 -1.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 8.85 -1.5) (end 8.85 1.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.25 1.5) (end 8.85 1.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.27 -1.27) (end 6.35 -1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 6.35 -1.27) (end 6.35 1.27) (layer F.SilkS) (width 0.15))
-  (fp_line (start 6.35 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 10.414 -1.524) (end -1.27 -1.524) (layer F.Fab) (width 0.0508))
+  (fp_line (start 10.414 1.5) (end 10.414 -1.5) (layer F.Fab) (width 0.0508))
+  (fp_line (start -1.27 1.524) (end 10.414 1.524) (layer F.Fab) (width 0.0508))
+  (fp_line (start -1.27 -1.524) (end -1.27 1.524) (layer F.Fab) (width 0.0508))
+  (fp_line (start 1.27 -1.27) (end 7.62 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 -1.27) (end 7.62 1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 1.27) (end 1.27 1.27) (layer F.SilkS) (width 0.15))
   (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 0 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
-  (pad 2 thru_hole circle (at 7.62 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole circle (at 9 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
 )
