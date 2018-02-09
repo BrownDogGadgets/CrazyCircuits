@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:crazy_circuits
+LIBS:6x11-Microbit-Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -20,7 +21,7 @@ U 1 1 5A7DC938
 P 5050 3375
 F 0 "J1" H 5000 4625 50  0000 L CNN
 F 1 "MICROBIT BREAKOUT" H 5000 2325 50  0000 L CNN
-F 2 "Crazy_NonLego:CONN-HEADER-RIGHTA-MICROBIT-2.54MM-4x20" H 5050 3025 50  0001 C CIN
+F 2 "Crazy_Circuits:MICROBIT-6x11" H 5050 3025 50  0001 C CIN
 F 3 "https://cdn-shop.adafruit.com/product-files/3342/Micro-Bit_connector_datasheet.pdf" H 5050 3375 5   0001 C CNN
 F 4 "HEADER MALE 80POS TH 4x20 MICROBIT R/A" H 5050 3025 50  0001 C CIN "Description"
 F 5 "Adafruit" H 5050 3025 50  0001 C CIN "MF_Name"

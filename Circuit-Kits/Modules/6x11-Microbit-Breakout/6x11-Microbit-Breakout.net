@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/6x11-Microbit-Breakout/5x11-Microbit-Breakout.sch)
-    (date "Fri 09 Feb 2018 07:46:36 AM PST")
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/6x11-Microbit-Breakout/6x11-Microbit-Breakout.sch)
+    (date "Fri 09 Feb 2018 08:46:04 AM PST")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value "MICROBIT BREAKOUT")
-      (footprint Crazy_NonLego:CONN-HEADER-RIGHTA-MICROBIT-2.54MM-4x20)
+      (footprint Crazy_Circuits:MICROBIT-6x11)
       (datasheet https://cdn-shop.adafruit.com/product-files/3342/Micro-Bit_connector_datasheet.pdf)
       (fields
         (field (name Description) "HEADER MALE 80POS TH 4x20 MICROBIT R/A")
