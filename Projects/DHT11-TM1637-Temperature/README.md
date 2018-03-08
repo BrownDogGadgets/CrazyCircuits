@@ -14,6 +14,6 @@ The only changes we made to the original code were to change which pins were bei
 
 ### Libraries:
 
-*[TM1637](https://github.com/avishorp/TM1637) - Download from GitHub and Manually Install in your Arduino Library Folder.
-*DHT11 - Do a search for the "DHT11" Library through the Arduino IDE. You'll want the Adafruit version 1.23, NOT the newer 1.3.
-*DHT22 - Follow the same directions as above and still search for the "DHT11" Library from Adafruit. Install version 1.23 in order to make the code work.
+* [TM1637](https://github.com/avishorp/TM1637) - Download from GitHub and Manually Install in your Arduino Library Folder.
+* DHT11 - Do a search for the "DHT11" Library through the Arduino IDE. You'll want the Adafruit version 1.23, NOT the newer 1.3.
+* DHT22 - Follow the same directions as above and still search for the "DHT11" Library from Adafruit. Install version 1.23 in order to make the code work.
