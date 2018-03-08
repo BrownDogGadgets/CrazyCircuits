@@ -1,5 +1,3 @@
-# Simple Temperature Displayed through a 7 Segment Display
-
 This is a very simple set of code and libraries to use the DHT11 or DHT22 Temperature/ Humidity Sensor along with a TM1637 7 Segment Display.
 
 This code allows the user to show Temperature in various measurement scales as well as humidity. It makes use of several Open Source libraries, including some from Adafruit.com.
