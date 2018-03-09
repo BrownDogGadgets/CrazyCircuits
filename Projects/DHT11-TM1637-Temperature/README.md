@@ -17,3 +17,8 @@ The only changes we made to the original code were to change which pins were bei
 * [TM1637](https://github.com/avishorp/TM1637) - Download from GitHub and Manually Install in your Arduino Library Folder.
 * DHT11 - Do a search for the "DHT11" Library through the Arduino IDE. You'll want the Adafruit version 1.23, NOT the newer 1.3.
 * DHT22 - Follow the same directions as above and still search for the "DHT11" Library from Adafruit. Install version 1.23 in order to make the code work.
+
+### Additional Files
+
+* We drew up a simple visual diagram of how all the parts and pins connect.
+* We also designed a simple laser cut box to put the project in. It's designed around an 8x16 sized LEGO base plate (which the Crazy Circuits Robotics Board is mounted to) and has a cutout for the TM1637 board. We used some solid core wire to hold the display in place. If nothing else this will give youa starting point from which to design your own box or mounting plate.
