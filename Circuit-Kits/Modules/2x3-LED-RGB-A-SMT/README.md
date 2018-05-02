@@ -9,7 +9,7 @@ A Lego-compatible Crazy Circuits module
 - License: All rights reserved.
 <!--- end title --->
 
-Surface mount RGB LED with a common anode. Connect the input voltage (+) to 3.3V.
+Surface mount RGB LED with a common anode. Connect the Common (C) to 3.3V.
 
 <!--- bom start --->
 ### Bill of Materials
