@@ -1,4 +1,4 @@
-(module LED-RGB-5050-NEOPIXEL-2x3 (layer F.Cu) (tedit 5AE7706C)
+(module LED-RGB-5050-NEOPIXEL-2x3-NOPAD (layer F.Cu) (tedit 5AE9E506)
   (descr "2.54mm pitch through hole centered 2x2")
   (fp_text reference LED1 (at 8.025 -8.025) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -104,7 +104,6 @@
   (pad 2 thru_hole circle (at 0 0) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
   (pad 1 thru_hole circle (at 0 -8) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
   (pad 3 thru_hole circle (at 8 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 8 -8) (size 4.98 4.98) (drill 4.98) (layers *.Cu))
   (pad 5 thru_hole circle (at 16 -8) (size 6 6) (drill 4.98) (layers *.Cu B.Mask))
   (pad 3 thru_hole circle (at 16 0) (size 6 6) (drill 4.98) (layers *.Cu *.Mask))
   (pad 1 smd rect (at 3.725 -9.525 270) (size 0.8 0.75) (layers F.Cu F.Paste F.Mask))
