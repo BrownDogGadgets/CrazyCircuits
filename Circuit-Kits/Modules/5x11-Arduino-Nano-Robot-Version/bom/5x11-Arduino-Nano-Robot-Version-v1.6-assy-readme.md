@@ -1,4 +1,4 @@
-Individual Placements per board: 3
+Individual Placements per board: 2
 
 Number of Parts: 7
 
