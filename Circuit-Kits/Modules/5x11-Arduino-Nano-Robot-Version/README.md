@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 9 May 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 This robot controller module comes with an Arduino Nano, four servo headers, and two analog headers. 

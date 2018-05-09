@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "2x3 Mini Potentiometer 3386P TH")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "20 Jan 2017")
         (source 2x3-Mini-Potentiometer-3386P-TH.sch)

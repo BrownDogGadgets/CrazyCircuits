@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 26 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 This simple tilt switch is either closed, where the two sections of copper are connected through the tilt sensor, or open, when the tilt sensor is not conducting.

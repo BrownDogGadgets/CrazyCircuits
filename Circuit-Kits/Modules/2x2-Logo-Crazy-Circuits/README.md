@@ -5,7 +5,7 @@ Crazy Circuits logo
 - Updated: 13 Feb 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 Just a plain logo.

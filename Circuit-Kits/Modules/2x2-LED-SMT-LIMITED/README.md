@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module.
 - Updated: 6 Jul 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 Attaching an LED directly to a microcontroller's output pins can damage the pins, so this module has the LED in series with a current-limiting resistor. At 100 ohms, it can be used with both 3V and 5V power sources and still emit a red light.

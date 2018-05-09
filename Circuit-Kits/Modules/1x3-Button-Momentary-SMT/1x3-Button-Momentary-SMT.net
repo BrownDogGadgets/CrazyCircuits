@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "1x3 Momentary Pushbutton SMT Module")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "23 May 2017")
         (source 1x3-Button-Momentary-SMT.sch)

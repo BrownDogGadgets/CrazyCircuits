@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 28 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 The 555 Timer is an oscillator that's good for all kinds of timer circuits.

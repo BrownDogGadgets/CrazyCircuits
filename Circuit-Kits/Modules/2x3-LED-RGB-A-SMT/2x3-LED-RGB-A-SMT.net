@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "2x3 LED RGB (A) SMT")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "30 Apr 2018")
         (source 2x3-LED-RGB-A-SMT.sch)

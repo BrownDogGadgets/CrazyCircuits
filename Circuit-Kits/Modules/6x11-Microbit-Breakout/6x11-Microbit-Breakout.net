@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "6x11 Microbit Breakout Module")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "09 Feb 2018")
         (source 6x11-Microbit-Breakout.sch)

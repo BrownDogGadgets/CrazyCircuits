@@ -6,7 +6,7 @@ A Lego-compatible Crazy Circuits module
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 Slide the Microbit into the connector with the LEDs and buttons facing up, and you have access to all the pins for I2C, SPI, touch, analog input, the Microbit LEDs, buttons, and assorted extra digital input/output. 

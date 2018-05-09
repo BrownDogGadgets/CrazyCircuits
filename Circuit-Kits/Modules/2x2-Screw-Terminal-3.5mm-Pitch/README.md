@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 7 Oct 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 Module for a 2-position 3.5mm-pitch screw terminal. 

@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 29 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 Surface mount RGB LED with a common anode. Connect the Common (C) to 3.3V.

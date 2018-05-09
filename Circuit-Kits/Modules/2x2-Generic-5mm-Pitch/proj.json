@@ -7,7 +7,7 @@
     "email":"help@browndoggadgets.com",
     "gerbers_dir":"gerbers",
     "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",
-    "license":"All rights reserved.",
+    "license":"CERN Open Hardware License v1.2.",
     "projname":"2x2-Generic-5mm-Pitch",
     "template_dir":"/home/wicker/proj/CrazyCircuits/Development/templates",
     "template_kicad":"crazy",

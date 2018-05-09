@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 29 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 10mm Red-Green-Blue 4-pin LED. Align the straight edge of the LED with the Red pin. 

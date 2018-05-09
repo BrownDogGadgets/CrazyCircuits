@@ -9,7 +9,7 @@ Sheet 1 1
 Title "3x4 555 Timer 8DIP Breakout Module"
 Date "20 Jan 2017"
 Rev "1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

@@ -17,7 +17,7 @@
     (title "2x2 Servo Header Module")
     (date "18 Jan 2017")
     (rev v1.1)
-    (company "All rights reserved.")
+    (company "CERN Open Hardware License v1.2.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
     (comment 3 "Brown Dog Gadgets")

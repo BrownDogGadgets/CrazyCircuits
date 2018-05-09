@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "2x3 Slide Switch TH (EG1218)")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "17 Mar 2017")
         (source 2x3-Slide-Switch-EG1218-TH.sch)

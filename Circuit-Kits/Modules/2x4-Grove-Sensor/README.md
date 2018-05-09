@@ -6,7 +6,7 @@ A Lego-compatible Crazy Circuits module
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 Use this board to connect a Seeed Grove sensor that uses the 4-pin cable.  

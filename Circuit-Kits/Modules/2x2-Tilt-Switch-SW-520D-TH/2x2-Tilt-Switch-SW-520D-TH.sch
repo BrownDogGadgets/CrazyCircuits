@@ -8,7 +8,7 @@ Sheet 1 1
 Title "2x2 Tilt Switch (SW-520D) TH Module"
 Date "06 Jul 2017"
 Rev "1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

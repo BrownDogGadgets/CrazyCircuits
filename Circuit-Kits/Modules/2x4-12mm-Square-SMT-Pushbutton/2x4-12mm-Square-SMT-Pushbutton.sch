@@ -9,7 +9,7 @@ Sheet 1 1
 Title "2x4 12mm Square SMT Pushbutton Module"
 Date "12 Jan 2017"
 Rev "v1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

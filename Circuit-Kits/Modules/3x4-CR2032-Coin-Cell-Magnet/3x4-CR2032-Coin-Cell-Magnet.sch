@@ -9,7 +9,7 @@ Sheet 1 1
 Title "4x3 CR2032 Coin Cell Battery Module"
 Date "19 Dec 2016"
 Rev "1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

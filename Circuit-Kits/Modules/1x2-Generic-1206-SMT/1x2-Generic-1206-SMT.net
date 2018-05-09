@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "1x2 Generic 1206 SMT Module")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "18 Jan 2017")
         (source 1x2-Generic-1206-SMT.sch)

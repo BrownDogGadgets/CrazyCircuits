@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 27 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 Small standalone LED module. This part has no current limiting and so it should be used with only a 3V coin cell, not with USB or 5V!

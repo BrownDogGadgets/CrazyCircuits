@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "2x2 Current-Limited Yellow SMT LED Module")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "08 May 2018")
         (source 2x2-LED-YELLOW-SMT-LIMITED.sch)

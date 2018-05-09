@@ -8,7 +8,7 @@ Sheet 1 1
 Title "6x10 Feather Huzzah ESP8266 Board"
 Date "05 Feb 2018"
 Rev "1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

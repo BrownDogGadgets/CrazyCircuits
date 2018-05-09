@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 8 Jul 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 The WS2812B Neopixel is an RGB LED that's addressable using the Adafruit Neopixel library for Arduino. Neopixels can be chained together by connecting the DOUT pin of one Neopixel to the DIN pin of the next Neopixel.

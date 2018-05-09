@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 28 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 This is a small 10K trim potentiometer that requires a little screwdriver to increase or decrease the resistance. 

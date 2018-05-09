@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits module
 - Updated: 27 May 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 This part fits any LED with 2.54mm-pitch pins. The LED can be wired in series with a coin cell battery without any other parts.

@@ -5,7 +5,7 @@ A Lego-compatible Crazy Circuits
 - Updated: 7 Oct 2017
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 
 <!--- end title --->
 A simple three-pin male header breaks out a female servo connector. The servo wires are Black (GND), Red (VCC), and Orange (SIGNAL).

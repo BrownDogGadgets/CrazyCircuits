@@ -9,7 +9,7 @@ Sheet 1 1
 Title "2x2 SMT LED"
 Date "19 Dec 2016"
 Rev "1.0"
-Comp "All rights reserved."
+Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"

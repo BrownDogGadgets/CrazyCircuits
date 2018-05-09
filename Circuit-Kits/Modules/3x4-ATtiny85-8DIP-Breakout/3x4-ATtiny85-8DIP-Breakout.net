@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "3x4 ATtiny85 8DIP Breakout Module")
-        (company "All rights reserved.")
+        (company "CERN Open Hardware License v1.2.")
         (rev 1.0)
         (date "18 Jan 2017")
         (source 3x4-ATtiny85-8DIP-Breakout.sch)

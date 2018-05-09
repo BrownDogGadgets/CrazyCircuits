@@ -6,7 +6,7 @@ A Lego-compatible Crazy Circuits module
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 Breakout board for the Adafruit Feather Huzzah ESP8266 board, which lets you add Wifi your project.

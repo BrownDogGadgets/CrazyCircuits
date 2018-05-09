@@ -17,7 +17,7 @@
     (title "5x10 Teensy LC Breakout Module")
     (date "20 Jan 2017")
     (rev v1.4)
-    (company "All rights reserved.")
+    (company "CERN Open Hardware License v1.2.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
     (comment 3 "Brown Dog Gadgets")

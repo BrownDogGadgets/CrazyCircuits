@@ -6,7 +6,7 @@ A Lego-compatible Crazy Circuits module
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
-- License: All rights reserved.
+- License: CERN Open Hardware License v1.2.
 <!--- end title --->
 
 This part is also called a Light-Detecting Resistor (LDR), Photoresistor, or CdS cell. The resistance of the part in the dark is almost effectively open at around half a megaohm, but that resistance drops down to 16-33kohm at about the brightness of a candle and then it drops to less than 10kohms as the light increases. 
