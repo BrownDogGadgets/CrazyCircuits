@@ -16,10 +16,10 @@
   (title_block
     (title "5x10 Teensy LC Breakout Module")
     (date "20 Jan 2017")
-    (rev "v1.4")
+    (rev v1.4)
     (company "All rights reserved.")
-    (comment 1 "help@browndoggadgets.com")
-    (comment 2 "http://browndoggadgets.com/")
+    (comment 1 help@browndoggadgets.com)
+    (comment 2 http://browndoggadgets.com/)
     (comment 3 "Brown Dog Gadgets")
   )
 
@@ -353,7 +353,7 @@
   (gr_text v1.4 (at 39.624 123.444) (layer B.SilkS) (tstamp 598A1802)
     (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
   )
-  (gr_text Inventor (at 39.624 121.666) (layer F.SilkS)
+  (gr_text Invention (at 39.624 121.666) (layer F.SilkS)
     (effects (font (size 2.5 2.5) (thickness 0.4)))
   )
   (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (GREEN) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE WHITE SILK. \n   DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 77.8256 97.6884) (layer Dwgs.User)
