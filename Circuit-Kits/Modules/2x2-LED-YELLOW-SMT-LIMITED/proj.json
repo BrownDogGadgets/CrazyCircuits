@@ -1,0 +1,22 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"08 May 2018",
+    "date_update":"9 May 2018",
+    "description":"A Lego-compatible Crazy Circuits module",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"2x2-LED-YELLOW-SMT-LIMITED",
+    "template_dir":"/home/wicker/proj/CrazyCircuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"2x2 Current-Limited Yellow SMT LED Module",
+    "version":"1.0",
+    "website":"http://browndoggadgets.com/",
+    "width_assembly_png":"40",
+    "width_other_png":"50",
+    "width_preview_png":"80",
+    "width_schematic_png":"90"
+}
