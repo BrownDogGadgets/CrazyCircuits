@@ -693,7 +693,7 @@
       (net 2 GND))
   )
 
-  (gr_text "Arduino Nano Robotics Board v1.6" (at 19.304 114.808 270) (layer B.SilkS) (tstamp 5AF30EB9)
+  (gr_text "Robotics Board v1.6" (at 19.304 114.808 270) (layer B.SilkS) (tstamp 5AF30EB9)
     (effects (font (thickness 0.2032)) (justify mirror))
   )
   (gr_text "D9\n" (at 20.32 81.28) (layer F.SilkS) (tstamp 5AF1BBD1)
