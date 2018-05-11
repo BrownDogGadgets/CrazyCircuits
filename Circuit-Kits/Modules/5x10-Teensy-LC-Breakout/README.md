@@ -2,7 +2,7 @@
 # 5x10 Teensy LC Breakout Module v1.4
 A Lego-compatible Crazy Circuits module
 
-- Updated: 9 May 2018
+- Updated: 11 May 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: CERN Open Hardware License v1.2.
