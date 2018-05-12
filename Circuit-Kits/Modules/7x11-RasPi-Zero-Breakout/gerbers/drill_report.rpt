@@ -1,0 +1,25 @@
+Drill report for 7x11-RasPi-Zero-Breakout.kicad_pcb
+Created on Sat May 12 15:05:11 2018
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '7x11-RasPi-Zero-Breakout.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.33mm  0.013"  (2 holes)
+    T2  1.02mm  0.040"  (40 holes)
+    T3  4.98mm  0.196"  (32 holes)
+
+    Total plated holes count 74
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  2.75mm  0.108"  (4 holes)
+
+    Total unplated holes count 4

@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
+%TF.CreationDate,2018-05-12T15:05:11-07:00*%
+%TF.ProjectId,7x11-RasPi-Zero-Breakout,377831312D52617350692D5A65726F2D,1.0*%
+%TF.FileFunction,Paste,Bot*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Sat May 12 15:05:11 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+G04 APERTURE END LIST*
+D10*
+M02*

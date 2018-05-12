@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3.3V
+K POWER, PWR
+$ENDCMP
+#
 $CMP 5V
 K POWER, PWR
 $ENDCMP
