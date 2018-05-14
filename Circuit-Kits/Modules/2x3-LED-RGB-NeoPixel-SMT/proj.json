@@ -1,0 +1,22 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"14 May 2018",
+    "date_update":"14 May 2018",
+    "description":"A Lego-compatible Crazy Circuits module",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",
+    "license":"All rights reserved.",
+    "projname":"2x3-LED-RGB-NeoPixel-SMT",
+    "template_dir":"/home/wicker/proj/CrazyCircuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"2x3 LED RGB Neopixel Module",
+    "version":"1.1",
+    "website":"http://browndoggadgets.com/",
+    "width_assembly_png":"40",
+    "width_other_png":"50",
+    "width_preview_png":"80",
+    "width_schematic_png":"90"
+}
