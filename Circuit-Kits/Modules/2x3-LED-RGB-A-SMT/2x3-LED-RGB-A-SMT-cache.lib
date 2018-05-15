@@ -38,6 +38,44 @@ X C 4 -150 225 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# RES-100-1%-1/10W-0603
+#
+DEF RES-100-1%-1/10W-0603 R 0 40 N N 1 F N
+F0 "R" 50 50 50 H V L CNN
+F1 "RES-100-1%-1/10W-0603" 50 -50 50 H V L CNN
+F2 "Crazy_NonLego:RLC-0603-SMD" 0 -350 50 H I C CIN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 0 0 5 H I C CNN
+F4 "RES SMD 100 OHM 1% 1/10W 0603" 0 -350 50 H I C CIN "Description"
+F5 "TE Conn" 0 -350 50 H I C CIN "MF_Name"
+F6 "CRG0603F100R" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "A106047CT-ND" 0 -350 50 H I C CIN "S1_PN"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES-47-OHM-5%-1/10W-0603
+#
+DEF RES-47-OHM-5%-1/10W-0603 R 0 40 N N 1 F N
+F0 "R" 59 49 50 H V L CNN
+F1 "RES-47-OHM-5%-1/10W-0603" 50 -50 50 H V L CNN
+F2 "Crazy_NonLego:RLC-0603-SMD" 0 -350 50 H I C CIN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 0 5 H I C CNN
+F4 "RES 47 OHM 5% 1/10W 0603" 0 -350 50 H I C CIN "Description"
+F5 "Yageo" 0 -350 50 H I C CIN "MF_Name"
+F6 "RC0603JR-0747RL" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "311-47GRCT-ND" 0 -350 50 H I C CIN "S1_PN"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # VCC
 #
 DEF VCC #PWR 0 0 Y Y 1 F P

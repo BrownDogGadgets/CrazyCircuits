@@ -1,5 +1,5 @@
 Drill report for 2x3-LED-RGB-A-SMT.kicad_pcb
-Created on Wed May  2 09:58:34 2018
+Created on Tue May 15 10:56:42 2018
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file '2x3-LED-RGB-A-SMT.drl' contains
     plated through holes:
     =============================================================
-    T1  0.33mm  0.013"  (2 holes)
+    T1  0.33mm  0.013"  (4 holes)
     T2  4.98mm  0.196"  (6 holes)
 
-    Total plated holes count 8
+    Total plated holes count 10
 
 
 Not plated through holes are merged with plated holes

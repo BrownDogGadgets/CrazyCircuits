@@ -1,5 +1,7 @@
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |LED1|1|LED CHIP RGB 19-237 0606 SMD |1080-1590-1-ND|
+|R1 R2|2|RES SMD 100 OHM 1% 1/10W 0603|A106047CT-ND|
+|R3|1|RES 47 OHM 5% 1/10W 0603|311-47GRCT-ND|
 
 
