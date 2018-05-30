@@ -8,9 +8,13 @@ This project was originally designed, coded, and presented by youtube author [Ro
 
 ### Code
 
-The code we're using is also from RobotJax. He does a nice job of explaining everything within the code. Make sure you know whether or not you're using a DHT11 or DHT22 and change that within the code. You can also easily choose between different temperature scales and humidity by changing a single letter in lines 56 and 58 in the code.
+New Code: Temp.humid.ino
 
-The only changes we made to the original code were to change which pins were being used. Since we're using the [Crazy Circuits Robotics Board](http://www.crazycircuits.com) we used digital pins 5 and 6 for the display and pin 3 as the sensor input. 
+We wrote our code from scratch to show Temperature labeled in F as well as Percent Humidity labeled in H. The two blink back and forth. If you wish to change the Temperature you just need to change line 66 and then change line 33 to manually show a C after the temperature.
+
+Old Code: dht22-tm1637-temp.ino
+
+We originally used code from RobotJax as he did a nice job of explaining everything in his code. If you use that code, still listed here, make sure you know whether or not you're using a DHT11 or DHT22 and change that within the code. You can also easily choose between different temperature scales and humidity by changing a single letter in lines 56 and 58 in the code. The only changes we made to the original code were to change which pins were being used. Since we're using the [Crazy Circuits Robotics Board](http://www.crazycircuits.com) we used digital pins 5 and 6 for the display and pin 3 as the sensor input. 
 
 ### Libraries:
 
