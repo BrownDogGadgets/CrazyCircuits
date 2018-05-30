@@ -4,7 +4,7 @@ This is a very simple set of code and libraries to use the DHT11 or DHT22 Temper
 
 This code allows the user to show Temperature in various measurement scales as well as humidity. It makes use of several Open Source libraries, including some from Adafruit.com.
 
-This project was originally designed, coded, and presented by youtube author [RobotJax](https://www.youtube.com/watch?v=z_FvRm6Te78). We mostly followed his write up, but found a few errors in the overall design.
+This project was originally designed, coded, and presented by youtube author [RobotJax](https://www.youtube.com/watch?v=z_FvRm6Te78). We originally modified his code, but eventually just reworte it from scratch.  You can find both the edited code and our new code here.
 
 ### Code
 
