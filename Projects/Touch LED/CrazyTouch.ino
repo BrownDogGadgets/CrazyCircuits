@@ -24,10 +24,10 @@ int pinLevel = 200; // may need adjusting
 
 int ledPinCal = 13;
 
-int ledPinA = 19;
-int ledPinB = 20;
-int ledPinC = 21;
-int ledPinD = 22;
+int ledPinA = 12;
+int ledPinB = 9;
+int ledPinC = 4;
+int ledPinD = 1;
 
 void setup() {
   Serial.begin(9600);
