@@ -2,7 +2,7 @@
 # 2x3 LED RGB (A) SMT v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 15 May 2018
+- Updated: 31 May 2018
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
@@ -16,7 +16,7 @@ Surface mount RGB LED with a common anode. Connect the Common (C) to 3.3V.
 
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
-|LED1|1|LED CHIP RGB 19-237 0606 SMD |1080-1590-1-ND|
+|LED1|1|LED CHIP RGB 19-237 A01/2T SMD |19-237/R6GHBHC-A01/2T-ND|
 |R1 R2|2|RES SMD 100 OHM 1% 1/10W 0603|A106047CT-ND|
 |R3|1|RES 47 OHM 5% 1/10W 0603|311-47GRCT-ND|
 
