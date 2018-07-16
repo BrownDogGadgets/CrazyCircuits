@@ -23,7 +23,8 @@ We recommend buying one 20-pin Harwin connector (P/N [M20-9992046](https://www.d
 |J1-J4|4|HEADER MALE 3POS TH 1x03 0.1IN|952-1902-ND|
 
 <!--- bom end --->
+![Gerber Preview](preview.png)
+
 ![Assembly Diagram](assembly.png)
 
-![Gerber Preview](preview.png)
 
