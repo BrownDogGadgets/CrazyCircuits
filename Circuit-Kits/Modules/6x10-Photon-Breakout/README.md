@@ -1,5 +1,5 @@
 <!--- start title --->
-# 6x9 Photon Breakout Module v1.0
+# 6x10 Photon Breakout Module v1.0
 A Lego-compatible Crazy Circuits module
 
 - Updated: 15 Jul 2018

@@ -14,7 +14,7 @@
 
   (page USLetter)
   (title_block
-    (title "6x9 Photon Breakout Module")
+    (title "6x10 Photon Breakout Module")
     (date "15 Jul 2018")
     (rev 1.0)
     (company "All rights reserved.")

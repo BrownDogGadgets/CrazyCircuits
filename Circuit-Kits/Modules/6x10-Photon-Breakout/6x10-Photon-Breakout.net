@@ -1,15 +1,15 @@
 (export (version D)
   (design
-    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/6x9-Photon-Breakout/6x9-Photon-Breakout.sch)
+    (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/6x10-Photon-Breakout/6x10-Photon-Breakout.sch)
     (date "Sun 15 Jul 2018 09:04:05 PM PDT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title "6x9 Photon Breakout Module")
+        (title "6x10 Photon Breakout Module")
         (company "All rights reserved.")
         (rev 1.0)
         (date "15 Jul 2018")
-        (source 6x9-Photon-Breakout.sch)
+        (source 6x10-Photon-Breakout.sch)
         (comment (number 1) (value help@browndoggadgets.com))
         (comment (number 2) (value http://browndoggadgets.com/))
         (comment (number 3) (value "Brown Dog Gadgets"))

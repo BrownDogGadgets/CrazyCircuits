@@ -1,4 +1,4 @@
-Drill report for 6x9-Photon-Breakout.kicad_pcb
+Drill report for 6x10-Photon-Breakout.kicad_pcb
 Created on Mon Jul 16 09:48:52 2018
 
 Copper Layer Stackup:
@@ -7,7 +7,7 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file '6x9-Photon-Breakout.drl' contains
+Drill file '6x10-Photon-Breakout.drl' contains
     plated through holes:
     =============================================================
     T1  0.33mm  0.013"  (1 hole)

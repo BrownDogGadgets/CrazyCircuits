@@ -5,7 +5,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "6x9 Photon Breakout Module"
+Title "6x10 Photon Breakout Module"
 Date "15 Jul 2018"
 Rev "1.0"
 Comp "All rights reserved."
