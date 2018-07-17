@@ -18,6 +18,10 @@ Surface mount RGB LED with a common anode.
 |LED1|1|LED RGB CLEAR 1411 SMD|732-4998-2-ND|
 <!--- bom end --->
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Schematic](schematic.png)
 
 ![Assembly Diagram](assembly.png)

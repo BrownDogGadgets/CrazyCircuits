@@ -19,6 +19,10 @@ This is a single momentary pushbutton module. It is normally open, so it only co
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ### Board Preview 
 
 ![Gerber Preview](preview.png)

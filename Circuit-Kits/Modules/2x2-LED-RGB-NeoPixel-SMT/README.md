@@ -24,6 +24,10 @@ An onboard 0.1uF capacitor protects the Neopixel from the controller and the 470
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Schematic](schematic.png)
 
 ![Assembly Diagram](assembly.png)

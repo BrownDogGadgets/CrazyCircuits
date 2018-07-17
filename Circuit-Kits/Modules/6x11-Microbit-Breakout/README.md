@@ -20,6 +20,10 @@ Slide the Microbit into the connector with the LEDs and buttons facing up, and y
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

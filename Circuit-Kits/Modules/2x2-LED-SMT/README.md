@@ -19,6 +19,10 @@ This is a red LED that can be wired in series with a coin cell battery.
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

@@ -19,6 +19,10 @@ The 555 Timer is an oscillator that's good for all kinds of timer circuits.
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

@@ -19,6 +19,10 @@ Surface mount RGB LED with a common anode. Connect the Common (C) to 3.3V.
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Schematic](schematic.png)
 
 ![Gerber Preview](preview.png)

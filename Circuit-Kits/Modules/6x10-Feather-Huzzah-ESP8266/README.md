@@ -20,6 +20,10 @@ Breakout board for the Adafruit Feather Huzzah ESP8266 board, which lets you add
 
 <!--- bom end --->
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

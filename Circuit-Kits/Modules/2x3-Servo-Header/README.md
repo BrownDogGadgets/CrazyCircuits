@@ -19,6 +19,10 @@ A simple three-pin male header breaks out a female servo connector. The servo wi
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

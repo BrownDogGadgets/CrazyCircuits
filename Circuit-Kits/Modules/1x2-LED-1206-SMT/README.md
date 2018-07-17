@@ -19,6 +19,10 @@ Small standalone LED module. This part has no current limiting and so it should 
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

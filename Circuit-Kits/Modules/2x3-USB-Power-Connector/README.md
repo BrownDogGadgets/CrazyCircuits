@@ -22,6 +22,10 @@ Micro-USB connector edge piece that breaks out 3.3V from the USB 5V along with t
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

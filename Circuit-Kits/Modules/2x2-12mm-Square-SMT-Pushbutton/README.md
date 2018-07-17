@@ -21,6 +21,10 @@ This is a large surface mount pushbutton that makes a very satisfying click.
 
 <!--- bom end --->
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Gerber Preview](preview.png)
 
 

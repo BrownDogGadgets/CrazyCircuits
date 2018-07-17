@@ -23,6 +23,10 @@ The blue LED has a forward voltage drop of 3.2V, so we recommend a resistor of 1
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

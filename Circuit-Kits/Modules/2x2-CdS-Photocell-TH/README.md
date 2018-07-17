@@ -22,6 +22,10 @@ The photocell is essentially open (not conducting) in the dark, but it starts sh
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

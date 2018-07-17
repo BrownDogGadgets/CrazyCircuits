@@ -20,6 +20,10 @@ This breakout board is for use with the Raspberry Pi Zero. The IO pin numbers ar
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Gerber Preview](preview.png)
 
 ![Schematic](schematic.png)

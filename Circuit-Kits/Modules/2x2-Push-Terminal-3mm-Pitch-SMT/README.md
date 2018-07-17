@@ -19,6 +19,10 @@ A two-pin terminal block that lets you push the wire in instead of requiring a s
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

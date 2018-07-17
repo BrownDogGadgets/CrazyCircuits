@@ -20,6 +20,10 @@ Breaks out the Seeed Grove sensor connector so you can add Seeed Grove sensors t
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

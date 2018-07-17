@@ -20,5 +20,9 @@ Breakout board for the Arduino Nano.
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly and Preview](combined.png)
 

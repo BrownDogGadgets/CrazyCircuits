@@ -19,6 +19,10 @@ This is a small 10K trim potentiometer that requires a little screwdriver to inc
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

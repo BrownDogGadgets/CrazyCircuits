@@ -20,6 +20,10 @@ This part fits any LED with 2.54mm-pitch pins. The LED can be wired in series wi
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

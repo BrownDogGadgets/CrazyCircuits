@@ -19,6 +19,10 @@ This module is a simple bidirectional Piezo speaker that makes sound when voltag
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

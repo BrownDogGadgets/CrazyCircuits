@@ -20,6 +20,10 @@ Attaching an LED directly to a microcontroller's output pins can damage the pins
 
 
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
 ### Assembly Diagram
 
 ![Assembly Diagram](assembly.png)

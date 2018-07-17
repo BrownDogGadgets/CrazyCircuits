@@ -20,6 +20,10 @@ Use this board to connect a Seeed Grove sensor that uses the 4-pin cable.
 
 <!--- bom end --->
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Grove Connectors](cable.png)
 
 ![Assembly Diagram](assembly.png)

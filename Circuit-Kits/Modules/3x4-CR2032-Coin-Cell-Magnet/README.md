@@ -20,5 +20,9 @@ This is a holder for a 3V CR2032 coin cell battery. The extra three pads on the 
 
 <!--- bom end --->
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Gerber Preview](preview.png)
 
