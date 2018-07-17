@@ -27,6 +27,7 @@ We recommend buying one 20-pin Harwin connector (P/N [M20-9992046](https://www.d
 ### Manufacturing Notes
 
 This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Gerber Preview](preview.png)
 
 ![Assembly Diagram](assembly.png)

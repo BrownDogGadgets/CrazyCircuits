@@ -10,5 +10,9 @@ A Lego-compatible Crazy Circuits module.
 <!--- end title --->
 This is a standalone touch sensor to detect changes in capacitance. 
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Gerber Preview](preview.png)
 

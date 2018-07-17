@@ -10,6 +10,10 @@ A Lego-compatible Crazy Circuits module
 <!--- end title --->
 This module is for any surface mount component in the 1206 package. 
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Gerber Preview](preview.png)
 
 ![Assembly](assembly.png)

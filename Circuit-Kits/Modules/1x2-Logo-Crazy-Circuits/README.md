@@ -10,5 +10,9 @@ Crazy Circuits logo
 <!--- end title --->
 Just a plain logo.
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Gerber Preview](preview.png)
 

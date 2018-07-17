@@ -11,6 +11,10 @@ A Lego-compatible Crazy Circuits module.
 
 There is no part currently specified for this module. Any LED with 5mm pin pitch will work.
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

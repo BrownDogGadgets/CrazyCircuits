@@ -11,5 +11,9 @@ A Lego-compatible Crazy Circuits module
 
 This is a capsense slider. Wire up each line to an input pin on a Teensy or Arduino, and run your fingers down the capsense rows to use the board as a slider touch detector.
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Gerber Preview](preview.png)
 

@@ -10,5 +10,9 @@ A Lego-compatible Crazy Circuits module
 <!--- end title --->
 This is a generic module with no markings that can be used for any two-pin, 2.54mm-pitch part.
 
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.  
+
 ![Gerber Preview](preview.png)
 
