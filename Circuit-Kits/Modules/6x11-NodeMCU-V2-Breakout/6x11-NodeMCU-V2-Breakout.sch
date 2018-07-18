@@ -1,0 +1,266 @@
+EESchema Schematic File Version 2
+LIBS:crazy_circuits
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "6x11 NodeMCU V2 Breakout Module"
+Date "18 Jul 2018"
+Rev "1.0"
+Comp "All rights reserved."
+Comment1 "help@browndoggadgets.com"
+Comment2 "http://browndoggadgets.com/"
+Comment3 "Brown Dog Gadgets"
+Comment4 ""
+$EndDescr
+$Comp
+L AMICA-NODEMCU-LUA-V2 U1
+U 1 1 5B4F7458
+P 2700 2475
+F 0 "U1" H 2400 3925 50  0000 L CNN
+F 1 "AMICA-NODEMCU-LUA-V2" H 2400 1075 50  0000 L CNN
+F 2 "Crazy_Circuits:NODEMCU-V2-6x11" H 2860 1275 50  0001 C CIN
+F 3 "https://github.com/nodemcu/nodemcu-devkit-v1.0" H 2700 1175 5   0001 C CNN
+F 4 "NODEMCU LUA V2 ESP-12E DEV KIT" H 2860 1275 50  0001 C CIN "Description"
+F 5 "Amica" H 2860 1275 50  0001 C CIN "MF_Name"
+F 6 "NODEMCU LUA V2" H 2860 1275 50  0001 C CIN "MF_PN"
+F 7 "Banggood" H 2860 1275 50  0001 C CIN "S1_Name"
+F 8 "1097112" H 2860 1275 50  0001 C CIN "S1_PN"
+	1    2700 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR01
+U 1 1 5B4F74EB
+P 3125 1050
+F 0 "#PWR01" H 3125 900 50  0001 C CNN
+F 1 "5V" H 3125 1200 50  0000 C CNN
+F 2 "" H 3125 1050 50  0000 C CNN
+F 3 "" H 3125 1050 50  0000 C CNN
+	1    3125 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 825  0    50   ~ 0
+OPTIONAL\nINPUT ONLY
+$Comp
+L 3.3V #PWR02
+U 1 1 5B4F7511
+P 4000 1075
+F 0 "#PWR02" H 4000 925 50  0001 C CNN
+F 1 "3.3V" H 4000 1225 50  0000 C CNN
+F 2 "" H 4000 1075 50  0000 C CNN
+F 3 "" H 4000 1075 50  0000 C CNN
+	1    4000 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5B4F766E
+P 4300 3800
+F 0 "#PWR03" H 4300 3550 50  0001 C CNN
+F 1 "GND" H 4300 3650 50  0000 C CNN
+F 2 "" H 4300 3800 50  0000 C CNN
+F 3 "" H 4300 3800 50  0000 C CNN
+	1    4300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-MALE-3POS-TH-1x03-P0.1IN J1
+U 1 1 5B4F76D7
+P 4625 1500
+F 0 "J1" H 4575 1700 50  0000 L CNN
+F 1 "BREAKOUT" H 4575 1300 50  0000 L CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 4625 1150 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 4625 1500 5   0001 C CNN
+F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 4625 1150 50  0001 C CIN "Description"
+F 5 "Harwin" H 4625 1150 50  0001 C CIN "MF_Name"
+F 6 "M20-9992046" H 4625 1150 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 4625 1150 50  0001 C CIN "S1_Name"
+F 8 "952-1902-ND" H 4625 1150 50  0001 C CIN "S1_PN"
+	1    4625 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-MALE-3POS-TH-1x03-P0.1IN J2
+U 1 1 5B4F7772
+P 4625 2025
+F 0 "J2" H 4575 2225 50  0000 L CNN
+F 1 "BREAKOUT" H 4575 1825 50  0000 L CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 4625 1675 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 4625 2025 5   0001 C CNN
+F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 4625 1675 50  0001 C CIN "Description"
+F 5 "Harwin" H 4625 1675 50  0001 C CIN "MF_Name"
+F 6 "M20-9992046" H 4625 1675 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 4625 1675 50  0001 C CIN "S1_Name"
+F 8 "952-1902-ND" H 4625 1675 50  0001 C CIN "S1_PN"
+	1    4625 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-MALE-3POS-TH-1x03-P0.1IN J3
+U 1 1 5B4F77B9
+P 4625 2550
+F 0 "J3" H 4575 2750 50  0000 L CNN
+F 1 "BREAKOUT" H 4575 2350 50  0000 L CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 4625 2200 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 4625 2550 5   0001 C CNN
+F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 4625 2200 50  0001 C CIN "Description"
+F 5 "Harwin" H 4625 2200 50  0001 C CIN "MF_Name"
+F 6 "M20-9992046" H 4625 2200 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 4625 2200 50  0001 C CIN "S1_Name"
+F 8 "952-1902-ND" H 4625 2200 50  0001 C CIN "S1_PN"
+	1    4625 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER-MALE-3POS-TH-1x03-P0.1IN J4
+U 1 1 5B4F7801
+P 4625 3075
+F 0 "J4" H 4575 3275 50  0000 L CNN
+F 1 "BREAKOUT" H 4575 2875 50  0000 L CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 4625 2725 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 4625 3075 5   0001 C CNN
+F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 4625 2725 50  0001 C CIN "Description"
+F 5 "Harwin" H 4625 2725 50  0001 C CIN "MF_Name"
+F 6 "M20-9992046" H 4625 2725 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 4625 2725 50  0001 C CIN "S1_Name"
+F 8 "952-1902-ND" H 4625 2725 50  0001 C CIN "S1_PN"
+	1    4625 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1175 3125 1175
+Wire Wire Line
+	3125 1175 3125 1050
+Wire Wire Line
+	2900 1275 4000 1275
+Wire Wire Line
+	4000 1075 4000 3075
+Wire Wire Line
+	2900 1425 3150 1425
+Wire Wire Line
+	2900 1525 3150 1525
+Wire Wire Line
+	2900 1675 3625 1675
+Wire Wire Line
+	2900 1825 3150 1825
+Wire Wire Line
+	2900 1925 3150 1925
+Wire Wire Line
+	2900 2075 3150 2075
+Wire Wire Line
+	2900 2175 3150 2175
+Wire Wire Line
+	2900 2275 3150 2275
+Wire Wire Line
+	2900 2375 3150 2375
+Wire Wire Line
+	2900 2525 3150 2525
+Wire Wire Line
+	2900 2975 3725 2975
+Wire Wire Line
+	2900 3075 3850 3075
+Wire Wire Line
+	2900 3175 3150 3175
+Wire Wire Line
+	2900 3275 3150 3275
+Wire Wire Line
+	2900 3375 3150 3375
+Wire Wire Line
+	2900 3475 3150 3475
+Wire Wire Line
+	4300 3725 2900 3725
+Wire Wire Line
+	4300 1600 4300 3800
+Wire Wire Line
+	4000 1500 4425 1500
+Connection ~ 4000 1275
+Wire Wire Line
+	4000 2025 4425 2025
+Connection ~ 4000 1500
+Wire Wire Line
+	4425 1400 3625 1400
+Wire Wire Line
+	3625 1400 3625 1675
+Text Label 4075 1400 0    50   ~ 0
+A0
+Wire Wire Line
+	4425 1925 3625 1925
+Wire Wire Line
+	3625 1925 3625 2875
+Wire Wire Line
+	3725 2450 4425 2450
+Wire Wire Line
+	3850 2975 4425 2975
+Text Label 4075 1925 0    50   ~ 0
+D1
+Text Label 4075 2450 0    50   ~ 0
+D2
+Text Label 4075 2975 0    50   ~ 0
+D3
+Wire Wire Line
+	4000 2550 4425 2550
+Connection ~ 4000 2025
+Wire Wire Line
+	4000 3075 4425 3075
+Connection ~ 4000 2550
+Wire Wire Line
+	4425 1600 4300 1600
+Connection ~ 4300 3725
+Wire Wire Line
+	4425 2125 4300 2125
+Connection ~ 4300 2125
+Wire Wire Line
+	4425 2650 4300 2650
+Connection ~ 4300 2650
+Wire Wire Line
+	4300 3175 4425 3175
+Connection ~ 4300 3175
+Wire Wire Line
+	3725 2975 3725 2450
+Wire Wire Line
+	3850 3075 3850 2975
+Text Label 2975 1425 0    50   ~ 0
+RST
+Text Label 2975 1525 0    50   ~ 0
+EN
+Text Label 2975 1675 0    50   ~ 0
+A0
+Text Label 2975 1825 0    50   ~ 0
+TX
+Text Label 2975 1925 0    50   ~ 0
+RX
+Text Label 2975 2075 0    50   ~ 0
+CMD
+Text Label 2975 2175 0    50   ~ 0
+SD0
+Text Label 2975 2275 0    50   ~ 0
+SD1
+Text Label 2975 2375 0    50   ~ 0
+CLK
+Text Label 2975 2525 0    50   ~ 0
+SD2
+Wire Wire Line
+	3625 2875 2900 2875
+Wire Wire Line
+	2900 2775 3150 2775
+Text Label 2975 2775 0    50   ~ 0
+D0
+NoConn ~ 2900 2625
+Text Label 2975 2875 0    50   ~ 0
+D1
+Text Label 2975 2975 0    50   ~ 0
+D2
+Text Label 2975 3075 0    50   ~ 0
+D3
+Text Label 2975 3175 0    50   ~ 0
+D4
+Text Label 2975 3275 0    50   ~ 0
+D5
+Text Label 2975 3375 0    50   ~ 0
+D6
+Text Label 2975 3475 0    50   ~ 0
+D7
+NoConn ~ 2900 3575
+$EndSCHEMATC
