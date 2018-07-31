@@ -2,7 +2,7 @@
 # 6x10 Photon Breakout Module v1.0
 A Lego-compatible Crazy Circuits module
 
-- Updated: 15 Jul 2018
+- Updated: 31 Jul 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: All rights reserved.
@@ -20,7 +20,7 @@ We recommend buying one 20-pin Harwin connector (P/N [M20-9992046](https://www.d
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
 |U1|1|PARTICLE PHOTON V016|1878-1000-ND|
-|J1-J4|4|HEADER MALE 3POS TH 1x03 0.1IN|952-1902-ND|
+
 
 <!--- bom end --->
 
