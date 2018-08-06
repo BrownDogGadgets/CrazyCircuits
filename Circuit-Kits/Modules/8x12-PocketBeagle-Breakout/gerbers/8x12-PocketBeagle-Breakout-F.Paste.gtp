@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,4.0.7-e2-6376~58~ubuntu16.04.1*%
+%TF.CreationDate,2018-08-06T09:41:40-07:00*%
+%TF.ProjectId,8x12-PocketBeagle-Breakout,387831322D506F636B6574426561676C,1.0*%
+%TF.FileFunction,Paste,Top*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.7-e2-6376~58~ubuntu16.04.1) date Mon Aug  6 09:41:40 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.350000*%
+G04 APERTURE END LIST*
+D10*
+M02*
