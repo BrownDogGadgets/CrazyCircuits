@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-LED-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L LED LED1
+L crazy_circuits:LED LED1
 U 1 1 58584C75
 P 4700 3300
 F 0 "LED1" H 4775 3350 50  0000 L CNN
@@ -32,7 +31,7 @@ F 8 "732-4991-1-ND" H 4700 3300 60  0001 C CNN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 58584C8F
 P 4700 3100
 F 0 "#PWR01" H 4700 2950 50  0001 C CNN
@@ -45,7 +44,7 @@ $EndComp
 Wire Wire Line
 	4700 3100 4700 3200
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 58584CA8
 P 4700 3475
 F 0 "#PWR02" H 4700 3225 50  0001 C CNN

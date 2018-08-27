@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# SPDT_Small
+# crazy_circuits:SPDT_Small
 #
-DEF SPDT_Small SW 0 0 N Y 1 F N
+DEF crazy_circuits:SPDT_Small SW 0 0 N Y 1 F N
 F0 "SW" 90 -36 50 H V C CNN
-F1 "SPDT_Small" 232 42 50 H V C CNN
+F1 "crazy_circuits:SPDT_Small" 232 42 50 H V C CNN
 F2 "" -100 0 50 H V C CNN
 F3 "" -100 0 50 H V C CNN
 DRAW

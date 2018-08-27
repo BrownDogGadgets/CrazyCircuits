@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-Slide-Switch-CL-SB-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L SPDT_Small SW1
+L crazy_circuits:SPDT_Small SW1
 U 1 1 587FDCA1
 P 4675 3625
 F 0 "SW1" V 4450 3725 50  0000 C CNN

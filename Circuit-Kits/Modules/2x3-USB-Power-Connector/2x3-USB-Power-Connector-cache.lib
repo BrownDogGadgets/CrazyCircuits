@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CAP-CER-1UF-25V-X7R-0603
+# crazy_circuits:CAP-CER-1UF-25V-X7R-0603
 #
-DEF CAP-CER-1UF-25V-X7R-0603 C 0 40 N N 1 F N
+DEF crazy_circuits:CAP-CER-1UF-25V-X7R-0603 C 0 40 N N 1 F N
 F0 "C" 75 50 50 H V L CNN
-F1 "CAP-CER-1UF-25V-X7R-0603" 75 -50 50 H V L CNN
+F1 "crazy_circuits:CAP-CER-1UF-25V-X7R-0603" 75 -50 50 H V L CNN
 F2 "Wickerlib:RLC-0603-SMD" 0 -350 50 H I C CIN
 F3 "http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=TMK107B7105KA-T&fileName=TMK107B7105KA-T_SS&mode=specSheetDownload" 0 0 5 H I C CNN
 F4 "CAP CER 1UF 25V X7R 0603" 0 -350 50 H I C CIN "Description"
@@ -13,6 +13,9 @@ F5 "Taiyo Yuden" 0 -350 50 H I C CIN "MF_Name"
 F6 "TMK107B7105KA-T" 0 -350 50 H I C CIN "MF_PN"
 F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
 F8 "587-2984-1-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "114" 0 -350 50 H I C CIN "XSize_mils"
+F10 "59" 0 -350 50 H I C CIN "YSize_mils"
+F11 "smt" 0 -350 50 H I C CIN "Type"
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
@@ -21,18 +24,21 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN-USB-MICRO-B-10118193
+# crazy_circuits:CONN-USB-MICRO-B-10118193
 #
-DEF CONN-USB-MICRO-B-10118193 J 0 40 Y Y 1 F N
+DEF crazy_circuits:CONN-USB-MICRO-B-10118193 J 0 40 Y Y 1 F N
 F0 "J" -150 350 50 H V L CNN
-F1 "CONN-USB-MICRO-B-10118193" -150 -350 50 H V L CNN
-F2 "USB-10118193" 0 -350 50 H I C CIN
+F1 "crazy_circuits:CONN-USB-MICRO-B-10118193" -150 -350 50 H V L CNN
+F2 "Wickerlib:CONN-USB-MICRO-B-AMPHENOL-10118193-0001LF" 0 -350 50 H I C CIN
 F3 "http://portal.fciconnect.com/Comergent//fci/drawing/10118193.pdf" -525 25 5 V I C CNN
 F4 "USB MICRO-B RECEPTACLE 5PIN SMT R/A STUDS" 0 -350 50 H I C CIN "Description"
 F5 "Amphenol" 0 -350 50 H I C CIN "MF_Name"
 F6 "10118193-0001LF" 0 -350 50 H I C CIN "MF_PN"
 F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
 F8 "609-4616-1-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "394" 0 -350 50 H I C CIN "XSize_mils"
+F10 "207" 0 -350 50 H I C CIN "YSize_mils"
+F11 "smt" 0 -350 50 H I C CIN "Type"
 DRAW
 S 200 300 -150 -300 0 1 0 N
 X VCC 1 350 200 150 L 50 50 1 1 W
@@ -43,11 +49,11 @@ X GND 5 350 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# crazy_circuits:GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -56,11 +62,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353
+# crazy_circuits:IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353
 #
-DEF IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353 U 0 40 Y Y 1 F N
+DEF crazy_circuits:IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353 U 0 40 Y Y 1 F N
 F0 "U" -302 242 50 H V L CNN
-F1 "IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353" -302 142 50 H V L CNN
+F1 "crazy_circuits:IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353" -302 142 50 H V L CNN
 F2 "Wickerlib:SOT-353" 0 -350 50 H I C CIN
 F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxsd5wg-e.pdf" 0 0 5 H I C CNN
 F4 "IC REG LDO 3.3V 0.15A SOT353" 0 -350 50 H I C CIN "Description"
@@ -78,11 +84,11 @@ X VOUT 5 400 50 100 L 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
-# VCC
+# crazy_circuits:VCC
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "crazy_circuits:VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -92,11 +98,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# VIN
+# crazy_circuits:VIN
 #
-DEF VIN #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:VIN #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VIN" 0 140 50 H V C CNN
+F1 "crazy_circuits:VIN" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

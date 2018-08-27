@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:1x3-Button-Momentary-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L SW_PUSH SW1
+L crazy_circuits:SW_PUSH SW1
 U 1 1 585732B9
 P 4375 3450
 F 0 "SW1" H 4525 3560 50  0000 C CNN

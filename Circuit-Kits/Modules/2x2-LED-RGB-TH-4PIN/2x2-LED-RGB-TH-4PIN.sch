@@ -1,7 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:wickerlib
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -36,7 +36,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4275 4750 4400
 $Comp
-L GND #PWR?
+L crazy_circuits:GND #PWR?
 U 1 1 5880820E
 P 4750 4400
 F 0 "#PWR?" H 4750 4150 50  0001 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 4750 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RGB-TH-COM-11120 LED1
+L crazy_circuits:LED-RGB-TH-COM-11120 LED1
 U 1 1 588084D3
 P 4900 4075
 F 0 "LED1" H 4975 4125 50  0000 L CNN

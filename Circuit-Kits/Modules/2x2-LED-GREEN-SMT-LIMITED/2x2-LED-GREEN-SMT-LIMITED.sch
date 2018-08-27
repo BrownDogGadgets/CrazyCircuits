@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,18 +15,18 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR1
+L crazy_circuits:3.3V #PWR1
 U 1 1 5AF32C97
 P 4775 3375
 F 0 "#PWR1" H 4775 3225 50  0001 C CNN
-F 1 "VCC" H 4775 3525 50  0000 C CNN
+F 1 "3.3V" H 4775 3525 50  0000 C CNN
 F 2 "" H 4775 3375 50  0000 C CNN
 F 3 "" H 4775 3375 50  0000 C CNN
 	1    4775 3375
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES-100-1%-1/4W-1206 R1
+L crazy_circuits:RES-100-1%-1_4W-1206 R1
 U 1 1 5AF32CAB
 P 4775 3575
 F 0 "R1" H 4825 3625 50  0000 L CNN
@@ -42,7 +42,7 @@ F 8 "311-100FRCT-ND" H 4775 3225 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-GREEN-1206-SMT-150120VS75000 LED1
+L crazy_circuits:LED-GREEN-1206-SMT-150120VS75000 LED1
 U 1 1 5AF32D24
 P 4775 3875
 F 0 "LED1" H 4850 3925 50  0000 L CNN
@@ -58,7 +58,7 @@ F 8 "732-4993-1-ND" H 4775 3525 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L crazy_circuits:GND #PWR2
 U 1 1 5AF32D7C
 P 4775 4100
 F 0 "#PWR2" H 4775 3850 50  0001 C CNN

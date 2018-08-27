@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-LED-RGB-A-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR1
+L crazy_circuits:VCC #PWR1
 U 1 1 5AE777B7
 P 4750 3450
 F 0 "#PWR1" H 4750 3300 50  0001 C CNN
@@ -43,7 +42,7 @@ Wire Wire Line
 Text Label 6175 4575 0    50   ~ 0
 RED
 $Comp
-L RES-100-1%-1/10W-0603 R1
+L crazy_circuits:RES-100-1%-1/10W-0603 R1
 U 1 1 5AFB7418
 P 5450 4200
 F 0 "R1" H 5500 4250 50  0000 L CNN
@@ -59,7 +58,7 @@ F 8 "A106047CT-ND" H 5450 3850 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES-100-1%-1/10W-0603 R2
+L crazy_circuits:RES-100-1%-1/10W-0603 R2
 U 1 1 5AFB7498
 P 5800 4200
 F 0 "R2" H 5850 4250 50  0000 L CNN
@@ -75,7 +74,7 @@ F 8 "A106047CT-ND" H 5800 3850 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES-47-OHM-5%-1/10W-0603 R3
+L crazy_circuits:RES-47-OHM-5%-1/10W-0603 R3
 U 1 1 5AFB74D1
 P 6150 4200
 F 0 "R3" H 6209 4249 50  0000 L CNN
@@ -119,7 +118,7 @@ G
 Text Label 5000 4075 0    50   ~ 0
 R
 $Comp
-L LED-RGB-SMT-19-237-RGB LED1
+L crazy_circuits:LED-RGB-SMT-19-237-RGB LED1
 U 1 1 5B0FF9DD
 P 4900 3725
 F 0 "LED1" H 4975 3775 50  0000 L CNN

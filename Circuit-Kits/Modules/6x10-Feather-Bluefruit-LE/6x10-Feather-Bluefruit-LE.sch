@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:6x10-Feather-Bluefruit-LE-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L ADAFRUIT-FEATHER-BLUEFRUIT-LE U1
+L crazy_circuits:ADAFRUIT-FEATHER-BLUEFRUIT-LE U1
 U 1 1 5A7C752E
 P 4175 3475
 F 0 "U1" H 3875 4975 50  0000 L CNN
@@ -32,7 +31,7 @@ F 8 "1528-2095-ND" H 4335 3075 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 5A7C75BB
 P 4625 1975
 F 0 "#PWR01" H 4625 1825 50  0001 C CNN
@@ -46,7 +45,7 @@ NoConn ~ 4375 2625
 NoConn ~ 4375 2425
 NoConn ~ 4375 2125
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 5A7C898D
 P 4600 5350
 F 0 "#PWR02" H 4600 5100 50  0001 C CNN
@@ -146,7 +145,7 @@ Wire Wire Line
 	4375 2875 4875 2875
 Connection ~ 4625 2225
 Wire Wire Line
-	4625 1975 4625 2325
+	4625 1975 4625 2225
 Text Label 4475 2525 0    50   ~ 0
 ~RST
 Text Label 4475 2725 0    50   ~ 0
@@ -157,4 +156,6 @@ Wire Wire Line
 	4600 5275 4375 5275
 NoConn ~ 4375 3825
 NoConn ~ 4375 3925
+Wire Wire Line
+	4625 2225 4625 2325
 $EndSCHEMATC

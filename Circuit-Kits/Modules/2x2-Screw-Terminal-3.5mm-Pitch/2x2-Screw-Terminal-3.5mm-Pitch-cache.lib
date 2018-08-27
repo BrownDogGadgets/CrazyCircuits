@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conn_2
+# crazy_circuits:Conn_2
 #
-DEF ~Conn_2 J 0 10 N N 1 F N
+DEF ~crazy_circuits:Conn_2 J 0 10 N N 1 F N
 F0 "J" -50 125 50 H V L CNN
-F1 "Conn_2" -50 -125 50 H I L CNN
+F1 "crazy_circuits:Conn_2" -50 -125 50 H I L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST

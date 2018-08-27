@@ -15,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L LED LED1
+L crazy_circuits:LED LED1
 U 1 1 5890E035
 P 4700 4325
 F 0 "LED1" H 4775 4375 50  0000 L CNN
@@ -31,7 +31,7 @@ F 8 "160-1456-1-ND" H 4700 4325 60  0001 C CNN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L crazy_circuits:VCC #PWR?
 U 1 1 5890E052
 P 4700 4075
 F 0 "#PWR?" H 4700 3925 50  0001 C CNN
@@ -46,7 +46,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4425 4700 4575
 $Comp
-L GND #PWR?
+L crazy_circuits:GND #PWR?
 U 1 1 5890E070
 P 4700 4575
 F 0 "#PWR?" H 4700 4325 50  0001 C CNN

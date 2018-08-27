@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:2x3-Speaker-TH-5mm-Pitch-rescue
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-Speaker-TH-5mm-Pitch-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -17,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Speaker SPK1
+L crazy_circuits:Speaker SPK1
 U 1 1 58806521
 P 4825 3700
 F 0 "SPK1" H 4975 3750 50  0000 L CNN

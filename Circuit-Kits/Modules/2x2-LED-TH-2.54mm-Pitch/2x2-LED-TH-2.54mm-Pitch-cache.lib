@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# GND
+# crazy_circuits:GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -14,11 +14,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LED
+# crazy_circuits:LED
 #
-DEF LED LED 0 40 N N 1 F N
+DEF crazy_circuits:LED LED 0 40 N N 1 F N
 F0 "LED" 75 50 50 H V L CNN
-F1 "LED" 75 -50 50 H V L CNN
+F1 "crazy_circuits:LED" 75 -50 50 H V L CNN
 F2 "LED" 0 -200 50 H I C CIN
 F3 "http://www.marktechopto.com/products/datasheet/MT2118-G-A" 0 0 5 V I C CNN
 DRAW
@@ -31,11 +31,11 @@ X ~ - 0 -100 70 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# VCC
+# crazy_circuits:VCC
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "crazy_circuits:VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

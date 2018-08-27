@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-Tilt-Switch-1208-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -24,12 +23,12 @@ Text Label 5400 3950 2    50   ~ 0
 Text Label 4400 3950 0    50   ~ 0
 1
 $Comp
-L SW_TOGGLE SW1
+L crazy_circuits:SW_TOGGLE SW1
 U 1 1 58CABBD1
 P 4875 3950
 F 0 "SW1" H 5025 4060 50  0000 C CNN
 F 1 "SW_TILT" H 4875 3870 50  0000 C CNN
-F 2 "Crazy_Circuits:SWITCH-TILT-SMT-1208-2x2-CENTER" H 4875 3950 50  0000 C CNN
+F 2 "Crazy_Circuits:SWITCH-TILT-SMT-1208-2x2-CENTER" H 4875 3950 50  0001 C CNN
 F 3 "" H 4875 3950 50  0000 C CNN
 F 4 "TILT SENSOR 2 PIN PKGS-25SXAP1-R" H 4875 3950 60  0001 C CNN "Description"
 F 5 "Murata" H 4875 3950 60  0001 C CNN "MF_Name"

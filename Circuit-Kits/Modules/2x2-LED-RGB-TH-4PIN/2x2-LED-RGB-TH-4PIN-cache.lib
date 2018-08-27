@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# GND
+# crazy_circuits:GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -14,11 +14,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# LED-RGB-TH-COM-11120
+# crazy_circuits:LED-RGB-TH-COM-11120
 #
-DEF LED-RGB-TH-COM-11120 LED 0 40 N N 1 F N
+DEF crazy_circuits:LED-RGB-TH-COM-11120 LED 0 40 N N 1 F N
 F0 "LED" 75 50 50 H V L CNN
-F1 "LED-RGB-TH-COM-11120" 75 -50 50 H V L CNN
+F1 "crazy_circuits:LED-RGB-TH-COM-11120" 75 -50 50 H V L CNN
 F2 "Crazy_Circuits:LED-RGB-2.54MM-4PIN-2x2" 0 -350 50 H I C CIN
 F3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616LSEEZGKQBKC.pdf" 0 0 5 H I C CNN
 F4 "DIFFUSED LED - RGB 10MM" 0 -350 50 H I C CIN "Description"

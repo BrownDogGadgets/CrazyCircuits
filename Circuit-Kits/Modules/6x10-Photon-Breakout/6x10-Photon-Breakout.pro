@@ -1,4 +1,4 @@
-update=Thu 15 Dec 2016 11:23:06 AM PST
+update=Mon 27 Aug 2018 12:17:52 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,7 +37,5 @@ LabSize=50
 version=1
 [eeschema]
 version=1
-LibDir=/home/wicker/proj/CrazyCircuits/Development/library/
-[eeschema/libraries]
-LibName1=crazy_circuits
+LibDir=
 

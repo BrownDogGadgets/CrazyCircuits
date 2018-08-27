@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,12 +15,12 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_2 J1
+L crazy_circuits:Conn_2 J1
 U 1 1 5894E6E6
 P 5675 3875
 F 0 "J1" H 5625 4000 50  0000 L CNN
 F 1 "Arduino Nano" H 5625 3750 50  0001 L CNN
-F 2 "Crazy_Circuits:ARDUINO-NANO-5x10-RING" H 5675 3875 50  0000 C CNN
+F 2 "Crazy_Circuits:ARDUINO-NANO-5x10-RING" H 5675 3875 50  0001 C CNN
 F 3 "" H 5675 3875 50  0000 C CNN
 F 4 "ARDUINO NANO DEVELOPMENT BOARD" H 5675 3875 60  0001 C CNN "Description"
 F 5 "Arduino" H 5675 3875 60  0001 C CNN "MF_Name"

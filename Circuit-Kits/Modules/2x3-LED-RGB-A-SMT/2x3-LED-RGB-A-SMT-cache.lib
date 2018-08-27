@@ -1,86 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LED-RGB-SMT-19-237-RGB
+# crazy_circuits:VCC
 #
-DEF LED-RGB-SMT-19-237-RGB LED 0 40 N N 1 F N
-F0 "LED" 75 50 50 H V L CNN
-F1 "LED-RGB-SMT-19-237-RGB" 75 -50 50 H V L CNN
-F2 "Crazy_Circuits:LED-RGB-0606-19-237-2x3" 0 -350 50 H I C CIN
-F3 "http://erp.fastbom.com/uploads/p_dn/info/558513/19-237-R6GHBHC-A01-2T-139.pdf" 0 0 5 H I C CNN
-F4 "LED CHIP RGB 19-237 A01/2T SMD " 0 -350 50 H I C CIN "Description"
-F5 "Digikey" 0 -350 50 H I C CIN "MF_Name"
-F6 "19-237/R6GHBHC-A01/2T" 0 -350 50 H I C CIN "MF_PN"
-F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
-F8 "19-237/R6GHBHC-A01/2T-ND" 0 -350 50 H I C CIN "S1_PN"
-DRAW
-T 0 -50 -75 50 0 0 0 B Normal 0 C C
-T 0 -225 -75 50 0 0 0 G Normal 0 C C
-T 0 -375 -75 50 0 0 0 R Normal 0 C C
-C -150 125 0 0 1 0 N
-P 2 0 1 0 -110 -30 -190 -30 N
-P 2 0 1 0 -110 -30 -190 -30 N
-P 2 0 1 0 40 -30 -40 -30 N
-P 4 0 1 0 -260 30 -300 -30 -340 30 -260 30 F
-P 4 0 1 0 -110 30 -150 -30 -190 30 -110 30 F
-P 4 0 1 0 0 25 0 125 -300 125 -300 0 N
-P 4 0 1 0 40 30 0 -30 -40 30 40 30 F
-P 5 0 1 0 -375 20 -395 0 -395 10 -395 0 -385 0 N
-P 5 0 1 0 -355 0 -375 -20 -375 -10 -375 -20 -365 -20 N
-P 5 0 1 0 -225 20 -245 0 -245 10 -245 0 -235 0 N
-P 5 0 1 0 -205 0 -225 -20 -225 -10 -225 -20 -215 -20 N
-P 5 0 1 0 -50 20 -70 0 -70 10 -70 0 -60 0 N
-P 5 0 1 0 -30 0 -50 -20 -50 -10 -50 -20 -40 -20 N
-X R 1 -300 -100 70 U 40 40 1 1 P
-X G 2 -150 -100 70 U 40 40 1 1 P
-X B 3 0 -100 70 U 40 40 1 1 P
-X C 4 -150 225 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# RES-100-1%-1/10W-0603
-#
-DEF RES-100-1%-1/10W-0603 R 0 40 N N 1 F N
-F0 "R" 50 50 50 H V L CNN
-F1 "RES-100-1%-1/10W-0603" 50 -50 50 H V L CNN
-F2 "Crazy_NonLego:RLC-0603-SMD" 0 -350 50 H I C CIN
-F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204&DocType=DS&DocLang=English" 0 0 5 H I C CNN
-F4 "RES SMD 100 OHM 1% 1/10W 0603" 0 -350 50 H I C CIN "Description"
-F5 "TE Conn" 0 -350 50 H I C CIN "MF_Name"
-F6 "CRG0603F100R" 0 -350 50 H I C CIN "MF_PN"
-F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
-F8 "A106047CT-ND" 0 -350 50 H I C CIN "S1_PN"
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 40 40 1 1 P
-X ~ 2 0 -100 30 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RES-47-OHM-5%-1/10W-0603
-#
-DEF RES-47-OHM-5%-1/10W-0603 R 0 40 N N 1 F N
-F0 "R" 59 49 50 H V L CNN
-F1 "RES-47-OHM-5%-1/10W-0603" 50 -50 50 H V L CNN
-F2 "Crazy_NonLego:RLC-0603-SMD" 0 -350 50 H I C CIN
-F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 0 5 H I C CNN
-F4 "RES 47 OHM 5% 1/10W 0603" 0 -350 50 H I C CIN "Description"
-F5 "Yageo" 0 -350 50 H I C CIN "MF_Name"
-F6 "RC0603JR-0747RL" 0 -350 50 H I C CIN "MF_PN"
-F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
-F8 "311-47GRCT-ND" 0 -350 50 H I C CIN "S1_PN"
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 40 40 1 1 P
-X ~ 2 0 -100 30 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# VCC
-#
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "crazy_circuits:VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

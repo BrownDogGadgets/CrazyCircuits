@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Teensy
+# crazy_circuits:Teensy
 #
-DEF Teensy U1 0 0 N Y 1 F N
+DEF crazy_circuits:Teensy U1 0 0 N Y 1 F N
 F0 "U1" 100 50 50 H V L CNN
-F1 "Teensy" 100 -50 50 H V L CNN
+F1 "crazy_circuits:Teensy" 100 -50 50 H V L CNN
 F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 DRAW

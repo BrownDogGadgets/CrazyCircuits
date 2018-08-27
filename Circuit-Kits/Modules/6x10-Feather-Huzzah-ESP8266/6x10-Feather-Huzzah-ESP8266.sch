@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L ADAFRUIT-FEATHER-ESP8266-HUZZAH U1
+L crazy_circuits:ADAFRUIT-FEATHER-ESP8266-HUZZAH U1
 U 1 1 5A7CBC16
 P 4025 3400
 F 0 "U1" H 3725 4900 50  0000 L CNN
@@ -35,7 +35,7 @@ Wire Wire Line
 Wire Wire Line
 	4475 2150 4475 2025
 $Comp
-L VCC #PWR1
+L crazy_circuits:VCC #PWR1
 U 1 1 5A7CBCC8
 P 4475 2025
 F 0 "#PWR1" H 4475 1875 50  0001 C CNN
@@ -92,7 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 4150 4650 4225
 $Comp
-L GND #PWR2
+L crazy_circuits:GND #PWR2
 U 1 1 5A7CBEB6
 P 4650 4225
 F 0 "#PWR2" H 4650 3975 50  0001 C CNN

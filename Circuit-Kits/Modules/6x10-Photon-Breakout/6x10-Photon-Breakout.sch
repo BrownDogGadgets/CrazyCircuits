@@ -1,6 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:crazy_circuits
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L PARTICLE-PHOTON-V016 U1
+L crazy_circuits:PARTICLE-PHOTON-V016 U1
 U 1 1 5B4C1D29
 P 2850 3375
 F 0 "U1" H 2550 4875 50  0000 L CNN
@@ -33,9 +32,9 @@ $EndComp
 Wire Wire Line
 	3050 2025 3400 2025
 Wire Wire Line
-	3400 1900 3400 2225
+	3400 1900 3400 2025
 $Comp
-L 5V #PWR01
+L crazy_circuits:5V #PWR01
 U 1 1 5B4C2204
 P 3400 1900
 F 0 "#PWR01" H 3400 1750 50  0001 C CNN
@@ -50,7 +49,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2125 3600 1975
 $Comp
-L 3.3V #PWR02
+L crazy_circuits:3.3V #PWR02
 U 1 1 5B4C222C
 P 3600 1975
 F 0 "#PWR02" H 3600 1825 50  0001 C CNN
@@ -84,7 +83,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 5175 3700 5300
 $Comp
-L GND #PWR03
+L crazy_circuits:GND #PWR03
 U 1 1 5B4C30DD
 P 3700 5300
 F 0 "#PWR03" H 3700 5050 50  0001 C CNN
@@ -149,4 +148,6 @@ DAC
 Wire Wire Line
 	3400 2225 3050 2225
 Connection ~ 3400 2025
+Wire Wire Line
+	3400 2025 3400 2225
 $EndSCHEMATC

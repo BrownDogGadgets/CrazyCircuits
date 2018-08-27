@@ -1,8 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:wickerlib
-LIBS:2x2-CdS-Photocell-TH-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,8 +15,20 @@ Comment2 "http://browndoggadgets.com/"
 Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4825 3175 4825 3100
+Wire Wire Line
+	4825 3375 4825 3500
+Wire Wire Line
+	4825 3100 4750 3100
+Wire Wire Line
+	4825 3500 4750 3500
+Text Label 4750 3100 0    50   ~ 0
+1
+Text Label 4750 3500 0    50   ~ 0
+2
 $Comp
-L Photocell LDR1
+L crazy_circuits:Photocell LDR1
 U 1 1 58CC3684
 P 4825 3275
 F 0 "LDR1" H 4900 3325 50  0000 L CNN
@@ -32,16 +43,4 @@ F 8 "PDV-P8103-ND" H 4825 3275 60  0001 C CNN "S1_PN"
 	1    4825 3275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4825 3175 4825 3100
-Wire Wire Line
-	4825 3375 4825 3500
-Wire Wire Line
-	4825 3100 4750 3100
-Wire Wire Line
-	4825 3500 4750 3500
-Text Label 4750 3100 0    50   ~ 0
-1
-Text Label 4750 3500 0    50   ~ 0
-2
 $EndSCHEMATC

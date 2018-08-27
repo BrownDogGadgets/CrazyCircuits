@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:5x11-Arduino-Nano-Robot-Version-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR1
+L crazy_circuits:GND #PWR1
 U 1 1 58FE4F4A
 P 3725 4225
 F 0 "#PWR1" H 3725 3975 50  0001 C CNN
@@ -37,7 +36,7 @@ A4
 Text Label 3875 3950 0    50   ~ 0
 A5
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J1
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J1
 U 1 1 58FE51EC
 P 3350 1675
 F 0 "J1" H 3300 1875 50  0000 L CNN
@@ -53,7 +52,7 @@ F 8 "952-2264-ND" H 3350 1325 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J5
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J5
 U 1 1 58FE54AA
 P 3350 3575
 F 0 "J5" H 3300 3775 50  0000 L CNN
@@ -69,7 +68,7 @@ F 8 "952-2264-ND" H 3350 3225 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J6
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J6
 U 1 1 58FE54F2
 P 3350 4050
 F 0 "J6" H 3300 4250 50  0000 L CNN
@@ -85,7 +84,7 @@ F 8 "952-2264-ND" H 3350 3700 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ARDUINO-NANO U1
+L crazy_circuits:ARDUINO-NANO U1
 U 1 1 59004828
 P 5150 2350
 F 0 "U1" H 4850 3850 50  0000 L CNN
@@ -101,7 +100,7 @@ F 8 "1050-1001-ND" H 5300 2050 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L crazy_circuits:GND #PWR3
 U 1 1 58FE5E9A
 P 4625 4275
 F 0 "#PWR3" H 4625 4025 50  0001 C CNN
@@ -118,7 +117,7 @@ Text Label 4775 1200 0    50   ~ 0
 Text Label 4775 1450 0    50   ~ 0
 RST
 $Comp
-L 5V #PWR2
+L crazy_circuits:5V #PWR2
 U 1 1 590DB2E6
 P 3800 950
 F 0 "#PWR2" H 3800 800 50  0001 C CNN
@@ -149,7 +148,7 @@ Connection ~ 3725 2250
 Wire Wire Line
 	3800 2150 3550 2150
 Wire Wire Line
-	3800 950  3800 4050
+	3800 950  3800 1100
 Wire Wire Line
 	3800 2625 3550 2625
 Connection ~ 3800 2150
@@ -189,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 1300 5000 1300
 Wire Wire Line
-	4775 1450 5000 1450
+	4775 1450 4950 1450
 Wire Wire Line
 	4950 1550 5000 1550
 Wire Wire Line
@@ -234,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	4625 4150 5000 4150
 Wire Wire Line
-	4625 4050 4625 4275
+	4625 4050 4625 4150
 Connection ~ 4625 4150
 Connection ~ 3800 1300
 Wire Wire Line
@@ -247,7 +246,7 @@ Wire Wire Line
 	4200 3950 4200 3650
 Connection ~ 3800 1100
 Wire Wire Line
-	3725 1775 3725 4225
+	3725 1775 3725 2250
 Wire Wire Line
 	3550 3000 4550 3000
 Wire Wire Line
@@ -261,7 +260,7 @@ Connection ~ 3725 3200
 Text Label 3875 3000 0    50   ~ 0
 D9
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J2
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J2
 U 1 1 5AF1C185
 P 3350 2150
 F 0 "J2" H 3300 2350 50  0000 L CNN
@@ -277,7 +276,7 @@ F 8 "952-2264-ND" H 3350 1800 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J3
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J3
 U 1 1 5AF1C1CE
 P 3350 2625
 F 0 "J3" H 3300 2825 50  0000 L CNN
@@ -293,7 +292,7 @@ F 8 "952-2264-ND" H 3350 2275 50  0001 C CIN "S1_PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J4
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J4
 U 1 1 5AF1C230
 P 3350 3100
 F 0 "J4" H 3300 3300 50  0000 L CNN
@@ -308,4 +307,32 @@ F 8 "952-2264-ND" H 3350 2750 50  0001 C CIN "S1_PN"
 	1    3350 3100
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3725 4150 3725 4225
+Wire Wire Line
+	3725 3675 3725 4150
+Wire Wire Line
+	3725 2725 3725 3200
+Wire Wire Line
+	3725 2250 3725 2725
+Wire Wire Line
+	3800 2150 3800 2625
+Wire Wire Line
+	3800 2625 3800 3100
+Wire Wire Line
+	3800 3575 3800 4050
+Wire Wire Line
+	3800 1675 3800 2150
+Wire Wire Line
+	4950 1450 5000 1450
+Wire Wire Line
+	4625 4150 4625 4275
+Wire Wire Line
+	3800 1300 3800 1675
+Wire Wire Line
+	3800 1100 3800 1300
+Wire Wire Line
+	3800 3100 3800 3575
+Wire Wire Line
+	3725 3200 3725 3675
 $EndSCHEMATC

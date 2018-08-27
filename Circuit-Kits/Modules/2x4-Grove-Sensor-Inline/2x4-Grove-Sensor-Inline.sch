@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L HEADER-MALE-4POS-TH-1x04-SEEED-GROVE J1
+L crazy_circuits:HEADER-MALE-4POS-TH-1x04-SEEED-GROVE J1
 U 1 1 5A7DB41E
 P 5225 3275
 F 0 "J1" H 5175 3475 50  0000 L CNN
@@ -43,7 +43,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3475 4850 3575
 $Comp
-L GND #PWR01
+L crazy_circuits:GND #PWR01
 U 1 1 5A7DB4D9
 P 4850 3575
 F 0 "#PWR01" H 4850 3325 50  0001 C CNN
@@ -54,7 +54,7 @@ F 3 "" H 4850 3575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR02
+L crazy_circuits:VCC #PWR02
 U 1 1 5A7DB4EF
 P 4850 3025
 F 0 "#PWR02" H 4850 2875 50  0001 C CNN

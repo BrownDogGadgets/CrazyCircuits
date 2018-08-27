@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-Servo-Header-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Servo_Breakout J1
+L crazy_circuits:Servo_Breakout J1
 U 1 1 588073C1
 P 5175 4300
 F 0 "J1" H 5025 4475 50  0000 L CNN
@@ -40,7 +39,7 @@ Wire Wire Line
 Text Label 5450 4250 2    50   ~ 0
 SIG
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 5882D78E
 P 5575 4200
 F 0 "#PWR01" H 5575 4050 50  0001 C CNN
@@ -51,7 +50,7 @@ F 3 "" H 5575 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 5882D7A4
 P 5400 4475
 F 0 "#PWR02" H 5400 4225 50  0001 C CNN

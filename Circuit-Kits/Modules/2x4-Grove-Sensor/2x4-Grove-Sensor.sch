@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x4-Grove-Sensor-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L HEADER-MALE-4POS-TH-1x04-SEEED-GROVE J1
+L crazy_circuits:HEADER-MALE-4POS-TH-1x04-SEEED-GROVE J1
 U 1 1 5A777645
 P 5075 3625
 F 0 "J1" H 5025 3825 50  0000 L CNN
@@ -46,7 +45,7 @@ D1
 Wire Wire Line
 	4775 3725 4775 3350
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 5A777A2F
 P 4775 3350
 F 0 "#PWR01" H 4775 3200 50  0001 C CNN
@@ -59,7 +58,7 @@ $EndComp
 Wire Wire Line
 	4775 3825 4775 3950
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 5A777A4F
 P 4775 3950
 F 0 "#PWR02" H 4775 3700 50  0001 C CNN

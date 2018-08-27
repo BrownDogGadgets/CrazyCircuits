@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CapTouch_Pad
+# crazy_circuits:CapTouch_Pad
 #
-DEF CapTouch_Pad PAD 0 10 N N 1 F N
+DEF crazy_circuits:CapTouch_Pad PAD 0 10 N N 1 F N
 F0 "PAD" 10 70 50 H V L CNN
-F1 "CapTouch_Pad" 10 -80 50 H V L CNN
+F1 "crazy_circuits:CapTouch_Pad" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -22,11 +22,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# crazy_circuits:GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -35,11 +35,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# VCC
+# crazy_circuits:VCC
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "crazy_circuits:VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

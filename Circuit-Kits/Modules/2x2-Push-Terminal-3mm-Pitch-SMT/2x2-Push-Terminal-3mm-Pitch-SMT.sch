@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-Push-Terminal-3mm-Pitch-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_2 J1
+L crazy_circuits:Conn_2 J1
 U 1 1 587EB9D9
 P 4950 3575
 F 0 "J1" H 4900 3700 50  0000 L CNN

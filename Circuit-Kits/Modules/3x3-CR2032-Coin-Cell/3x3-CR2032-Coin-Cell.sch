@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:3x3-CR2032-Coin-Cell-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Battery BT1
+L crazy_circuits:Battery BT1
 U 1 1 5858515E
 P 4825 3700
 F 0 "BT1" H 4925 3750 50  0000 L CNN
@@ -32,7 +31,7 @@ F 8 "BK-912-ND" H 4825 3700 60  0001 C CNN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L crazy_circuits:GND #PWR01
 U 1 1 5858519B
 P 4825 3975
 F 0 "#PWR01" H 4825 3725 50  0001 C CNN
@@ -47,7 +46,7 @@ Wire Wire Line
 Wire Wire Line
 	4825 3550 4825 3375
 $Comp
-L VCC #PWR02
+L crazy_circuits:VCC #PWR02
 U 1 1 585851B9
 P 4825 3375
 F 0 "#PWR02" H 4825 3225 50  0001 C CNN

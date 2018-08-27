@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Photocell
+# crazy_circuits:Photocell
 #
-DEF Photocell LDR 0 40 N N 1 F N
+DEF crazy_circuits:Photocell LDR 0 40 N N 1 F N
 F0 "LDR" 75 50 50 H V L CNN
-F1 "Photocell" 75 -50 50 H V L CNN
+F1 "crazy_circuits:Photocell" 75 -50 50 H V L CNN
 F2 "" 0 -200 50 H I C CIN
 F3 "" 0 0 5 V I C CNN
 DRAW
@@ -13,8 +13,8 @@ C 0 0 60 0 1 0 N
 P 5 0 1 0 -90 50 -70 30 -80 30 -70 30 -70 40 N
 P 5 0 1 0 -70 70 -50 50 -60 50 -50 50 -50 60 N
 P 5 0 1 0 0 30 -25 20 20 0 -25 -15 0 -30 N
-X ~ + 0 100 70 D 40 40 1 1 P
-X ~ - 0 -100 70 U 40 40 1 1 P
+X ~ 1 0 100 70 D 40 40 1 1 P
+X ~ 2 0 -100 70 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-LED-TH-5mm-Pitch-Magnet-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L LED LED1
+L crazy_circuits:LED LED1
 U 1 1 58584EA3
 P 4950 3550
 F 0 "LED1" H 5050 3600 50  0000 L CNN
@@ -32,7 +31,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3650 4950 3775
 $Comp
-L GND #PWR01
+L crazy_circuits:GND #PWR01
 U 1 1 58584EE9
 P 4950 3775
 F 0 "#PWR01" H 4950 3525 50  0001 C CNN
@@ -43,7 +42,7 @@ F 3 "" H 4950 3775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR02
+L crazy_circuits:VCC #PWR02
 U 1 1 58584EFF
 P 4950 3350
 F 0 "#PWR02" H 4950 3200 50  0001 C CNN

@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x4-12mm-Square-SMT-Pushbutton-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L SWITCH-MOMENT-SPDT-SMT-B3FS-4002P SW1
+L crazy_circuits:SWITCH-MOMENT-SPDT-SMT-B3FS-4002P SW1
 U 1 1 5877E7CA
 P 4875 3625
 F 0 "SW1" H 5025 3735 50  0000 C CNN
@@ -36,12 +35,12 @@ Wire Wire Line
 Wire Wire Line
 	4525 3725 4525 3625
 Wire Wire Line
-	4400 3625 4575 3625
+	4400 3625 4525 3625
 Connection ~ 4525 3625
 Text Label 4400 3625 0    50   ~ 0
 1
 Wire Wire Line
-	5175 3625 5325 3625
+	5175 3625 5225 3625
 Wire Wire Line
 	5175 3725 5225 3725
 Wire Wire Line
@@ -49,4 +48,8 @@ Wire Wire Line
 Connection ~ 5225 3625
 Text Label 5325 3625 2    50   ~ 0
 2
+Wire Wire Line
+	4525 3625 4575 3625
+Wire Wire Line
+	5225 3625 5325 3625
 $EndSCHEMATC

@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L AMICA-NODEMCU-LUA-V2 U1
+L crazy_circuits:AMICA-NODEMCU-LUA-V2 U1
 U 1 1 5B4F7458
 P 2700 2475
 F 0 "U1" H 2400 3925 50  0000 L CNN
@@ -31,7 +31,7 @@ F 8 "1097112" H 2860 1275 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V #PWR01
+L crazy_circuits:5V #PWR01
 U 1 1 5B4F74EB
 P 3125 1050
 F 0 "#PWR01" H 3125 900 50  0001 C CNN
@@ -44,7 +44,7 @@ $EndComp
 Text Notes 3050 825  0    50   ~ 0
 OPTIONAL\nINPUT ONLY
 $Comp
-L 3.3V #PWR02
+L crazy_circuits:3.3V #PWR02
 U 1 1 5B4F7511
 P 4000 1075
 F 0 "#PWR02" H 4000 925 50  0001 C CNN
@@ -55,7 +55,7 @@ F 3 "" H 4000 1075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L crazy_circuits:GND #PWR03
 U 1 1 5B4F766E
 P 4300 3800
 F 0 "#PWR03" H 4300 3550 50  0001 C CNN
@@ -66,7 +66,7 @@ F 3 "" H 4300 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J1
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J1
 U 1 1 5B4F76D7
 P 4625 1500
 F 0 "J1" H 4575 1700 50  0000 L CNN
@@ -82,7 +82,7 @@ F 8 "952-1902-ND" H 4625 1150 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J2
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J2
 U 1 1 5B4F7772
 P 4625 2025
 F 0 "J2" H 4575 2225 50  0000 L CNN
@@ -98,7 +98,7 @@ F 8 "952-1902-ND" H 4625 1675 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J3
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J3
 U 1 1 5B4F77B9
 P 4625 2550
 F 0 "J3" H 4575 2750 50  0000 L CNN
@@ -114,7 +114,7 @@ F 8 "952-1902-ND" H 4625 2200 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J4
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J4
 U 1 1 5B4F7801
 P 4625 3075
 F 0 "J4" H 4575 3275 50  0000 L CNN
@@ -136,7 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1275 4000 1275
 Wire Wire Line
-	4000 1075 4000 3075
+	4000 1075 4000 1275
 Wire Wire Line
 	2900 1425 3150 1425
 Wire Wire Line
@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3725 2900 3725
 Wire Wire Line
-	4300 1600 4300 3800
+	4300 1600 4300 2125
 Wire Wire Line
 	4000 1500 4425 1500
 Connection ~ 4000 1275
@@ -263,4 +263,20 @@ D6
 Text Label 2975 3475 0    50   ~ 0
 D7
 NoConn ~ 2900 3575
+Wire Wire Line
+	4000 1275 4000 1500
+Wire Wire Line
+	4000 1500 4000 2025
+Wire Wire Line
+	4000 2025 4000 2550
+Wire Wire Line
+	4000 2550 4000 3075
+Wire Wire Line
+	4300 3725 4300 3800
+Wire Wire Line
+	4300 2125 4300 2650
+Wire Wire Line
+	4300 2650 4300 3175
+Wire Wire Line
+	4300 3175 4300 3725
 $EndSCHEMATC

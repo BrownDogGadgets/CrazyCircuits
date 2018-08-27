@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-Mini-Potentiometer-3361P-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L TRIMPOT-10K-3PIN-TH-3368P-1-103TLF R1
+L crazy_circuits:TRIMPOT-10K-3PIN-TH-3368P-1-103TLF R1
 U 1 1 5882C850
 P 4600 3900
 F 0 "R1" H 4500 3950 50  0000 R CNN
@@ -32,7 +31,7 @@ F 8 "3361P-103GLFCT-ND" H 4600 3550 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 5882C895
 P 4600 3650
 F 0 "#PWR01" H 4600 3500 50  0001 C CNN
@@ -47,7 +46,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4050 4600 4125
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 5882C8C2
 P 4600 4125
 F 0 "#PWR02" H 4600 3875 50  0001 C CNN

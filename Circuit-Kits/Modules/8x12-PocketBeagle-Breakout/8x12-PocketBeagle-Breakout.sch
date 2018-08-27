@@ -1,7 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:8x12-PocketBeagle-Breakout-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +16,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L POCKET-BEAGLE J6
+L crazy_circuits:POCKET-BEAGLE J6
 U 1 1 5B67D22A
 P 4275 4075
 F 0 "J6" H 4275 6175 50  0000 C CNN
@@ -32,7 +32,7 @@ F 8 "POCKETBEAGLE-SC-569-ND" H 4425 1975 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J4
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J4
 U 1 1 5B67D38F
 P 6400 2925
 F 0 "J4" H 6350 3125 50  0000 L CNN
@@ -48,7 +48,7 @@ F 8 "952-1902-ND" H 6400 2575 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L crazy_circuits:GND #PWR01
 U 1 1 5B67D42B
 P 3425 6025
 F 0 "#PWR01" H 3425 5775 50  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 3425 6025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 5V #PWR02
+L crazy_circuits:5V #PWR02
 U 1 1 5B67DCF4
 P 5000 2025
 F 0 "#PWR02" H 5000 1875 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 5000 2025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3.3V #PWR03
+L crazy_circuits:3.3V #PWR03
 U 1 1 5B67DD0C
 P 5375 2025
 F 0 "#PWR03" H 5375 1875 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 5375 2025 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L crazy_circuits:GND #PWR04
 U 1 1 5B67DD98
 P 5225 3575
 F 0 "#PWR04" H 5225 3325 50  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 5225 3575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J5
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J5
 U 1 1 5B67DF01
 P 6400 3425
 F 0 "J5" H 6350 3625 50  0000 L CNN
@@ -108,7 +108,7 @@ F 8 "952-1902-ND" H 6400 3075 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3425 5575 3425 6025
+	3425 5575 3425 5675
 Wire Wire Line
 	3425 5575 3625 5575
 Wire Wire Line
@@ -123,7 +123,7 @@ Connection ~ 3425 5875
 Wire Wire Line
 	5375 2625 4875 2625
 Wire Wire Line
-	5375 2025 5375 2625
+	5375 2025 5375 2325
 Wire Wire Line
 	4875 2325 5375 2325
 Connection ~ 5375 2325
@@ -133,7 +133,7 @@ Connection ~ 5375 2425
 Wire Wire Line
 	4875 2125 5000 2125
 Wire Wire Line
-	5000 2025 5000 2225
+	5000 2025 5000 2125
 Wire Wire Line
 	5000 2225 4875 2225
 Connection ~ 5000 2125
@@ -156,9 +156,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 2925 5950 2925
 Wire Wire Line
-	5950 2725 5950 3425
+	5950 2725 5950 2925
 $Comp
-L 3.3V #PWR05
+L crazy_circuits:3.3V #PWR05
 U 1 1 5B67E125
 P 5950 2725
 F 0 "#PWR05" H 5950 2575 50  0001 C CNN
@@ -174,12 +174,12 @@ Connection ~ 5950 2925
 Wire Wire Line
 	6200 3025 6050 3025
 Wire Wire Line
-	6050 3025 6050 3700
+	6050 3025 6050 3525
 Wire Wire Line
 	6200 3525 6050 3525
 Connection ~ 6050 3525
 $Comp
-L GND #PWR06
+L crazy_circuits:GND #PWR06
 U 1 1 5B67E1BE
 P 6050 3700
 F 0 "#PWR06" H 6050 3450 50  0001 C CNN
@@ -303,7 +303,7 @@ NoConn ~ 3625 2125
 NoConn ~ 3625 2275
 NoConn ~ 3625 2375
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J1
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J1
 U 1 1 5B687160
 P 6400 5325
 F 0 "J1" H 6350 5525 50  0000 L CNN
@@ -319,7 +319,7 @@ F 8 "952-1902-ND" H 6400 4975 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J2
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J2
 U 1 1 5B68720A
 P 6400 4125
 F 0 "J2" H 6350 4325 50  0000 L CNN
@@ -339,7 +339,7 @@ Wire Wire Line
 Wire Wire Line
 	5775 4125 5775 3925
 $Comp
-L 5V #PWR07
+L crazy_circuits:5V #PWR07
 U 1 1 5B687399
 P 5775 3925
 F 0 "#PWR07" H 5775 3775 50  0001 C CNN
@@ -350,7 +350,7 @@ F 3 "" H 5775 3925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L crazy_circuits:GND #PWR08
 U 1 1 5B6873B7
 P 6200 4350
 F 0 "#PWR08" H 6200 4100 50  0001 C CNN
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	6075 5325 6075 5150
 $Comp
-L 5V #PWR09
+L crazy_circuits:5V #PWR09
 U 1 1 5B68744D
 P 6075 5150
 F 0 "#PWR09" H 6075 5000 50  0001 C CNN
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	6075 5425 6075 5550
 $Comp
-L GND #PWR010
+L crazy_circuits:GND #PWR010
 U 1 1 5B6874AA
 P 6075 5550
 F 0 "#PWR010" H 6075 5300 50  0001 C CNN
@@ -393,7 +393,7 @@ F 3 "" H 6075 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HEADER-MALE-3POS-TH-1x03-P0.1IN J3
+L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J3
 U 1 1 5B68755C
 P 2350 4625
 F 0 "J3" H 2300 4825 50  0000 L CNN
@@ -413,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	2675 4625 2675 4475
 $Comp
-L 5V #PWR011
+L crazy_circuits:5V #PWR011
 U 1 1 5B6876D8
 P 2675 4475
 F 0 "#PWR011" H 2675 4325 50  0001 C CNN
@@ -428,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	2675 4725 2675 4775
 $Comp
-L GND #PWR012
+L crazy_circuits:GND #PWR012
 U 1 1 5B68773C
 P 2675 4775
 F 0 "#PWR012" H 2675 4525 50  0001 C CNN
@@ -438,4 +438,20 @@ F 3 "" H 2675 4775 50  0000 C CNN
 	1    2675 4775
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3425 5675 3425 5775
+Wire Wire Line
+	3425 5775 3425 5875
+Wire Wire Line
+	3425 5875 3425 6025
+Wire Wire Line
+	5375 2325 5375 2425
+Wire Wire Line
+	5375 2425 5375 2625
+Wire Wire Line
+	5000 2125 5000 2225
+Wire Wire Line
+	5950 2925 5950 3425
+Wire Wire Line
+	6050 3525 6050 3700
 $EndSCHEMATC

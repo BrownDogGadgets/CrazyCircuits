@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Speaker
+# crazy_circuits:Speaker
 #
-DEF Speaker SPK 0 0 N Y 1 F N
+DEF crazy_circuits:Speaker SPK 0 0 N Y 1 F N
 F0 "SPK" 150 50 50 H V L CNN
-F1 "Speaker" 150 -50 50 H V L CNN
+F1 "crazy_circuits:Speaker" 150 -50 50 H V L CNN
 F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 DRAW

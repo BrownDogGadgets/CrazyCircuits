@@ -1,7 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:wickerlib
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +16,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR01
+L crazy_circuits:GND #PWR01
 U 1 1 5833208F
 P 3050 4275
 F 0 "#PWR01" H 3050 4025 50  0001 C CNN
@@ -29,9 +29,9 @@ $EndComp
 Wire Wire Line
 	2925 4225 3050 4225
 Wire Wire Line
-	3050 4125 3050 4275
+	3050 4125 3050 4225
 $Comp
-L CONN-USB-MICRO-B-10118193 J1
+L crazy_circuits:CONN-USB-MICRO-B-10118193 J1
 U 1 1 58844117
 P 2575 4025
 F 0 "J1" H 2425 4375 50  0000 L CNN
@@ -47,7 +47,7 @@ F 8 "609-4616-1-ND" H 2575 3675 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 588A4DE7
 P 3750 4250
 F 0 "#PWR02" H 3750 4000 50  0001 C CNN
@@ -65,7 +65,7 @@ Wire Wire Line
 	3275 3925 3275 3825
 Connection ~ 3275 3825
 $Comp
-L CAP-CER-1UF-25V-X7R-0603 C1
+L crazy_circuits:CAP-CER-1UF-25V-X7R-0603 C1
 U 1 1 588A4E13
 P 3050 4025
 F 0 "C1" H 3125 4075 50  0000 L CNN
@@ -82,7 +82,7 @@ F 8 "587-2984-1-ND" H 3050 3675 50  0001 C CIN "S1_PN"
 $EndComp
 Connection ~ 3050 4225
 $Comp
-L CAP-CER-1UF-25V-X7R-0603 C2
+L crazy_circuits:CAP-CER-1UF-25V-X7R-0603 C2
 U 1 1 588A4EC6
 P 4300 4025
 F 0 "C2" H 4375 4075 50  0000 L CNN
@@ -98,15 +98,15 @@ F 8 "587-2984-1-ND" H 4300 3675 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 3825 4600 3825
+	4150 3825 4300 3825
 Wire Wire Line
 	4300 3925 4300 3825
 Connection ~ 4300 3825
 Wire Wire Line
-	3050 3725 3050 3925
+	3050 3725 3050 3825
 Connection ~ 3050 3825
 $Comp
-L GND #PWR03
+L crazy_circuits:GND #PWR03
 U 1 1 588A4F53
 P 4300 4250
 F 0 "#PWR03" H 4300 4000 50  0001 C CNN
@@ -121,7 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3825 4600 3750
 $Comp
-L VCC #PWR04
+L crazy_circuits:VCC #PWR04
 U 1 1 588A5060
 P 4600 3750
 F 0 "#PWR04" H 4600 3600 50  0001 C CNN
@@ -132,7 +132,7 @@ F 3 "" H 4600 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353 U1
+L crazy_circuits:IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353 U1
 U 1 1 588A5298
 P 3750 3875
 F 0 "U1" H 3448 4117 50  0000 L CNN
@@ -148,7 +148,7 @@ F 8 "576-3193-1-ND" H 3750 3525 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VIN #PWR05
+L crazy_circuits:VIN #PWR05
 U 1 1 588A55BE
 P 3050 3725
 F 0 "#PWR05" H 3050 3575 50  0001 C CNN
@@ -159,5 +159,15 @@ F 3 "" H 3050 3725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2925 3825 3350 3825
+	2925 3825 3050 3825
+Wire Wire Line
+	3275 3825 3350 3825
+Wire Wire Line
+	3050 4225 3050 4275
+Wire Wire Line
+	4300 3825 4600 3825
+Wire Wire Line
+	3050 3825 3050 3925
+Wire Wire Line
+	3050 3825 3275 3825
 $EndSCHEMATC

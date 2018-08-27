@@ -1,8 +1,7 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:wickerlib
-LIBS:3x4-CR2032-Coin-Cell-On-Off-Switch-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -17,7 +16,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 5B69DD4D
 P 3950 3075
 F 0 "#PWR01" H 3950 2925 50  0001 C CNN
@@ -28,7 +27,7 @@ F 3 "" H 3950 3075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 5B69DE1F
 P 4875 3925
 F 0 "#PWR02" H 4875 3675 50  0001 C CNN
@@ -40,7 +39,7 @@ F 3 "" H 4875 3925 50  0000 C CNN
 $EndComp
 NoConn ~ 4200 3300
 $Comp
-L SWITCH-SLIDE-SPDT-200MA-30V-EG1218 S1
+L crazy_circuits:SWITCH-SLIDE-SPDT-200MA-30V-EG1218 S1
 U 1 1 5B69E7DF
 P 4350 3250
 F 0 "S1" H 4350 3350 50  0000 L CNN
@@ -56,7 +55,7 @@ F 8 "EG1903-ND" H 4350 2900 50  0001 C CIN "S1_PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BATT-CR2023-SMT-BK-912 BT1
+L crazy_circuits:BATT-CR2023-SMT-BK-912 BT1
 U 1 1 5B69F74C
 P 4875 3625
 F 0 "BT1" H 5000 3675 50  0000 L CNN

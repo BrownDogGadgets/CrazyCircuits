@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -17,9 +17,9 @@ $EndDescr
 Wire Wire Line
 	4375 2675 4500 2675
 Wire Wire Line
-	4375 2525 4375 2775
+	4375 2525 4375 2675
 $Comp
-L 5V #PWR01
+L crazy_circuits:5V #PWR01
 U 1 1 5AF86892
 P 4125 2525
 F 0 "#PWR01" H 4125 2375 50  0001 C CNN
@@ -30,7 +30,7 @@ F 3 "" H 4125 2525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3.3V #PWR02
+L crazy_circuits:3.3V #PWR02
 U 1 1 5AF86BDD
 P 4375 2525
 F 0 "#PWR02" H 4375 2375 50  0001 C CNN
@@ -46,16 +46,16 @@ Connection ~ 4375 2675
 Wire Wire Line
 	4500 2975 4125 2975
 Wire Wire Line
-	4125 2525 4125 3075
+	4125 2525 4125 2975
 Wire Wire Line
 	4125 3075 4500 3075
 Connection ~ 4125 2975
 Wire Wire Line
 	5000 4375 5125 4375
 Wire Wire Line
-	5125 4375 5125 5200
+	5125 4375 5125 4475
 $Comp
-L GND #PWR03
+L crazy_circuits:GND #PWR03
 U 1 1 5AF86C26
 P 5125 5200
 F 0 "#PWR03" H 5125 4950 50  0001 C CNN
@@ -169,7 +169,7 @@ NoConn ~ 4500 3975
 NoConn ~ 4500 3875
 NoConn ~ 4500 3775
 $Comp
-L HEADER-FEMALE-20POS-TH-2x20-P0.1IN-RASPI J1
+L crazy_circuits:HEADER-FEMALE-20POS-TH-2x20-P0.1IN-RASPI J1
 U 1 1 5AF88016
 P 4750 3625
 F 0 "J1" H 4650 4675 50  0000 L CNN
@@ -184,4 +184,22 @@ F 8 "S6106-ND" H 4900 1975 50  0001 C CIN "S1_PN"
 	1    4750 3625
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4375 2675 4375 2775
+Wire Wire Line
+	4125 2975 4125 3075
+Wire Wire Line
+	5125 5075 5125 5200
+Wire Wire Line
+	5125 4975 5125 5075
+Wire Wire Line
+	5125 4875 5125 4975
+Wire Wire Line
+	5125 4775 5125 4875
+Wire Wire Line
+	5125 4675 5125 4775
+Wire Wire Line
+	5125 4575 5125 4675
+Wire Wire Line
+	5125 4475 5125 4575
 $EndSCHEMATC

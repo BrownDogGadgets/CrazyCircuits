@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x3-Speaker-SMT-11mm-Pitch-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Speaker SPK1
+L crazy_circuits:Speaker SPK1
 U 1 1 58CC30BB
 P 5100 3675
 F 0 "SPK1" H 5250 3725 50  0000 L CNN
@@ -34,7 +33,7 @@ $EndComp
 Wire Wire Line
 	5100 3525 5100 3450
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 58CC311B
 P 5100 3450
 F 0 "#PWR01" H 5100 3300 50  0001 C CNN
@@ -47,7 +46,7 @@ $EndComp
 Wire Wire Line
 	5100 3825 5100 3900
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 58CC3136
 P 5100 3900
 F 0 "#PWR02" H 5100 3650 50  0001 C CNN

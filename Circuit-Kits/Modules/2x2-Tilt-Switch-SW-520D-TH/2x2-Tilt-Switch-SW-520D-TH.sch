@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -23,13 +23,13 @@ Text Label 5400 3950 2    50   ~ 0
 Text Label 4400 3950 0    50   ~ 0
 1
 $Comp
-L SW_TOGGLE SW1
+L crazy_circuits:SW_TOGGLE SW1
 U 1 1 58CABBD1
 P 4875 3950
 F 0 "SW1" H 5025 4060 50  0000 C CNN
 F 1 "SW_TILT" H 4875 3870 50  0000 C CNN
 F 2 "Crazy_Circuits:TILT-SENSOR-SW-520D-TH-2x2" H 4875 3950 50  0001 C CNN
-F 3 "http://funduino.de/DL/SW-520D.pdf" H 4925 3675 50  0000 C CNN
+F 3 "http://funduino.de/DL/SW-520D.pdf" H 4925 3675 50  0001 C CNN
 F 4 "TILT SENSOR ROLLING BALL SW-520D" H 4875 3950 60  0001 C CNN "Description"
 F 5 "Bailin Electronics" H 4875 3950 60  0001 C CNN "MF_Name"
 F 6 "SW-520D" H 4875 3950 60  0001 C CNN "MF_PN"

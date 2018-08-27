@@ -1,6 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -23,7 +23,7 @@ Text Label 5400 3950 2    50   ~ 0
 Text Label 4400 3950 0    50   ~ 0
 1
 $Comp
-L SW_TOGGLE SW1
+L crazy_circuits:SW_TOGGLE SW1
 U 1 1 58CABBD1
 P 4875 3950
 F 0 "SW1" H 5025 4060 50  0000 C CNN

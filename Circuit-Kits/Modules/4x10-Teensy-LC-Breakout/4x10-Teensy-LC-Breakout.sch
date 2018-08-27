@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:4x10-Teensy-LC-Breakout-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L Teensy U1
+L crazy_circuits:Teensy U1
 U 1 1 5882FB81
 P 3550 4025
 F 0 "U1" H 3650 4075 50  0000 L CNN

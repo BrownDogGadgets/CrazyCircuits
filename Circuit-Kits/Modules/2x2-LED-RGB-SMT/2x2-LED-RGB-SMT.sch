@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-LED-RGB-SMT-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -18,7 +17,7 @@ $EndDescr
 Wire Wire Line
 	5850 4050 5850 4000
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 58830E25
 P 5850 4000
 F 0 "#PWR01" H 5850 3850 50  0001 C CNN
@@ -47,7 +46,7 @@ G
 Text Label 6150 4575 2    50   ~ 0
 B
 $Comp
-L LED-RGB-SMT-QBLP600-RGB LED1
+L crazy_circuits:LED-RGB-SMT-QBLP600-RGB LED1
 U 1 1 58831339
 P 6000 4275
 F 0 "LED1" H 6075 4325 50  0000 L CNN

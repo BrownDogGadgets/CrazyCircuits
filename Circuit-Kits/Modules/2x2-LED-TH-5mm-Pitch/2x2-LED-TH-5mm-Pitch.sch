@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:crazy_circuits
-LIBS:2x2-LED-TH-5mm-Pitch-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L LED LED1
+L crazy_circuits:LED LED1
 U 1 1 58584A3B
 P 4675 3625
 F 0 "LED1" H 4750 3675 50  0000 L CNN
@@ -28,7 +27,7 @@ F 4 "LED GREEN 10MM DIA 5MM PITCH TH" H 4675 3625 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L crazy_circuits:VCC #PWR01
 U 1 1 58584AA3
 P 4675 3475
 F 0 "#PWR01" H 4675 3325 50  0001 C CNN
@@ -39,7 +38,7 @@ F 3 "" H 4675 3475 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L crazy_circuits:GND #PWR02
 U 1 1 58584AB9
 P 4675 3775
 F 0 "#PWR02" H 4675 3525 50  0001 C CNN

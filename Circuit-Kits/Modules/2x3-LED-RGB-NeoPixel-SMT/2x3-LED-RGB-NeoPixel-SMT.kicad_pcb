@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -16,10 +13,10 @@
   (title_block
     (title "2x3 LED RGB Neopixel Module")
     (date "14 May 2018")
-    (rev "v1.1")
+    (rev v1.1)
     (company "All rights reserved.")
-    (comment 1 "help@browndoggadgets.com")
-    (comment 2 "http://browndoggadgets.com/")
+    (comment 1 help@browndoggadgets.com)
+    (comment 2 http://browndoggadgets.com/)
     (comment 3 "Brown Dog Gadgets")
   )
 
@@ -81,6 +78,9 @@
     (pcbplotparams
       (layerselection 0x310fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,8 +89,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -102,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -116,10 +115,11 @@
     (uvia_drill 0.3302)
   )
 
-  (module Crazy_Circuits:LED-RGB-5050-NEOPIXEL-ROTATED-2x3 (layer F.Cu) (tedit 5AF9B113) (tstamp 5AFAF39E)
-    (at 3.707954 38.055584)
+  (module Crazy_Circuits:LED-RGB-5050-NEOPIXEL-ROTATED-2x3 (layer F.Cu) (tedit 5AF9B113) (tstamp 5B7CB002)
+    (at 26.416 35.941)
     (descr "2.54mm pitch through hole centered 2x2")
     (path /57C8DCCA)
+    (attr smd)
     (fp_text reference LED1 (at 3.967678 -4.063388 45) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
