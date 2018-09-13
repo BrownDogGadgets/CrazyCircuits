@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.0.0-fee4fd1~66~ubuntu16.04.1*%
+%TF.CreationDate,2018-09-13T11:14:07-07:00*%
+%TF.ProjectId,2x3-Dark-Detector,3278332D4461726B2D4465746563746F,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.0.0-fee4fd1~66~ubuntu16.04.1) date Thu Sep 13 11:14:07 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,0.747600X0.747600*%
+%ADD11R,0.647600X0.597600*%
+G04 APERTURE END LIST*
+D10*
+X90617000Y-33500760D03*
+X92517000Y-33500760D03*
+X91567000Y-31501780D03*
+D11*
+X86995000Y-32639000D03*
+X88495000Y-32639000D03*
+M02*

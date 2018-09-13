@@ -1,0 +1,94 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# crazy_circuits:3V
+#
+DEF crazy_circuits:3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "crazy_circuits:3V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X 3V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# crazy_circuits:GND
+#
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# crazy_circuits:Photocell
+#
+DEF crazy_circuits:Photocell LDR 0 40 N N 1 F N
+F0 "LDR" 75 50 50 H V L CNN
+F1 "crazy_circuits:Photocell" 75 -50 50 H V L CNN
+F2 "" 0 -200 50 H I C CIN
+F3 "" 0 0 5 V I C CNN
+DRAW
+C 0 0 60 0 1 0 N
+P 5 0 1 0 -90 50 -70 30 -80 30 -70 30 -70 40 N
+P 5 0 1 0 -70 70 -50 50 -60 50 -50 50 -50 60 N
+P 5 0 1 0 0 30 -25 20 20 0 -25 -15 0 -30 N
+X ~ 1 0 100 70 D 40 40 1 1 P
+X ~ 2 0 -100 70 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# crazy_circuits:RES-100K-5%-1_10W-0603
+#
+DEF crazy_circuits:RES-100K-5%-1_10W-0603 R 0 40 N N 1 F N
+F0 "R" 50 50 50 H V L CNN
+F1 "crazy_circuits:RES-100K-5%-1_10W-0603" 50 -50 50 H V L CNN
+F2 "Crazy_NonLego:RLC-0603-SMD" 0 -350 50 H I C CIN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf" 0 0 5 H I C CNN
+F4 "RES SMD 100K OHM 5% 1/10W 0603" 0 -350 50 H I C CIN "Description"
+F5 "Yageo" 0 -350 50 H I C CIN "MF_Name"
+F6 "RC0603JR-07100KL" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "311-100KGRCT-ND" 0 -350 50 H I C CIN "S1_PN"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# wickerlib:BJT-NPN-40V-0.2A-MMBT3904
+#
+DEF wickerlib:BJT-NPN-40V-0.2A-MMBT3904 Q 0 40 N N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "wickerlib:BJT-NPN-40V-0.2A-MMBT3904" 200 -50 50 H V L CNN
+F2 "Wickerlib:SOT-23-3" 0 -350 50 H I C CIN
+F3 "http://www.onsemi.com/pub_link/Collateral/MMBT2222LT1-D.PDF" 0 0 5 H I C CNN
+F4 "TRANS NPN 40V 0.2A SOT-23" 0 -350 50 H I C CIN "Description"
+F5 "Fairchild" 0 -350 50 H I C CIN "MF_Name"
+F6 "MMBT3904" 0 -350 50 H I C CIN "MF_PN"
+F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
+F8 "MMBT3904FSCT-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "134" 0 -350 50 H I C CIN "XSize_mils"
+F10 "134" 0 -350 50 H I C CIN "YSize_mils"
+F11 "smt" 0 -350 50 H I C CIN "Type"
+DRAW
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 200 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
