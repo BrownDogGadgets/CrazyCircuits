@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:crazy_circuits
+LIBS:2x3-Dark-Detector-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -82,25 +83,6 @@ Wire Wire Line
 	5175 3275 4625 3275
 Wire Wire Line
 	4625 3275 4625 3400
-$Comp
-L crazy_circuits:Photocell LDR1
-U 1 1 5B9AF108
-P 4625 3975
-F 0 "LDR1" H 4713 4021 50  0000 L CNN
-F 1 "Photocell" H 4713 3930 50  0000 L CNN
-F 2 "Crazy_Circuits:PHOTOCELL-TH-2x3" H 4625 3775 50  0001 C CIN
-F 3 "http://www.marktechopto.com/products/datasheet/MT2118-G-A" V 4625 3975 10  0001 C CNN
-F 4 "PHOTOCELL 16-33KOHM" H 4625 3975 50  0001 C CNN "Description"
-F 5 "Advanced Photonix" H 4625 3975 50  0001 C CNN "MF_Name"
-F 6 "PDV-P8103" H 4625 3975 50  0001 C CNN "MF_PN"
-F 7 "Digikey" H 4625 3975 50  0001 C CNN "S1_Name"
-F 8 "PDV-P8103-ND" H 4625 3975 50  0001 C CNN "S1_PN"
-F 9 "200" H 4625 3975 50  0001 C CNN "XSize_mils"
-F 10 "200" H 4625 3975 50  0001 C CNN "YSize_mils"
-F 11 "th" H 4625 3975 50  0001 C CNN "Type"
-	1    4625 3975
-	1    0    0    -1  
-$EndComp
 Connection ~ 4625 3275
 Wire Wire Line
 	5175 3900 5175 4100
@@ -115,6 +97,34 @@ Wire Wire Line
 Connection ~ 4625 3700
 Wire Wire Line
 	4625 3700 4625 3875
-Text Label 5475 4100 0    50   ~ 0
-OUTPUT
+$Comp
+L crazy_circuits:OUT #PWR0103
+U 1 1 5B9DB021
+P 5475 4100
+F 0 "#PWR0103" H 5475 3950 50  0001 C CNN
+F 1 "OUT" V 5475 4225 50  0000 L CNN
+F 2 "" H 5475 4100 50  0000 C CNN
+F 3 "" H 5475 4100 50  0000 C CNN
+	1    5475 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:TRANS-PHOTOCELL-0603-SMT LDR1
+U 1 1 5B9DCFFC
+P 4625 3975
+F 0 "LDR1" H 4713 4021 50  0000 L CNN
+F 1 "PHOTOCELL" H 4713 3930 50  0000 L CNN
+F 2 "Crazy_NonLego:RLC-0603-SMD" H 4625 3775 50  0001 C CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/PT19-21B_L41_TR8.pdf" H 4700 4025 10  0001 C CNN
+F 4 "PHOTOTRANSISTOR FLAT BK MINI SMD" H 5500 4825 50  0001 C CNN "Description"
+F 5 "Everlight" H 4800 4125 50  0001 C CNN "MF_Name"
+F 6 "PT19-21B/L41/TR8" H 4900 4225 50  0001 C CNN "MF_PN"
+F 7 "Digikey" H 5000 4325 50  0001 C CNN "S1_Name"
+F 8 "1080-1383-1-ND" H 5100 4425 50  0001 C CNN "S1_PN"
+F 9 "115" H 5200 4525 50  0001 C CNN "XSize_mils"
+F 10 "59" H 5300 4625 50  0001 C CNN "YSize_mils"
+F 11 "smt" H 5400 4725 50  0001 C CNN "Type"
+	1    4625 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

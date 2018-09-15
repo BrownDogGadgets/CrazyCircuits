@@ -1,5 +1,5 @@
 Drill report for 2x3-Dark-Detector.kicad_pcb
-Created on Thu Sep 13 11:14:07 2018
+Created on Sat Sep 15 14:44:57 2018
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,9 @@ Copper Layer Stackup:
 Drill file '2x3-Dark-Detector.drl' contains
     plated through holes:
     =============================================================
-    T1  1.00mm  0.039"  (2 holes)
-    T2  4.98mm  0.196"  (6 holes)
+    T1  4.98mm  0.196"  (6 holes)
 
-    Total plated holes count 8
+    Total plated holes count 6
 
 
 Not plated through holes are merged with plated holes

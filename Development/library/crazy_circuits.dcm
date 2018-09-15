@@ -77,6 +77,10 @@ D Button
 K Switch
 $ENDCMP
 #
+$CMP OUT
+K POWER, PWR
+$ENDCMP
+#
 $CMP Photocell
 D LED GRN DIFF 5MM ROUND T/H
 F http://www.marktechopto.com/products/datasheet/MT2118-G-A
@@ -116,6 +120,11 @@ $ENDCMP
 $CMP TEST_1P
 D point
 K point tp
+$ENDCMP
+#
+$CMP TRANS-PHOTOCELL-0603-SMT
+D LED GRN DIFF 5MM ROUND T/H
+F http://www.marktechopto.com/products/datasheet/MT2118-G-A
 $ENDCMP
 #
 $CMP TRIMPOT-10K-3PIN-TH-3368P-1-103TLF
