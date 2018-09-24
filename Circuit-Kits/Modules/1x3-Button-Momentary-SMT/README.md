@@ -1,8 +1,8 @@
 <!--- start title --->
-# 1x3 Momentary Pushbutton SMT Module v1.1
+# 1x3 Momentary Pushbutton SMT Module v1.2
 A Lego-compatible Crazy Circuits module
 
-- Updated: 26 May 2017
+- Updated: 24 Sep 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: CERN Open Hardware License v1.2.
@@ -11,11 +11,11 @@ A Lego-compatible Crazy Circuits module
 This is a small surface mount pushbutton.
 
 <!--- bom start --->
-### Bill of Materials
+## Bill of Materials
 
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
-|SW1|1|SWITCH MOMENT SPST-NO 0.05A 14V SMT PTS645|CKN9112TR-ND|
+|SW1|1|SWITCH MOMENT SPST-NO 0.05A 12V SMT PTS645|CKN9112CT-ND|
 
 
 <!--- bom end --->
