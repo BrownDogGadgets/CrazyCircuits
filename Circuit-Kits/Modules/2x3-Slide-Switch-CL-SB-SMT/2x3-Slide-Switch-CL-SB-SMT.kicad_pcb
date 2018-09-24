@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~49~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area -2.8448 39.819103 139.999959 134.81812)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -81,6 +78,9 @@
     (pcbplotparams
       (layerselection 0x310fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,8 +89,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -102,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -116,7 +115,7 @@
     (uvia_drill 0.3302)
   )
 
-  (module Crazy_Circuits:SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 59282FE4) (tstamp 58CEE9B3)
+  (module Crazy_Circuits:SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 5BA907F7) (tstamp 58CEE9B3)
     (at 2.8702 51.89474)
     (descr "SWITCH SPDT 0S102011MA1QN1 2x3")
     (tags "SWITCH SPDT 0S102011MA1QN1 2x3")
@@ -145,11 +144,11 @@
     (fp_line (start 6.858 -7.874) (end 6.858 0) (layer F.Fab) (width 0.04064))
     (fp_line (start -0.0635 -8.1915) (end 8.255 -8.1915) (layer B.Cu) (width 7.2))
     (fp_line (start 3.1115 -6.5405) (end 3.1115 -8.3185) (layer F.Cu) (width 0.5))
-    (fp_text user "SLIDE " (at 12.065 -0.4445 90) (layer F.SilkS)
+    (fp_text user "SLIDE " (at 12.065 -0.4445 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -0.635 -8.255) (end 9.271 -8.255) (layer F.SilkS) (width 0.5))
-    (fp_text user SWITCH (at 12.065 -7.62 270) (layer F.SilkS)
+    (fp_line (start 0.2032 -9.4996) (end 7.9756 -9.4996) (layer F.SilkS) (width 3.2))
+    (fp_text user SWITCH (at 12.065 -7.62 -90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0.106632 -8.00018) (end -3.693368 -7.90018) (angle 89.9) (layer Edge.Cuts) (width 0.04064))
@@ -188,6 +187,7 @@
     (fp_arc (start 0 -8.001) (end 0 -5.207) (angle 180) (layer F.Cu) (width 1))
     (fp_arc (start 0 0) (end 0 2.794) (angle 180) (layer F.Cu) (width 1))
     (fp_line (start 16.1925 0.127) (end 16.1925 -8.1915) (layer F.Cu) (width 7.2))
+    (fp_line (start 0.4064 1.4732) (end 8.1788 1.4732) (layer F.SilkS) (width 3.2))
     (pad 1 smd rect (at 3.10896 -6.49986 270) (size 1.19888 1.6002) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 5.90804 -4.0005 270) (size 1.19888 1.6002) (layers F.Cu F.Paste F.Mask)
       (clearance 0.09906))

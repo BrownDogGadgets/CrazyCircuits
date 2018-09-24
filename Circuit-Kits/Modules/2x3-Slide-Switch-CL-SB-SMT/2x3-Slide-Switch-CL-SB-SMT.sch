@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "2x3 Slide Switch (CL-SB) SMT"
 Date "17 Mar 2017"
-Rev "1.0"
+Rev "v1.2"
 Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
