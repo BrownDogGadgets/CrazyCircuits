@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:crazy_circuits
+LIBS:2x3-Servo-Header-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -15,7 +16,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L crazy_circuits:Servo_Breakout J1
+L crazy_circuits:HEADER-MALE-SERVO-3PIN-1x3-TH J1
 U 1 1 588073C1
 P 5175 4300
 F 0 "J1" H 5025 4475 50  0000 L CNN
@@ -27,6 +28,9 @@ F 5 "Wurth" H 5175 4300 60  0001 C CNN "MF_Name"
 F 6 "61300311121" H 5175 4300 60  0001 C CNN "MF_PN"
 F 7 "Digikey" H 5175 4300 60  0001 C CNN "S1_Name"
 F 8 "732-5316-ND" H 5175 4300 60  0001 C CNN "S1_PN"
+F 9 "100" H 0   0   50  0001 C CNN "XSize_mils"
+F 10 "300" H 0   0   50  0001 C CNN "YSize_mils"
+F 11 "th" H 0   0   50  0001 C CNN "Type"
 	1    5175 4300
 	1    0    0    -1  
 $EndComp

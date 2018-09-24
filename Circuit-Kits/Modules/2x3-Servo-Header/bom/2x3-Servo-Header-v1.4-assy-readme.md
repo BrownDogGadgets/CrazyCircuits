@@ -1,4 +1,4 @@
-Individual Placements per board: 0
+Individual Placements per board: 1
 
-Number of Parts: 0
+Number of Parts: 1
 

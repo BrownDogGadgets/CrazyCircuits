@@ -50,6 +50,10 @@ $CMP GND
 K POWER, PWR
 $ENDCMP
 #
+$CMP HEADER-MALE-SERVO-3PIN-1x3-TH
+D Resistor
+$ENDCMP
+#
 $CMP IC-REG-LDO-3.3V-0.15A-MIC5365-SOT353
 D IC REG LDO 3.3V 0.5A BU33SD5WG 5SSOP
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/buxxsd5wg-e.pdf
@@ -116,10 +120,6 @@ $ENDCMP
 $CMP SW_TOGGLE
 D Button
 K Switch
-$ENDCMP
-#
-$CMP Servo_Breakout
-D Resistor
 $ENDCMP
 #
 $CMP TEST_1P
