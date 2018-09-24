@@ -13,6 +13,9 @@ F5 "Omron" 0 -350 50 H I C CIN "MF_Name"
 F6 "B3F-4002P" 0 -350 50 H I C CIN "MF_PN"
 F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
 F8 "SW1278CT-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "474" -50 -340 50 H I C CNN "XSize_mils"
+F10 "474" -50 -340 50 H I C CNN "YSize_mils"
+F11 "smt" -50 -340 50 H I C CNN "Type"
 DRAW
 S 170 50 -170 60 0 1 0 N
 P 2 0 1 0 -250 0 -250 -100 N
