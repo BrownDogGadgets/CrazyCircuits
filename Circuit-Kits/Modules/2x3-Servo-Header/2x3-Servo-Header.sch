@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "2x3 Servo Header"
 Date "20 Jan 2017"
-Rev "1.0"
+Rev "v1.4"
 Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
