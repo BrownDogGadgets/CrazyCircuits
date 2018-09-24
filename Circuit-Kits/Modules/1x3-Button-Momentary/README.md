@@ -15,7 +15,7 @@ This is a single momentary pushbutton module. It is normally open, so it only co
 
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
-|SW1|1|SWITCH TACTILE SPST-NO 0.05A 24V|SW400-ND|
+|SW1|1|SWITCH MOMENT SPST-NO 0.05A 24V SMT B3F-1000|SW400-ND|
 
 
 <!--- bom end --->
@@ -26,4 +26,4 @@ This board must be v-scored. Do not panelize with support tabs or mousebites.
 
 ![Gerber Preview](preview.png)
 
-
+![Schematic](schematic.png)
