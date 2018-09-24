@@ -115,7 +115,7 @@
     (uvia_drill 0.3302)
   )
 
-  (module Crazy_Circuits:SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 5BA907F7) (tstamp 58CEE9B3)
+  (module Crazy_Circuits:SWITCH-SPDT-3PIN-CL-SB-SMT-2x3 (layer F.Cu) (tedit 5BA907F7) (tstamp 5BAA4BC8)
     (at 2.8702 51.89474)
     (descr "SWITCH SPDT 0S102011MA1QN1 2x3")
     (tags "SWITCH SPDT 0S102011MA1QN1 2x3")
