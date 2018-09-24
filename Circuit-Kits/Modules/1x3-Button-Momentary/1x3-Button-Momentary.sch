@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:crazy_circuits
+LIBS:1x3-Button-Momentary-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -7,7 +8,7 @@ encoding utf-8
 Sheet 1 1
 Title "1x3 Momentary Pushbutton Module"
 Date "18 Dec 2016"
-Rev "1.0"
+Rev "v1.3"
 Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
@@ -27,6 +28,9 @@ F 5 "Omron" H 4375 3450 60  0001 C CNN "MF_Name"
 F 6 "B3F-1000" H 4375 3450 60  0001 C CNN "MF_PN"
 F 7 "Digikey" H 4375 3450 60  0001 C CNN "S1_Name"
 F 8 "SW400-ND" H 4375 3450 60  0001 C CNN "S1_PN"
+F 9 "237" H 4375 3450 50  0001 C CNN "XSize_mils"
+F 10 "237" H 4375 3450 50  0001 C CNN "YSize_mils"
+F 11 "th" H 4375 3450 50  0001 C CNN "Type"
 	1    4375 3450
 	1    0    0    -1  
 $EndComp
