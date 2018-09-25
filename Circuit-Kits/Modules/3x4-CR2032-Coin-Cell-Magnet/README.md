@@ -2,7 +2,7 @@
 # 3x4 CR2032 Coin Cell Battery Module v1.3
 A Lego-compatible Crazy Circuits module.
 
-- Updated: 24 Sep 2018
+- Updated: 25 Sep 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: CERN Open Hardware License v1.2.
