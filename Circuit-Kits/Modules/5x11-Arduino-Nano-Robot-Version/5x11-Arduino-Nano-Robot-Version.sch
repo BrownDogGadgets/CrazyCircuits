@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:crazy_circuits
+LIBS:5x11-Arduino-Nano-Robot-Version-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -48,6 +49,7 @@ F 5 "Harwin" H 3350 1325 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 1325 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 1325 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 1325 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 1675 50  0001 C CNN "Type"
 	1    3350 1675
 	-1   0    0    -1  
 $EndComp
@@ -64,6 +66,7 @@ F 5 "Harwin" H 3350 3225 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 3225 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 3225 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 3225 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 3575 50  0001 C CNN "Type"
 	1    3350 3575
 	-1   0    0    -1  
 $EndComp
@@ -80,6 +83,7 @@ F 5 "Harwin" H 3350 3700 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 3700 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 3700 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 3700 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 4050 50  0001 C CNN "Type"
 	1    3350 4050
 	-1   0    0    -1  
 $EndComp
@@ -96,6 +100,7 @@ F 5 "Arduino" H 5300 2050 50  0001 C CIN "MF_Name"
 F 6 "A000005" H 5300 2050 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 5300 2050 50  0001 C CIN "S1_Name"
 F 8 "1050-1001-ND" H 5300 2050 50  0001 C CIN "S1_PN"
+F 9 "th" H 5150 2350 50  0001 C CNN "Type"
 	1    5150 2350
 	-1   0    0    -1  
 $EndComp
@@ -272,6 +277,7 @@ F 5 "Harwin" H 3350 1800 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 1800 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 1800 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 1800 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 2150 50  0001 C CNN "Type"
 	1    3350 2150
 	-1   0    0    -1  
 $EndComp
@@ -288,6 +294,7 @@ F 5 "Harwin" H 3350 2275 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 2275 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 2275 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 2275 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 2625 50  0001 C CNN "Type"
 	1    3350 2625
 	-1   0    0    -1  
 $EndComp
@@ -304,6 +311,7 @@ F 5 "Harwin" H 3350 2750 50  0001 C CIN "MF_Name"
 F 6 "M20-9990346" H 3350 2750 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 3350 2750 50  0001 C CIN "S1_Name"
 F 8 "952-2264-ND" H 3350 2750 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 3100 50  0001 C CNN "Type"
 	1    3350 3100
 	-1   0    0    -1  
 $EndComp

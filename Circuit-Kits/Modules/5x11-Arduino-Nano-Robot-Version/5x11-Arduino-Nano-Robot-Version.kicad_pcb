@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
 
   (general
-    (links 49)
-    (no_connects 0)
-    (area -1.725001 70.283999 189.199759 160.59)
     (thickness 1.6)
     (drawings 24)
     (tracks 241)
@@ -81,6 +78,9 @@
     (pcbplotparams
       (layerselection 0x310fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,8 +89,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -102,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -164,7 +163,7 @@
     (add_net "Net-(U1-PadTX1)")
   )
 
-  (module Crazy_Circuits:ARDUINO-NANO-5x11-SERVO-ANALOG (layer F.Cu) (tedit 59894A87) (tstamp 58FE7CC5)
+  (module Crazy_Circuits:ARDUINO-NANO-5x11-SERVO-ANALOG (layer F.Cu) (tedit 5BA9C2F0) (tstamp 58FE7CC5)
     (at 3.175 107.315)
     (descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
     (tags "dil dip 2.54 300")
@@ -283,7 +282,7 @@
     (fp_text user D11 (at 29.527 43.992) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 -2.75) (layer F.SilkS)
+    (fp_text user %R (at 0 -2.75) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user A5 (at 27.781 -24.384 180) (layer F.SilkS)
@@ -462,7 +461,7 @@
     (fp_line (start -5.588 -4.064) (end 5.08 -4.064) (layer F.SilkS) (width 0.1524))
     (fp_circle (center -6.1595 -4.064) (end -5.82208 -3.683) (layer F.SilkS) (width 0.1524))
     (fp_text user CRAZY (at -2.032 -5.588) (layer F.SilkS) hide
-      (effects (font (thickness 0.381)))
+      (effects (font (size 1.524 1.524) (thickness 0.381)))
     )
     (fp_line (start 3.9 -7.8) (end -3.9 -7.8) (layer F.Fab) (width 0.04064))
     (fp_line (start 3.9 0) (end -3.9 0) (layer F.Fab) (width 0.04064))
@@ -471,7 +470,7 @@
     (fp_arc (start -3.9 -3.9) (end -3.9 0) (angle 90) (layer F.Fab) (width 0.04064))
     (fp_arc (start -3.9 -3.9) (end -7.8 -3.9) (angle 90) (layer F.Fab) (width 0.04064))
     (fp_text user CIRCUITS (at 0.254 -2.286) (layer F.SilkS) hide
-      (effects (font (thickness 0.381)))
+      (effects (font (size 1.524 1.524) (thickness 0.381)))
     )
     (fp_line (start 3.2385 -4.3815) (end 2.6035 -5.2705) (layer F.Mask) (width 0.254))
     (fp_line (start 3.429 -4.3815) (end 2.8575 -5.207) (layer F.Mask) (width 0.254))
@@ -694,7 +693,7 @@
   )
 
   (gr_text "Robotics Board v1.6" (at 19.304 114.808 270) (layer B.SilkS) (tstamp 5AF30EB9)
-    (effects (font (thickness 0.2032)) (justify mirror))
+    (effects (font (size 1.524 1.524) (thickness 0.2032)) (justify mirror))
   )
   (gr_text "D9\n" (at 20.32 81.28) (layer F.SilkS) (tstamp 5AF1BBD1)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
