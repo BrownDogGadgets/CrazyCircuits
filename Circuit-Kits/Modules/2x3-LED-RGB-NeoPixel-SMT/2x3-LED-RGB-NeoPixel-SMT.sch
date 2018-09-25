@@ -9,7 +9,7 @@ encoding utf-8
 Sheet 1 1
 Title "2x3 LED RGB Neopixel Module"
 Date "14 May 2018"
-Rev "1.0"
+Rev "v1.2"
 Comp "All rights reserved."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
