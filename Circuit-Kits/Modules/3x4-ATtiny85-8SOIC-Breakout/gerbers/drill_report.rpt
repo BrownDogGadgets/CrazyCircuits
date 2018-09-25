@@ -1,5 +1,5 @@
 Drill report for 3x4-ATtiny85-8SOIC-Breakout.kicad_pcb
-Created on Sun Aug  6 20:37:44 2017
+Created on Tue Sep 25 00:11:39 2018
 
 Copper Layer Stackup:
     =============================================================
@@ -10,14 +10,15 @@ Copper Layer Stackup:
 Drill file '3x4-ATtiny85-8SOIC-Breakout.drl' contains
     plated through holes:
     =============================================================
-    T1  4.98mm  0.196"  (10 holes)
+    T1  0.33mm  0.013"  (1 hole)
+    T2  4.98mm  0.196"  (10 holes)
 
-    Total plated holes count 10
+    Total plated holes count 11
 
 
 Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T2  4.98mm  0.196"  (2 holes)
+    T3  4.98mm  0.196"  (2 holes)
 
     Total unplated holes count 2

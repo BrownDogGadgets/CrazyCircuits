@@ -1,8 +1,8 @@
 <!--- start title --->
-# 3x4 ATtiny85 8SOIC Breakout Module v1.2
+# 3x4 ATtiny85 8SOIC Breakout Module v1.3
 A Lego-compatible Crazy Circuits module
 
-- Updated: 6 Aug 2017
+- Updated: 25 Sep 2018
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
 - License: CERN Open Hardware License v1.2.
@@ -11,7 +11,7 @@ A Lego-compatible Crazy Circuits module
 This is a breakout board for an ATiny85, a tiny microcontroller. 
 
 <!--- bom start --->
-### Bill of Materials
+## Bill of Materials
 
 |Ref|Qty|Description|Digikey PN|
 |---|---|-----------|------|
@@ -23,6 +23,7 @@ This is a breakout board for an ATiny85, a tiny microcontroller.
 ### Manufacturing Notes
 
 This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Assembly Diagram](assembly.png)
 
 ![Gerber Preview](preview.png)

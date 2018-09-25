@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/3x4-ATtiny85-8SOIC-Breakout/3x4-ATtiny85-8SOIC-Breakout.sch)
-    (date "Fri 21 Apr 2017 01:12:18 PM PDT")
-    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (date "Tue 25 Sep 2018 12:02:30 AM PDT")
+    (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "3x4 ATtiny85 8SOIC Breakout Module")
         (company "CERN Open Hardware License v1.2.")
-        (rev 1.0)
+        (rev v1.3)
         (date "17 Mar 2017")
         (source 3x4-ATtiny85-8SOIC-Breakout.sch)
         (comment (number 1) (value help@browndoggadgets.com))
@@ -23,8 +23,9 @@
         (field (name MF_Name) Microchip)
         (field (name MF_PN) ATTINY85-20SU)
         (field (name S1_Name) Digikey)
-        (field (name S1_PN) ATTINY85-20SU-ND))
-      (libsource (lib crazy_circuits) (part ATTINY85-P))
+        (field (name S1_PN) ATTINY85-20SU-ND)
+        (field (name Type) smt))
+      (libsource (lib crazy_circuits) (part ATTINY85-P) (description "ATTINY45, PDIP8, 8k Flash, 512B SRAM, 512B EEPROM, Debug Wire"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5880402D)))
   (libparts
