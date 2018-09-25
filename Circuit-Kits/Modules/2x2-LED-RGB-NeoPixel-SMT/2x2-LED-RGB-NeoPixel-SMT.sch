@@ -6,9 +6,9 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "2x2 LED RGB Neopixel Module"
+Title "2x2 LED RGB Neopixel (WS2812B) Module"
 Date "14 May 2018"
-Rev "1.0"
+Rev "v1.1"
 Comp "All rights reserved."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
