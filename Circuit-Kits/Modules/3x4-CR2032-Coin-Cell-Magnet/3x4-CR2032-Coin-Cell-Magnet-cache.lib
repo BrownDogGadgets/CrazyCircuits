@@ -1,6 +1,38 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# crazy_circuits:Battery
+#
+DEF crazy_circuits:Battery BT 0 0 N Y 1 F N
+F0 "BT" 100 50 50 H V L CNN
+F1 "crazy_circuits:Battery" 100 -50 50 H V L CNN
+F2 "" 0 40 50 V V C CNN
+F3 "" 0 40 50 V V C CNN
+DRAW
+S -90 -7 90 -17 0 1 0 F
+S -90 50 90 40 0 1 0 F
+S -62 -30 58 -50 0 1 0 F
+S -62 27 58 7 0 1 0 F
+P 2 0 1 10 20 95 60 95 N
+P 2 0 1 10 40 115 40 75 N
+X ~ + 0 150 100 D 50 50 1 1 P
+X ~ GND 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# crazy_circuits:GND
+#
+DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # crazy_circuits:VCC
 #
 DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P

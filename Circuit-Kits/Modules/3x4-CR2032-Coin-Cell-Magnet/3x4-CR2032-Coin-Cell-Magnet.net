@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/wicker/proj/CrazyCircuits/Circuit-Kits/Modules/3x4-CR2032-Coin-Cell-Magnet/3x4-CR2032-Coin-Cell-Magnet.sch)
-    (date "Sat 27 May 2017 05:31:23 PM PDT")
-    (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
+    (date "Mon 24 Sep 2018 11:29:59 PM PDT")
+    (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "4x3 CR2032 Coin Cell Battery Module")
@@ -23,8 +23,9 @@
         (field (name MF_Name) MPD)
         (field (name MF_PN) BK-912)
         (field (name S1_Name) Digikey)
-        (field (name S1_PN) BK-912-ND))
-      (libsource (lib crazy_circuits) (part Battery))
+        (field (name S1_PN) BK-912-ND)
+        (field (name Type) smt))
+      (libsource (lib crazy_circuits) (part Battery) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5858515E)))
   (libparts
