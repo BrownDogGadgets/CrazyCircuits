@@ -2,7 +2,7 @@
 # 2x3 Dark Detector Module v1.0
 A Lego-compatible Crazy Circuits module
 
-- Updated: 15 Sep 2018
+- Updated: 24 Sep 2018
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
@@ -20,8 +20,12 @@ This circuit applies 3V to turn a transistor on and off, based on whether the on
 |Q1|1|TRANS NPN 40V 0.2A SOT-23|MMBT3904TPMSCT-ND|
 |R1|1|RES SMD 100K OHM 5% 1/10W 0603|311-100KGRCT-ND|
 
-
 <!--- bom end --->
+
+### Manufacturing Notes
+
+This board must be v-scored. Do not panelize with support tabs or mousebites.
+
 ![Schematic](schematic.png)
 
 ![Assembly Diagram](assembly.png)
