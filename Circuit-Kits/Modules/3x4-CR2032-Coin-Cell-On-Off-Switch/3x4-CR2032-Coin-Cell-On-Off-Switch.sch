@@ -1,6 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:crazy_circuits
 LIBS:wickerlib
+LIBS:3x4-CR2032-Coin-Cell-On-Off-Switch-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -8,7 +9,7 @@ encoding utf-8
 Sheet 1 1
 Title "3x4 CR2032 Coin Cell On/Off Switch"
 Date "07 Aug 2018"
-Rev "1.0"
+Rev "v1.1"
 Comp "All rights reserved."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"
@@ -51,6 +52,7 @@ F 5 "E-Switch" H 4350 2900 50  0001 C CIN "MF_Name"
 F 6 "EG1218" H 4350 2900 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 4350 2900 50  0001 C CIN "S1_Name"
 F 8 "EG1903-ND" H 4350 2900 50  0001 C CIN "S1_PN"
+F 9 "th" H 4350 3250 50  0001 C CNN "Type"
 	1    4350 3250
 	1    0    0    -1  
 $EndComp
@@ -67,6 +69,7 @@ F 5 "MPD" H 4875 3275 50  0001 C CIN "MF_Name"
 F 6 "BK-912" H 4875 3275 50  0001 C CIN "MF_PN"
 F 7 "Digikey" H 4875 3275 50  0001 C CIN "S1_Name"
 F 8 "BK-912-ND" H 4875 3275 50  0001 C CIN "S1_PN"
+F 9 "smt" H 4875 3625 50  0001 C CNN "Type"
 	1    4875 3625
 	1    0    0    -1  
 $EndComp

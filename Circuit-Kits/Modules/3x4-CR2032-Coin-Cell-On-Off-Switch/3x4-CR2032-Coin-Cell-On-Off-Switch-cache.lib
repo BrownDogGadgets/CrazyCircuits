@@ -50,6 +50,9 @@ F5 "E-Switch" 0 -350 50 H I C CIN "MF_Name"
 F6 "EG1218" 0 -350 50 H I C CIN "MF_PN"
 F7 "Digikey" 0 -350 50 H I C CIN "S1_Name"
 F8 "EG1903-ND" 0 -350 50 H I C CIN "S1_PN"
+F9 "457" 0 -350 50 H I C CNN "XSize_mils"
+F10 "157" -50 -400 50 H I C CNN "YSize_mils"
+F11 "th" 50 -300 50 H I C CNN "Type"
 DRAW
 C -48 -48 20 0 1 0 F
 C -48 50 21 0 1 0 F
