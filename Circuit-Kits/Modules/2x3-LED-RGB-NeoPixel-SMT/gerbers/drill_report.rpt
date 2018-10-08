@@ -1,5 +1,5 @@
 Drill report for 2x3-LED-RGB-NeoPixel-SMT.kicad_pcb
-Created on Mon Sep 24 21:54:23 2018
+Created on Mon Oct  8 10:07:13 2018
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file '2x3-LED-RGB-NeoPixel-SMT.drl' contains
     plated through holes:
     =============================================================
-    T1  0.33mm  0.013"  (7 holes)
+    T1  0.33mm  0.013"  (8 holes)
     T2  4.98mm  0.196"  (3 holes)
 
-    Total plated holes count 10
+    Total plated holes count 11
 
 
 Not plated through holes are merged with plated holes
