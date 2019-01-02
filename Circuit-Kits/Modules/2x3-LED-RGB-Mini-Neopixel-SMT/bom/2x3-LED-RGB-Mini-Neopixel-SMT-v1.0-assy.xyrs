@@ -1,0 +1,4 @@
+#Designator	X-Loc	Y-Loc	Rotation	Side	Type	X-Size	Y-Size                	Value	Footprint	Populate	MPN
+C1					1	114	59	100nF		1	CC0603KRX7R8BB104
+LED1	614.2	-1496.1	0.00	top	1			SK6812MINI	LED-RGB-3535-NEOPIXEL-MINI-ROTATED-2x3	1	2659
+R1					1			470		1	ESR03EZPJ471

@@ -1,0 +1,7 @@
+|Ref|Qty|Description|Digikey PN|
+|---|---|-----------|------|
+|C1|1|CAP CER 0.1UF 25V X7R 0603|311-1341-1-ND|
+|LED1|1|LED RGB SK6812MINI 4SMD|1528-1542-ND|
+|R1|1|RES SMD 470 OHM 5% 1/4W 0603|RHM470DCT-ND|
+
+
