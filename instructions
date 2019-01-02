@@ -1,0 +1,108 @@
+We have two symbol libraries, Crazy_Lego and Crazy_NonLego. 
+
+We have one footprint library, CrazyCircuits.pretty.
+
+## Make a new module folder
+
+Unpack the zip and rename the folder into this form:
+
+DIMENSIONS-NAME-SPECIFIC-TYPE
+
+Some examples:
+
+- 2x3-Mini-Potentiometer-3361P-SMT
+- 2x3-Mini-Potentiometer-3386P-TH
+- 2x2-LED-RGB-SMT
+- 2x2-LED-Green-SMT-Limited
+- 2x4-Grove-Sensor
+- 5x11-Arduino-Nano-Robot-Version
+- 6x11-Microbit-Breakout
+    
+Also rename the KiCad project, the .sch file, and the .kicad_pcb file to match. The project folder should then look something like this:
+
+## Develop the module
+
+Draw the module on paper first to get a rough idea of layout of the parts and pin associations.
+
+The pre-made Lego modules have the following pin associations:
+
+IMAGES
+
+Open the schematic and add in the parts, both the components and the generic Lego-compatible module. 
+
+![Example schematic]()
+
+Each component symbol has a set of required fields. All components in the library already have them, but if you want to use a different part then you must create a new component and fill in these fields. 
+
+### Create a New Symbol Component
+
+Go to the library editor and duplicate an existing symbol that's close to yours. 
+
+Double click on the new symbol and rename it.
+
+Edit the heck out of it.
+
+Save it and go back to the schematic.
+
+The name and order of the fields are very important, don't change them.
+
+Voltage, signal symbols, ground symbols, and Lego-compatible base modules do not have these fields because they won't show up on the bill of materials. 
+
+- Description will show up on the BOM listing
+- Type should be 'th', 'smt', or 'dnp' for do not place
+
+|Field Name|Example|
+|----------|-------|
+|Reference|SW1|
+|Value|SW_PUSH|
+|Footprint|Crazy_Circuits:BUTTON-1x3-TH-OMRON-B3F-1XXX|
+|Datasheet|http://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf|
+|Description|SWITCH TACTILE SPST-NO 0.05A 24V|
+|MF_Name|Omron|
+|MF_PN|B3F-1000|
+|S1_Name|Digikey|
+|S1_PN|SW400-ND|
+|XSize_mils|237|
+|YSize_mils|237|
+|Type|th|
+
+## Generate the netlist
+
+This is really important.
+
+## Lay out the board
+
+Open the board layout. Turn on Layer Setup and the advanced OpenGL-based rendering, and select 'mm' instead of 'inches'.
+
+### Edit Fabrication Notes
+
+First, edit the fabrication notes by clicking it or hovering and typing 'e'.
+
+Find the 'ANY COLOR' and change it to the appropriate mask color, depending on the type of module:
+
+|Color|Module Type|
+|-----|-----------|
+|Orange|Battery, Power, USB|
+|Green|Microcontrollers|
+|Red|Inputs: Buttons, Switches, Sensors, Capsense, Photocells|
+|Black|Outputs: LEDs, Speakers, Motors|
+|Purple|All-Purpose Headers|
+|Blue|Logos|
+
+### Import Netlist
+
+This will bring in the generic Lego-compatible module as well as the parts for your circuit. Lay out silk and copper as appropriate. 
+
+Make sure to leave about 30 mils mask between any part pads and the Lego-compatible holes. To do this, click on the pad and turn off the 'F.Mask' (Top Mask) and/or 'B.Mask' (Bottom Mask) openings. Then, select the appropriate mask layer on the layer setup and select the arc tool.
+
+Click in the middle of the pad and select the arc, make it fit properly.
+
+Silk is usually 7mm or so. Mask can be ___mm. 
+
+### Generate the Preview
+
+Plot into 'gerbers' and submit that .zip file to OSH Park's preview. If all the layers look good, you're ready to submit a pull request.  
+
+### Submit a Pull Request
+
+We have an automatic tool that creates all the documentation with one click, so at this point you can just create your pull request. 
