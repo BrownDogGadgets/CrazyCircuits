@@ -46,11 +46,19 @@ $CMP Conn_3
 D Resistor
 $ENDCMP
 #
+$CMP EXT_5V
+K POWER, PWR
+$ENDCMP
+#
 $CMP GND
 K POWER, PWR
 $ENDCMP
 #
 $CMP HEADER-MALE-SERVO-3PIN-1x3-TH
+D Resistor
+$ENDCMP
+#
+$CMP HEADER-SCREW-TERM-2POS-3.5MM-TH-1x02
 D Resistor
 $ENDCMP
 #
@@ -60,6 +68,11 @@ F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulato
 $ENDCMP
 #
 $CMP LED
+D LED GRN DIFF 5MM ROUND T/H
+F http://www.marktechopto.com/products/datasheet/MT2118-G-A
+$ENDCMP
+#
+$CMP LED-GREEN-1206-SMT-LTST-C230KGKT
 D LED GRN DIFF 5MM ROUND T/H
 F http://www.marktechopto.com/products/datasheet/MT2118-G-A
 $ENDCMP
