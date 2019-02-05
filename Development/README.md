@@ -208,7 +208,7 @@ The green entry in the left-hand list shows the symbol you're currently editing.
 
 Because we want to edit that new 100-ohm resistor symbol (to make it a 470-ohm resistor), double click on the bolded black symbol entry. When it turns green, you know it's the one that's open in your editor.
 
-![Duplicate the symbol in the library](/home/wicker/proj/CrazyCircuits/Development/images/7-duplicate-symbol-1.png)
+![Duplicate the symbol in the library](images/7-duplicate-symbol-1.png)
 
 Change this symbol's value in the editor window by using 'e' over the value text. Follow the same sort of naming scheme. In this case, just change 100 to 470, since all other values will be the same. 
 
