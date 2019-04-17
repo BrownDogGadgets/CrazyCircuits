@@ -16,7 +16,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L crazy_circuits:HEADER-MALE-SERVO-3PIN-1x3-TH J1
+L 2x3-Servo-Header-rescue:HEADER-MALE-SERVO-3PIN-1x3-TH-crazy_circuits J1
 U 1 1 588073C1
 P 5175 4300
 F 0 "J1" H 5025 4475 50  0000 L CNN

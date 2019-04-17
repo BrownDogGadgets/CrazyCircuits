@@ -1,24 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# crazy_circuits:GND
+# 2x3-Servo-Header-rescue_HEADER-MALE-SERVO-3PIN-1x3-TH-crazy_circuits
 #
-DEF crazy_circuits:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "crazy_circuits:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# crazy_circuits:HEADER-MALE-SERVO-3PIN-1x3-TH
-#
-DEF ~crazy_circuits:HEADER-MALE-SERVO-3PIN-1x3-TH J 0 10 N Y 1 F N
+DEF ~2x3-Servo-Header-rescue_HEADER-MALE-SERVO-3PIN-1x3-TH-crazy_circuits J 0 10 N Y 1 F N
 F0 "J" -150 175 50 H V L CNN
-F1 "crazy_circuits:HEADER-MALE-SERVO-3PIN-1x3-TH" -150 -250 50 H I L CNN
+F1 "2x3-Servo-Header-rescue_HEADER-MALE-SERVO-3PIN-1x3-TH-crazy_circuits" -150 -250 50 H I L CNN
 F2 "Crazy_Circuits:SERVO-2x3" -50 -300 50 H I C CNN
 F3 "" -150 175 50 H I C CNN
 F4 "MALE PIN HEADER 1x3 2.54MM PITCH" 0 -325 50 H I C CNN "Description"
@@ -41,11 +28,24 @@ X VCC VCC 150 -25 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# crazy_circuits:VCC
+# crazy_circuits_GND
 #
-DEF crazy_circuits:VCC #PWR 0 0 Y Y 1 F P
+DEF crazy_circuits_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "crazy_circuits_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# crazy_circuits_VCC
+#
+DEF crazy_circuits_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "crazy_circuits:VCC" 0 150 50 H V C CNN
+F1 "crazy_circuits_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
