@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,5.0.0-fee4fd1~66~ubuntu16.04.1*%
-%TF.CreationDate,2018-09-25T21:02:47-07:00*%
-%TF.ProjectId,3x4-CR2032-Coin-Cell-On-Off-Switch,3378342D4352323033322D436F696E2D,v1.1*%
+%TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu16.04.1*%
+%TF.CreationDate,2019-04-24T07:44:42-07:00*%
+%TF.ProjectId,3x4-CR2032-Coin-Cell-On-Off-Switch,3378342d-4352-4323-9033-322d436f696e,v1.2*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Copper,L2,Bot,Signal*%
+%TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.0-fee4fd1~66~ubuntu16.04.1) date Tue Sep 25 21:02:47 2018*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu16.04.1) date Wed Apr 24 07:44:42 2019*
 %MOMM*%
 %LPD*%
 G01*

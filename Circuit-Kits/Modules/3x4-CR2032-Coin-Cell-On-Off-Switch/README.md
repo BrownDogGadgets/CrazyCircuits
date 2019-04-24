@@ -2,7 +2,7 @@
 # 3x4 CR2032 Coin Cell On/Off Switch v1.1
 A Lego-compatible Crazy Circuits module
 
-- Updated: 25 Sep 2018
+- Updated: 24 Apr 2019
 
 - Website: http://browndoggadgets.com/
 - Company: Brown Dog Gadgets
@@ -22,7 +22,9 @@ Use this module to provide 3V from a CR2032 coin cell battery. Turn power on and
 
 <!--- bom end --->
 
-![Gerber Preview and Assembly](preview-assembly.png)
+![Gerber Preview](preview.png)
+
+![Assembly](assembly.png)
 
 ![Schematic](schematic.png) 
 

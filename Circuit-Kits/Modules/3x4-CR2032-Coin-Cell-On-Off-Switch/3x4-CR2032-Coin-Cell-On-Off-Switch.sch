@@ -9,7 +9,7 @@ encoding utf-8
 Sheet 1 1
 Title "3x4 CR2032 Coin Cell On/Off Switch"
 Date "07 Aug 2018"
-Rev "v1.1"
+Rev "v1.2"
 Comp "All rights reserved."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"

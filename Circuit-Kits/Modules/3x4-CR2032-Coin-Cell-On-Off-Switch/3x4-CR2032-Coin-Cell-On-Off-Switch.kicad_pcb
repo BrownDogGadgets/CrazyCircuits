@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 1)
+    (drawings 7)
     (tracks 0)
     (zones 0)
     (modules 1)
@@ -13,7 +13,7 @@
   (title_block
     (title "3x4 CR2032 Coin Cell On/Off Switch")
     (date "07 Aug 2018")
-    (rev v1.1)
+    (rev v1.2)
     (company "All rights reserved.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -70,7 +70,7 @@
     (mod_text_width 0.1524)
     (pad_size 1.016 1.016)
     (pad_drill 0.508)
-    (pad_to_mask_clearance 0.0762)
+    (pad_to_mask_clearance 0.254)
     (solder_mask_min_width 0.1016)
     (pad_to_paste_clearance -0.0762)
     (aux_axis_origin 0 0)
@@ -222,7 +222,15 @@
     (pad "" thru_hole circle (at 17.1 -12.2936) (size 1.016 1.016) (drill 0.508) (layers *.Cu))
   )
 
-  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ORANGE) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE \n   WHITE SILKSCREEN. DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING.\n12. PANELIZING: V-SCORE ONLY. \n   DO NOT USE SUPPORT TABS OR MOUSEBITES." (at 74.5998 73.66) (layer Dwgs.User)
+  (gr_line (start 26.035 63.5) (end 26.035 49.53) (layer F.Fab) (width 0.1524))
+  (gr_line (start 15.875 63.5) (end 26.035 63.5) (layer F.Fab) (width 0.1524))
+  (gr_line (start 15.875 49.53) (end 15.875 63.5) (layer F.Fab) (width 0.1524))
+  (gr_line (start 26.035 49.53) (end 15.875 49.53) (layer F.Fab) (width 0.1524))
+  (gr_line (start 25.04948 52.1462) (end 39.61892 51.39944) (layer F.Fab) (width 0.1524))
+  (gr_text "FLOOD FILL THE CENTRAL RECTANGULAR \nGROUND PAD TO BE AT LEAST FLUSH\nWITH THE SOLDER MASK TO ENSURE \nGOOD BATTERY CONTACT" (at 56.20004 52.30876) (layer F.Fab)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
+  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ORANGE) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE \n   WHITE SILKSCREEN. DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING.\n12. PANELIZING: V-SCORE ONLY. \n   DO NOT USE SUPPORT TABS OR MOUSEBITES." (at 117.475 38.19652) (layer Dwgs.User)
     (effects (font (size 2.54 2.54) (thickness 0.254)) (justify left))
   )
 
