@@ -338,6 +338,8 @@ The holes are not plated in this module, because the surface mount pads made tha
 
 ##### Mask Guidelines
 
+The template comes with a preset Pad-to-Mask clearance of 10 mils (0.01 inches or 0.254 mm) to accommodate a range of fab house tolerances. 
+
 Any marks on the F.Mask or B.Mask layers are interpreted as *negative*. That is, solder mask will be placed everywhere except for where those markings are. All pads should have F.Mask and B.Mask markings included by default, which exposes the copper annular ring and allows kids to connect to the signals with conductive tape, conductive thread, or alligator clips. 
 
 If you have a surface mount part, you must leave 30 mils of mask as a solder dam between any surface mount pad and any Lego-compatible plated hole. Otherwise, the solder may flow from the surface mount pads into the hole and make it so the module can't fit down onto the Lego block.  

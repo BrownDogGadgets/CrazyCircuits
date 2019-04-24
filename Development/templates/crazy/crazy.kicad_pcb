@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 120.3198 33.909 263.164559 102.997)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -73,7 +70,7 @@
     (mod_text_width 0.1524)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.0762)
+    (pad_to_mask_clearance 0.254)
     (solder_mask_min_width 0.1016)
     (pad_to_paste_clearance -0.0762)
     (aux_axis_origin 0 0)
@@ -81,6 +78,9 @@
     (pcbplotparams
       (layerselection 0x310fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -89,8 +89,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -102,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
