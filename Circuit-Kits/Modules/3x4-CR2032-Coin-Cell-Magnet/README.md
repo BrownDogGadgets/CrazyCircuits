@@ -24,5 +24,8 @@ This is a holder for a 3V CR2032 coin cell battery. The extra three pads on the 
 
 This board must be v-scored. Do not panelize with support tabs or mousebites.
 
-![Gerber Preview](preview-assembly.png)
+The central rectangular ground pad should be tinned (flood filled) with solder to at least as high as flush with the solder mask, to ensure a good connection with the coin cell battery. 
 
+![Gerber Preview](preview.png)
+
+![Assembly](assembly.png)

@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 1 1
 Title "3x4 CR2032 Coin Cell Battery Module"
 Date "19 Dec 2016"
-Rev "v1.3"
+Rev "v1.4"
 Comp "CERN Open Hardware License v1.2."
 Comment1 "help@browndoggadgets.com"
 Comment2 "http://browndoggadgets.com/"

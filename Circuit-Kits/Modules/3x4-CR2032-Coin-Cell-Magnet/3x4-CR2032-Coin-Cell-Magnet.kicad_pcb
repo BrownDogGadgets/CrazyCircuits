@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 1)
+    (drawings 7)
     (tracks 0)
     (zones 0)
     (modules 1)
@@ -13,7 +13,7 @@
   (title_block
     (title "3x4 CR2032 Coin Cell Battery Module")
     (date "19 Dec 2016")
-    (rev v1.2)
+    (rev v1.4)
     (company "CERN Open Hardware License v1.2.")
     (comment 1 help@browndoggadgets.com)
     (comment 2 http://browndoggadgets.com/)
@@ -70,7 +70,7 @@
     (mod_text_width 0.1524)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.0762)
+    (pad_to_mask_clearance 0.254)
     (solder_mask_min_width 0.1016)
     (pad_to_paste_clearance -0.0762)
     (aux_axis_origin 0 0)
@@ -205,7 +205,15 @@
       (net 2 VCC))
   )
 
-  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ORANGE) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE WHITE SILK. \n   DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 2.7686 126.6952) (layer Dwgs.User)
+  (gr_line (start 33.655 53.975) (end 46.99 55.245) (layer F.Fab) (width 0.1524))
+  (gr_line (start 34.29 64.77) (end 24.765 64.77) (layer F.Fab) (width 0.1524) (tstamp 5CC0723F))
+  (gr_line (start 24.765 50.8) (end 24.765 64.77) (layer F.Fab) (width 0.1524))
+  (gr_line (start 34.29 64.77) (end 34.29 50.8) (layer F.Fab) (width 0.1524))
+  (gr_line (start 34.29 50.8) (end 24.765 50.8) (layer F.Fab) (width 0.1524))
+  (gr_text "FLOOD FILL THE CENTRAL RECTANGULAR \nGROUND PAD TO BE AT LEAST FLUSH\nWITH THE SOLDER MASK TO ENSURE \nGOOD BATTERY CONTACT" (at 61.84392 55.51932) (layer F.Fab)
+    (effects (font (size 1.016 1.016) (thickness 0.1524)))
+  )
+  (gr_text "FABRICATION NOTES\n\n1. THIS IS A 2 LAYER BOARD. \n2. EXTERNAL LAYERS SHALL HAVE 1 OZ COPPER.\n3. MATERIAL: FR4 AND 0.062 INCH +/- 10% THICK.\n4. BOARDS SHALL BE ROHS COMPLIANT. \n5. MANUFACTURE IN ACCORDANCE WITH IPC-6012 CLASS 2\n6. MASK: BOTH SIDES OF THE BOARD SHALL HAVE \n   SOLDER MASK (ORANGE) OVER BARE COPPER. \n7. SILK: BOTH SIDES OF THE BOARD SHALL HAVE WHITE SILK. \n   DO NOT PLACE SILK OVER BARE COPPER.\n8. FINISH: ENIG.\n9. MINIMUM TRACE WIDTH - 0.006 INCH.\n   MINIMUM SPACE - 0.006 INCH.\n   MINIMUM HOLE DIA - 0.013 INCH. \n10. MAX HOLE PLACEMENT TOLERANCE OF +/- 0.003 INCH.\n11. MAX HOLE DIAMETER TOLERANCE OF +/- 0.003 INCH AFTER PLATING." (at 115.57 43.815) (layer Dwgs.User)
     (effects (font (size 2.54 2.54) (thickness 0.254)) (justify left))
   )
 
