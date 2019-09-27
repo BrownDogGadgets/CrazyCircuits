@@ -2,7 +2,7 @@
 
 This project uses the Crazy Circuits Robotics Board to activate a servo in a LEGO maze.
 
-![lamp diagram](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/Projects/Adjustable%20Lamp/lamppreviewdiagram.png)
+![lamp diagram](https://raw.githubusercontent.com/BrownDogGadgets/CrazyCircuits/master/Projects/Arduino%20Maze/legomaze.jpg)
 
 Overall this is a very simple project. We're using two pieces of Maker Tape conductive tape to act as our switch and then using a metal ball bearing to activitive the switch, which in turn activates the servo.
 
