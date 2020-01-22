@@ -4,7 +4,7 @@ This project allows you to use the Crazy Circuits Invention Board (or Teensy LC)
 
 You can find a full write up of this project on our website as well as Instructables.com. We also havea youtube video you can watch that shows how to build the thing.
 
-![diagram preview](https://github.com/BrownDogGadgets/CrazyCircuits/edit/master/Projects/Sound%20FX%20Board/diagrampreview.png)
+![diagram preview](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Sound%20FX%20Board/Sound%20Wall.png)
 
 The code is set up so that certain pins play certain files. We have them set up with a 1 second delay after each sound effect is triggered. You can change that length if you really want to. You can also change the sensitivity of the cap touch feature. This is handy if you want to trigger a touch point BEHIND something, like a sheet of paper or a vinyl sticker.
 
