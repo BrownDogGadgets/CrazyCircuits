@@ -8,7 +8,7 @@ Touch the "On" Touch Point to make a set of LEDs Fade in and Out.
 
 Touch the "Off" Touch Point to make the second set of LEDs turn On.  This set does not Fade.
 
-![diagram preview](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Status%20Light/Status%20Light%20Diagram.pdf)
+![diagram preview](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Status%20Light/diagrampreview.png)
 
 This was you can have a "Room In Use" set of LEDs that Fade to let people know they shouldn't enter.  
 
