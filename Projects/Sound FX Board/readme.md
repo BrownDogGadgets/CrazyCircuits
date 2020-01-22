@@ -2,9 +2,13 @@
 
 This project allows you to use the Crazy Circuits Invention Board (or Teensy LC) to create a capacitive touch sound wall. We use a cheap YX5300 mp3 module to play mp3 or wave files.
 
-You can find a full write up of this project on our website as well as Instructables.com. We also havea youtube video you can watch that shows how to build the thing.
+You can find a full write up of this project on our website as well as Instructables.com. We also have a youtube video you can watch that shows how to build the thing.
+
+https://www.youtube.com/watch?v=dt47v8oeJfE&t=9s
 
 ![diagram preview](https://github.com/BrownDogGadgets/CrazyCircuits/blob/master/Projects/Sound%20FX%20Board/Sound%20Wall.png)
+
+All the resources are found in the Zip file. Code, test files set up in folders, and the DotClean script. Download that to get started.
 
 The code is set up so that certain pins play certain files. We have them set up with a 1 second delay after each sound effect is triggered. You can change that length if you really want to. You can also change the sensitivity of the cap touch feature. This is handy if you want to trigger a touch point BEHIND something, like a sheet of paper or a vinyl sticker.
 
