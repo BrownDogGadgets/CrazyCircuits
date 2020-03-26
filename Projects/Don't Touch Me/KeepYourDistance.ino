@@ -1,6 +1,7 @@
 /*
  * KeepYourDistance.ino
  * 
+ * Full project write up and parts can be found at:
  * Brown Dog Gadgets <https://www.browndoggadgets.com/>
  * 
  */
