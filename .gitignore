@@ -16,3 +16,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+Projects/.DS_Store
+Projects/StarWarsAutomation/.DS_Store
+.DS_Store
