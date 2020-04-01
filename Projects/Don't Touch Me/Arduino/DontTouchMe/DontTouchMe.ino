@@ -1,7 +1,6 @@
 /*
- * KeepYourDistance.ino
+ * DontTouchMe.ino
  * 
- * Full project write up and parts can be found at:
  * Brown Dog Gadgets <https://www.browndoggadgets.com/>
  * 
  */
@@ -10,8 +9,8 @@
 #include <NewPing.h>
 #include <NewTone.h>
 
-#define ECHO_PIN     5  // Arduino pin tied to echo pin on the ultrasonic sensor.
-#define TRIGGER_PIN  6  // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PIN     6  // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define TRIGGER_PIN  5  // Arduino pin tied to trigger pin on the ultrasonic sensor.
 #define MAX_DISTANCE 500 // Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
 

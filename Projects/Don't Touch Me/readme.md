@@ -1,5 +1,17 @@
-Don't Touch Me Alarm
+# Don't Touch Me Alarm
 
-A simple Arudino project that uses an LED, Piezo Speaker, and distance sensor to keep people at a distance.
+![](Images/dont-touch-me.jpg)
 
-You'll need to use both the above code as well as the NewTone_v1.0 library to get things working.
+Full instructions here: https://browndoggadgets.dozuki.com/Guide/'Don't+Touch+Me'+Anti+Virus+Alarm/167
+
+A simple Arduino project that uses an LED, Piezo Speaker, and an ultrasonic sensor to keep people at a distance.
+
+You'll need to use the Arduino sketch along with the NewTone_v1.0 library (included).
+
+
+---
+
+Brown Dog Gadgets
+
+https://www.browndoggadgets.com/
+
