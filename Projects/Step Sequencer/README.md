@@ -15,6 +15,8 @@ Parts needed:
 
 The Arduino sketch `StepSequencer` is included along with a circuit diagram.
 
+Full build instructions: https://browndoggadgets.dozuki.com/Guide/Step+Sequencer/156
+
 ---
 
 Brown Dog Gadgets
