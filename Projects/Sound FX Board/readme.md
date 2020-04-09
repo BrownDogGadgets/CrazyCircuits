@@ -14,7 +14,7 @@ All the resources are found in the ZIP file. Code, test files set up in folders,
 
 The code is set up so that certain pins play certain files. We have them set up with a 1 second delay after each sound effect is triggered. You can change that length if you really want to. You can also change the sensitivity of the capacitive touch feature. This is handy if you want to trigger a touch point BEHIND something, like a sheet of paper or a vinyl sticker.
 
-Download the `Test Sound Effects` folder and copy it to your micro SD card. Format the card as FAT. To change the sound effect just delete the test .wav file in each folder and replace it with your own mp3 or wav file.
+Download the `Test Sound Effects` folder and copy all the folders inside it to your micro SD card. Format the card as FAT. To change the sound effect just delete the test .wav file in each folder and replace it with your own MP3 or WAV file.
 
 **For Mac OS users:** You'll need to download the DotClean file. Mac OS creates invisible files that confuse the MP3 module. Put the DotClean app in your Applications folder. Every time you've replaced some sound files on the card drag ALL the folders onto the DotClean application. This script will remove those invisible files and you'll be good to go.
 
