@@ -44,6 +44,12 @@ int forward = 1300;
 int backward = 1800;
 
 
+// set how many milliseconds your robot will move backwards for
+int goBackwardTime = 1000;
+
+// set how many milliseconds your robot will turn for
+int turnRightTime = 1000;
+
 // setup runs one time when things start
 void setup() {
 
@@ -69,8 +75,8 @@ void loop() {
     Serial.print(theDistance);
     Serial.println("cm");
     
-    goBackward(1000);
-    turnRight(1000);
+    goBackward(goBackwardTime);
+    turnRight(turnRightTime);
 
   }
 
