@@ -3,7 +3,7 @@
  * 
  * https://www.browndoggadgets.com/
  * 
- * https://github.com/avishorp/TM1637
+ * Note: You will need to install the TM1637 library by Avishay Orpaz
  * 
  */
 
