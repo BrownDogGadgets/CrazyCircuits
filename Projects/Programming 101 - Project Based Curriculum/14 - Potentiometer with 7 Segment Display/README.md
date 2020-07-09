@@ -4,6 +4,8 @@ Lesson Plan for the [Crazy Circuits Classroom Set: Programing 101](https://www.b
 
 Upload the Arduino sketch `Potentiometer_with_7_Segment_Display.ino` to your Robotics Board.
 
+_Note: You will need to install the TM1637 library by Avishay Orpaz_
+
 Full build guide here: https://browndoggadgets.dozuki.com/Guide/14+-+Potentiometer+with+7+Segment+Display/217
 
 ![Potentiometer with 7 Segment Display](Images/Potentiometer_with_7_Segment_Display.png)
