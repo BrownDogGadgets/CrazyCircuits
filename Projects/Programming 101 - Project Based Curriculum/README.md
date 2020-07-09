@@ -4,9 +4,9 @@ This repository contains code and instructions for our [Crazy Circuits Classroom
 
 You can also purchase [individual Crazy Circuits components](https://www.browndoggadgets.com/collections/new-crazy-circuits-chips) and [Maker Tape](https://www.browndoggadgets.com/collections/new-crazy-circuits-supplies/products/nylon-conductive-tape) separately if desired.
 
-Each lesson links to a full build guide in our [Brown Dog Gadgets Project Database](https://browndoggadgets.dozuki.com/)
+Each lesson contains a circuit diagram, Arduino sketch, and a README that links to the full build guide in our [Brown Dog Gadgets Project Database](https://browndoggadgets.dozuki.com/)
 
-These resources are free to use for educational purposes.
+_These resources are free to use for educational purposes._
 
 ---
 
