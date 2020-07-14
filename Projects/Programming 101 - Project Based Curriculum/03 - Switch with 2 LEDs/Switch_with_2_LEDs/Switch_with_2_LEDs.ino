@@ -36,7 +36,7 @@ void loop() {
     // set the first output pin high to turn on the first LED
     digitalWrite(LEDpin1, HIGH);
     // set the second output pin low to turn off the second LED
-    digitalWrite(LEDpin1, LOW);
+    digitalWrite(LEDpin2, LOW);
   }
   // this happens if the switch is in the off position
   else {
