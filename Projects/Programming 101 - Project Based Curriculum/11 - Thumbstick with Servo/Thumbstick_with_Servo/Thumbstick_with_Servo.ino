@@ -33,8 +33,9 @@ void setup() {
   // by default the analog pins are set as input 
   // so we don't need to specify that in setup
   
-  // set theServo to use the specified pin
-  theServo.attach(ServoPin);
+  // set theServo to use the specified pin and 
+  // set a min and max pulse width in microseconds
+  theServo.attach(ServoPin, 860, 2100);
   
   // move the servo to the middle position
   theServo.write(180/2);
