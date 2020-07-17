@@ -25,13 +25,13 @@ int ButtonPin = 8;
 void setup() {
   
   // set theServo to use the specified pin
-  theServo.attach(ServoPin);
+  theServo.attach(ServoPin, 860, 2100);
   
   // the ButtonPin is set to function as an input with a special built-in pull-up resistor
   pinMode(ButtonPin, INPUT_PULLUP);
 
   // move the servo to 40 degrees
-  theServo.write(40);
+  theServo.write(0);
   
 }
 
@@ -42,12 +42,12 @@ void loop() {
   // check if the button is pressed
   if (digitalRead(ButtonPin) == LOW) {
     // move the servo to 120 degrees
-    theServo.write(120);
+    theServo.write(180);
   }
   // this happens if the button is not pressed
   else {
     // move the servo to 40 degrees
-    theServo.write(40);
+    theServo.write(0);
   }
   
 }
