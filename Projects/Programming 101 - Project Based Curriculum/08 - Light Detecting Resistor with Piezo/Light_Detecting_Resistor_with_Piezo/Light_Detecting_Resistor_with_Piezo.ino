@@ -37,10 +37,10 @@ void loop() {
   // assign the value of input using analogRead on the pin
   LDRvalue = analogRead(LDRpin);
 
-  // use the map function to set scale of 0-1023 to scale of 0-4978
-  LDRvalueMapped = map(LDRvalue, 0, 1023, 0, 4978);
+  // use the map function to set scale of 0-1023 to scale of 4978-0
+  LDRvalueMapped = map(LDRvalue, 0, 1023, 4978, 0);
 
-  // play a tone with a frequency between 0-4978
+  // play a tone with a frequency between 4978-0
   tone(PiezoPin, LDRvalueMapped);
 
 }
