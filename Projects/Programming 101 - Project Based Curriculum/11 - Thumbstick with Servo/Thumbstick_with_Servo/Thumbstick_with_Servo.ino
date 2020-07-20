@@ -49,8 +49,8 @@ void loop() {
   // assign the value of input using analogRead on the pin
   ThumbstickXValue = analogRead(ThumbstickXPin);
 
-  // use the map function to set scale of 0-1023 to scale of 0-180
-  ThumbstickXValueMapped = map(ThumbstickXValue, 0, 1023, 0, 180);
+  // use the map function to set scale of 0-1023 to scale of 180-0
+  ThumbstickXValueMapped = map(ThumbstickXValue, 0, 1023, 180, 0);
 
   if ( (ThumbstickXValueMapped < 75) or (ThumbstickXValueMapped > 105) ) {
     theServo.write(ThumbstickXValueMapped);
