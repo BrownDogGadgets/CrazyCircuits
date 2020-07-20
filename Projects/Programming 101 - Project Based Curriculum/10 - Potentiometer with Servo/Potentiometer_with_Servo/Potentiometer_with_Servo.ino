@@ -36,7 +36,7 @@ void setup() {
   // set theServo to use the specified pin and 
   // set a min and max pulse width in microseconds
   theServo.attach(ServoPin, 860, 2100);
-  
+
 }
 
 
@@ -46,8 +46,8 @@ void loop() {
   // assign the value of input using analogRead on the pin
   PotentiometerValue = analogRead(PotentiometerPin);
 
-  // use the map function to set scale of 0-1023 to scale of 0-270
-  PotentiometerValueMapped = map(PotentiometerValue, 0, 1023, 0, 270);
+  // use the map function to set scale of 0-1023 to scale of 180-0
+  PotentiometerValueMapped = map(PotentiometerValue, 0, 1023, 180, 0);
 
   // move the servo to the appropriate positiom
   theServo.write(PotentiometerValueMapped);
