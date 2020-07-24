@@ -3,7 +3,7 @@
  * 
  * https://www.browndoggadgets.com/
  * 
- * Note: You will need to install the TM1637 library by Avishay Orpaz
+ * https://github.com/avishorp/TM1637
  * 
  */
 
@@ -53,8 +53,8 @@ void loop() {
   // assign the value of input using analogRead on the pin
   PotentiometerValue = analogRead(PotentiometerPin);
 
-  // use the map function to set scale of 0-1023 to scale of 0-200
-  PotentiometerValueMapped = map(PotentiometerValue, 0, 1023, 0, 200);
+  // use the map function to set scale of 0-1023 to scale of 0-100
+  PotentiometerValueMapped = map(PotentiometerValue, 0, 1023, 0, 100);
 
   // show number on display
   display.showNumberDec(PotentiometerValueMapped, true);
