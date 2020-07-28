@@ -14,7 +14,7 @@ Parts needed:
 
 The Arduino sketch `ClothespinPiano` is included along with a circuit diagram.
 
-Full build instructions: https://browndoggadgets.dozuki.com/
+Full build instructions: https://browndoggadgets.dozuki.com/Guide/Clothespin+Piano/223
 
 ---
 
