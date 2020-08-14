@@ -1,8 +1,8 @@
-# BF Dimmer
+# BFDimmer
 
-![BF Dimmer](Images/dimmer-circuit.png)
+![BFDimmer](Images/dimmer-circuit.png)
 
-BF Dimmer is an example sketch used in our tutorial on reprogramming the ATtiny85 on a Crazy Circuits Blink/Fade Board.
+BFDimmer is an example sketch used in our tutorial on reprogramming the ATtiny85 on a Crazy Circuits Blink/Fade Board.
 
 An Avoidance Robot built with Crazy Circuits components and LEGO parts.
 
