@@ -1,6 +1,6 @@
 # BFDimmer
 
-![BFDimmer](Images/dimmer-circuit.png)
+![BFDimmer](Images/bfdimmer-circuit.png)
 
 BFDimmer is an example sketch used in our tutorial on reprogramming the ATtiny85 on a Crazy Circuits Blink/Fade Board.
 
