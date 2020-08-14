@@ -1,5 +1,8 @@
-This is a simple dumping ground for code as well as projects we're working on. 
+# Crazy Circuits Projects
 
-This is not intended for Step by Step directions, nor as a place you should be going to for full build guides. For that you should check out all our finished projects on BrownDogGadgets.com. In fact several of these projects don't really even work all that well yet or at all!
+This repository holds code for many of our Crazy Circuits projects.
 
-Seriously, this is just an area with raw project files. Go to our website and get details, pictures, guides, and videos.
+These are not step-by-step directions, and do not serve as full build guides.
+
+For finished projects, instructions, and tutorials with photos and videos, as well as free templates, please visit [BrownDogGadgets.com](http://browndoggadgets.com/)
+
