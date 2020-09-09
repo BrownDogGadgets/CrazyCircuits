@@ -1,5 +1,7 @@
 # Bubble Machine
 
+![](Images/bubble-machine.jpg)
+
 A LEGO-based Bubble Machine utilizing the Crazy Circuits Bit Board along with a servo and DC motor. You can control it using an Adafruit Clue or a micro:bit
 
 Parts needed:
