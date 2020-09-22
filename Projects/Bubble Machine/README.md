@@ -30,6 +30,9 @@ The code is written in CircuitPython and to use it as-is just copy it to the Clu
 The code can be loaded into the MakeCode Editor: [Bubble Machine](https://makecode.microbit.org/_05vhF0CH27ML)
 
 
+Full build instructions: https://browndoggadgets.dozuki.com/Guide/Bubble+Machine/237
+
+
 ---
 
 Brown Dog Gadgets
