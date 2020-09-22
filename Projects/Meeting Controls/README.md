@@ -20,6 +20,8 @@ You'll need to choose the correct sketch and edit the `OS` parameter to choose i
 Full build instructions coming soon!
 
 
+![](Diagrams/circuit-diagram.png)
+
 ---
 
 Brown Dog Gadgets
