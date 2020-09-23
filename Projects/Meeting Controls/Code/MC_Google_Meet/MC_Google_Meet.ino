@@ -9,7 +9,7 @@
 
 
 
-int OS = 0;  // set OS = 0 for macOS or = 1 for Windows
+int OS = 0;  // set OS = 0 for macOS or OS = 1 for Windows
 
 // ------------------------------------------------------ //
 
