@@ -17,7 +17,7 @@ The Arduino sketches available should work with Google Meet, Zoom, and Microsoft
 You'll need to choose the correct sketch and edit the `OS` parameter to choose if you want it to work on **macOS** or **Windows**.
 
 
-Full build instructions coming soon!
+Full build guide: https://browndoggadgets.dozuki.com/Guide/Meeting+Controls/240
 
 
 ![](Diagrams/circuit-diagram.png)
