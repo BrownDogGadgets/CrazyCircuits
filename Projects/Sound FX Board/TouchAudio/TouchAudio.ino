@@ -4,13 +4,13 @@
  * The Teensy must calibrate the touch pins when it starts up, so when power is applied 
  * (via USB cable or any other method) do not touch the pins until the on-board LED turns on)
  * 
- *Version 1.0, BrownDogGadgets.com
+ * Version 1.5, BrownDogGadgets.com
  *
- *You can change the length of time that the program waits before accepting a new sound input.
+ * You can change the length of time that the program waits before accepting a new sound input.
  *
- *Changing the sensitivity is helpful depending on your Touch Points and who is interacting with them.
+ * Changing the sensitivity is now done with a Crazy Circuits potentiometer
  * 
- * This is a work in-progress and will (hopefully) improve later...
+ * This is a work in-progress and will (hopefully) continue to improve...
  * 
  */
 
@@ -54,7 +54,10 @@ int restG;
 int restH;
 int restI;
 
-int pinLevel = 2000; // may need adjusting, higher is less sensitive, lower is more sensitive
+
+// check sensitivity setting from potentiometer
+int levelPin = 18;
+int pinLevel = analogRead(levelPin) * 3;
 
 int LEDpin = 13;
 
@@ -85,6 +88,9 @@ void setup() {
 }
 
 void loop() {
+
+  // check sensitivity setting from potentiometer
+  pinLevel = analogRead(levelPin) * 3;
 
   // read the touch pins
   int valA = (touchRead(touchPinA));
