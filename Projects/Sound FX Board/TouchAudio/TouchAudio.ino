@@ -90,7 +90,11 @@ void setup() {
 void loop() {
 
   // check sensitivity setting from potentiometer
-  pinLevel = analogRead(levelPin) * 3;
+  pinLevel = analogRead(levelPin) * 3; // scales to 3072 max
+
+  if (pinLevel < 10) {
+    pinLevel = 10;
+  }
 
   // read the touch pins
   int valA = (touchRead(touchPinA));
