@@ -56,7 +56,7 @@ int restI;
 
 
 // check sensitivity setting from potentiometer
-int levelPin = 18;
+int levelPin = 0; // Pin 14 is "Analog Pin 0"
 int pinLevel = analogRead(levelPin) * 3;
 
 int LEDpin = 13;
