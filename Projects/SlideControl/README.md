@@ -19,12 +19,12 @@ You'll need to make sure you select USB Type: MIDI from the Tools menu.
 
 ## The Processing Sketch
 
-You will need to make sure you got themidibus library installed, and set the MidiBus objext to the correct input and output.
+You will need to make sure you got themidibus library installed, and set the MidiBus object to the correct input and output.
 
 
 ## Full Build Guide:
 
-Coming Soon!
+Check out our full guide: https://browndoggadgets.dozuki.com/Guide/SlideControl/268
 
 
 
