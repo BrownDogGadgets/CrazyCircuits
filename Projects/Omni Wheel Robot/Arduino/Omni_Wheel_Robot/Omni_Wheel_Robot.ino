@@ -17,10 +17,10 @@ Servo servoD;
 
 // set the values for stopped, forward, and backward
 int halt = 1500;
-int rotA = 700;
-int rotB = 2300;
+int rotX = 700;
+int rotY = 2300;
 
-int fullRotation = 1180; // this may need adjustment
+int quarterRotation = 1290; // this may need adjustment
 
 void setup() {
 
@@ -37,51 +37,34 @@ void setup() {
 
 void loop() {
 
-  spinLeft(fullRotation * 4);
-  
+  forwardLeftRoll(500);
+  backwardRightRoll(500);
+  forwardRightRoll(500);
+  backwardLeftRoll(500);
+
+  forwardRoll(500);
+  leftRoll(500);
+  backwardRoll(500);
+  rightRoll(500);
+
+  spinLeft(quarterRotation * 4);
+  spinRight(quarterRotation * 4);
+
   forwardLeftRoll(1000);
-  
-  forwardRightRoll(1000);
-  
   backwardRightRoll(1000);
-  
+  forwardRightRoll(1000);
   backwardLeftRoll(1000);
 
-  spinRight(fullRotation * 4);
-  
-  forwardRoll(500);
-  leftRoll(500);
-  backwardRoll(500);
-  rightRoll(500);
-
-  spinRight(fullRotation * 4);
-  
   forwardRoll(1000);
   leftRoll(1000);
   backwardRoll(1000);
   rightRoll(1000);
-
-
-  spinLeft(fullRotation / 2);
-  
-  forwardRoll(500);
-  leftRoll(500);
-  backwardRoll(500);
-  rightRoll(500);
-
-  spinRight(fullRotation / 2);
-  
-  forwardRoll(1000);
-  leftRoll(1000);
-  backwardRoll(1000);
-  rightRoll(1000);
-
 
 }
 
 
 
-/* -------- functions are below -------- */
+/* ------------ functions are below ------------ */
 
 // each function take a parameter which is
 // the number of milliseconds it should run
@@ -92,8 +75,8 @@ void loop() {
 
 void forwardRoll(int howLong) {
   allStop();
-  servoA.write(rotA);
-  servoB.write(rotB);
+  servoA.write(rotX);
+  servoB.write(rotY);
   servoC.write(halt);
   servoD.write(halt);
   delay(howLong);
@@ -101,8 +84,8 @@ void forwardRoll(int howLong) {
 
 void backwardRoll(int howLong) {
   allStop();
-  servoA.write(rotB);
-  servoB.write(rotA);
+  servoA.write(rotY);
+  servoB.write(rotX);
   servoC.write(halt);
   servoD.write(halt);
   delay(howLong);
@@ -112,8 +95,8 @@ void leftRoll(int howLong) {
   allStop();
   servoA.write(halt);
   servoB.write(halt);
-  servoC.write(rotA);
-  servoD.write(rotB);
+  servoC.write(rotX);
+  servoD.write(rotY);
   delay(howLong);
 }
 
@@ -121,8 +104,8 @@ void rightRoll(int howLong) {
   allStop();
   servoA.write(halt);
   servoB.write(halt);
-  servoC.write(rotB);
-  servoD.write(rotA);
+  servoC.write(rotY);
+  servoD.write(rotX);
   delay(howLong);
 }
 
@@ -131,37 +114,37 @@ void rightRoll(int howLong) {
 
 void forwardLeftRoll(int howLong) {
   allStop();
-  servoA.write(rotB);
-  servoB.write(rotA);
-  servoC.write(rotA);
-  servoD.write(rotB);
+  servoA.write(rotY);
+  servoB.write(rotX);
+  servoC.write(rotX);
+  servoD.write(rotY);
   delay(howLong);
 }
 
 void forwardRightRoll(int howLong) {
   allStop();
-  servoA.write(rotB);
-  servoB.write(rotA);
-  servoC.write(rotB);
-  servoD.write(rotA);
+  servoA.write(rotY);
+  servoB.write(rotX);
+  servoC.write(rotY);
+  servoD.write(rotX);
   delay(howLong);
 }
 
 void backwardRightRoll(int howLong) {
   allStop();
-  servoA.write(rotA);
-  servoB.write(rotB);
-  servoC.write(rotB);
-  servoD.write(rotA);
+  servoA.write(rotX);
+  servoB.write(rotY);
+  servoC.write(rotY);
+  servoD.write(rotX);
   delay(howLong);
 }
 
 void backwardLeftRoll(int howLong) {
   allStop();
-  servoA.write(rotA);
-  servoB.write(rotB);
-  servoC.write(rotA);
-  servoD.write(rotB);
+  servoA.write(rotX);
+  servoB.write(rotY);
+  servoC.write(rotX);
+  servoD.write(rotY);
   delay(howLong);
 }
 
@@ -170,19 +153,19 @@ void backwardLeftRoll(int howLong) {
 
 void spinRight(int howLong) {
   allStop();
-  servoA.write(rotA);
-  servoB.write(rotA);
-  servoC.write(rotA);
-  servoD.write(rotA);
+  servoA.write(rotX);
+  servoB.write(rotX);
+  servoC.write(rotX);
+  servoD.write(rotX);
   delay(howLong);
 }
 
 void spinLeft(int howLong) {
   allStop();
-  servoA.write(rotB);
-  servoB.write(rotB);
-  servoC.write(rotB);
-  servoD.write(rotB);
+  servoA.write(rotY);
+  servoB.write(rotY);
+  servoC.write(rotY);
+  servoD.write(rotY);
   delay(howLong);
 }
 
