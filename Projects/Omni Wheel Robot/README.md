@@ -11,7 +11,7 @@ Parts needed:
 * 4 x Omni Wheels
 * 1 x LEGO Baseplate
 * Misc LEGO pieces
-(See the full build guide for a list of all components.)
+* _Note: See the full build guide for a list of all components used_
 
 The Arduino sketch `Omni_Wheel_Robot` can be found in the **Arduino** folder.
 
