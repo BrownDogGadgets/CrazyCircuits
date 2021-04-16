@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\acamilo\Documents\GitHub\CrazyCircuits\Circuit-Kits\Modules\5x11-Raspi-Pico-Robot-Version\5x11-Raspi-Pico-Robot-Version.sch)
-    (date "4/16/2021 2:04:30 PM")
+    (date "4/16/2021 2:47:17 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 58FE54F2))
     (comp (ref U1)
       (value ARDUINO-NANO)
-      (footprint Crazy_Circuits:ARDUINO-NANO-5x11-SERVO-ANALOG)
+      (footprint Crazy_Circuits:5x11-SERVO-ANALOG)
       (datasheet https://www.pjrc.com/teensy/)
       (fields
         (field (name Description) "ARDUINO NANO BOARD")
