@@ -14,10 +14,10 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR1
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR01
 U 1 1 58FE4F4A
 P 3725 4225
-F 0 "#PWR1" H 3725 3975 50  0001 C CNN
+F 0 "#PWR01" H 3725 3975 50  0001 C CNN
 F 1 "GND" H 3725 4075 50  0000 C CNN
 F 2 "" H 3725 4225 50  0000 C CNN
 F 3 "" H 3725 4225 50  0000 C CNN
@@ -103,10 +103,10 @@ F 9 "th" H 5150 2350 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR3
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR03
 U 1 1 58FE5E9A
 P 4625 4275
-F 0 "#PWR3" H 4625 4025 50  0001 C CNN
+F 0 "#PWR03" H 4625 4025 50  0001 C CNN
 F 1 "GND" H 4625 4125 50  0000 C CNN
 F 2 "" H 4625 4275 50  0000 C CNN
 F 3 "" H 4625 4275 50  0000 C CNN
@@ -120,10 +120,10 @@ Text Label 4775 1200 0    50   ~ 0
 Text Label 4775 1450 0    50   ~ 0
 RST
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:5V-crazy_circuits #PWR2
+L 5x11-Raspi-Pico-Robot-Version-rescue:5V-crazy_circuits #PWR02
 U 1 1 590DB2E6
 P 3800 950
-F 0 "#PWR2" H 3800 800 50  0001 C CNN
+F 0 "#PWR02" H 3800 800 50  0001 C CNN
 F 1 "5V" H 3800 1100 50  0000 C CNN
 F 2 "" H 3800 950 50  0000 C CNN
 F 3 "" H 3800 950 50  0000 C CNN
@@ -341,4 +341,15 @@ Wire Wire Line
 	3800 3100 3800 3575
 Wire Wire Line
 	3725 3200 3725 3675
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U2
+U 1 1 6079EC6F
+P 7250 2700
+F 0 "U2" H 7250 3915 50  0000 C CNN
+F 1 "Pico" H 7250 3824 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 7250 2700 50  0001 C CNN
+F 3 "" H 7250 2700 50  0001 C CNN
+	1    7250 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

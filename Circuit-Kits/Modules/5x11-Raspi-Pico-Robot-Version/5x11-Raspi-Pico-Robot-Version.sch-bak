@@ -1,7 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:crazy_circuits
-LIBS:5x11-Arduino-Nano-Robot-Version-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -16,10 +14,10 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L crazy_circuits:GND #PWR1
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR01
 U 1 1 58FE4F4A
 P 3725 4225
-F 0 "#PWR1" H 3725 3975 50  0001 C CNN
+F 0 "#PWR01" H 3725 3975 50  0001 C CNN
 F 1 "GND" H 3725 4075 50  0000 C CNN
 F 2 "" H 3725 4225 50  0000 C CNN
 F 3 "" H 3725 4225 50  0000 C CNN
@@ -37,7 +35,7 @@ A4
 Text Label 3875 3950 0    50   ~ 0
 A5
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J1
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J1
 U 1 1 58FE51EC
 P 3350 1675
 F 0 "J1" H 3300 1875 50  0000 L CNN
@@ -54,7 +52,7 @@ F 9 "th" H 3350 1675 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J5
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J5
 U 1 1 58FE54AA
 P 3350 3575
 F 0 "J5" H 3300 3775 50  0000 L CNN
@@ -71,7 +69,7 @@ F 9 "th" H 3350 3575 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J6
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J6
 U 1 1 58FE54F2
 P 3350 4050
 F 0 "J6" H 3300 4250 50  0000 L CNN
@@ -88,7 +86,7 @@ F 9 "th" H 3350 4050 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:ARDUINO-NANO U1
+L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-NANO-crazy_circuits U1
 U 1 1 59004828
 P 5150 2350
 F 0 "U1" H 4850 3850 50  0000 L CNN
@@ -105,10 +103,10 @@ F 9 "th" H 5150 2350 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:GND #PWR3
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR03
 U 1 1 58FE5E9A
 P 4625 4275
-F 0 "#PWR3" H 4625 4025 50  0001 C CNN
+F 0 "#PWR03" H 4625 4025 50  0001 C CNN
 F 1 "GND" H 4625 4125 50  0000 C CNN
 F 2 "" H 4625 4275 50  0000 C CNN
 F 3 "" H 4625 4275 50  0000 C CNN
@@ -122,10 +120,10 @@ Text Label 4775 1200 0    50   ~ 0
 Text Label 4775 1450 0    50   ~ 0
 RST
 $Comp
-L crazy_circuits:5V #PWR2
+L 5x11-Raspi-Pico-Robot-Version-rescue:5V-crazy_circuits #PWR02
 U 1 1 590DB2E6
 P 3800 950
-F 0 "#PWR2" H 3800 800 50  0001 C CNN
+F 0 "#PWR02" H 3800 800 50  0001 C CNN
 F 1 "5V" H 3800 1100 50  0000 C CNN
 F 2 "" H 3800 950 50  0000 C CNN
 F 3 "" H 3800 950 50  0000 C CNN
@@ -265,7 +263,7 @@ Connection ~ 3725 3200
 Text Label 3875 3000 0    50   ~ 0
 D9
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J2
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J2
 U 1 1 5AF1C185
 P 3350 2150
 F 0 "J2" H 3300 2350 50  0000 L CNN
@@ -282,7 +280,7 @@ F 9 "th" H 3350 2150 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J3
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J3
 U 1 1 5AF1C1CE
 P 3350 2625
 F 0 "J3" H 3300 2825 50  0000 L CNN
@@ -299,7 +297,7 @@ F 9 "th" H 3350 2625 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:HEADER-MALE-3POS-TH-1x03-P0.1IN J4
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J4
 U 1 1 5AF1C230
 P 3350 3100
 F 0 "J4" H 3300 3300 50  0000 L CNN
@@ -343,4 +341,15 @@ Wire Wire Line
 	3800 3100 3800 3575
 Wire Wire Line
 	3725 3200 3725 3675
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U2
+U 1 1 6079EC6F
+P 7250 2700
+F 0 "U2" H 7250 3915 50  0000 C CNN
+F 1 "Pico" H 7250 3824 50  0000 C CNN
+F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 7250 2700 50  0001 C CNN
+F 3 "" H 7250 2700 50  0001 C CNN
+	1    7250 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
