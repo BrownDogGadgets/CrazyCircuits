@@ -24,12 +24,8 @@ F 3 "" H 3725 4225 50  0000 C CNN
 	1    3725 4225
 	1    0    0    -1  
 $EndComp
-Text Label 3875 1575 0    50   ~ 0
-D3
 Text Label 3875 2050 0    50   ~ 0
 D5
-Text Label 3875 2525 0    50   ~ 0
-D6
 Text Label 3875 3475 0    50   ~ 0
 A4
 Text Label 3875 3950 0    50   ~ 0
@@ -114,8 +110,6 @@ F 3 "" H 5325 4275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 1575 4550 1575
-Wire Wire Line
 	3800 1675 3550 1675
 Wire Wire Line
 	3725 4150 3550 4150
@@ -140,8 +134,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 4050 3550 4050
 Wire Wire Line
-	3550 2050 4550 2050
-Wire Wire Line
 	3550 2525 4550 2525
 Wire Wire Line
 	3550 3475 4200 3475
@@ -149,12 +141,6 @@ Wire Wire Line
 	3550 3950 4200 3950
 Wire Wire Line
 	5700 1000 5475 1000
-Wire Wire Line
-	4550 1575 4550 2000
-Wire Wire Line
-	4550 2050 4550 2200
-Wire Wire Line
-	4550 2525 4550 2300
 Wire Wire Line
 	5700 1200 5475 1200
 Wire Wire Line
@@ -168,10 +154,6 @@ Wire Wire Line
 	5700 1700 5475 1700
 Wire Wire Line
 	5475 1800 5700 1800
-Wire Wire Line
-	5700 1900 5475 1900
-Wire Wire Line
-	5700 2100 5475 2100
 Wire Wire Line
 	5700 2400 5475 2400
 Wire Wire Line
@@ -199,24 +181,12 @@ Wire Wire Line
 Wire Wire Line
 	5325 4150 5700 4150
 Wire Wire Line
-	5700 3450 5475 3450
-Wire Wire Line
-	4200 3475 4200 3550
-Wire Wire Line
-	4200 3950 4200 3650
-Wire Wire Line
 	3725 1775 3725 2250
-Wire Wire Line
-	3550 3000 4550 3000
-Wire Wire Line
-	4550 3000 4550 2600
 Wire Wire Line
 	3550 3100 3800 3100
 Wire Wire Line
 	3550 3200 3725 3200
 Connection ~ 3725 3200
-Text Label 3875 3000 0    50   ~ 0
-D9
 $Comp
 L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J2
 U 1 1 5AF1C185
@@ -293,16 +263,6 @@ F 3 "" H 8125 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5325 4050 5325 4150
-Wire Wire Line
-	4550 2000 5700 2000
-Wire Wire Line
-	4550 2200 5700 2200
-Wire Wire Line
-	4550 2300 5700 2300
-Wire Wire Line
-	4550 2600 5700 2600
-Wire Wire Line
-	4200 3650 5700 3650
 Connection ~ 5325 4150
 Wire Wire Line
 	5325 4150 5325 4275
@@ -597,5 +557,99 @@ IO17
 Text GLabel 5475 3850 0    50   Input ~ 0
 IO18
 Wire Wire Line
-	4200 3550 5700 3550
+	5100 1575 5100 1900
+Wire Wire Line
+	3550 1575 5100 1575
+Wire Wire Line
+	5100 1900 5700 1900
+Wire Wire Line
+	5100 2050 5100 2000
+Wire Wire Line
+	5100 2000 5700 2000
+Wire Wire Line
+	3550 2050 5100 2050
+Wire Wire Line
+	4550 2100 4550 2525
+Wire Wire Line
+	4550 2100 5700 2100
+Wire Wire Line
+	5700 2200 4725 2200
+Wire Wire Line
+	4725 2200 4725 3000
+Wire Wire Line
+	3550 3000 4725 3000
+Wire Wire Line
+	5475 2300 5700 2300
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J?
+U 1 1 608A960B
+P 3350 4675
+F 0 "J?" H 3300 4875 50  0000 L CNN
+F 1 "ANALOG" H 3300 4475 50  0000 L CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 3350 4325 50  0001 C CIN
+F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 3350 4675 5   0001 C CNN
+F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 3350 4325 50  0001 C CIN "Description"
+F 5 "Harwin" H 3350 4325 50  0001 C CIN "MF_Name"
+F 6 "M20-9990346" H 3350 4325 50  0001 C CIN "MF_PN"
+F 7 "Digikey" H 3350 4325 50  0001 C CIN "S1_Name"
+F 8 "952-2264-ND" H 3350 4325 50  0001 C CIN "S1_PN"
+F 9 "th" H 3350 4675 50  0001 C CNN "Type"
+	1    3350 4675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR?
+U 1 1 608A9E31
+P 3725 4875
+F 0 "#PWR?" H 3725 4625 50  0001 C CNN
+F 1 "GND" H 3725 4725 50  0000 C CNN
+F 2 "" H 3725 4875 50  0000 C CNN
+F 3 "" H 3725 4875 50  0000 C CNN
+	1    3725 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4775 3725 4775
+Wire Wire Line
+	3725 4775 3725 4875
+$Comp
+L crazy_circuits:3.3V #PWR?
+U 1 1 608ABE47
+P 3800 4575
+F 0 "#PWR?" H 3800 4425 50  0001 C CNN
+F 1 "3.3V" V 3817 4703 50  0000 L CNN
+F 2 "" H 3800 4575 50  0000 C CNN
+F 3 "" H 3800 4575 50  0000 C CNN
+	1    3800 4575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 4575 3550 4575
+Wire Wire Line
+	4200 3450 4200 3475
+Wire Wire Line
+	4200 3450 5700 3450
+Wire Wire Line
+	5700 3550 4200 3550
+Wire Wire Line
+	4200 3550 4200 3950
+Wire Wire Line
+	5700 3650 4325 3650
+Wire Wire Line
+	4325 3650 4325 4675
+Wire Wire Line
+	4325 4675 3550 4675
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR?
+U 1 1 608B6490
+P 5575 1100
+F 0 "#PWR?" H 5575 850 50  0001 C CNN
+F 1 "GND" H 5575 950 50  0000 C CNN
+F 2 "" H 5575 1100 50  0000 C CNN
+F 3 "" H 5575 1100 50  0000 C CNN
+	1    5575 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1100 5575 1100
 $EndSCHEMATC
