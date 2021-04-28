@@ -113,17 +113,6 @@ F 3 "" H 5325 4275 50  0000 C CNN
 	1    5325 4275
 	1    0    0    -1  
 $EndComp
-$Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:5V-crazy_circuits #PWR02
-U 1 1 590DB2E6
-P 3800 950
-F 0 "#PWR02" H 3800 800 50  0001 C CNN
-F 1 "5V" H 3800 1100 50  0000 C CNN
-F 2 "" H 3800 950 50  0000 C CNN
-F 3 "" H 3800 950 50  0000 C CNN
-	1    3800 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 1575 4550 1575
 Wire Wire Line
@@ -146,10 +135,8 @@ Wire Wire Line
 	3800 2150 3550 2150
 Wire Wire Line
 	3800 2625 3550 2625
-Connection ~ 3800 2150
 Wire Wire Line
 	3800 3575 3550 3575
-Connection ~ 3800 2625
 Wire Wire Line
 	3800 4050 3550 4050
 Wire Wire Line
@@ -160,7 +147,6 @@ Wire Wire Line
 	3550 3475 4200 3475
 Wire Wire Line
 	3550 3950 4200 3950
-Connection ~ 3800 1675
 Wire Wire Line
 	5700 1000 5475 1000
 Wire Wire Line
@@ -291,42 +277,22 @@ Wire Wire Line
 Wire Wire Line
 	3725 2250 3725 2725
 Wire Wire Line
-	3800 2150 3800 2625
-Wire Wire Line
-	3800 2625 3800 3100
-Wire Wire Line
-	3800 3575 3800 4050
-Wire Wire Line
-	3800 1675 3800 2150
-Wire Wire Line
 	5650 1450 5700 1450
 Wire Wire Line
 	3725 3200 3725 3675
 $Comp
 L MCU_RaspberryPi_and_Boards:Pico U2
 U 1 1 6079EC6F
-P 7250 2700
-F 0 "U2" H 7250 3915 50  0000 C CNN
-F 1 "Pico" H 7250 3824 50  0000 C CNN
-F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 7250 2700 50  0001 C CNN
-F 3 "" H 7250 2700 50  0001 C CNN
-	1    7250 2700
+P 8125 2600
+F 0 "U2" H 8125 3815 50  0000 C CNN
+F 1 "Pico" H 8125 3724 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 8125 2600 50  0001 C CNN
+F 3 "" H 8125 2600 50  0001 C CNN
+	1    8125 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5325 4050 5325 4150
-Wire Wire Line
-	3800 950  3800 1100
-Wire Wire Line
-	3800 1100 5700 1100
-Connection ~ 3800 1100
-Wire Wire Line
-	3800 1100 3800 1300
-Wire Wire Line
-	3800 1300 5700 1300
-Connection ~ 3800 1300
-Wire Wire Line
-	3800 1300 3800 1675
 Wire Wire Line
 	4550 2000 5700 2000
 Wire Wire Line
@@ -336,27 +302,300 @@ Wire Wire Line
 Wire Wire Line
 	4550 2600 5700 2600
 Wire Wire Line
-	4200 3550 5700 3550
-Wire Wire Line
 	4200 3650 5700 3650
 Connection ~ 5325 4150
 Wire Wire Line
 	5325 4150 5325 4275
 Text GLabel 5475 1450 0    50   Input ~ 0
 RST
-Text GLabel 7950 2750 2    50   Input ~ 0
+Text GLabel 8825 2650 2    50   Input ~ 0
 RST
 Text GLabel 5475 1000 0    50   Input ~ 0
 VIN
-Text GLabel 5475 1200 0    50   Input ~ 0
-3V
-Wire Wire Line
-	3800 3575 3800 3300
-Wire Wire Line
-	3800 3300 4075 3300
-Connection ~ 3800 3575
-Text GLabel 4075 3300 2    50   Input ~ 0
-3V
 Text Notes 2250 3650 0    50   ~ 0
 Pico is not 5v Tolerant.
+Text GLabel 8825 1750 2    50   Input ~ 0
+VIN
+$Comp
+L crazy_circuits:3.3V #PWR0101
+U 1 1 608B69F7
+P 8825 2050
+F 0 "#PWR0101" H 8825 1900 50  0001 C CNN
+F 1 "3.3V" V 8842 2178 50  0000 L CNN
+F 2 "" H 8825 2050 50  0000 C CNN
+F 3 "" H 8825 2050 50  0000 C CNN
+	1    8825 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0102
+U 1 1 608B12B6
+P 9100 1850
+F 0 "#PWR0102" H 9100 1600 50  0001 C CNN
+F 1 "GND" H 9100 1700 50  0000 C CNN
+F 2 "" H 9100 1850 50  0000 C CNN
+F 3 "" H 9100 1850 50  0000 C CNN
+	1    9100 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 1850 8825 1850
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0103
+U 1 1 608BAEE6
+P 9100 2350
+F 0 "#PWR0103" H 9100 2100 50  0001 C CNN
+F 1 "GND" H 9100 2200 50  0000 C CNN
+F 2 "" H 9100 2350 50  0000 C CNN
+F 3 "" H 9100 2350 50  0000 C CNN
+	1    9100 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 2350 8825 2350
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0104
+U 1 1 608BCF87
+P 9100 2850
+F 0 "#PWR0104" H 9100 2600 50  0001 C CNN
+F 1 "GND" H 9100 2700 50  0000 C CNN
+F 2 "" H 9100 2850 50  0000 C CNN
+F 3 "" H 9100 2850 50  0000 C CNN
+	1    9100 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 2850 8825 2850
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0105
+U 1 1 608BEE78
+P 9100 3350
+F 0 "#PWR0105" H 9100 3100 50  0001 C CNN
+F 1 "GND" H 9100 3200 50  0000 C CNN
+F 2 "" H 9100 3350 50  0000 C CNN
+F 3 "" H 9100 3350 50  0000 C CNN
+	1    9100 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 3350 8825 3350
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0106
+U 1 1 608C380D
+P 7150 1850
+F 0 "#PWR0106" H 7150 1600 50  0001 C CNN
+F 1 "GND" H 7150 1700 50  0000 C CNN
+F 2 "" H 7150 1850 50  0000 C CNN
+F 3 "" H 7150 1850 50  0000 C CNN
+	1    7150 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 1850 7425 1850
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0107
+U 1 1 608C5761
+P 7150 2350
+F 0 "#PWR0107" H 7150 2100 50  0001 C CNN
+F 1 "GND" H 7150 2200 50  0000 C CNN
+F 2 "" H 7150 2350 50  0000 C CNN
+F 3 "" H 7150 2350 50  0000 C CNN
+	1    7150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 2350 7425 2350
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0108
+U 1 1 608C7766
+P 7150 2850
+F 0 "#PWR0108" H 7150 2600 50  0001 C CNN
+F 1 "GND" H 7150 2700 50  0000 C CNN
+F 2 "" H 7150 2850 50  0000 C CNN
+F 3 "" H 7150 2850 50  0000 C CNN
+	1    7150 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 2850 7425 2850
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0109
+U 1 1 608C98C7
+P 7150 3350
+F 0 "#PWR0109" H 7150 3100 50  0001 C CNN
+F 1 "GND" H 7150 3200 50  0000 C CNN
+F 2 "" H 7150 3350 50  0000 C CNN
+F 3 "" H 7150 3350 50  0000 C CNN
+	1    7150 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 3350 7425 3350
+$Comp
+L crazy_circuits:3.3V #PWR0110
+U 1 1 608CB6CC
+P 5475 1200
+F 0 "#PWR0110" H 5475 1050 50  0001 C CNN
+F 1 "3.3V" V 5493 1328 50  0000 L CNN
+F 2 "" H 5475 1200 50  0000 C CNN
+F 3 "" H 5475 1200 50  0000 C CNN
+	1    5475 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0111
+U 1 1 608CC66D
+P 3800 1675
+F 0 "#PWR0111" H 3800 1525 50  0001 C CNN
+F 1 "3.3V" V 3817 1803 50  0000 L CNN
+F 2 "" H 3800 1675 50  0000 C CNN
+F 3 "" H 3800 1675 50  0000 C CNN
+	1    3800 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0112
+U 1 1 608CD4D5
+P 3800 2150
+F 0 "#PWR0112" H 3800 2000 50  0001 C CNN
+F 1 "3.3V" V 3817 2278 50  0000 L CNN
+F 2 "" H 3800 2150 50  0000 C CNN
+F 3 "" H 3800 2150 50  0000 C CNN
+	1    3800 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0113
+U 1 1 608CD9D4
+P 3800 2625
+F 0 "#PWR0113" H 3800 2475 50  0001 C CNN
+F 1 "3.3V" V 3817 2753 50  0000 L CNN
+F 2 "" H 3800 2625 50  0000 C CNN
+F 3 "" H 3800 2625 50  0000 C CNN
+	1    3800 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0114
+U 1 1 608CDDC7
+P 3800 3100
+F 0 "#PWR0114" H 3800 2950 50  0001 C CNN
+F 1 "3.3V" V 3817 3228 50  0000 L CNN
+F 2 "" H 3800 3100 50  0000 C CNN
+F 3 "" H 3800 3100 50  0000 C CNN
+	1    3800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0115
+U 1 1 608CE1DC
+P 3800 3575
+F 0 "#PWR0115" H 3800 3425 50  0001 C CNN
+F 1 "3.3V" V 3817 3703 50  0000 L CNN
+F 2 "" H 3800 3575 50  0000 C CNN
+F 3 "" H 3800 3575 50  0000 C CNN
+	1    3800 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0116
+U 1 1 608CE544
+P 3800 4050
+F 0 "#PWR0116" H 3800 3900 50  0001 C CNN
+F 1 "3.3V" V 3817 4178 50  0000 L CNN
+F 2 "" H 3800 4050 50  0000 C CNN
+F 3 "" H 3800 4050 50  0000 C CNN
+	1    3800 4050
+	0    1    1    0   
+$EndComp
+Text GLabel 8825 2550 2    50   Input ~ 0
+ADC0
+Text GLabel 8825 2450 2    50   Input ~ 0
+ADC1
+Text GLabel 8825 2250 2    50   Input ~ 0
+ADC2
+Text GLabel 5475 3450 0    50   Input ~ 0
+ADC0
+Text GLabel 5475 3550 0    50   Input ~ 0
+ADC1
+Text GLabel 5475 3650 0    50   Input ~ 0
+ADC2
+Text GLabel 7425 1650 0    50   Input ~ 0
+IO0
+Text GLabel 7425 1750 0    50   Input ~ 0
+IO1
+Text GLabel 7425 1950 0    50   Input ~ 0
+IO2
+Text GLabel 7425 2050 0    50   Input ~ 0
+IO3
+Text GLabel 7425 2150 0    50   Input ~ 0
+IO4
+Text GLabel 7425 2250 0    50   Input ~ 0
+IO5
+Text GLabel 7425 2450 0    50   Input ~ 0
+IO6
+Text GLabel 7425 2550 0    50   Input ~ 0
+IO7
+Text GLabel 7425 2650 0    50   Input ~ 0
+IO8
+Text GLabel 7425 2750 0    50   Input ~ 0
+IO9
+Text GLabel 7425 2950 0    50   Input ~ 0
+IO10
+Text GLabel 7425 3050 0    50   Input ~ 0
+IO11
+Text GLabel 7425 3150 0    50   Input ~ 0
+IO12
+Text GLabel 7425 3250 0    50   Input ~ 0
+IO13
+Text GLabel 5475 1800 0    50   Input ~ 0
+IO0
+Text GLabel 5475 1700 0    50   Input ~ 0
+IO1
+Text GLabel 5475 1900 0    50   Input ~ 0
+IO2
+Text GLabel 5475 2000 0    50   Input ~ 0
+IO3
+Text GLabel 5475 2100 0    50   Input ~ 0
+IO4
+Text GLabel 5475 2200 0    50   Input ~ 0
+IO5
+Text GLabel 5475 2300 0    50   Input ~ 0
+IO6
+Text GLabel 5475 2400 0    50   Input ~ 0
+IO7
+Text GLabel 5475 2500 0    50   Input ~ 0
+IO8
+Text GLabel 5475 2600 0    50   Input ~ 0
+IO9
+Text GLabel 5475 2700 0    50   Input ~ 0
+IO10
+Text GLabel 5475 2800 0    50   Input ~ 0
+IO11
+Text GLabel 5475 2900 0    50   Input ~ 0
+IO12
+Text GLabel 5475 3000 0    50   Input ~ 0
+IO13
+Text GLabel 7425 3450 0    50   Input ~ 0
+IO14
+Text GLabel 7425 3550 0    50   Input ~ 0
+IO15
+Text GLabel 8825 3550 2    50   Input ~ 0
+IO16
+Text GLabel 5475 3150 0    50   Input ~ 0
+IO14
+Text GLabel 5475 3250 0    50   Input ~ 0
+IO15
+Text GLabel 5475 3350 0    50   Input ~ 0
+IO16
+Text GLabel 8825 3450 2    50   Input ~ 0
+IO17
+Text GLabel 8825 3250 2    50   Input ~ 0
+IO18
+Text GLabel 5475 3750 0    50   Input ~ 0
+IO17
+Text GLabel 5475 3850 0    50   Input ~ 0
+IO18
+Wire Wire Line
+	4200 3550 5700 3550
 $EndSCHEMATC
