@@ -82,23 +82,6 @@ F 9 "th" H 3350 4050 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-NANO-crazy_circuits U1
-U 1 1 59004828
-P 5850 2350
-F 0 "U1" H 5550 3850 50  0000 L CNN
-F 1 "ARDUINO-NANO" H 5550 400 50  0000 L CNN
-F 2 "Crazy_Circuits:5x11-SERVO-ANALOG" H 6000 2050 50  0001 C CIN
-F 3 "https://www.pjrc.com/teensy/" H 6000 2400 5   0001 C CNN
-F 4 "ARDUINO NANO BOARD" H 6000 2050 50  0001 C CIN "Description"
-F 5 "Arduino" H 6000 2050 50  0001 C CIN "MF_Name"
-F 6 "A000005" H 6000 2050 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 6000 2050 50  0001 C CIN "S1_Name"
-F 8 "1050-1001-ND" H 6000 2050 50  0001 C CIN "S1_PN"
-F 9 "th" H 5850 2350 50  0001 C CNN "Type"
-	1    5850 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR03
 U 1 1 58FE5E9A
 P 5325 4275
@@ -581,10 +564,10 @@ Wire Wire Line
 Wire Wire Line
 	5475 2300 5700 2300
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J?
+L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J7
 U 1 1 608A960B
 P 3350 4675
-F 0 "J?" H 3300 4875 50  0000 L CNN
+F 0 "J7" H 3300 4875 50  0000 L CNN
 F 1 "ANALOG" H 3300 4475 50  0000 L CNN
 F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 3350 4325 50  0001 C CIN
 F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 3350 4675 5   0001 C CNN
@@ -598,10 +581,10 @@ F 9 "th" H 3350 4675 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR?
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0117
 U 1 1 608A9E31
 P 3725 4875
-F 0 "#PWR?" H 3725 4625 50  0001 C CNN
+F 0 "#PWR0117" H 3725 4625 50  0001 C CNN
 F 1 "GND" H 3725 4725 50  0000 C CNN
 F 2 "" H 3725 4875 50  0000 C CNN
 F 3 "" H 3725 4875 50  0000 C CNN
@@ -613,18 +596,16 @@ Wire Wire Line
 Wire Wire Line
 	3725 4775 3725 4875
 $Comp
-L crazy_circuits:3.3V #PWR?
+L crazy_circuits:3.3V #PWR0118
 U 1 1 608ABE47
-P 3800 4575
-F 0 "#PWR?" H 3800 4425 50  0001 C CNN
-F 1 "3.3V" V 3817 4703 50  0000 L CNN
-F 2 "" H 3800 4575 50  0000 C CNN
-F 3 "" H 3800 4575 50  0000 C CNN
-	1    3800 4575
+P 3550 4675
+F 0 "#PWR0118" H 3550 4525 50  0001 C CNN
+F 1 "3.3V" V 3550 4825 50  0000 L CNN
+F 2 "" H 3550 4675 50  0000 C CNN
+F 3 "" H 3550 4675 50  0000 C CNN
+	1    3550 4675
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3800 4575 3550 4575
 Wire Wire Line
 	4200 3450 4200 3475
 Wire Wire Line
@@ -636,14 +617,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 3650 4325 3650
 Wire Wire Line
-	4325 3650 4325 4675
-Wire Wire Line
-	4325 4675 3550 4675
+	4325 3650 4325 4575
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR?
+L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0119
 U 1 1 608B6490
 P 5575 1100
-F 0 "#PWR?" H 5575 850 50  0001 C CNN
+F 0 "#PWR0119" H 5575 850 50  0001 C CNN
 F 1 "GND" H 5575 950 50  0000 C CNN
 F 2 "" H 5575 1100 50  0000 C CNN
 F 3 "" H 5575 1100 50  0000 C CNN
@@ -652,4 +631,17 @@ F 3 "" H 5575 1100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5700 1100 5575 1100
+Wire Wire Line
+	3550 4575 4325 4575
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-SERVO-PWM U1
+U 1 1 608DB815
+P 6000 2750
+F 0 "U1" H 5822 2971 50  0000 R CNN
+F 1 "ARDUINO-SERVO-PWM" H 5822 2880 50  0000 R CNN
+F 2 "Crazy_Circuits:5x11-SERVO-ANALOG" H 6000 2750 50  0001 C CNN
+F 3 "" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -82,23 +82,6 @@ F 9 "th" H 3350 4050 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-NANO-crazy_circuits U1
-U 1 1 59004828
-P 5850 2350
-F 0 "U1" H 5550 3850 50  0000 L CNN
-F 1 "ARDUINO-NANO" H 5550 400 50  0000 L CNN
-F 2 "Crazy_Circuits:5x11-SERVO-ANALOG" H 6000 2050 50  0001 C CIN
-F 3 "https://www.pjrc.com/teensy/" H 6000 2400 5   0001 C CNN
-F 4 "ARDUINO NANO BOARD" H 6000 2050 50  0001 C CIN "Description"
-F 5 "Arduino" H 6000 2050 50  0001 C CIN "MF_Name"
-F 6 "A000005" H 6000 2050 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 6000 2050 50  0001 C CIN "S1_Name"
-F 8 "1050-1001-ND" H 6000 2050 50  0001 C CIN "S1_PN"
-F 9 "th" H 5850 2350 50  0001 C CNN "Type"
-	1    5850 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR03
 U 1 1 58FE5E9A
 P 5325 4275
@@ -650,4 +633,19 @@ Wire Wire Line
 	5700 1100 5575 1100
 Wire Wire Line
 	3550 4575 4325 4575
+$Comp
+L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-SERVO-PWM U1
+U 1 1 608DB815
+P 6000 2750
+F 0 "U1" H 5822 2971 50  0000 R CNN
+F 1 "ARDUINO-SERVO-PWM" H 5822 2880 50  0000 R CNN
+F 2 "Crazy_Circuits:5x11-SERVO-ANALOG" H 6000 2750 50  0001 C CNN
+F 3 "" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8825 2150 2    50   Input ~ 0
+AREF
+Text GLabel 5700 1300 0    50   Input ~ 0
+AREF
 $EndSCHEMATC
