@@ -767,9 +767,9 @@
       (net 30 IO0))
   )
 
+  (gr_line (start -0.719977 74.819977) (end -0.720626 154.78044) (layer Edge.Cuts) (width 0.064516) (tstamp 608CC80F))
   (gr_line (start 39.120768 154.820728) (end 39.121271 74.859144) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E68))
   (gr_line (start 3.199351 158.740202) (end 35.161006 158.740705) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E67))
-  (gr_line (start -0.719977 74.819977) (end -0.720626 154.78044) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E66))
   (gr_line (start 3.239785 70.9) (end 35.201294 70.899382) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E5F))
   (gr_arc (start 3.199557 74.819328) (end 3.239785 70.9) (angle -90.59755057) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E3A))
   (gr_arc (start 35.201943 74.818916) (end 39.121271 74.859144) (angle -90.6) (layer Edge.Cuts) (width 0.064516) (tstamp 608C6E3A))
