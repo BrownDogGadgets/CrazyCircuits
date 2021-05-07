@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 5x11-Raspi-Pico-Robot-Version-rescue)(type Legacy)(uri ${KIPRJMOD}/5x11-Raspi-Pico-Robot-Version-rescue.lib)(options "")(descr ""))
+  (lib (name crazy_circuits)(type Legacy)(uri C:/Users/acamilo/Documents/GitHub/CrazyCircuits/Development/library/crazy_circuits.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri C:/Users/acamilo/Documents/GitHub/CrazyCircuits/Development/library/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+)
