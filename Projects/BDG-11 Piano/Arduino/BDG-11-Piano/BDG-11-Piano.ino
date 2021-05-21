@@ -14,7 +14,7 @@ int ledPin = 13;
 
 // amount higher than rest value, may need adjusting
 // 800 is good for touch, 16000 is good for connect to ground
-int pinLevel = 16000;
+int pinLevel = 800;
 
 void setup() {
   Serial.begin(9600);
