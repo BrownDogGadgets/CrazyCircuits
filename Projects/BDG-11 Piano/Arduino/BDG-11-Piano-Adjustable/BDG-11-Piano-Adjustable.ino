@@ -1,5 +1,5 @@
 /*
- * BDG-11-Piano.ino
+ * BDG-11-Piano-Adjustable.ino
  * 
  */
 
@@ -12,9 +12,10 @@ int flag[11];
 // set LED pin
 int ledPin = 13;
 
-// amount higher than rest value, may need adjusting
-// 800 is good for touch, 16000 is good for connect to ground
-int pinLevel = 16000;
+// check sensitivity setting from potentiometer
+int levelPin = 0; // Pin 14 is "Analog Pin 0"
+int pinLevel;
+int levelMultiplier = 4;
 
 void setup() {
   Serial.begin(9600);
@@ -32,6 +33,13 @@ void setup() {
 
 
 void loop() {
+
+  // check sensitivity setting from potentiometer
+  pinLevel = analogRead(levelPin) * levelMultiplier; // scales to 1024 * levelMultiplier max
+
+  if (pinLevel < 10) {
+    pinLevel = 10;
+  }
 
   // read all the pins
   for (int i = 0; i < 11; i++) {
@@ -203,6 +211,9 @@ void calibrate () {
 // print debug info if needed
 
 void debug() {
+
+  Serial.print(pinLevel);
+  Serial.print("  ");
 
   for (int i = 0; i < 11; i++) {
     Serial.print(flag[i]);
