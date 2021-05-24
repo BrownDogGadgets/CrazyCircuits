@@ -1,4 +1,4 @@
-19270440668417794
+19273683521736890
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47523,6 +47523,13 @@ Crazy_Circuits
 28
 25
 Crazy_Circuits
+6x11-PICO-ROBOT
+
+
+0
+0
+0
+Crazy_Circuits
 ADAFRUIT-FEATHER-BLUEFRUIT-LE-6x10
 8-lead dip package, row spacing 7.62 mm (300 mils)
 dil dip 2.54 300
@@ -77341,6 +77348,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SK68XX_SIDE
+SK68XX_SIDE
+
+
+0
+4
 4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm

@@ -14,7 +14,7 @@ Comment3 "Brown Dog Gadgets"
 Comment4 ""
 $EndDescr
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR01
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR01
 U 1 1 58FE4F4A
 P 3725 4225
 F 0 "#PWR01" H 3725 3975 50  0001 C CNN
@@ -31,7 +31,7 @@ A4
 Text Label 3875 3950 0    50   ~ 0
 A5
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J1
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J1
 U 1 1 58FE51EC
 P 3350 1675
 F 0 "J1" H 3300 1875 50  0000 L CNN
@@ -48,7 +48,7 @@ F 9 "th" H 3350 1675 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J5
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J5
 U 1 1 58FE54AA
 P 3350 3575
 F 0 "J5" H 3300 3775 50  0000 L CNN
@@ -65,7 +65,7 @@ F 9 "th" H 3350 3575 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J6
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J6
 U 1 1 58FE54F2
 P 3350 4050
 F 0 "J6" H 3300 4250 50  0000 L CNN
@@ -82,7 +82,7 @@ F 9 "th" H 3350 4050 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR03
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR03
 U 1 1 58FE5E9A
 P 5325 4275
 F 0 "#PWR03" H 5325 4025 50  0001 C CNN
@@ -171,7 +171,7 @@ Wire Wire Line
 	3550 3200 3725 3200
 Connection ~ 3725 3200
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J2
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J2
 U 1 1 5AF1C185
 P 3350 2150
 F 0 "J2" H 3300 2350 50  0000 L CNN
@@ -188,7 +188,7 @@ F 9 "th" H 3350 2150 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J3
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J3
 U 1 1 5AF1C1CE
 P 3350 2625
 F 0 "J3" H 3300 2825 50  0000 L CNN
@@ -205,7 +205,7 @@ F 9 "th" H 3350 2625 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J4
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J4
 U 1 1 5AF1C230
 P 3350 3100
 F 0 "J4" H 3300 3300 50  0000 L CNN
@@ -271,7 +271,7 @@ F 3 "" H 8825 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0102
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0102
 U 1 1 608B12B6
 P 9100 1850
 F 0 "#PWR0102" H 9100 1600 50  0001 C CNN
@@ -284,7 +284,7 @@ $EndComp
 Wire Wire Line
 	9100 1850 8825 1850
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0103
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0103
 U 1 1 608BAEE6
 P 9100 2350
 F 0 "#PWR0103" H 9100 2100 50  0001 C CNN
@@ -297,7 +297,7 @@ $EndComp
 Wire Wire Line
 	9100 2350 8825 2350
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0104
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0104
 U 1 1 608BCF87
 P 9100 2850
 F 0 "#PWR0104" H 9100 2600 50  0001 C CNN
@@ -310,7 +310,7 @@ $EndComp
 Wire Wire Line
 	9100 2850 8825 2850
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0105
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0105
 U 1 1 608BEE78
 P 9100 3350
 F 0 "#PWR0105" H 9100 3100 50  0001 C CNN
@@ -323,7 +323,7 @@ $EndComp
 Wire Wire Line
 	9100 3350 8825 3350
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0106
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0106
 U 1 1 608C380D
 P 7150 1850
 F 0 "#PWR0106" H 7150 1600 50  0001 C CNN
@@ -336,7 +336,7 @@ $EndComp
 Wire Wire Line
 	7150 1850 7425 1850
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0107
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0107
 U 1 1 608C5761
 P 7150 2350
 F 0 "#PWR0107" H 7150 2100 50  0001 C CNN
@@ -349,7 +349,7 @@ $EndComp
 Wire Wire Line
 	7150 2350 7425 2350
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0108
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0108
 U 1 1 608C7766
 P 7150 2850
 F 0 "#PWR0108" H 7150 2600 50  0001 C CNN
@@ -362,7 +362,7 @@ $EndComp
 Wire Wire Line
 	7150 2850 7425 2850
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0109
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0109
 U 1 1 608C98C7
 P 7150 3350
 F 0 "#PWR0109" H 7150 3100 50  0001 C CNN
@@ -374,17 +374,6 @@ F 3 "" H 7150 3350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7150 3350 7425 3350
-$Comp
-L crazy_circuits:3.3V #PWR0110
-U 1 1 608CB6CC
-P 5475 1200
-F 0 "#PWR0110" H 5475 1050 50  0001 C CNN
-F 1 "3.3V" V 5493 1328 50  0000 L CNN
-F 2 "" H 5475 1200 50  0000 C CNN
-F 3 "" H 5475 1200 50  0000 C CNN
-	1    5475 1200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L crazy_circuits:3.3V #PWR0111
 U 1 1 608CC66D
@@ -564,7 +553,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 2300 5700 2300
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits J7
+L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J7
 U 1 1 608A960B
 P 3350 4675
 F 0 "J7" H 3300 4875 50  0000 L CNN
@@ -581,7 +570,7 @@ F 9 "th" H 3350 4675 50  0001 C CNN "Type"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0117
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0117
 U 1 1 608A9E31
 P 3725 4875
 F 0 "#PWR0117" H 3725 4625 50  0001 C CNN
@@ -619,7 +608,7 @@ Wire Wire Line
 Wire Wire Line
 	4325 3650 4325 4575
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits #PWR0119
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0119
 U 1 1 608B6490
 P 5575 1100
 F 0 "#PWR0119" H 5575 850 50  0001 C CNN
@@ -633,15 +622,32 @@ Wire Wire Line
 	5700 1100 5575 1100
 Wire Wire Line
 	3550 4575 4325 4575
+Text GLabel 8825 2150 2    50   Input ~ 0
+AREF
+Text GLabel 5700 1300 0    50   Input ~ 0
+AREF
 $Comp
-L 5x11-Raspi-Pico-Robot-Version-rescue:ARDUINO-SERVO-PWM U1
-U 1 1 608DB815
-P 6000 2750
-F 0 "U1" H 5822 2971 50  0000 R CNN
-F 1 "ARDUINO-SERVO-PWM" H 5822 2880 50  0000 R CNN
-F 2 "Crazy_Circuits:5x11-SERVO-ANALOG" H 6000 2750 50  0001 C CNN
-F 3 "" H 6000 2750 50  0001 C CNN
-	1    6000 2750
+L crazy_circuits:6x11-PICO U1
+U 1 1 60AB76E0
+P 5950 2900
+F 0 "U1" H 5722 3271 50  0000 R CNN
+F 1 "6x11-PICO" H 5722 3180 50  0000 R CNN
+F 2 "Crazy_Circuits:6x11-PICO-ROBOT" H 5950 2900 50  0001 C CNN
+F 3 "" H 5950 2900 50  0001 C CNN
+	1    5950 2900
 	-1   0    0    -1  
 $EndComp
+$Comp
+L crazy_circuits:3.3V #PWR0110
+U 1 1 608CB6CC
+P 5475 1200
+F 0 "#PWR0110" H 5475 1050 50  0001 C CNN
+F 1 "3.3V" V 5493 1328 50  0000 L CNN
+F 2 "" H 5475 1200 50  0000 C CNN
+F 3 "" H 5475 1200 50  0000 C CNN
+	1    5475 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 2600 5700 2600
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=4/28/2021 5:17:02 PM
+update=5/23/2021 10:04:52 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=5x11-Raspi-Pico-Robot-Version.net
+LastNetListRead=6x11-Raspi-Pico-Robot-Version.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -76,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0.1016
 SolderPasteClearance=-0.07619999999999999
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
