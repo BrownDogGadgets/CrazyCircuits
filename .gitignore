@@ -19,3 +19,16 @@ _autosave-*
 Projects/.DS_Store
 Projects/StarWarsAutomation/.DS_Store
 .DS_Store
+*.gbl
+*.gbr
+*.gbs
+*.gbp
+*.gbo
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.ps
+*.drl
+*.zip
