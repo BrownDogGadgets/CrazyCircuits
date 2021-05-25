@@ -498,8 +498,6 @@ Text GLabel 5475 2400 0    50   Input ~ 0
 IO7
 Text GLabel 5475 2500 0    50   Input ~ 0
 IO8
-Text GLabel 5475 2600 0    50   Input ~ 0
-IO9
 Text GLabel 5475 2700 0    50   Input ~ 0
 IO10
 Text GLabel 5475 2800 0    50   Input ~ 0
@@ -648,6 +646,8 @@ F 3 "" H 5475 1200 50  0000 C CNN
 	1    5475 1200
 	0    -1   -1   0   
 $EndComp
+Text GLabel 5475 2600 0    50   Input ~ 0
+IO9
 Wire Wire Line
-	5450 2600 5700 2600
+	5475 2600 5700 2600
 $EndSCHEMATC
