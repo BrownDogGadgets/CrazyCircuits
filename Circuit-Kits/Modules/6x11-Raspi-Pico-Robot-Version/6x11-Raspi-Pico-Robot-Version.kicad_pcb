@@ -847,7 +847,7 @@
   (gr_text D2 (at 11.43 81.1) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
-  (gr_text "Pico Robotics Board v1.6" (at 19.304 114.808 270) (layer B.SilkS) (tstamp 5AF30EB9)
+  (gr_text "Pico Robotics Board v1.5" (at 19.304 114.808 270) (layer B.SilkS) (tstamp 5AF30EB9)
     (effects (font (size 1.524 1.524) (thickness 0.2032)) (justify mirror))
   )
   (gr_text "CIRCUITS\n" (at 19.304 148.677) (layer F.Mask) (tstamp 58FE750D)
