@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 17)
     (tracks 432)
     (zones 0)
     (modules 11)
@@ -824,9 +824,6 @@
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
   (gr_text + (at 9.06 86.29142) (layer F.SilkS) (tstamp 60B014D6)
-    (effects (font (size 1.016 1.016) (thickness 0.1524)))
-  )
-  (gr_text + (at 2.42 78.26) (layer F.SilkS) (tstamp 60ADE044)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
   (gr_text + (at 29.01 86.29142) (layer F.SilkS) (tstamp 60ADDF4A)
