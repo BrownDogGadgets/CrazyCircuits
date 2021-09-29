@@ -3,7 +3,7 @@
  * 
  * Brown Dog Gadgets <https://www.browndoggadgets.com/>
  * 
- * Full Buide Guide: https://browndoggadgets.dozuki.com/Guide/LEGO+Avoiding+Tank/383
+ * Full Buide Guide: https://browndoggadgets.dozuki.com/Guide/LEGO+Avoidance+Tank/383
  *   
  * We used the following components for this project:
  *   1 x Crazy Circuits Robotics Board <https://www.browndoggadgets.com/collections/tbm/products/crazy-circuits-robotics-board>
