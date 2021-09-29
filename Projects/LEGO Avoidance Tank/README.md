@@ -6,7 +6,7 @@ A LEGO Tank that uses an Ultrasonic Distance Sensor to prevent crashing into thi
 
 Built with Crazy Circuits components and LEGO parts.
 
-We have a full build guide listing all of the components and every LEGO part needed: https://browndoggadgets.dozuki.com/Guide/LEGO+Avoiding+Tank/383
+We have a full build guide listing all of the components and every LEGO part needed: https://browndoggadgets.dozuki.com/Guide/LEGO+Avoidance+Tank/383
 
 The Arduino sketch `LEGO-Avoidance-Tank` is included.
 
