@@ -1,6 +1,6 @@
 # LEGO Avoidance Tank
 
-![LEGO Avoidance Tank](Images/missing.png)
+![LEGO Avoidance Tank](Images/LEGO-Avoidance-Tank-2607.jpg)
 
 A LEGO Tank that uses an Ultrasonic Distance Sensor to prevent crashing into things.
 
