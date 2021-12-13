@@ -7,7 +7,7 @@
  *   
  * We used the following components for this project:
  *   1 x Crazy Circuits Robotics Board <https://www.browndoggadgets.com/collections/tbm/products/crazy-circuits-robotics-board>
- *   3 x LEGO Compatible 270 Degree Servo <https://www.browndoggadgets.com/collections/tbm/products/lego-compatible-270-degree-servo>
+ *   3 x Brick Compatible 270 Degree Servo <https://www.browndoggadgets.com/products/brick-compatible-270-degree-servo>
  *   3 x Crazy Circuits Potentiometer Chip <https://www.browndoggadgets.com/products/potentiometer-chip>
  *   
  */

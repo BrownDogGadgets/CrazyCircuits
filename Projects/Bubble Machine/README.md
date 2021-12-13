@@ -8,7 +8,7 @@ Parts needed:
 * 1 x Crazy Circuits Bit Board (Coming Soon!)
 * 1 x [Adafruit Clue](https://www.adafruit.com/product/4500) - or - [micro:bit](https://microbit.org/buy/)
 * 1 x [Roll of 1/8" Maker Tape](https://www.browndoggadgets.com/products/nylon-conductive-tape)
-* 1 x [LEGO Compatible 270 Degree Servo](https://www.browndoggadgets.com/products/lego-compatible-270-degree-servo)
+* 1 x [Brick Compatible 270 Degree Servo](https://www.browndoggadgets.com/products/brick-compatible-270-degree-servo)
 * 1 x [Crazy Circuits Standard Pushbutton Chip](https://www.browndoggadgets.com/products/1x3-pushbutton-chip)
 * 1 x [Crazy Circuits Screw Terminal Chip](https://www.browndoggadgets.com/products/screw-terminal-chip)
 * 1 x DC Motor with Fan Blade

@@ -8,7 +8,7 @@ Full build guide here: https://www.instructables.com/id/Obstacle-Avoiding-LEGO-R
 
 Electronic Parts Needed:
 * 1 x [Crazy Circuits Robotics Board](https://www.browndoggadgets.com/collections/new-crazy-circuits-kits/products/crazy-circuits-robotics-board)
-* 2 x [LEGO Compatible Continuous Rotation 360 Degree Servo](https://www.browndoggadgets.com/collections/tbm/products/lego-compatible-360-degree-servo)
+* 2 x [Brick Compatible Continuous Rotation 360 Degree Servo](https://www.browndoggadgets.com/products/brick-compatible-360-degree-servo)
 * 1 x HC-SR04 Ultrasonic Distance Sensor
 * 1 x USB Power Bank
 

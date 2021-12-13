@@ -7,7 +7,7 @@
  *   
  * We used the following components for this project:
  *   1 x Crazy Circuits Robotics Board <https://www.browndoggadgets.com/collections/tbm/products/crazy-circuits-robotics-board>
- *   2 x LEGO Compatible Continuous Rotation 360 Degree Servo <https://www.browndoggadgets.com/collections/tbm/products/lego-compatible-360-degree-servo>
+ *   2 x Brick Compatible Continuous Rotation 360 Degree Servo <https://www.browndoggadgets.com/products/brick-compatible-360-degree-servo>
  *   1 x HC-SR04 Ultrasonic Distance Sensor <https://www.browndoggadgets.com/products/distance-sensor>
  *   Crazy Circuits Screw Terminal Chip <https://www.browndoggadgets.com/products/screw-terminal-chip>
  *   3AA Battery Holder <https://www.browndoggadgets.com/products/aa-battery-holder-tripple>

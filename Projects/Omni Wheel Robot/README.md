@@ -2,11 +2,11 @@
 
 ![](Images/omni-wheel-robot.jpg)
 
-Omni Wheel Robot uses a Crazy Circuits Robotics Board with four LEGO-Compatible continuous rotation servos.
+Omni Wheel Robot uses a Crazy Circuits Robotics Board with four Brick Compatible continuous rotation servos.
 
 Parts needed:
 * 1 x [Crazy Circuits Robotics Board](https://www.browndoggadgets.com/collections/tbm/products/crazy-circuits-robotics-board)
-* 4 x [LEGO Compatible Continuous Rotation 360 Degree Servo](https://www.browndoggadgets.com/collections/new-crazy-circuits-supplies/products/lego-compatible-360-degree-servo)
+* 4 x [Brick Compatible Continuous Rotation 360 Degree Servo](https://www.browndoggadgets.com/products/brick-compatible-360-degree-servo)
 * 1 x [3AA Battery Holder](https://www.browndoggadgets.com/products/aa-battery-holder-tripple)
 * 4 x Omni Wheels
 * 1 x LEGO Baseplate

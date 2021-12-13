@@ -6,7 +6,7 @@
  * 
  * We used the following items for this project:
  *   1 x Crazy Circuits Robotics Board <https://www.browndoggadgets.com/collections/tbm/products/crazy-circuits-robotics-board>
- *   1 x LEGO Compatible 270 Degree Servo <https://www.browndoggadgets.com/products/lego-compatible-270-degree-servo>
+ *   1 x Brick Compatible 270 Degree Servo <https://www.browndoggadgets.com/products/brick-compatible-270-degree-servo>
  *   1 x HC-SR04 Ultrasonic Distance Sensor <https://www.browndoggadgets.com/products/distance-sensor>
  */
 
