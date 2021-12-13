@@ -12,7 +12,7 @@ Electronic Parts Needed:
 * 1 x HC-SR04 Ultrasonic Distance Sensor
 * 1 x USB Power Bank
 
-We used the following LEGO parts, but YMMV:
+We used the following LEGO parts, but you can use other parts as you see fit:
 
 * 1 x [LEGO Wedge Belt Wheel (4185 / 49750)](https://www.brickowl.com/catalog/lego-wedge-belt-wheel-4185-49750)
 * 1 x [LEGO EV3 Technic Ball Pivots Set 5003245](https://www.brickowl.com/catalog/lego-ev3-technic-ball-pivots-set-5003245)
