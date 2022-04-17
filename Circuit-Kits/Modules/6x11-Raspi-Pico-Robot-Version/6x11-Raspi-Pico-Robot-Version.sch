@@ -644,32 +644,21 @@ VBUS
 Text GLabel 5475 1000 0    50   Input ~ 0
 VSYS
 $Comp
-L crazy_circuits:LED LED?
-U 1 1 625CD2FF
-P 5850 5700
-F 0 "LED?" H 5918 5746 50  0000 L CNN
-F 1 "LED" H 5918 5655 50  0000 L CNN
-F 2 "LED" H 5850 5500 50  0001 C CIN
-F 3 "http://www.marktechopto.com/products/datasheet/MT2118-G-A" V 5850 5700 5   0001 C CNN
-	1    5850 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
+L Device:R R1
 U 1 1 625CE12D
 P 5850 5350
-F 0 "R?" H 5920 5396 50  0000 L CNN
+F 0 "R1" H 5920 5396 50  0000 L CNN
 F 1 "330" H 5920 5305 50  0000 L CNN
-F 2 "" V 5780 5350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 5350 50  0001 C CNN
 F 3 "~" H 5850 5350 50  0001 C CNN
 	1    5850 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L crazy_circuits:3.3V #PWR?
+L crazy_circuits:3.3V #PWR0119
 U 1 1 625CE73B
 P 5850 5100
-F 0 "#PWR?" H 5850 4950 50  0001 C CNN
+F 0 "#PWR0119" H 5850 4950 50  0001 C CNN
 F 1 "3.3V" V 5850 5250 50  0000 L CNN
 F 2 "" H 5850 5100 50  0000 C CNN
 F 3 "" H 5850 5100 50  0000 C CNN
@@ -681,16 +670,27 @@ Wire Wire Line
 Wire Wire Line
 	5850 5500 5850 5600
 $Comp
-L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR?
+L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0120
 U 1 1 625D32FF
-P 5850 5900
-F 0 "#PWR?" H 5850 5650 50  0001 C CNN
-F 1 "GND" H 5850 5750 50  0000 C CNN
-F 2 "" H 5850 5900 50  0000 C CNN
-F 3 "" H 5850 5900 50  0000 C CNN
-	1    5850 5900
+P 5850 6075
+F 0 "#PWR0120" H 5850 5825 50  0001 C CNN
+F 1 "GND" H 5850 5925 50  0000 C CNN
+F 2 "" H 5850 6075 50  0000 C CNN
+F 3 "" H 5850 6075 50  0000 C CNN
+	1    5850 6075
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED D1
+U 1 1 625DF38F
+P 5850 5750
+F 0 "D1" V 5889 5632 50  0000 R CNN
+F 1 "LED" V 5798 5632 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5850 5750 50  0001 C CNN
+F 3 "~" H 5850 5750 50  0001 C CNN
+	1    5850 5750
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	5850 5800 5850 5900
+	5850 5900 5850 6075
 $EndSCHEMATC
