@@ -549,47 +549,15 @@ Wire Wire Line
 Wire Wire Line
 	5475 2300 5700 2300
 $Comp
-L 6x11-Raspi-Pico-Robot-Version-rescue:HEADER-MALE-3POS-TH-1x03-P0.1IN-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue J7
-U 1 1 608A960B
-P 3350 4675
-F 0 "J7" H 3300 4875 50  0000 L CNN
-F 1 "ANALOG" H 3300 4475 50  0000 L CNN
-F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x03" H 3350 4325 50  0001 C CIN
-F 3 "https://cdn.harwin.com/pdfs/60page140.pdf" H 3350 4675 5   0001 C CNN
-F 4 "HEADER MALE 3POS TH 1x03 0.1IN" H 3350 4325 50  0001 C CIN "Description"
-F 5 "Harwin" H 3350 4325 50  0001 C CIN "MF_Name"
-F 6 "M20-9990346" H 3350 4325 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 3350 4325 50  0001 C CIN "S1_Name"
-F 8 "952-2264-ND" H 3350 4325 50  0001 C CIN "S1_PN"
-F 9 "th" H 3350 4675 50  0001 C CNN "Type"
-	1    3350 4675
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0117
 U 1 1 608A9E31
-P 3725 4875
-F 0 "#PWR0117" H 3725 4625 50  0001 C CNN
-F 1 "GND" H 3725 4725 50  0000 C CNN
-F 2 "" H 3725 4875 50  0000 C CNN
-F 3 "" H 3725 4875 50  0000 C CNN
-	1    3725 4875
+P 2475 5025
+F 0 "#PWR0117" H 2475 4775 50  0001 C CNN
+F 1 "GND" H 2475 4875 50  0000 C CNN
+F 2 "" H 2475 5025 50  0000 C CNN
+F 3 "" H 2475 5025 50  0000 C CNN
+	1    2475 5025
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 4775 3725 4775
-Wire Wire Line
-	3725 4775 3725 4875
-$Comp
-L crazy_circuits:3.3V #PWR0118
-U 1 1 608ABE47
-P 3550 4675
-F 0 "#PWR0118" H 3550 4525 50  0001 C CNN
-F 1 "3.3V" V 3550 4825 50  0000 L CNN
-F 2 "" H 3550 4675 50  0000 C CNN
-F 3 "" H 3550 4675 50  0000 C CNN
-	1    3550 4675
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4200 3450 4200 3475
@@ -600,13 +568,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 3550 4200 3950
 Wire Wire Line
-	5700 3650 4325 3650
-Wire Wire Line
-	4325 3650 4325 4575
-Wire Wire Line
 	5700 1100 5575 1100
-Wire Wire Line
-	3550 4575 4325 4575
 Text GLabel 8825 2150 2    50   Input ~ 0
 AREF
 Text GLabel 5700 1300 0    50   Input ~ 0
@@ -693,4 +655,25 @@ F 3 "~" H 5850 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 5900 5850 6075
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 625EAD5E
+P 2100 4875
+F 0 "J7" H 2018 5092 50  0000 C CNN
+F 1 "Conn_01x02" H 2018 5001 50  0000 C CNN
+F 2 "Crazy_NonLego:CONN-HEADER-STRAIGHT-P2.54MM-1x02" H 2100 4875 50  0001 C CNN
+F 3 "~" H 2100 4875 50  0001 C CNN
+	1    2100 4875
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2375 4875 2    50   Input ~ 0
+VSYS
+Wire Wire Line
+	5475 3650 5700 3650
+Wire Wire Line
+	2375 4875 2300 4875
+Wire Wire Line
+	2300 4975 2475 4975
+Wire Wire Line
+	2475 4975 2475 5025
 $EndSCHEMATC
