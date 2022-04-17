@@ -253,12 +253,10 @@ Text GLabel 5475 1450 0    50   Input ~ 0
 RST
 Text GLabel 8825 2650 2    50   Input ~ 0
 RST
-Text GLabel 5475 1000 0    50   Input ~ 0
-VIN
 Text Notes 2250 3650 0    50   ~ 0
 Pico is not 5v Tolerant.
 Text GLabel 8825 1750 2    50   Input ~ 0
-VIN
+VSYS
 $Comp
 L crazy_circuits:3.3V #PWR0101
 U 1 1 608B69F7
@@ -605,17 +603,6 @@ Wire Wire Line
 	5700 3650 4325 3650
 Wire Wire Line
 	4325 3650 4325 4575
-$Comp
-L 6x11-Raspi-Pico-Robot-Version-rescue:GND-crazy_circuits-5x11-Raspi-Pico-Robot-Version-rescue #PWR0119
-U 1 1 608B6490
-P 5575 1100
-F 0 "#PWR0119" H 5575 850 50  0001 C CNN
-F 1 "GND" H 5575 950 50  0000 C CNN
-F 2 "" H 5575 1100 50  0000 C CNN
-F 3 "" H 5575 1100 50  0000 C CNN
-	1    5575 1100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5700 1100 5575 1100
 Wire Wire Line
@@ -650,4 +637,10 @@ Text GLabel 5475 2600 0    50   Input ~ 0
 IO9
 Wire Wire Line
 	5475 2600 5700 2600
+Text GLabel 8825 1650 2    50   Input ~ 0
+VBUS
+Text GLabel 5575 1100 0    50   Input ~ 0
+VBUS
+Text GLabel 5475 1000 0    50   Input ~ 0
+VSYS
 $EndSCHEMATC
