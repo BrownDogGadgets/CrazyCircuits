@@ -492,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "2x2-Power-Connector-2.54mm-Pitch.net",
-      "plot": "gerbers-pdf",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
