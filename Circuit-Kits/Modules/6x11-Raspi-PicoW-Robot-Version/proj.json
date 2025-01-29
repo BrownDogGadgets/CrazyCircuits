@@ -1,0 +1,22 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"22 Apr 2017",
+    "date_update":"24 Sep 2018",
+    "description":"A Lego-compatible Crazy Circuits module",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",
+    "license":"CERN Open Hardware License v1.2.",
+    "projname":"5x11-Arduino-Nano-Robot-Version",
+    "template_dir":"/home/wicker/proj/CrazyCircuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"5x11 Arduino Nano Robot Breakout",
+    "version":"1.6",
+    "website":"http://browndoggadgets.com/",
+    "width_assembly_png":"40",
+    "width_other_png":"99",
+    "width_preview_png":"80",
+    "width_schematic_png":"50"
+}
