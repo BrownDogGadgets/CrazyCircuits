@@ -1243,16 +1243,16 @@
 		)
 	)
 	(junction
+		(at 135.89 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da13a08-c4e3-4285-b468-72c8006795c8")
+	)
+	(junction
 		(at 115.57 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4055330e-b017-419c-8c37-2e6a6083dd7a")
-	)
-	(junction
-		(at 115.57 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "499aa859-1a6a-4c12-ae82-b4f6437114ff")
 	)
 	(junction
 		(at 135.89 73.66)
@@ -1261,10 +1261,10 @@
 		(uuid "52194774-95c1-4b1a-bb7e-4859594ce884")
 	)
 	(junction
-		(at 135.89 76.2)
+		(at 115.57 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4deff1c-7118-430f-a9c0-bae95b2b71f5")
+		(uuid "879e943f-da85-4efe-b162-9197e7e2014c")
 	)
 	(wire
 		(pts
@@ -1275,16 +1275,6 @@
 			(type default)
 		)
 		(uuid "0c571006-cc61-43bd-99e2-c42998a8c110")
-	)
-	(wire
-		(pts
-			(xy 115.57 67.31) (xy 115.57 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bb43c72-f69b-4682-9095-67b61c1d280e")
 	)
 	(wire
 		(pts
@@ -1358,6 +1348,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 67.31) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8899826d-2412-457b-a7b9-78506283b9af")
+	)
+	(wire
+		(pts
 			(xy 133.35 73.66) (xy 135.89 73.66)
 		)
 		(stroke
@@ -1365,6 +1365,16 @@
 			(type default)
 		)
 		(uuid "8d399fde-00dc-49d9-a1f4-469b435b3af5")
+	)
+	(wire
+		(pts
+			(xy 115.57 76.2) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb7eb7c-e35c-490b-9174-b82569341085")
 	)
 	(wire
 		(pts
@@ -1405,16 +1415,6 @@
 			(type default)
 		)
 		(uuid "b22481bb-5b50-465a-8c0b-15aafd1e0459")
-	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 135.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba1cca49-4f1e-4c19-9e6b-562a98603a5c")
 	)
 	(wire
 		(pts
@@ -1680,7 +1680,7 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 115.57 67.31 0)
+		(at 135.89 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +1689,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d0fa0c5-8686-4562-ae07-5f772715b060")
 		(property "Reference" "#PWR01"
-			(at 115.57 71.12 0)
+			(at 135.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 115.57 62.23 0)
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 115.57 67.31 0)
+			(at 135.89 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 81.28 0)
+		(at 115.57 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1900,7 +1900,7 @@
 		(fields_autoplaced yes)
 		(uuid "78796624-5d5d-4f1a-9756-d0c48b403cab")
 		(property "Reference" "#PWR02"
-			(at 135.89 87.63 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 86.36 0)
+			(at 115.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 81.28 0)
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 81.28 0)
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 81.28 0)
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,8 +2025,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 81.28 73.66 0)
-		(mirror x)
+		(at 81.28 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2034,7 +2033,7 @@
 		(dnp no)
 		(uuid "9052a148-9559-4d4e-9447-66bc4d217333")
 		(property "Reference" "J1"
-			(at 77.978 78.994 0)
+			(at 77.978 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2041,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 77.978 76.454 0)
+			(at 77.978 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2049,7 @@
 			)
 		)
 		(property "Footprint" "Crazy_Circuits_9:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 81.28 73.66 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 73.66 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2067,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 81.28 73.66 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
