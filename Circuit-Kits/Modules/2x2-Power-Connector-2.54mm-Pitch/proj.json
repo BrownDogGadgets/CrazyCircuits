@@ -1,0 +1,22 @@
+{
+    "bom_dir":"bom",
+    "company":"Brown Dog Gadgets",
+    "date_create":"20 Dec 2024",
+    "date_update":"20 Dec 2024",
+    "description":"A Lego-compatible Crazy Circuits module",
+    "email":"help@browndoggadgets.com",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/wicker/proj/CrazyCircuits/Development/library/",
+    "license":"CERN Open Hardware License v1.2.",
+    "projname":"2x2-Power-Connector-2.54mm-Pitch",
+    "template_dir":"/home/wicker/proj/CrazyCircuits/Development/templates",
+    "template_kicad":"crazy",
+    "template_latex":"crazy.tex",
+    "title":"2x2 Through-hole Right Angle Power Conenctor (2.54mm Pitch) Module",
+    "version":"1.0",
+    "website":"http://browndoggadgets.com/",
+    "width_assembly_png":"30",
+    "width_other_png":"50",
+    "width_preview_png":"60",
+    "width_schematic_png":"90"
+}
