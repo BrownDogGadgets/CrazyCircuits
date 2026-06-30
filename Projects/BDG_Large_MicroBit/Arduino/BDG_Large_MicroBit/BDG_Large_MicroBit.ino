@@ -1,6 +1,10 @@
 /*
  * BDG_Large_MicroBit.ino
  *
+ * https://learn.browndoggadgets.com/Guide/3D+Printed+(Large)+Micro:Bit/934 
+ *
+ * Pete Prodoehl <pete@browndoggadgets.com>
+ *
  */
 
 
@@ -29,7 +33,6 @@ void setup () {
 
 
 /* ------------------------------------------------------------------------------ */
-
 
 
 void loop() {
